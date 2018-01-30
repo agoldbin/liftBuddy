@@ -14,7 +14,7 @@ awkwardly get another patrons attention?
 
 Project Solution
 
-The goal of Workout Buddies (working name) is to allow users to sign up and
+The goal of Lift Buddy (working name) is to allow users to sign up and
 seach for users in their area by a few criteria. Users who are currently 
 members of a gym can search for others who use the same gym. Or if a user
 doesn't have a current gym membership, or is willing to get a new membership, 
