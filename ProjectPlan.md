@@ -1,13 +1,13 @@
 # Project Plan
 
 ### Week 3
-- [ ] Create project repository on GitHub
-- [ ] Create project structure in intellij and push
+- [x] Create project repository on GitHub
+- [x] Create project structure in intellij and push
 - [ ] Add link to list of indie projects in student repo.
-- [ ] Complete Problem Statement
+- [x] Complete Problem Statement
 - [ ] Determine possible Web Services or APIs to use
 - [ ] List technologies, versions and how they will be used
-- [ ] Weekly journal entry
+- [x] Weekly journal entry
 - [ ] Write project plan
 - [ ] Document application flow in text and pictures - I'll use wireframes that have clickable links for the screen design. Use Balsamiq? 
 - [ ] Triple-check for Checkpoint 1: Problem statement, project plan, screen design and time log pushed to GitHub. 
@@ -27,7 +27,7 @@
 
 ### Week 5
 
-- [ ] Create the template for all jsps using bootstrap or materialize
+- [ ] Create the template for all jsps using materialize
 - [ ] Weekly journal entry
 - [ ] Add the role table
 - [ ] Add the role entity
@@ -41,12 +41,13 @@
 - [ ] Create db on AWS
 - [ ] Deploy to AWS for first time
 - [ ] Weekly journal entry
-- [ ] Create trail table
-- [ ] Add the trail entity (test, dev and prod dbs)
+- [ ] Optional: create history table (workouts, weight, reps, sets, etc.)
+- [ ] Optional: Add the workout entity (test, dev and prod dbs)
 - [ ] Realize that these daos are repetitive. Refactor into a generic dao!
 - [ ] Add update and delete functionality in jsp for user and role
-- [ ] Build the trail search jsp
-- [ ] Build the trail add/update/delete jsp
+- [ ] Create and test database to store friend list
+- [ ] Create functionality to search for users by location utilizing Google Maps API
+- [ ] Add functionality to search for user based on name (username/email/first and last?)
 - [ ] Prepare for Checkpoint 2: Database designed and created, at least one DAO implemented with Hibernate, DAO is unit tested, Log4J is implemented (no System.out.printlns), class design and any other diagrams you plan to use have been created. 
 
 
@@ -55,10 +56,6 @@
 - [ ] Weekly journal entry
 - [ ] Set up authentication locally
 - [ ] Set up authentication on AWS
-- [ ] Add the Trail Type and Grooming Tables, populate with data, (test, dev and prod dbs)
-- [ ] Create the Trail Type and Grooming entities
-- [ ] Update Trail and Trail report to use trail type and grooming
-- [ ] Update Trail and Trail report tests to be sure they work with the new relationships
 - [ ] Review and incorporate any feedback from Checkpoint 2.
 
 
@@ -66,12 +63,10 @@
 
 - [ ] Weekly journal entry
 - [ ] Integration with google maps api
-- [ ] Create trail report table (test, dev and prod dbs)
-- [ ] Add the trail report entity
-- [ ] Create the trail report dao
-- [ ] Create the trail report dao unit tests
-- [ ] Build the trail report search jsp
-- [ ] Build the trail report crud jsps
+- [ ] Other stuff that Paula tells/forces me to do
+- [ ] Ability to message other users?
+- [ ] Add ability for users to add friends
+- [ ] Create and test database to store friend list
 - [ ] Prepare for Checkpoint 3: Deployed to AWS, at least one JSP that displays data from the database is implemented. 
 
 ### Week 9

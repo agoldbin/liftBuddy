@@ -1,5 +1,5 @@
-CREATE DATABASE  IF NOT EXISTS `FBTRTest` /*!40100 DEFAULT CHARACTER SET latin1 */;
-USE `FBTRTest`;
+CREATE DATABASE  IF NOT EXISTS `LBTest` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `LBTest`;
 -- MySQL dump 10.13  Distrib 5.7.13, for linux-glibc2.5 (x86_64)
 --
 -- Host: localhost    Database: FBTRTest
