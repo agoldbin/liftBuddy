@@ -1,3 +1,5 @@
+# IGNORE! NOT UPDATED TO LIFTBUDDY
+
 # Journal
 
 Document project progress, the development process, accomplishments, snags, and time spent on this class. You may use whatever format suits you, as long as this information is shared. 
