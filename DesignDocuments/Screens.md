@@ -10,11 +10,11 @@
 
 ### View profile
 
-![Add New Trail](wireframes/7-UserProfileView.png)
+![User profile](wireframes/7-UserProfileView.png)
 
 ### Create and update Profile
 
-![View Trail Info](wireframes/2-CreateUpdateProfileInfo.png)
+![Create/Update Profile](wireframes/2-CreateUpdateProfileInfo.png)
 
 ### Dialog for Sign In
 
