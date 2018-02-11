@@ -2,9 +2,7 @@ package com.aarongoldbin.entity;
 
 import org.hibernate.annotations.GenericGenerator;
 
-import javax.ejb.Local;
 import javax.persistence.*;
-import java.time.*;
 
 /**
  * A class to represent a user
