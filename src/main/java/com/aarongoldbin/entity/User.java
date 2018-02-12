@@ -9,7 +9,7 @@ import javax.persistence.*;
  *
  * @author agoldbin
  */
-@Entity(name = "User")
+@Entity(name = "liftbuddytest")
 @Table(name = "user") // case senstitive
 
 public class User {

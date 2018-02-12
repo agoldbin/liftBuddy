@@ -27,6 +27,7 @@ public class UserDao {
         return users;
     }
 
+//    TODO change this method to getByGym/getByLocation?
     /**
      * Gets a user by id
      *
