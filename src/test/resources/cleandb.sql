@@ -1,2 +1,4 @@
 delete from user, gym, profile;
 INSERT INTO user VALUES (1,'jcoyne','jc123@gmail.com','1','53713','supersecret1'),(2,'fhensen','nightmareonelm@hotmail.com','1','53706','supersecret2'),(3,'bcurry','curryman@yahoo.com','4','53704','supersecret3'),('4','kmack','mackattack@aol.com','2','53714','supersecret4'),(5,'dklein','calvinklein@gmail.com','2','53717','supersecret5'),(6,'dtillman','uptildawn@yahoo.com','3','53594','supersecret6');
+INSERT INTO gym VALUES (1,'YMCA'),(2,'Anytime Fitness'),(3,'Princeton Club'),(4,'Planet Fitness'),(5,'Other'),(6,'None');
+INSERT INTO profile VALUES ('Joe','Coyne','5\'2','180',null,null,1),('Fred','Hensen','5\'4','120','35','M',null,null,2),('Barney','Curry','6\'2','190','29','M',null,null,3),('Karen','Mack','6\'0','172','50','F',null,null,4),('Dianne','Klein','5\'8','156','F',null,null,5),('Dawn','Tillman','6\'4','175','47',null,null,6);
