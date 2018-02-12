@@ -26,7 +26,7 @@ public class User {
 
 //   TODO Check how to pull gym name from gym table or if it is unneeded in this class
     @Column(name = "gym_id")
-    private int gym;
+    private int gymId;
 
 //    TODO Decide if location will be zip, city or both
     @Column(name = "location")

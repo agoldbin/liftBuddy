@@ -12,7 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 // TODO update this file. Was just copypastad from week1, test set up is incorrect
 
-class UserDaoTest {
+class ProfileDaoTest {
 
     UserDao dao;
 
