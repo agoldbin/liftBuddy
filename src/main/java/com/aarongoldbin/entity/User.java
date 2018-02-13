@@ -35,7 +35,6 @@ public class User {
     private String userLocation;
 
     //    TODO is password needed to be stored? How to store a password hash
-    @Column(name = "password")
     private String password;
 
     /**

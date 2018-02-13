@@ -20,7 +20,7 @@ public class Profile {
     private String lastName;
 
     private int weight;
-    private int height;
+    private String height;
     private int age;
     private String sex;
     private String goal;
@@ -50,7 +50,7 @@ public class Profile {
      * @param searching the searching
      * @param id        the id
      */
-    public Profile(String firstName, String lastName, int weight, int height, int age, String sex, String goal, int searching, int id) {
+    public Profile(String firstName, String lastName, int weight, String height, int age, String sex, String goal, int searching, int id) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.weight = weight;
@@ -121,7 +121,7 @@ public class Profile {
      *
      * @return the height
      */
-    public int getHeight() {
+    public String getHeight() {
         return height;
     }
 
@@ -130,7 +130,7 @@ public class Profile {
      *
      * @param height the height
      */
-    public void setHeight(int height) {
+    public void setHeight(String height) {
         this.height = height;
     }
 
