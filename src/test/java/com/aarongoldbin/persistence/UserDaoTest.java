@@ -63,7 +63,7 @@ class UserDaoTest {
     void insertWithProfileSuccess() {
 
 //        TODO fix up the insert profile statement
-        User newUser = new User("TMoney", "teddymo@gmail.com", 3, "53219", "superdupersecret7");
+        User newUser = new User("TMoney", "teddymo@gmail.com", "53219", "superdupersecret7");
         Profile profile = new Profile("Ted", "Moseby", 205, "5'10", 19, "M", null,1, newUser.getId());
         int id = dao.insert(newUser);
         assertNotEquals(0,id);
