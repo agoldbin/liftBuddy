@@ -27,8 +27,8 @@ public class User {
 
     //   TODO Check how to pull gym name from gym table or if it is unneeded in this class
     @ManyToOne
-    @Column(name = "gym_id")
-    private int gymId;
+
+    private Gym gym;
 
     //    TODO Decide if location will be zip, city or both
     @Column(name = "location")
@@ -52,10 +52,10 @@ public class User {
      * @param userLocation the user location
      * @param password     the password
      */
-    public User(String userName, String userEmail, int gymId, String userLocation, String password) {
+    public User(String userName, String userEmail, String userLocation, String password) {
         this.userName = userName;
         this.userEmail = userEmail;
-        this.gymId = gymId;
+//        this.gymId = gymId;
         this.userLocation = userLocation;
         this.password = password;
     }
@@ -116,21 +116,21 @@ public class User {
     }
 
     /**
-     * Gets gym id.
+     * Gets gym.
      *
      * @return the gym id
      */
-    public int getGymId() {
-        return gymId;
+    public Gym getGym() {
+        return gym;
     }
 
     /**
-     * Sets gym id.
+     * Sets gym.
      *
-     * @param gymId the gym id
+     * @param gym the gym
      */
-    public void setGymId(int gymId) {
-        this.gymId = gymId;
+    public void setGym(Gym gym) {
+        this.gym = gym;
     }
 
     /**
@@ -175,7 +175,7 @@ public class User {
                 "id=" + id +
                 ", userName='" + userName + '\'' +
                 ", userEmail='" + userEmail + '\'' +
-                ", gymId=" + gymId +
+                ", gym=" + gym +
                 ", userLocation='" + userLocation + '\'' +
                 ", password='" + password + '\'' +
                 '}';
