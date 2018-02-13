@@ -91,7 +91,6 @@ public class ProfileDao {
      * @return All profiles
      */
     public List<Profile> getAll() {
-
         Session session = sessionFactory.openSession();
 
         CriteriaBuilder builder = session.getCriteriaBuilder();
