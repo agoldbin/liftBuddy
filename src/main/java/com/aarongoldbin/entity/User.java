@@ -1,8 +1,10 @@
 package com.aarongoldbin.entity;
 
 import org.hibernate.annotations.GenericGenerator;
+import org.hibernate.annotations.ManyToAny;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 
 /**
  * A class to represent a user
@@ -27,7 +29,7 @@ public class User {
 
     //   TODO Check how to pull gym name from gym table or if it is unneeded in this class
     @ManyToOne
-
+    @JoinColumn(name = "id", foreignKey = @ForeignKey(name = "GYM_ID_FK"))
     private Gym gym;
 
     //    TODO Decide if location will be zip, city or both
@@ -36,6 +38,24 @@ public class User {
 
     //    TODO is password needed to be stored? How to store a password hash
     private String password;
+
+    @Column(name = "first_name")
+    private String firstName;
+
+    @Column(name = "last_name")
+    private String lastName;
+
+    @Column
+    private int height;
+
+    @Column
+    private int weight;
+
+    @Column
+    private String sex;
+
+    @Column
+    private LocalDate dob;
 
     /**
      * Instantiates a new User.
@@ -48,18 +68,48 @@ public class User {
      *
      * @param userName     the user name
      * @param userEmail    the user email
-     * @param gymId        the gym id
+     * @param gym          the gym
      * @param userLocation the user location
      * @param password     the password
+     * @param firstName    the first name
+     * @param lastName     the last name
+     * @param height       the height
+     * @param weight       the weight
+     * @param sex          the sex
+     * @param dob          the dob
      */
-    public User(String userName, String userEmail, String userLocation, String password) {
+    public User(String userName, String userEmail, Gym gym, String userLocation, String password, String firstName,
+                String lastName, int height, int weight, String sex, LocalDate dob) {
         this.userName = userName;
         this.userEmail = userEmail;
-//        this.gymId = gymId;
+        this.gym = gym;
         this.userLocation = userLocation;
         this.password = password;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.height = height;
+        this.weight = weight;
+        this.sex = sex;
+        this.dob = dob;
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", userName='" + userName + '\'' +
+                ", userEmail='" + userEmail + '\'' +
+                ", gym=" + gym +
+                ", userLocation='" + userLocation + '\'' +
+                ", password='" + password + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", height=" + height +
+                ", weight=" + weight +
+                ", sex='" + sex + '\'' +
+                ", dob=" + dob +
+                '}';
+    }
 
     /**
      * Gets id.
@@ -118,7 +168,7 @@ public class User {
     /**
      * Gets gym.
      *
-     * @return the gym id
+     * @return the gym
      */
     public Gym getGym() {
         return gym;
@@ -169,15 +219,111 @@ public class User {
         this.password = password;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", userName='" + userName + '\'' +
-                ", userEmail='" + userEmail + '\'' +
-                ", gym=" + gym +
-                ", userLocation='" + userLocation + '\'' +
-                ", password='" + password + '\'' +
-                '}';
+    /**
+     * Gets first name.
+     *
+     * @return the first name
+     */
+    public String getFirstName() {
+        return firstName;
+    }
+
+    /**
+     * Sets first name.
+     *
+     * @param firstName the first name
+     */
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    /**
+     * Gets last name.
+     *
+     * @return the last name
+     */
+    public String getLastName() {
+        return lastName;
+    }
+
+    /**
+     * Sets last name.
+     *
+     * @param lastName the last name
+     */
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    /**
+     * Gets height.
+     *
+     * @return the height
+     */
+    public int getHeight() {
+        return height;
+    }
+
+    /**
+     * Sets height.
+     *
+     * @param height the height
+     */
+    public void setHeight(int height) {
+        this.height = height;
+    }
+
+    /**
+     * Gets weight.
+     *
+     * @return the weight
+     */
+    public int getWeight() {
+        return weight;
+    }
+
+    /**
+     * Sets weight.
+     *
+     * @param weight the weight
+     */
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    /**
+     * Gets sex.
+     *
+     * @return the sex
+     */
+    public String getSex() {
+        return sex;
+    }
+
+    /**
+     * Sets sex.
+     *
+     * @param sex the sex
+     */
+    public void setSex(String sex) {
+        this.sex = sex;
+    }
+
+    /**
+     * Gets dob.
+     *
+     * @return the dob
+     */
+    public LocalDate getDob() {
+        return dob;
+    }
+
+    /**
+     * Sets dob.
+     *
+     * @param dob the dob
+     */
+    public void setDob(LocalDate dob) {
+        this.dob = dob;
     }
 }
