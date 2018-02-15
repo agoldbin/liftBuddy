@@ -17,7 +17,6 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
-    @OneToOne(mappedBy = "id", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private int id;
 
     @Column(name = "user_name")
@@ -27,8 +26,8 @@ public class User {
     private String userEmail;
 
     //   TODO Check how to pull gym name from gym table or if it is unneeded in this class
-    @ManyToOne
-    @JoinColumn(name = "id", foreignKey = @ForeignKey(name = "GYM_ID_FK"))
+//    @ManyToOne
+    @Transient
     private Gym gym;
 
     //    TODO Decide if location will be zip, city or both
