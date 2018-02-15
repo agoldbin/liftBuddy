@@ -44,16 +44,9 @@ public class User {
     @Column(name = "last_name")
     private String lastName;
 
-    @Column
     private int height;
-
-    @Column
     private int weight;
-
-    @Column
     private String sex;
-
-    @Column
     private LocalDate dob;
 
     /**

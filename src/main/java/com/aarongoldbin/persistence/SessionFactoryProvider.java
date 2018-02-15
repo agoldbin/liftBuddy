@@ -29,9 +29,8 @@ public class SessionFactoryProvider {
      * Create session factory.
      */
     public static void createSessionFactory() {
-
         StandardServiceRegistry standardRegistry =
-                new StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();
+                new StandardServiceRegistryBuilder().configure().build();
         Metadata metaData =
                 new MetadataSources(standardRegistry).getMetadataBuilder().build();
         sessionFactory = metaData.getSessionFactoryBuilder().build();
