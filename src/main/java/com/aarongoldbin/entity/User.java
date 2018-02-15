@@ -1,7 +1,6 @@
 package com.aarongoldbin.entity;
 
 import org.hibernate.annotations.GenericGenerator;
-import org.hibernate.annotations.ManyToAny;
 
 import javax.persistence.*;
 import java.time.LocalDate;
@@ -326,4 +325,5 @@ public class User {
     public void setDob(LocalDate dob) {
         this.dob = dob;
     }
+
 }

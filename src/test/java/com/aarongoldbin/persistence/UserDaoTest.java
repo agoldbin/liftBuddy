@@ -1,12 +1,10 @@
 package com.aarongoldbin.persistence;
 
-import com.aarongoldbin.entity.Profile;
 import com.aarongoldbin.entity.User;
 import com.aarongoldbin.test.util.Database;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.time.LocalDate;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
