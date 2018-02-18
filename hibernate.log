@@ -5919,3 +5919,455 @@
 [DEBUG] 2018-02-15 15:33:36.375 [main] SimpleValueBinder - Starting fillSimpleValue for weight
 [DEBUG] 2018-02-15 15:33:36.375 [main] SimpleValueBinder - Starting fillSimpleValue for gymName
 [DEBUG] 2018-02-15 15:33:36.390 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [user]
+[DEBUG] 2018-02-17 18:41:14.166 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[DEBUG] 2018-02-17 18:41:14.172 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[DEBUG] 2018-02-17 18:41:14.176 [main] IntegratorServiceImpl - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[TRACE] 2018-02-17 18:41:14.184 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Cache71] -> [org.hibernate.dialect.Cache71Dialect]
+[TRACE] 2018-02-17 18:41:14.185 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [CUBRID] -> [org.hibernate.dialect.CUBRIDDialect]
+[TRACE] 2018-02-17 18:41:14.186 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2] -> [org.hibernate.dialect.DB2Dialect]
+[TRACE] 2018-02-17 18:41:14.186 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2390] -> [org.hibernate.dialect.DB2390Dialect]
+[TRACE] 2018-02-17 18:41:14.186 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2390V8] -> [org.hibernate.dialect.DB2390V8Dialect]
+[TRACE] 2018-02-17 18:41:14.187 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DB2400] -> [org.hibernate.dialect.DB2400Dialect]
+[TRACE] 2018-02-17 18:41:14.188 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenFive] -> [org.hibernate.dialect.DerbyTenFiveDialect]
+[TRACE] 2018-02-17 18:41:14.188 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenSix] -> [org.hibernate.dialect.DerbyTenSixDialect]
+[TRACE] 2018-02-17 18:41:14.189 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [DerbyTenSeven] -> [org.hibernate.dialect.DerbyTenSevenDialect]
+[TRACE] 2018-02-17 18:41:14.190 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Firebird] -> [org.hibernate.dialect.FirebirdDialect]
+[TRACE] 2018-02-17 18:41:14.190 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [FrontBase] -> [org.hibernate.dialect.FrontBaseDialect]
+[TRACE] 2018-02-17 18:41:14.191 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [H2] -> [org.hibernate.dialect.H2Dialect]
+[TRACE] 2018-02-17 18:41:14.192 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [HANAColumnStore] -> [org.hibernate.dialect.HANAColumnStoreDialect]
+[TRACE] 2018-02-17 18:41:14.192 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [HANARowStore] -> [org.hibernate.dialect.HANARowStoreDialect]
+[TRACE] 2018-02-17 18:41:14.193 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [HSQL] -> [org.hibernate.dialect.HSQLDialect]
+[TRACE] 2018-02-17 18:41:14.194 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Informix] -> [org.hibernate.dialect.InformixDialect]
+[TRACE] 2018-02-17 18:41:14.194 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres] -> [org.hibernate.dialect.IngresDialect]
+[TRACE] 2018-02-17 18:41:14.195 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres9] -> [org.hibernate.dialect.Ingres9Dialect]
+[TRACE] 2018-02-17 18:41:14.195 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Ingres10] -> [org.hibernate.dialect.Ingres10Dialect]
+[TRACE] 2018-02-17 18:41:14.196 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Interbase] -> [org.hibernate.dialect.InterbaseDialect]
+[TRACE] 2018-02-17 18:41:14.196 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [JDataStore] -> [org.hibernate.dialect.JDataStoreDialect]
+[TRACE] 2018-02-17 18:41:14.198 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Mckoi] -> [org.hibernate.dialect.MckoiDialect]
+[TRACE] 2018-02-17 18:41:14.199 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MimerSQL] -> [org.hibernate.dialect.MimerSQLDialect]
+[TRACE] 2018-02-17 18:41:14.200 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect]
+[TRACE] 2018-02-17 18:41:14.200 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect]
+[TRACE] 2018-02-17 18:41:14.201 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL57InnoDB] -> [org.hibernate.dialect.MySQL57InnoDBDialect]
+[TRACE] 2018-02-17 18:41:14.201 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL57] -> [org.hibernate.dialect.MySQL57Dialect]
+[TRACE] 2018-02-17 18:41:14.202 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle8i] -> [org.hibernate.dialect.Oracle8iDialect]
+[TRACE] 2018-02-17 18:41:14.202 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle9i] -> [org.hibernate.dialect.Oracle9iDialect]
+[TRACE] 2018-02-17 18:41:14.203 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Oracle10g] -> [org.hibernate.dialect.Oracle10gDialect]
+[TRACE] 2018-02-17 18:41:14.203 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Pointbase] -> [org.hibernate.dialect.PointbaseDialect]
+[TRACE] 2018-02-17 18:41:14.205 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgresPlus] -> [org.hibernate.dialect.PostgresPlusDialect]
+[TRACE] 2018-02-17 18:41:14.205 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL81] -> [org.hibernate.dialect.PostgreSQL81Dialect]
+[TRACE] 2018-02-17 18:41:14.205 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL82] -> [org.hibernate.dialect.PostgreSQL82Dialect]
+[TRACE] 2018-02-17 18:41:14.205 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [PostgreSQL9] -> [org.hibernate.dialect.PostgreSQL9Dialect]
+[TRACE] 2018-02-17 18:41:14.206 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Progress] -> [org.hibernate.dialect.ProgressDialect]
+[TRACE] 2018-02-17 18:41:14.206 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SAPDB] -> [org.hibernate.dialect.SAPDBDialect]
+[TRACE] 2018-02-17 18:41:14.208 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer] -> [org.hibernate.dialect.SQLServerDialect]
+[TRACE] 2018-02-17 18:41:14.208 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer2005] -> [org.hibernate.dialect.SQLServer2005Dialect]
+[TRACE] 2018-02-17 18:41:14.209 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SQLServer2008] -> [org.hibernate.dialect.SQLServer2008Dialect]
+[TRACE] 2018-02-17 18:41:14.209 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Sybase11] -> [org.hibernate.dialect.Sybase11Dialect]
+[TRACE] 2018-02-17 18:41:14.210 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseAnywhere] -> [org.hibernate.dialect.SybaseAnywhereDialect]
+[TRACE] 2018-02-17 18:41:14.210 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseASE15] -> [org.hibernate.dialect.SybaseASE15Dialect]
+[TRACE] 2018-02-17 18:41:14.211 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [SybaseASE157] -> [org.hibernate.dialect.SybaseASE157Dialect]
+[TRACE] 2018-02-17 18:41:14.211 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [Teradata] -> [org.hibernate.dialect.TeradataDialect]
+[TRACE] 2018-02-17 18:41:14.212 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.dialect.Dialect] : [TimesTen] -> [org.hibernate.dialect.TimesTenDialect]
+[TRACE] 2018-02-17 18:41:14.214 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Borland] -> [org.hibernate.engine.transaction.jta.platform.internal.BorlandEnterpriseServerJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.214 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.BorlandEnterpriseServerJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.BorlandEnterpriseServerJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.214 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Bitronix] -> [org.hibernate.engine.transaction.jta.platform.internal.BitronixJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.214 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.BitronixJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.BitronixJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.215 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JBossAS] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.215 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JBossAppServerJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossAppServerJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.215 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JBossTS] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.215 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JBossStandAloneJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.216 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JOnAS] -> [org.hibernate.engine.transaction.jta.platform.internal.JOnASJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.216 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JOnASJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JOnASJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.216 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JOTM] -> [org.hibernate.engine.transaction.jta.platform.internal.JOTMJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.216 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JOTMJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JOTMJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.217 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [JRun4] -> [org.hibernate.engine.transaction.jta.platform.internal.JRun4JtaPlatform]
+[TRACE] 2018-02-17 18:41:14.217 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.JRun4JtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.JRun4JtaPlatform]
+[TRACE] 2018-02-17 18:41:14.217 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [OC4J] -> [org.hibernate.engine.transaction.jta.platform.internal.OC4JJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.217 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.OC4JJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.OC4JJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.218 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Orion] -> [org.hibernate.engine.transaction.jta.platform.internal.OrionJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.218 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.OrionJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.OrionJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.218 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Resin] -> [org.hibernate.engine.transaction.jta.platform.internal.ResinJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.218 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.ResinJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.ResinJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.218 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [SapNetWeaver] -> [org.hibernate.engine.transaction.jta.platform.internal.SapNetWeaverJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.219 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.SapNetWeaverJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.SapNetWeaverJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.219 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [SunOne] -> [org.hibernate.engine.transaction.jta.platform.internal.SunOneJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.219 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.SunOneJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.SunOneJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.219 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [Weblogic] -> [org.hibernate.engine.transaction.jta.platform.internal.WeblogicJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.219 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WeblogicJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WeblogicJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.220 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [WebSphere] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.220 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WebSphereJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.220 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [WebSphereExtended] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereExtendedJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.220 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.transaction.jta.platform.spi.JtaPlatform] : [org.hibernate.service.jta.platform.internal.WebSphereExtendedJtaPlatform] -> [org.hibernate.engine.transaction.jta.platform.internal.WebSphereExtendedJtaPlatform]
+[TRACE] 2018-02-17 18:41:14.221 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jdbc] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+[TRACE] 2018-02-17 18:41:14.222 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [jta] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+[TRACE] 2018-02-17 18:41:14.222 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JDBCTransactionFactory] -> [org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl]
+[TRACE] 2018-02-17 18:41:14.222 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.JTATransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+[TRACE] 2018-02-17 18:41:14.222 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder] : [org.hibernate.transaction.CMTTransactionFactory] -> [org.hibernate.resource.transaction.backend.jta.internal.JtaTransactionCoordinatorBuilderImpl]
+[TRACE] 2018-02-17 18:41:14.223 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [persistent] -> [org.hibernate.hql.spi.id.persistent.PersistentTableBulkIdStrategy]
+[TRACE] 2018-02-17 18:41:14.224 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [global_temporary] -> [org.hibernate.hql.spi.id.global.GlobalTemporaryTableBulkIdStrategy]
+[TRACE] 2018-02-17 18:41:14.224 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.hql.spi.id.MultiTableBulkIdStrategy] : [local_temporary] -> [org.hibernate.hql.spi.id.local.LocalTemporaryTableBulkIdStrategy]
+[TRACE] 2018-02-17 18:41:14.225 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.event.spi.EntityCopyObserver] : [disallow] -> [org.hibernate.event.internal.EntityCopyNotAllowedObserver]
+[TRACE] 2018-02-17 18:41:14.225 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.event.spi.EntityCopyObserver] : [allow] -> [org.hibernate.event.internal.EntityCopyAllowedObserver]
+[TRACE] 2018-02-17 18:41:14.226 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.event.spi.EntityCopyObserver] : [log] -> [org.hibernate.event.internal.EntityCopyAllowedLoggedObserver]
+[TRACE] 2018-02-17 18:41:14.227 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [default] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+[TRACE] 2018-02-17 18:41:14.227 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyJpaCompliantImpl]
+[TRACE] 2018-02-17 18:41:14.227 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-jpa] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl]
+[TRACE] 2018-02-17 18:41:14.227 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [legacy-hbm] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl]
+[TRACE] 2018-02-17 18:41:14.228 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.boot.model.naming.ImplicitNamingStrategy] : [component-path] -> [org.hibernate.boot.model.naming.ImplicitNamingStrategyComponentPathImpl]
+[TRACE] 2018-02-17 18:41:14.228 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [default] -> [org.hibernate.cache.internal.DefaultCacheKeysFactory]
+[TRACE] 2018-02-17 18:41:14.229 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.cache.spi.CacheKeysFactory] : [simple] -> [org.hibernate.cache.internal.SimpleCacheKeysFactory]
+[TRACE] 2018-02-17 18:41:14.231 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.jdbc.connections.spi.ConnectionProvider] : [c3p0] -> [org.hibernate.c3p0.internal.C3P0ConnectionProvider]
+[TRACE] 2018-02-17 18:41:14.231 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.jdbc.connections.spi.ConnectionProvider] : [C3P0ConnectionProvider] -> [org.hibernate.c3p0.internal.C3P0ConnectionProvider]
+[TRACE] 2018-02-17 18:41:14.231 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.jdbc.connections.spi.ConnectionProvider] : [org.hibernate.connection.C3P0ConnectionProvider] -> [org.hibernate.c3p0.internal.C3P0ConnectionProvider]
+[TRACE] 2018-02-17 18:41:14.231 [main] StrategySelectorImpl - Registering named strategy selector [org.hibernate.engine.jdbc.connections.spi.ConnectionProvider] : [org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider] -> [org.hibernate.c3p0.internal.C3P0ConnectionProvider]
+[INFO ] 2018-02-17 18:41:14.250 [main] Version - HHH000412: Hibernate Core {5.2.12.Final}
+[INFO ] 2018-02-17 18:41:14.251 [main] Environment - HHH000206: hibernate.properties not found
+[TRACE] 2018-02-17 18:41:14.255 [main] ClassLoaderServiceImpl - trying via [new URL("hibernate.cfg.xml")]
+[TRACE] 2018-02-17 18:41:14.255 [main] ClassLoaderServiceImpl - trying via [ClassLoader.getResourceAsStream("hibernate.cfg.xml")]
+[TRACE] 2018-02-17 18:41:14.285 [main] LocalXmlResourceResolver - In resolveEntity(-//Hibernate/Hibernate Configuration DTD//EN, http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd, null, null)
+[DEBUG] 2018-02-17 18:41:14.285 [main] LocalXmlResourceResolver - Interpreting public/system identifier : [-//Hibernate/Hibernate Configuration DTD//EN] - [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[DEBUG] 2018-02-17 18:41:14.286 [main] LocalXmlResourceResolver - Recognized hibernate-configuration identifier; attempting to resolve on classpath under org/hibernate/
+[DEBUG] 2018-02-17 18:41:14.296 [main] JaxbCfgProcessor - cfg.xml document did not define namespaces; wrapping in custom event reader to introduce namespace information
+[DEBUG] 2018-02-17 18:41:14.512 [main] ServiceBinding - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[TRACE] 2018-02-17 18:41:14.526 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.config.spi.ConfigurationService]
+[TRACE] 2018-02-17 18:41:14.532 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.cache.spi.RegionFactory]
+[DEBUG] 2018-02-17 18:41:14.533 [main] RegionFactoryInitiator - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[INFO ] 2018-02-17 18:41:14.542 [main] Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+[TRACE] 2018-02-17 18:41:14.548 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.boot.cfgxml.spi.CfgXmlAccessService]
+[DEBUG] 2018-02-17 18:41:14.579 [main] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@7139992f
+[DEBUG] 2018-02-17 18:41:14.580 [main] BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@7139992f
+[DEBUG] 2018-02-17 18:41:14.580 [main] BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@7139992f
+[DEBUG] 2018-02-17 18:41:14.581 [main] BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@7eecb5b8
+[DEBUG] 2018-02-17 18:41:14.582 [main] BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@71687585
+[DEBUG] 2018-02-17 18:41:14.583 [main] BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@7fb4f2a9
+[DEBUG] 2018-02-17 18:41:14.588 [main] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@7d3e8655
+[DEBUG] 2018-02-17 18:41:14.589 [main] BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@7d3e8655
+[DEBUG] 2018-02-17 18:41:14.589 [main] BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@7d3e8655
+[DEBUG] 2018-02-17 18:41:14.590 [main] BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@3aa078fd
+[DEBUG] 2018-02-17 18:41:14.590 [main] BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@3aa078fd
+[DEBUG] 2018-02-17 18:41:14.590 [main] BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@3aa078fd
+[DEBUG] 2018-02-17 18:41:14.592 [main] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@5dafbe45
+[DEBUG] 2018-02-17 18:41:14.595 [main] BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@5dafbe45
+[DEBUG] 2018-02-17 18:41:14.595 [main] BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@5dafbe45
+[DEBUG] 2018-02-17 18:41:14.597 [main] BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@d2de489
+[DEBUG] 2018-02-17 18:41:14.597 [main] BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@d2de489
+[DEBUG] 2018-02-17 18:41:14.597 [main] BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@d2de489
+[DEBUG] 2018-02-17 18:41:14.598 [main] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@3e0e1046
+[DEBUG] 2018-02-17 18:41:14.598 [main] BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@3e0e1046
+[DEBUG] 2018-02-17 18:41:14.598 [main] BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@3e0e1046
+[DEBUG] 2018-02-17 18:41:14.600 [main] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@23941fb4
+[DEBUG] 2018-02-17 18:41:14.600 [main] BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@23941fb4
+[DEBUG] 2018-02-17 18:41:14.601 [main] BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@23941fb4
+[DEBUG] 2018-02-17 18:41:14.602 [main] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@45385f75
+[DEBUG] 2018-02-17 18:41:14.602 [main] BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@45385f75
+[DEBUG] 2018-02-17 18:41:14.602 [main] BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@45385f75
+[DEBUG] 2018-02-17 18:41:14.604 [main] BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@700fb871
+[DEBUG] 2018-02-17 18:41:14.604 [main] BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@700fb871
+[DEBUG] 2018-02-17 18:41:14.605 [main] BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@565f390
+[DEBUG] 2018-02-17 18:41:14.605 [main] BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@565f390
+[DEBUG] 2018-02-17 18:41:14.606 [main] BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@49b2a47d
+[DEBUG] 2018-02-17 18:41:14.606 [main] BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@49b2a47d
+[DEBUG] 2018-02-17 18:41:14.607 [main] BasicTypeRegistry - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@642a7222
+[DEBUG] 2018-02-17 18:41:14.608 [main] BasicTypeRegistry - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@147e2ae7
+[DEBUG] 2018-02-17 18:41:14.609 [main] BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@503f91c3
+[DEBUG] 2018-02-17 18:41:14.609 [main] BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@503f91c3
+[DEBUG] 2018-02-17 18:41:14.610 [main] BasicTypeRegistry - Adding type registration Duration -> org.hibernate.type.DurationType@3b6d844d
+[DEBUG] 2018-02-17 18:41:14.610 [main] BasicTypeRegistry - Adding type registration java.time.Duration -> org.hibernate.type.DurationType@3b6d844d
+[DEBUG] 2018-02-17 18:41:14.623 [main] BasicTypeRegistry - Adding type registration Instant -> org.hibernate.type.InstantType@5038d0b5
+[DEBUG] 2018-02-17 18:41:14.623 [main] BasicTypeRegistry - Adding type registration java.time.Instant -> org.hibernate.type.InstantType@5038d0b5
+[DEBUG] 2018-02-17 18:41:14.624 [main] BasicTypeRegistry - Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@45efd90f
+[DEBUG] 2018-02-17 18:41:14.624 [main] BasicTypeRegistry - Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@45efd90f
+[DEBUG] 2018-02-17 18:41:14.626 [main] BasicTypeRegistry - Adding type registration LocalDate -> org.hibernate.type.LocalDateType@7d7758be
+[DEBUG] 2018-02-17 18:41:14.626 [main] BasicTypeRegistry - Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@7d7758be
+[DEBUG] 2018-02-17 18:41:14.628 [main] BasicTypeRegistry - Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@a8ef162
+[DEBUG] 2018-02-17 18:41:14.628 [main] BasicTypeRegistry - Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@a8ef162
+[DEBUG] 2018-02-17 18:41:14.629 [main] BasicTypeRegistry - Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@78fa769e
+[DEBUG] 2018-02-17 18:41:14.629 [main] BasicTypeRegistry - Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@78fa769e
+[DEBUG] 2018-02-17 18:41:14.630 [main] BasicTypeRegistry - Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@18317edc
+[DEBUG] 2018-02-17 18:41:14.630 [main] BasicTypeRegistry - Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@18317edc
+[DEBUG] 2018-02-17 18:41:14.633 [main] BasicTypeRegistry - Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3e62d773
+[DEBUG] 2018-02-17 18:41:14.633 [main] BasicTypeRegistry - Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@3e62d773
+[DEBUG] 2018-02-17 18:41:14.635 [main] BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@47c81abf
+[DEBUG] 2018-02-17 18:41:14.635 [main] BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@47c81abf
+[DEBUG] 2018-02-17 18:41:14.636 [main] BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@3cce57c7
+[DEBUG] 2018-02-17 18:41:14.637 [main] BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@3cce57c7
+[DEBUG] 2018-02-17 18:41:14.638 [main] BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@3576ddc2
+[DEBUG] 2018-02-17 18:41:14.638 [main] BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@3576ddc2
+[DEBUG] 2018-02-17 18:41:14.638 [main] BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@3576ddc2
+[DEBUG] 2018-02-17 18:41:14.640 [main] BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@b86de0d
+[DEBUG] 2018-02-17 18:41:14.641 [main] BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@4808bc9b
+[DEBUG] 2018-02-17 18:41:14.641 [main] BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@4808bc9b
+[DEBUG] 2018-02-17 18:41:14.642 [main] BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@4808bc9b
+[DEBUG] 2018-02-17 18:41:14.642 [main] BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@13df2a8c
+[DEBUG] 2018-02-17 18:41:14.643 [main] BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@163370c2
+[DEBUG] 2018-02-17 18:41:14.643 [main] BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@163370c2
+[DEBUG] 2018-02-17 18:41:14.644 [main] BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@13d9cbf5
+[DEBUG] 2018-02-17 18:41:14.645 [main] BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@13d9cbf5
+[DEBUG] 2018-02-17 18:41:14.645 [main] BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@7b50df34
+[DEBUG] 2018-02-17 18:41:14.646 [main] BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@7b50df34
+[DEBUG] 2018-02-17 18:41:14.646 [main] BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@77659b30
+[DEBUG] 2018-02-17 18:41:14.646 [main] BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@77659b30
+[DEBUG] 2018-02-17 18:41:14.648 [main] BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@e25951c
+[DEBUG] 2018-02-17 18:41:14.648 [main] BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@e25951c
+[DEBUG] 2018-02-17 18:41:14.648 [main] BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@dc9876b
+[DEBUG] 2018-02-17 18:41:14.649 [main] BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@57a3e26a
+[DEBUG] 2018-02-17 18:41:14.649 [main] BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@57a3e26a
+[DEBUG] 2018-02-17 18:41:14.649 [main] BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@57a3e26a
+[DEBUG] 2018-02-17 18:41:14.650 [main] BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@3b5fad2d
+[DEBUG] 2018-02-17 18:41:14.650 [main] BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@3b5fad2d
+[DEBUG] 2018-02-17 18:41:14.650 [main] BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@3b5fad2d
+[DEBUG] 2018-02-17 18:41:14.651 [main] BasicTypeRegistry - Adding type registration row_version -> org.hibernate.type.RowVersionType@74f6c5d8
+[DEBUG] 2018-02-17 18:41:14.652 [main] BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@4bbf6d0e
+[DEBUG] 2018-02-17 18:41:14.653 [main] BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@13bc8645
+[DEBUG] 2018-02-17 18:41:14.653 [main] BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@13bc8645
+[DEBUG] 2018-02-17 18:41:14.653 [main] BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@13bc8645
+[DEBUG] 2018-02-17 18:41:14.654 [main] BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1890516e
+[DEBUG] 2018-02-17 18:41:14.654 [main] BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1890516e
+[DEBUG] 2018-02-17 18:41:14.654 [main] BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1890516e
+[DEBUG] 2018-02-17 18:41:14.654 [main] BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@26adfd2d
+[DEBUG] 2018-02-17 18:41:14.655 [main] BasicTypeRegistry - Adding type registration ntext -> org.hibernate.type.NTextType@6dd7b5a3
+[DEBUG] 2018-02-17 18:41:14.659 [main] BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@7f284218
+[DEBUG] 2018-02-17 18:41:14.659 [main] BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@7f284218
+[DEBUG] 2018-02-17 18:41:14.659 [main] BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@2a7ed1f
+[DEBUG] 2018-02-17 18:41:14.664 [main] BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@42b3b079
+[DEBUG] 2018-02-17 18:41:14.664 [main] BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@42b3b079
+[DEBUG] 2018-02-17 18:41:14.667 [main] BasicTypeRegistry - Adding type registration nclob -> org.hibernate.type.NClobType@20d7d6fb
+[DEBUG] 2018-02-17 18:41:14.667 [main] BasicTypeRegistry - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@20d7d6fb
+[DEBUG] 2018-02-17 18:41:14.667 [main] BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@479cbee5
+[DEBUG] 2018-02-17 18:41:14.667 [main] BasicTypeRegistry - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@7f8a9499
+[DEBUG] 2018-02-17 18:41:14.669 [main] BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@62833051
+[DEBUG] 2018-02-17 18:41:14.672 [main] BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@7fc4780b
+[DEBUG] 2018-02-17 18:41:14.672 [main] BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@7fc4780b
+[DEBUG] 2018-02-17 18:41:14.673 [main] BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@43599640
+[DEBUG] 2018-02-17 18:41:14.673 [main] BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@1f81aa00
+[DEBUG] 2018-02-17 18:41:14.673 [main] BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@6b6776cb
+[DEBUG] 2018-02-17 18:41:14.673 [main] BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1863d2fe
+[DEBUG] 2018-02-17 18:41:14.673 [main] BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@1787bc24
+[DEBUG] 2018-02-17 18:41:14.673 [main] BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@544d57e
+[DEBUG] 2018-02-17 18:41:14.673 [main] BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@55c53a33
+[DEBUG] 2018-02-17 18:41:14.673 [main] BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@53b7f657
+[TRACE] 2018-02-17 18:41:14.674 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.spi.JdbcServices]
+[TRACE] 2018-02-17 18:41:14.675 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+[TRACE] 2018-02-17 18:41:14.675 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectFactory]
+[TRACE] 2018-02-17 18:41:14.676 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.dialect.spi.DialectResolver]
+[TRACE] 2018-02-17 18:41:14.716 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.engine.jdbc.connections.spi.ConnectionProvider]
+[INFO ] 2018-02-17 18:41:14.719 [main] C3P0ConnectionProvider - HHH010002: C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://localhost:3306/liftbuddytest
+[INFO ] 2018-02-17 18:41:14.719 [main] C3P0ConnectionProvider - HHH10001001: Connection properties: {user=agoldbin, password=****}
+[INFO ] 2018-02-17 18:41:14.719 [main] C3P0ConnectionProvider - HHH10001003: Autocommit mode: false
+[INFO ] 2018-02-17 18:41:14.898 [main] C3P0ConnectionProvider - HHH10001007: JDBC isolation level: <unknown>
+[DEBUG] 2018-02-17 18:41:15.229 [main] JdbcEnvironmentInitiator - Database ->
+       name : MySQL
+    version : 5.7.21-log
+      major : 5
+      minor : 7
+[DEBUG] 2018-02-17 18:41:15.229 [main] JdbcEnvironmentInitiator - Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.39 ( Revision: 3289a357af6d09ecc1a10fd3c26e95183e5790ad )
+      major : 5
+      minor : 1
+[DEBUG] 2018-02-17 18:41:15.229 [main] JdbcEnvironmentInitiator - JDBC version : 4.0
+[INFO ] 2018-02-17 18:41:15.239 [main] Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[DEBUG] 2018-02-17 18:41:15.264 [main] IdentifierHelperBuilder - JDBC driver metadata reported database stores quoted identifiers in more than one case
+[DEBUG] 2018-02-17 18:41:15.266 [main] IdentifierHelperBuilder - IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [LOWER]; that will likely lead to problems in schema update and validation if using quoted identifiers
+[TRACE] 2018-02-17 18:41:15.267 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [liftbuddytest]
+[TRACE] 2018-02-17 18:41:15.267 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [null]
+[TRACE] 2018-02-17 18:41:15.296 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.id.factory.spi.MutableIdentifierGeneratorFactory]
+[DEBUG] 2018-02-17 18:41:15.297 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[DEBUG] 2018-02-17 18:41:15.298 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[DEBUG] 2018-02-17 18:41:15.298 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2018-02-17 18:41:15.298 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[DEBUG] 2018-02-17 18:41:15.299 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[DEBUG] 2018-02-17 18:41:15.299 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[DEBUG] 2018-02-17 18:41:15.300 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[DEBUG] 2018-02-17 18:41:15.300 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2018-02-17 18:41:15.301 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[DEBUG] 2018-02-17 18:41:15.301 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[DEBUG] 2018-02-17 18:41:15.302 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[DEBUG] 2018-02-17 18:41:15.302 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[DEBUG] 2018-02-17 18:41:15.302 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[DEBUG] 2018-02-17 18:41:15.303 [main] DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[DEBUG] 2018-02-17 18:41:15.342 [main] Namespace - Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+[DEBUG] 2018-02-17 18:41:15.365 [main] AnnotationBinder - Binding entity from annotated class: com.aarongoldbin.entity.User
+[TRACE] 2018-02-17 18:41:15.384 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [DTYPE]
+[DEBUG] 2018-02-17 18:41:15.384 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2018-02-17 18:41:15.391 [main] EntityBinder - Import with entity name User
+[TRACE] 2018-02-17 18:41:15.391 [main] InFlightMetadataCollectorImpl - Import: User -> com.aarongoldbin.entity.User
+[TRACE] 2018-02-17 18:41:15.391 [main] InFlightMetadataCollectorImpl - Import: com.aarongoldbin.entity.User -> com.aarongoldbin.entity.User
+[TRACE] 2018-02-17 18:41:15.392 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user]
+[TRACE] 2018-02-17 18:41:15.392 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user]
+[DEBUG] 2018-02-17 18:41:15.394 [main] EntityBinder - Bind entity com.aarongoldbin.entity.User on table user
+[TRACE] 2018-02-17 18:41:15.414 [main] AnnotationBinder - Processing annotations of com.aarongoldbin.entity.User.id
+[TRACE] 2018-02-17 18:41:15.424 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-02-17 18:41:15.424 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[DEBUG] 2018-02-17 18:41:15.424 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-02-17 18:41:15.427 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2018-02-17 18:41:15.429 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.aarongoldbin.entity.User:id]
+[DEBUG] 2018-02-17 18:41:15.430 [main] SimpleValueBinder - building SimpleValue for id
+[TRACE] 2018-02-17 18:41:15.431 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-02-17 18:41:15.431 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-02-17 18:41:15.431 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[DEBUG] 2018-02-17 18:41:15.432 [main] PropertyBinder - Building property id
+[TRACE] 2018-02-17 18:41:15.434 [main] PropertyBinder - Cascading id with null
+[TRACE] 2018-02-17 18:41:15.435 [main] AnnotationBinder - Add generic generator with name: native
+[TRACE] 2018-02-17 18:41:15.437 [main] AnnotationBinder - Bind @Id on id
+[TRACE] 2018-02-17 18:41:15.438 [main] AnnotationBinder - Processing annotations of com.aarongoldbin.entity.User.dob
+[TRACE] 2018-02-17 18:41:15.438 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [dob]
+[TRACE] 2018-02-17 18:41:15.438 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [dob]
+[DEBUG] 2018-02-17 18:41:15.438 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=dob, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-02-17 18:41:15.438 [main] PropertyBinder - MetadataSourceProcessor property dob with lazy=false
+[DEBUG] 2018-02-17 18:41:15.438 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.aarongoldbin.entity.User:dob]
+[DEBUG] 2018-02-17 18:41:15.438 [main] SimpleValueBinder - building SimpleValue for dob
+[TRACE] 2018-02-17 18:41:15.438 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [dob]
+[TRACE] 2018-02-17 18:41:15.438 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [dob]
+[TRACE] 2018-02-17 18:41:15.438 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [dob]
+[DEBUG] 2018-02-17 18:41:15.438 [main] PropertyBinder - Building property dob
+[TRACE] 2018-02-17 18:41:15.438 [main] PropertyBinder - Cascading dob with null
+[TRACE] 2018-02-17 18:41:15.438 [main] AnnotationBinder - Processing annotations of com.aarongoldbin.entity.User.firstName
+[TRACE] 2018-02-17 18:41:15.438 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [first_name]
+[TRACE] 2018-02-17 18:41:15.438 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [first_name]
+[DEBUG] 2018-02-17 18:41:15.438 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=first_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-02-17 18:41:15.439 [main] PropertyBinder - MetadataSourceProcessor property firstName with lazy=false
+[DEBUG] 2018-02-17 18:41:15.439 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.aarongoldbin.entity.User:firstName]
+[DEBUG] 2018-02-17 18:41:15.439 [main] SimpleValueBinder - building SimpleValue for firstName
+[TRACE] 2018-02-17 18:41:15.439 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [first_name]
+[DEBUG] 2018-02-17 18:41:15.439 [main] PropertyBinder - Building property firstName
+[TRACE] 2018-02-17 18:41:15.439 [main] PropertyBinder - Cascading firstName with null
+[TRACE] 2018-02-17 18:41:15.439 [main] AnnotationBinder - Processing annotations of com.aarongoldbin.entity.User.height
+[TRACE] 2018-02-17 18:41:15.440 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [height]
+[TRACE] 2018-02-17 18:41:15.440 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [height]
+[DEBUG] 2018-02-17 18:41:15.440 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=height, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-02-17 18:41:15.440 [main] PropertyBinder - MetadataSourceProcessor property height with lazy=false
+[DEBUG] 2018-02-17 18:41:15.441 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.aarongoldbin.entity.User:height]
+[DEBUG] 2018-02-17 18:41:15.441 [main] SimpleValueBinder - building SimpleValue for height
+[TRACE] 2018-02-17 18:41:15.441 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [height]
+[TRACE] 2018-02-17 18:41:15.441 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [height]
+[TRACE] 2018-02-17 18:41:15.441 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [height]
+[DEBUG] 2018-02-17 18:41:15.441 [main] PropertyBinder - Building property height
+[TRACE] 2018-02-17 18:41:15.441 [main] PropertyBinder - Cascading height with null
+[TRACE] 2018-02-17 18:41:15.441 [main] AnnotationBinder - Processing annotations of com.aarongoldbin.entity.User.lastName
+[TRACE] 2018-02-17 18:41:15.441 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [last_name]
+[TRACE] 2018-02-17 18:41:15.441 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [last_name]
+[DEBUG] 2018-02-17 18:41:15.441 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=last_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-02-17 18:41:15.441 [main] PropertyBinder - MetadataSourceProcessor property lastName with lazy=false
+[DEBUG] 2018-02-17 18:41:15.441 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.aarongoldbin.entity.User:lastName]
+[DEBUG] 2018-02-17 18:41:15.441 [main] SimpleValueBinder - building SimpleValue for lastName
+[TRACE] 2018-02-17 18:41:15.441 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [last_name]
+[DEBUG] 2018-02-17 18:41:15.441 [main] PropertyBinder - Building property lastName
+[TRACE] 2018-02-17 18:41:15.441 [main] PropertyBinder - Cascading lastName with null
+[TRACE] 2018-02-17 18:41:15.441 [main] AnnotationBinder - Processing annotations of com.aarongoldbin.entity.User.password
+[TRACE] 2018-02-17 18:41:15.441 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [password]
+[TRACE] 2018-02-17 18:41:15.442 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [password]
+[DEBUG] 2018-02-17 18:41:15.442 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=password, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-02-17 18:41:15.442 [main] PropertyBinder - MetadataSourceProcessor property password with lazy=false
+[DEBUG] 2018-02-17 18:41:15.442 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.aarongoldbin.entity.User:password]
+[DEBUG] 2018-02-17 18:41:15.442 [main] SimpleValueBinder - building SimpleValue for password
+[TRACE] 2018-02-17 18:41:15.443 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [password]
+[TRACE] 2018-02-17 18:41:15.443 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [password]
+[TRACE] 2018-02-17 18:41:15.443 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [password]
+[DEBUG] 2018-02-17 18:41:15.443 [main] PropertyBinder - Building property password
+[TRACE] 2018-02-17 18:41:15.443 [main] PropertyBinder - Cascading password with null
+[TRACE] 2018-02-17 18:41:15.443 [main] AnnotationBinder - Processing annotations of com.aarongoldbin.entity.User.sex
+[TRACE] 2018-02-17 18:41:15.443 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [sex]
+[TRACE] 2018-02-17 18:41:15.444 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [sex]
+[DEBUG] 2018-02-17 18:41:15.444 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=sex, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-02-17 18:41:15.444 [main] PropertyBinder - MetadataSourceProcessor property sex with lazy=false
+[DEBUG] 2018-02-17 18:41:15.444 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.aarongoldbin.entity.User:sex]
+[DEBUG] 2018-02-17 18:41:15.444 [main] SimpleValueBinder - building SimpleValue for sex
+[TRACE] 2018-02-17 18:41:15.444 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [sex]
+[TRACE] 2018-02-17 18:41:15.444 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [sex]
+[TRACE] 2018-02-17 18:41:15.444 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [sex]
+[DEBUG] 2018-02-17 18:41:15.444 [main] PropertyBinder - Building property sex
+[TRACE] 2018-02-17 18:41:15.444 [main] PropertyBinder - Cascading sex with null
+[TRACE] 2018-02-17 18:41:15.444 [main] AnnotationBinder - Processing annotations of com.aarongoldbin.entity.User.userEmail
+[TRACE] 2018-02-17 18:41:15.444 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [email]
+[TRACE] 2018-02-17 18:41:15.444 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [email]
+[DEBUG] 2018-02-17 18:41:15.444 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=email, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-02-17 18:41:15.444 [main] PropertyBinder - MetadataSourceProcessor property userEmail with lazy=false
+[DEBUG] 2018-02-17 18:41:15.444 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.aarongoldbin.entity.User:userEmail]
+[DEBUG] 2018-02-17 18:41:15.445 [main] SimpleValueBinder - building SimpleValue for userEmail
+[TRACE] 2018-02-17 18:41:15.445 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [email]
+[DEBUG] 2018-02-17 18:41:15.445 [main] PropertyBinder - Building property userEmail
+[TRACE] 2018-02-17 18:41:15.445 [main] PropertyBinder - Cascading userEmail with null
+[TRACE] 2018-02-17 18:41:15.445 [main] AnnotationBinder - Processing annotations of com.aarongoldbin.entity.User.userLocation
+[TRACE] 2018-02-17 18:41:15.445 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [location]
+[TRACE] 2018-02-17 18:41:15.445 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [location]
+[DEBUG] 2018-02-17 18:41:15.445 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=location, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-02-17 18:41:15.445 [main] PropertyBinder - MetadataSourceProcessor property userLocation with lazy=false
+[DEBUG] 2018-02-17 18:41:15.445 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.aarongoldbin.entity.User:userLocation]
+[DEBUG] 2018-02-17 18:41:15.445 [main] SimpleValueBinder - building SimpleValue for userLocation
+[TRACE] 2018-02-17 18:41:15.445 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [location]
+[DEBUG] 2018-02-17 18:41:15.445 [main] PropertyBinder - Building property userLocation
+[TRACE] 2018-02-17 18:41:15.445 [main] PropertyBinder - Cascading userLocation with null
+[TRACE] 2018-02-17 18:41:15.445 [main] AnnotationBinder - Processing annotations of com.aarongoldbin.entity.User.userName
+[TRACE] 2018-02-17 18:41:15.445 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user_name]
+[TRACE] 2018-02-17 18:41:15.445 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user_name]
+[DEBUG] 2018-02-17 18:41:15.445 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=user_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-02-17 18:41:15.446 [main] PropertyBinder - MetadataSourceProcessor property userName with lazy=false
+[DEBUG] 2018-02-17 18:41:15.446 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.aarongoldbin.entity.User:userName]
+[DEBUG] 2018-02-17 18:41:15.446 [main] SimpleValueBinder - building SimpleValue for userName
+[TRACE] 2018-02-17 18:41:15.446 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [user_name]
+[DEBUG] 2018-02-17 18:41:15.446 [main] PropertyBinder - Building property userName
+[TRACE] 2018-02-17 18:41:15.446 [main] PropertyBinder - Cascading userName with null
+[TRACE] 2018-02-17 18:41:15.446 [main] AnnotationBinder - Processing annotations of com.aarongoldbin.entity.User.weight
+[TRACE] 2018-02-17 18:41:15.446 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [weight]
+[TRACE] 2018-02-17 18:41:15.446 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [weight]
+[DEBUG] 2018-02-17 18:41:15.446 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=weight, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-02-17 18:41:15.446 [main] PropertyBinder - MetadataSourceProcessor property weight with lazy=false
+[DEBUG] 2018-02-17 18:41:15.446 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.aarongoldbin.entity.User:weight]
+[DEBUG] 2018-02-17 18:41:15.446 [main] SimpleValueBinder - building SimpleValue for weight
+[TRACE] 2018-02-17 18:41:15.446 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [weight]
+[TRACE] 2018-02-17 18:41:15.446 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [weight]
+[TRACE] 2018-02-17 18:41:15.446 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [weight]
+[DEBUG] 2018-02-17 18:41:15.446 [main] PropertyBinder - Building property weight
+[TRACE] 2018-02-17 18:41:15.446 [main] PropertyBinder - Cascading weight with null
+[DEBUG] 2018-02-17 18:41:15.447 [main] AnnotationBinder - Binding entity from annotated class: com.aarongoldbin.entity.Gym
+[TRACE] 2018-02-17 18:41:15.447 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [DTYPE]
+[DEBUG] 2018-02-17 18:41:15.447 [main] Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[DEBUG] 2018-02-17 18:41:15.447 [main] EntityBinder - Import with entity name Gym
+[TRACE] 2018-02-17 18:41:15.447 [main] InFlightMetadataCollectorImpl - Import: Gym -> com.aarongoldbin.entity.Gym
+[TRACE] 2018-02-17 18:41:15.447 [main] InFlightMetadataCollectorImpl - Import: com.aarongoldbin.entity.Gym -> com.aarongoldbin.entity.Gym
+[TRACE] 2018-02-17 18:41:15.447 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [gym]
+[TRACE] 2018-02-17 18:41:15.447 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [gym]
+[DEBUG] 2018-02-17 18:41:15.448 [main] EntityBinder - Bind entity com.aarongoldbin.entity.Gym on table gym
+[TRACE] 2018-02-17 18:41:15.449 [main] AnnotationBinder - Processing annotations of com.aarongoldbin.entity.Gym.id
+[TRACE] 2018-02-17 18:41:15.449 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-02-17 18:41:15.449 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[DEBUG] 2018-02-17 18:41:15.450 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(gym), mappingColumn=id, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-02-17 18:41:15.450 [main] PropertyBinder - MetadataSourceProcessor property id with lazy=false
+[DEBUG] 2018-02-17 18:41:15.450 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.aarongoldbin.entity.Gym:id]
+[DEBUG] 2018-02-17 18:41:15.450 [main] SimpleValueBinder - building SimpleValue for id
+[TRACE] 2018-02-17 18:41:15.450 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-02-17 18:41:15.450 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[TRACE] 2018-02-17 18:41:15.450 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [id]
+[DEBUG] 2018-02-17 18:41:15.450 [main] PropertyBinder - Building property id
+[TRACE] 2018-02-17 18:41:15.450 [main] PropertyBinder - Cascading id with null
+[TRACE] 2018-02-17 18:41:15.450 [main] AnnotationBinder - Add generic generator with name: native
+[TRACE] 2018-02-17 18:41:15.450 [main] AnnotationBinder - Bind @Id on id
+[TRACE] 2018-02-17 18:41:15.450 [main] AnnotationBinder - Processing annotations of com.aarongoldbin.entity.Gym.gymName
+[TRACE] 2018-02-17 18:41:15.450 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [gym_name]
+[TRACE] 2018-02-17 18:41:15.450 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [gym_name]
+[DEBUG] 2018-02-17 18:41:15.450 [main] Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(gym), mappingColumn=gym_name, insertable=true, updatable=true, unique=false}
+[DEBUG] 2018-02-17 18:41:15.450 [main] PropertyBinder - MetadataSourceProcessor property gymName with lazy=false
+[DEBUG] 2018-02-17 18:41:15.450 [main] AbstractPropertyHolder - Attempting to locate auto-apply AttributeConverter for property [com.aarongoldbin.entity.Gym:gymName]
+[DEBUG] 2018-02-17 18:41:15.451 [main] SimpleValueBinder - building SimpleValue for gymName
+[TRACE] 2018-02-17 18:41:15.451 [main] NormalizingIdentifierHelperImpl - Normalizing identifier quoting [gym_name]
+[DEBUG] 2018-02-17 18:41:15.451 [main] PropertyBinder - Building property gymName
+[TRACE] 2018-02-17 18:41:15.451 [main] PropertyBinder - Cascading gymName with null
+[DEBUG] 2018-02-17 18:41:15.451 [main] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2018-02-17 18:41:15.452 [main] SimpleValueBinder - Starting fillSimpleValue for dob
+[DEBUG] 2018-02-17 18:41:15.452 [main] SimpleValueBinder - Starting fillSimpleValue for firstName
+[DEBUG] 2018-02-17 18:41:15.452 [main] SimpleValueBinder - Starting fillSimpleValue for height
+[DEBUG] 2018-02-17 18:41:15.452 [main] SimpleValueBinder - Starting fillSimpleValue for lastName
+[DEBUG] 2018-02-17 18:41:15.452 [main] SimpleValueBinder - Starting fillSimpleValue for password
+[DEBUG] 2018-02-17 18:41:15.452 [main] SimpleValueBinder - Starting fillSimpleValue for sex
+[DEBUG] 2018-02-17 18:41:15.452 [main] SimpleValueBinder - Starting fillSimpleValue for userEmail
+[DEBUG] 2018-02-17 18:41:15.452 [main] SimpleValueBinder - Starting fillSimpleValue for userLocation
+[DEBUG] 2018-02-17 18:41:15.452 [main] SimpleValueBinder - Starting fillSimpleValue for userName
+[DEBUG] 2018-02-17 18:41:15.452 [main] SimpleValueBinder - Starting fillSimpleValue for weight
+[DEBUG] 2018-02-17 18:41:15.452 [main] SimpleValueBinder - Starting fillSimpleValue for id
+[DEBUG] 2018-02-17 18:41:15.452 [main] SimpleValueBinder - Starting fillSimpleValue for gymName
+[DEBUG] 2018-02-17 18:41:15.454 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [user]
+[DEBUG] 2018-02-17 18:41:15.454 [main] PrimaryKey - Forcing column [id] to be non-null as it is part of the primary key for table [gym]
+[DEBUG] 2018-02-17 18:41:15.459 [main] InFlightMetadataCollectorImpl - Ignoring exception thrown when trying to build IdentifierGenerator as part of Metadata building
+[TRACE] 2018-02-17 18:41:15.473 [main] BatchFetchStyle - Interpreting BatchFetchStyle from setting : null
+[TRACE] 2018-02-17 18:41:15.475 [main] AbstractServiceRegistryImpl - Initializing service [role=org.hibernate.resource.transaction.spi.TransactionCoordinatorBuilder]
