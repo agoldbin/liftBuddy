@@ -29,6 +29,7 @@ public class SessionFactoryProvider {
      * Create session factory.
      */
     public static void createSessionFactory() {
+
         StandardServiceRegistry standardRegistry =
                 new StandardServiceRegistryBuilder().configure().build();
         Metadata metaData =
