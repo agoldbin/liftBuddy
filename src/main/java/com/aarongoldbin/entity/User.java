@@ -26,7 +26,6 @@ public class User {
     private String userEmail;
 
     //   TODO Check how to pull gym name from gym table or if it is unneeded in this class
-//    @Transient
     @ManyToOne
     private Gym gym;
 
