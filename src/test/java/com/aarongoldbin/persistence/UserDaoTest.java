@@ -5,6 +5,7 @@ import com.aarongoldbin.test.util.Database;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.time.LocalDate;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -61,15 +62,14 @@ class UserDaoTest {
     void insertWithProfileSuccess() {
 
 //        TODO fix up the insert profile statement
-/*        User newUser = new User("TMoney", "teddymo@gmail.com", "53219", "superdupersecret7");
-        Profile profile = new Profile("Ted", "Moseby", 205, "5'10", 19, "M", null,1, newUser.getId());
+        User newUser = new User("teddymo@gmail.com","superdupersecret7","TMoney","Ted","Mosby",null,"53219", LocalDate.parse("1978-04-25"),"5'10",205,"M");
         int id = dao.insert(newUser);
         assertNotEquals(0,id);
         User insertedUser = dao.getById(id);
         assertEquals("TMoney", insertedUser.getUserName());
         assertEquals("teddymo@gmail.com", insertedUser.getUserEmail());
         assertEquals("53219", insertedUser.getUserLocation());
-*/
+
         // TODO review .equals recommendations http://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#mapping-model-pojo-equalshashcode
     }
 
