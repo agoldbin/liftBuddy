@@ -26,8 +26,8 @@ public class User {
     private String userEmail;
 
     //   TODO Check how to pull gym name from gym table or if it is unneeded in this class
-//    @ManyToOne
-    @Transient
+//    @Transient
+    @ManyToOne
     private Gym gym;
 
     //    TODO Decide if location will be zip, city or both
@@ -43,7 +43,7 @@ public class User {
     @Column(name = "last_name")
     private String lastName;
 
-    private int height;
+    private String height;
     private int weight;
     private String sex;
     private LocalDate dob;
@@ -56,32 +56,31 @@ public class User {
 
     /**
      * Instantiates a new User.
-     *
-     * @param userName     the user name
-     * @param userEmail    the user email
-     * @param gym          the gym
-     * @param userLocation the user location
+     *  @param userEmail    the user email
      * @param password     the password
+     * @param userName     the user name
      * @param firstName    the first name
      * @param lastName     the last name
+     * @param gym          the gym
+     * @param userLocation the user location
+     * @param dob          the dob
      * @param height       the height
      * @param weight       the weight
      * @param sex          the sex
-     * @param dob          the dob
      */
-    public User(String userName, String userEmail, Gym gym, String userLocation, String password, String firstName,
-                String lastName, int height, int weight, String sex, LocalDate dob) {
-        this.userName = userName;
+    public User(String userEmail, String password, String userName, String firstName, String lastName
+            , Gym gym, String userLocation, LocalDate dob, String height, int weight, String sex) {
         this.userEmail = userEmail;
-        this.gym = gym;
-        this.userLocation = userLocation;
         this.password = password;
+        this.userName = userName;
         this.firstName = firstName;
         this.lastName = lastName;
+        this.gym = gym;
+        this.userLocation = userLocation;
+        this.dob = dob;
         this.height = height;
         this.weight = weight;
         this.sex = sex;
-        this.dob = dob;
     }
 
     @Override
@@ -90,7 +89,7 @@ public class User {
                 "id=" + id +
                 ", userName='" + userName + '\'' +
                 ", userEmail='" + userEmail + '\'' +
-                ", gym=" + gym +
+                ", gymId=" + gym +
                 ", userLocation='" + userLocation + '\'' +
                 ", password='" + password + '\'' +
                 ", firstName='" + firstName + '\'' +
@@ -251,7 +250,7 @@ public class User {
      *
      * @return the height
      */
-    public int getHeight() {
+    public String getHeight() {
         return height;
     }
 
@@ -260,7 +259,7 @@ public class User {
      *
      * @param height the height
      */
-    public void setHeight(int height) {
+    public void setHeight(String height) {
         this.height = height;
     }
 

@@ -17,7 +17,7 @@ public class Gym {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
-//    @OneToMany(mappedBy = "gymId", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "gymId", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     private Set<Integer> id = new HashSet<>();
 
     @Column(name = "gym_name")
