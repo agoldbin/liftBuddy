@@ -17,17 +17,19 @@ public class Gym {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
-    @OneToMany(mappedBy = "gymId", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
-    private Set<Integer> id = new HashSet<>();
+    private int id;
 
     @Column(name = "gym_name")
     private String gymName;
 
-    public Set<Integer> getId() {
+    @OneToMany(mappedBy = "gym", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
+    private Set<User> users = new HashSet<>();
+
+    public int getId() {
         return id;
     }
 
-    public void setId(Set<Integer> id) {
+    public void setId(int id) {
         this.id = id;
     }
 
