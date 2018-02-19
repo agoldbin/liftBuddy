@@ -4,7 +4,7 @@
 
 <script type="text/javascript" class="init">
     $(document).ready( function () {
-        $('#userTable').DataTable();
+        $('#searchTable').DataTable();
     } );
 </script>
 
@@ -13,30 +13,43 @@
 
 <div class="container-fluid">
     <h2>Search Results: </h2>
-    <table id="userTable" class="display" cellspacing="0" width="100%">
+    <table id="searchTable" class="display" cellspacing="0" width="100%">
         <thead>
-        <th>Gym</th>
         <th>Name</th>
         <th>User Name</th>
         <th>Age</th>
+        <th>Gym</th>
         <th>Location</th>
         </thead>
         <tbody>
-        <c:forEach var="gym" items="${gyms}">
+        <c:forEach var="user" items="${users}">
             <tr>
-                <td>${gym.gymName}</td>
-                <td>
-                <c:forEach var="user" items="${gym.users}">
-                    ${user.firstName} ${user.lastName}
-                    ${user.userName}
-                    ${user.age}
-                    ${user.location}
+                <td>${user.firstName} ${user.lastName}</td>
+                <td>${user.userName}</td>
+                <td>${user.age}</td>
+                <c:forEach var="gym" items="${gyms}">
+                    <td>${gym.gymName}</td>
                 </c:forEach>
-                </td>
+                <td>${user.location}</td>
             </tr>
-
-
         </c:forEach>
+
+        <!--
+                <c:forEach var="gym" items="${gyms}">
+                    <tr>
+                        <td>${gym.gymName}</td>
+                        <c:forEach var="user" items="${gym.users}">
+                            <tr>
+
+                            <td>${user.firstName} ${user.lastName}</td>
+                            <td>${user.userName}</td>
+                            <td>${user.age}</td>
+                            <td>${user.location}</td>
+                            </tr>
+                        </c:forEach>
+                    </tr>
+                </c:forEach>
+        -->
         </tbody>
     </table>
 </div>
