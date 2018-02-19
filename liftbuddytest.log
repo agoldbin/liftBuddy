@@ -254,3 +254,13 @@
 [DEBUG] 2018-02-19 04:53:13.998 [main] UserDao - Searching for user with location = 71
 [DEBUG] 2018-02-19 04:53:14.065 [main] UserDao - Searching for user with lastName = Curry
 [DEBUG] 2018-02-19 04:53:14.099 [main] UserDao - Searching for user with userName = c
+[DEBUG] 2018-02-19 04:53:34.815 [http-nio-8080-exec-9] GymDao - The list of gyms [com.aarongoldbin.entity.Gym@600eb7b7, com.aarongoldbin.entity.Gym@1754adbe, com.aarongoldbin.entity.Gym@7b5ad4d1, com.aarongoldbin.entity.Gym@3e46b9aa, com.aarongoldbin.entity.Gym@5b7b6926, com.aarongoldbin.entity.Gym@697016aa]
+[DEBUG] 2018-02-19 04:54:08.741 [http-nio-8080-exec-2] GymDao - Searching for gyms with gymName = e
+[DEBUG] 2018-02-19 05:24:32.325 [main] GenericDao - Searching for class com.aarongoldbin.entity.Gym with gymName LIKE ymca
+[DEBUG] 2018-02-19 05:24:32.363 [main] GenericDao - Searching for class com.aarongoldbin.entity.Gym with gymName LIKE c
+[DEBUG] 2018-02-19 05:29:31.236 [main] GenericDao - Searching for class com.aarongoldbin.entity.User with location LIKE 71
+[DEBUG] 2018-02-19 05:29:31.534 [main] GenericDao - Searching for class com.aarongoldbin.entity.User with lastName LIKE Curry
+[DEBUG] 2018-02-19 05:29:31.566 [main] GenericDao - Searching for class com.aarongoldbin.entity.User with userName LIKE c
+[DEBUG] 2018-02-19 05:34:56.594 [main] GenericDao - Searching for class com.aarongoldbin.entity.User with location LIKE 71
+[DEBUG] 2018-02-19 05:34:56.860 [main] GenericDao - Searching for class com.aarongoldbin.entity.User with lastName LIKE Curry
+[DEBUG] 2018-02-19 05:34:56.900 [main] GenericDao - Searching for class com.aarongoldbin.entity.User with userName LIKE c

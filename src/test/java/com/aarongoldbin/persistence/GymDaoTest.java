@@ -12,6 +12,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class GymDaoTest {
 
     GymDao dao;
+    GenericDao genericDao;
 
     /**
      * Run set up tasks before each test:
@@ -21,6 +22,7 @@ class GymDaoTest {
     @BeforeEach
     void setUp() {
         dao = new GymDao();
+        genericDao = new GenericDao(Gym.class);
 
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
@@ -31,7 +33,7 @@ class GymDaoTest {
      */
     @Test
     void getByIdSuccess() {
-        Gym retrievedGym = dao.getById(1);
+        Gym retrievedGym = (Gym) genericDao.getById(1);
         assertEquals("YMCA", retrievedGym.getGymName());
         assertEquals(1, retrievedGym.getId());
     }
@@ -42,13 +44,10 @@ class GymDaoTest {
     @Test
     void insertSuccess() {
         Gym newGym = new Gym("Gold's Gym");
-        int id = dao.insert(newGym);
+        int id = genericDao.insert(newGym);
         assertNotEquals(0,id);
-        Gym insertedGym = dao.getById(id);
+        Gym insertedGym = (Gym) genericDao.getById(id);
         assertEquals("Gold's Gym", insertedGym.getGymName());
-        // Could continue comparing all values, but
-        // it may make sense to use .equals()
-        // TODO review .equals recommendations http://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#mapping-model-pojo-equalshashcode
     }
 
     /**
@@ -56,8 +55,8 @@ class GymDaoTest {
      */
     @Test
     void deleteSuccess() {
-        dao.delete(dao.getById(3));
-        assertNull(dao.getById(3));
+        genericDao.delete(genericDao.getById(3));
+        assertNull(genericDao.getById(3));
 
     }
 
@@ -66,7 +65,7 @@ class GymDaoTest {
      */
     @Test
     void getAllSuccess() {
-        List<Gym> gyms = dao.getAll();
+        List<Gym> gyms = genericDao.getAll();
         assertEquals(6, gyms.size());
     }
 
@@ -76,10 +75,10 @@ class GymDaoTest {
     @Test
     void updateSuceess() {
         String newGymName = "Capital Fitness";
-        Gym gymToUpdate = dao.getById(3);
+        Gym gymToUpdate = (Gym) genericDao.getById(3);
         gymToUpdate.setGymName(newGymName);
-        dao.saveOrUpdate(gymToUpdate);
-        Gym retrivedGym = dao.getById(3);
+        genericDao.saveOrUpdate(gymToUpdate);
+        Gym retrivedGym = (Gym) genericDao.getById(3);
         assertEquals(newGymName, retrivedGym.getGymName());
     }
 
@@ -88,7 +87,7 @@ class GymDaoTest {
      */
     @Test
     void getByPropertyEqualSuccess() {
-        List<Gym> gyms = dao.getByPropertyLike("gymName", "ymca");
+        List<Gym> gyms = genericDao.getByPropertyLike("gymName", "ymca");
         assertEquals(1, gyms.size());
         assertEquals(1, gyms.get(0).getId());
     }
@@ -98,7 +97,7 @@ class GymDaoTest {
      */
     @Test
     void getByPropertyLikeSuccess() {
-        List<Gym> gyms = dao.getByPropertyLike("gymName", "c");
+        List<Gym> gyms = genericDao.getByPropertyLike("gymName", "c");
         assertEquals(2, gyms.size());
         assertEquals(3, gyms.get(1).getId());
     }
