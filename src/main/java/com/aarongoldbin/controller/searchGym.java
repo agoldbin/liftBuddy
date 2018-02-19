@@ -39,7 +39,7 @@ public class searchGym extends HttpServlet {
             req.setAttribute("users", gymDao.getAllGyms());
         }
 
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/userResults.jsp");
         dispatcher.forward(req, resp);
     }
 }

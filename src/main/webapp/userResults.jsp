@@ -1,5 +1,5 @@
 <%@include file="taglib.jsp"%>
-<c:set var="title" value="Query Results" />
+<c:set var="title" value="User Query Results" />
 <%@include file="head.jsp"%>
 
 <script type="text/javascript" class="init">
@@ -27,29 +27,10 @@
                 <td>${user.firstName} ${user.lastName}</td>
                 <td>${user.userName}</td>
                 <td>${user.age}</td>
-                <c:forEach var="gym" items="${gyms}">
-                    <td>${gym.gymName}</td>
-                </c:forEach>
+                <td>${user.gymName}</td>
                 <td>${user.location}</td>
             </tr>
         </c:forEach>
-
-        <!--
-                <c:forEach var="gym" items="${gyms}">
-                    <tr>
-                        <td>${gym.gymName}</td>
-                        <c:forEach var="user" items="${gym.users}">
-                            <tr>
-
-                            <td>${user.firstName} ${user.lastName}</td>
-                            <td>${user.userName}</td>
-                            <td>${user.age}</td>
-                            <td>${user.location}</td>
-                            </tr>
-                        </c:forEach>
-                    </tr>
-                </c:forEach>
-        -->
         </tbody>
     </table>
 </div>
