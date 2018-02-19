@@ -73,3 +73,13 @@
 [DEBUG] 2018-02-18 18:02:35.223 [main] UserDao - Searching for user with userName = c
 [DEBUG] 2018-02-18 18:05:00.490 [main] UserDao - The list of users [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@7cab1508, userLocation='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, weight=180, sex='M', dob=1964-04-01}, User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@7cab1508, userLocation='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, weight=120, sex='M', dob=1988-05-08}, User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@3bb8aabc, userLocation='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, weight=190, sex='M', dob=1947-11-11}, User{id=4, userName='kmack', userEmail='mackattack@aol.com', gym=com.aarongoldbin.entity.Gym@287f7811, userLocation='53594', password='supersecret4', firstName='Karen', lastName='Mack', height=6'0, weight=172, sex='F', dob=1986-07-08}, User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@3051e0b2, userLocation='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, weight=156, sex='F', dob=1991-09-22}, User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@2d5f7182, userLocation='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, weight=175, sex='F', dob=1979-08-03}]
 [DEBUG] 2018-02-18 18:05:00.599 [main] UserDao - Searching for user with userName = c
+[DEBUG] 2018-02-18 19:24:56.232 [main] GymDao - The list of gyms [com.aarongoldbin.entity.Gym@352e787a, com.aarongoldbin.entity.Gym@159a48a6, com.aarongoldbin.entity.Gym@15bc339, com.aarongoldbin.entity.Gym@7e75bf2d, com.aarongoldbin.entity.Gym@385ef531, com.aarongoldbin.entity.Gym@7fc645e4]
+[DEBUG] 2018-02-18 19:24:56.293 [main] GymDao - Searching for gyms with gymName = ymca
+[DEBUG] 2018-02-18 19:24:56.330 [main] GymDao - Searching for gyms with gymName = c
+[DEBUG] 2018-02-18 19:29:00.911 [main] GymDao - Searching for gyms with gymName = ymca
+[DEBUG] 2018-02-18 19:29:43.474 [main] GymDao - Searching for gyms with gymName = ymca
+[DEBUG] 2018-02-18 19:30:25.517 [main] GymDao - Searching for gyms with gymName = ymca
+[DEBUG] 2018-02-18 19:30:25.767 [main] GymDao - Searching for gyms with gymName = ymca
+[DEBUG] 2018-02-18 19:30:46.555 [main] GymDao - Searching for gyms with gymName = ymca
+[DEBUG] 2018-02-18 19:30:50.037 [main] GymDao - Searching for gyms with gymName = c
+[DEBUG] 2018-02-18 19:31:23.229 [main] GymDao - Searching for gyms with gymName = c

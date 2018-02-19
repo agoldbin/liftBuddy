@@ -1,11 +1,10 @@
 package com.aarongoldbin.persistence;
 
-import com.aarongoldbin.entity.User;
+import com.aarongoldbin.entity.Gym;
 import com.aarongoldbin.test.util.Database;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.time.LocalDate;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -14,7 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class GymDaoTest {
 
-    UserDao dao;
+    GymDao dao;
 
     /**
      * Run set up tasks before each test:
@@ -23,75 +22,67 @@ class GymDaoTest {
      */
     @BeforeEach
     void setUp() {
-        dao = new UserDao();
+        dao = new GymDao();
 
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
     }
 
     /**
-     * Verify successful retrieval of a user
+     * Verify successful retrieval of a gym
      */
     @Test
     void getByIdSuccess() {
- /*       User retrievedUser = dao.getById(3);
-        assertEquals("Barney", retrievedUser.getFirstName());
-        assertEquals("Curry", retrievedUser.getLastName());
-        assertEquals("bcurry", retrievedUser.getUserName());
-        assertEquals(LocalDate.parse("1947-11-11"), retrievedUser.getDob());
-        assertEquals(3, retrievedUser.getId());
-   */
+        Gym retrievedGym = dao.getByGymId(1);
+        assertEquals("YMCA", retrievedGym.getGymName());
+        assertEquals(1, retrievedGym.getId());
     }
 
     /**
-     * Verify successful insert of a user
+     * Verify successful insert of a gym
      */
     @Test
     void insertSuccess() {
-/*
-        User newUser = new User("Fred", "Flintstone", "fflintstone", LocalDate.parse("1968-01-01"));
-        int id = dao.insert(newUser);
+        Gym newGym = new Gym("Gold's Gym");
+        int id = dao.insert(newGym);
         assertNotEquals(0,id);
-        User insertedUser = dao.getById(id);
-        assertEquals("Fred", insertedUser.getFirstName());
+        Gym insertedGym = dao.getByGymId(id);
+        assertEquals("Gold's Gym", insertedGym.getGymName());
         // Could continue comparing all values, but
         // it may make sense to use .equals()
         // TODO review .equals recommendations http://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#mapping-model-pojo-equalshashcode
-  */
     }
 
     /**
-     * Verify successful delete of user
+     * Verify successful delete of a gym
      */
     @Test
     void deleteSuccess() {
- /*       dao.delete(dao.getById(3));
-        assertNull(dao.getById(3));
-   */
+        dao.delete(dao.getByGymId(3));
+        assertNull(dao.getByGymId(3));
+
     }
 
     /**
-     * Verify successful retrieval of all users
+     * Verify successful retrieval of all gyms
      */
     @Test
     void getAllSuccess() {
-  /*      List<User> users = dao.getAll();
-        assertEquals(6, users.size());
-    */
+        List<Gym> gyms = dao.getAll();
+        assertEquals(6, gyms.size());
     }
 
     /**
-     * Verify successful update of user.
+     * Verify successful update of a gym
      */
     @Test
     void updateSuceess() {
-  /*      String newLastName = "Davis";
-        User userToUpdate = dao.getById(3);
-        userToUpdate.setLastName(newLastName);
-        dao.saveOrUpdate(userToUpdate);
-        User retrievedUser = dao.getById(3);
-        assertEquals(newLastName, retrievedUser.getLastName());
-    */
+        String newGymName = "Capital Fitness";
+        Gym gymToUpdate = dao.getByGymId(3);
+        gymToUpdate.setGymName(newGymName);
+        dao.saveOrUpdate(gymToUpdate);
+        Gym retrivedGym = dao.getByGymId(3);
+        assertEquals(newGymName, retrivedGym.getGymName());
     }
 
     /**
@@ -99,10 +90,9 @@ class GymDaoTest {
      */
     @Test
     void getByPropertyEqualSuccess() {
-    /*    List<User> users = dao.getByPropertyLike("lastName", "Curry");
-        assertEquals(1, users.size());
-        assertEquals(3, users.get(0).getId());
-    */
+        List<Gym> gyms = dao.getByPropertyLike("gymName", "ymca");
+        assertEquals(1, gyms.size());
+        assertEquals(1, gyms.get(0).getId());
     }
 
     /**
@@ -110,8 +100,8 @@ class GymDaoTest {
      */
     @Test
     void getByPropertyLikeSuccess() {
-    /*    List<User> users = dao.getByPropertyLike("lastName", "c");
-        assertEquals(3, users.size());
-    */
+        List<Gym> gyms = dao.getByPropertyLike("gymName", "c");
+        assertEquals(2, gyms.size());
+        assertEquals(3, gyms.get(1).getId());
     }
 }
