@@ -46,7 +46,7 @@ class UserDaoTest {
     @Test
     void insertNewUserSuccess() {
         GymDao gymDao = new GymDao();
-        Gym gym = gymDao.getByGymId(1);
+        Gym gym = gymDao.getById(1);
         User newUser = new User("teddymo@gmail.com","superdupersecret7","TMoney","Ted","Mosby", gym,"53219", LocalDate.parse("1978-04-25"),"5'10",205,"M");
         gym.addUser(newUser);
         int id = dao.insert(newUser);
@@ -118,14 +118,5 @@ class UserDaoTest {
         List<User> users = dao.getByPropertyLike("location", "71");
         assertEquals(3, users.size());
         assertEquals(6, users.get(2).getId());
-    }
-
-    /**
-     * Verify that all users are successfully found
-     */
-    @Test
-    void getAllUsersSuccess() {
-        List<User> users = dao.getAllUsers();
-        assertEquals(6, users.size());
     }
 }

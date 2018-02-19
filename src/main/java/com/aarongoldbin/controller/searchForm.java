@@ -1,5 +1,7 @@
 package com.aarongoldbin.controller;
 
+import com.aarongoldbin.entity.User;
+import com.aarongoldbin.entity.Gym;
 import com.aarongoldbin.persistence.UserDao;
 import com.aarongoldbin.persistence.GymDao;
 import org.apache.logging.log4j.LogManager;
@@ -9,6 +11,9 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * A servlet to searchForm for users
@@ -17,11 +22,12 @@ import java.io.IOException;
  */
 
 @WebServlet(
-        urlPatterns = {"/searchUser"}
+        urlPatterns = {"/searchForm"}
 )
 
 public class searchForm extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         UserDao userDao = new UserDao();
@@ -29,7 +35,7 @@ public class searchForm extends HttpServlet {
 
         String searchType;
         String searchTerm;
-        String formAction = req.getParameter("searchForm");
+        String formAction = req.getParameter("submit");
 
         switch (formAction) {
             case "search":
@@ -37,13 +43,15 @@ public class searchForm extends HttpServlet {
                 searchTerm = req.getParameter("searchTerm");
                 switch (searchType) {
                     case "id":
-                        userDao.getByPropertyLike("id", searchTerm);
+                        List<User> users = new ArrayList<User>(Arrays.asList(userDao.getById(Integer.parseInt(searchTerm))));
+                        req.setAttribute("users", users);
+//                        userDao.getByPropertyLike("id", searchTerm);
                         break;
                     case "lastName":
-                        userDao.getByPropertyLike("lastName", searchTerm);
+                        req.setAttribute("users", userDao.getAllUsersByLastName(searchTerm));
                         break;
                     case "gymName":
-                        gymDao.getByPropertyLike("gymName", searchTerm);
+                        req.setAttribute("gyms", gymDao.getByPropertyLike("gymName", searchTerm));
                         break;
                     default:
                         logger.info("Error in searchForm. Unexpected Search Term. "
@@ -52,16 +60,23 @@ public class searchForm extends HttpServlet {
                         ;
                 }
             case "viewAllUsers":
-                userDao.getAllUsers();
+                req.setAttribute("users", userDao.getAll());
+//           userDao.getAllUsers();
                 break;
             case "viewAllGyms":
-                gymDao.getAllGyms();
+                req.setAttribute("gyms", gymDao.getAll());
+//                gymDao.getAllGyms();
                 break;
             default:
                 logger.info("Error in searchForm. Unexpected form action: " + formAction);
-            }
-
         }
+
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
+        dispatcher.forward(req, resp);
+    }
+}
+
+
 /*
 
 
@@ -96,5 +111,3 @@ public class searchForm extends HttpServlet {
         dispatcher.forward(req, resp);
 
 */
-
-}

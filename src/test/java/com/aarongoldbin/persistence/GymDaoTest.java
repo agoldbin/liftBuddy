@@ -31,7 +31,7 @@ class GymDaoTest {
      */
     @Test
     void getByIdSuccess() {
-        Gym retrievedGym = dao.getByGymId(1);
+        Gym retrievedGym = dao.getById(1);
         assertEquals("YMCA", retrievedGym.getGymName());
         assertEquals(1, retrievedGym.getId());
     }
@@ -44,7 +44,7 @@ class GymDaoTest {
         Gym newGym = new Gym("Gold's Gym");
         int id = dao.insert(newGym);
         assertNotEquals(0,id);
-        Gym insertedGym = dao.getByGymId(id);
+        Gym insertedGym = dao.getById(id);
         assertEquals("Gold's Gym", insertedGym.getGymName());
         // Could continue comparing all values, but
         // it may make sense to use .equals()
@@ -56,8 +56,8 @@ class GymDaoTest {
      */
     @Test
     void deleteSuccess() {
-        dao.delete(dao.getByGymId(3));
-        assertNull(dao.getByGymId(3));
+        dao.delete(dao.getById(3));
+        assertNull(dao.getById(3));
 
     }
 
@@ -66,7 +66,7 @@ class GymDaoTest {
      */
     @Test
     void getAllSuccess() {
-        List<Gym> gyms = dao.getAllGyms();
+        List<Gym> gyms = dao.getAll();
         assertEquals(6, gyms.size());
     }
 
@@ -76,10 +76,10 @@ class GymDaoTest {
     @Test
     void updateSuceess() {
         String newGymName = "Capital Fitness";
-        Gym gymToUpdate = dao.getByGymId(3);
+        Gym gymToUpdate = dao.getById(3);
         gymToUpdate.setGymName(newGymName);
         dao.saveOrUpdate(gymToUpdate);
-        Gym retrivedGym = dao.getByGymId(3);
+        Gym retrivedGym = dao.getById(3);
         assertEquals(newGymName, retrivedGym.getGymName());
     }
 

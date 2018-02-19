@@ -42,7 +42,7 @@ public class GymDao {
      *
      * @return a user
      */
-    public Gym getByGymId(int gymId) {
+    public Gym getById(int gymId) {
         Session session = sessionFactory.openSession();
         Gym gym = session.get(Gym.class, gymId);
         session.close();
@@ -96,7 +96,7 @@ public class GymDao {
      *
      * @return All gym names
      */
-    public List<Gym> getAllGyms() {
+    public List<Gym> getAll() {
         Session session = sessionFactory.openSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<Gym> query = builder.createQuery(Gym.class);
