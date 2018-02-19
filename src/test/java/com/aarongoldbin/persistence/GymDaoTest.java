@@ -9,8 +9,6 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-// TODO update this file. Was just copypastad from week1, test set up is incorrect
-
 class GymDaoTest {
 
     GymDao dao;

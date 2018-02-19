@@ -30,8 +30,7 @@ public class User {
     private Gym gym;
 
     //    TODO Decide if location will be zip, city or both
-    @Column(name = "location")
-    private String userLocation;
+    private String location;
 
     //    TODO is password needed to be stored? How to store a password hash
     private String password;
@@ -61,21 +60,21 @@ public class User {
      * @param firstName    the first name
      * @param lastName     the last name
      * @param gym        the gymId
-     * @param userLocation the user location
+     * @param location the user location
      * @param dob          the dob
      * @param height       the height
      * @param weight       the weight
      * @param sex          the sex
      */
     public User(String userEmail, String password, String userName, String firstName, String lastName
-            , Gym gym, String userLocation, LocalDate dob, String height, int weight, String sex) {
+            , Gym gym, String location, LocalDate dob, String height, int weight, String sex) {
         this.userEmail = userEmail;
         this.password = password;
         this.userName = userName;
         this.firstName = firstName;
         this.lastName = lastName;
         this.gym = gym;
-        this.userLocation = userLocation;
+        this.location = location;
         this.dob = dob;
         this.height = height;
         this.weight = weight;
@@ -89,7 +88,7 @@ public class User {
                 ", userName='" + userName + '\'' +
                 ", userEmail='" + userEmail + '\'' +
                 ", gym=" + gym +
-                ", userLocation='" + userLocation + '\'' +
+                ", location='" + location + '\'' +
                 ", password='" + password + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
@@ -177,17 +176,17 @@ public class User {
      *
      * @return the user location
      */
-    public String getUserLocation() {
-        return userLocation;
+    public String getLocation() {
+        return location;
     }
 
     /**
      * Sets user location.
      *
-     * @param userLocation the user location
+     * @param location the user location
      */
-    public void setUserLocation(String userLocation) {
-        this.userLocation = userLocation;
+    public void setLocation(String location) {
+        this.location = location;
     }
 
     /**
