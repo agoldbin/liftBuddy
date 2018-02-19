@@ -4,6 +4,7 @@ import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.time.Period;
 
 /**
  * A class to represent a user
@@ -315,5 +316,15 @@ public class User {
         this.dob = dob;
     }
 
+    /**
+     * Gets age.
+     *
+     * @return the age
+     */
+    public int getAge() {
+        LocalDate now = LocalDate.now();
+        Period period = Period.between(getDob(), now);
 
+        return period.getYears();
+    }
 }

@@ -21,9 +21,9 @@ public class GymDao {
      * Method to return all gym names in the DB
      *
      * @param gymName
-     * @return names of gyms in DB based on users search
+     * @return names of gyms in DB based on users searchForm
      */
-    public List<Gym> getGymByName(String gymName) {
+    public List<Gym> getByGymName(String gymName) {
         Session session = sessionFactory.openSession();
 
         CriteriaBuilder builder = session.getCriteriaBuilder();
@@ -96,7 +96,7 @@ public class GymDao {
      *
      * @return All gym names
      */
-    public List<Gym> getAll() {
+    public List<Gym> getAllGyms() {
         Session session = sessionFactory.openSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<Gym> query = builder.createQuery(Gym.class);
