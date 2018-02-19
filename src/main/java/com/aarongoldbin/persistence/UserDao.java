@@ -10,10 +10,38 @@ import org.hibernate.Transaction;
 import javax.persistence.criteria.*;
 import java.util.List;
 
+/**
+ * The type User dao.
+ */
 public class UserDao {
     private final Logger logger = LogManager.getLogger(this.getClass());
+    /**
+     * The Session factory.
+     */
     SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
 
+    /**
+     * Gets all users.
+     *
+     * @return the all users
+     */
+    public List<User> getAllUsers() {
+
+        Session session = sessionFactory.openSession();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<User> query = builder.createQuery(User.class);
+        Root<User> root = query.from(User.class);
+        List<User> users = session.createQuery(query).getResultList();
+        session.close();
+        return users;
+    }
+
+    /**
+     * Gets all users by last name.
+     *
+     * @param lastName the last name
+     * @return the all users by last name
+     */
     public List<User> getAllUsersByLastName(String lastName) {
         Session session = sessionFactory.openSession();
 
@@ -31,6 +59,7 @@ public class UserDao {
     /**
      * Gets a user by id
      *
+     * @param id the id
      * @return a user
      */
     public User getById(int id) {
@@ -57,6 +86,7 @@ public class UserDao {
      * update user
      *
      * @param user User to be inserted or updated
+     * @return the int
      */
     public int insert(User user) {
         int id = 0;
@@ -105,6 +135,10 @@ public class UserDao {
     /**
      * Get user by property (exact match)
      * sample usage: getByPropertyEqual("lastname", "Curry")
+     *
+     * @param propertyName the property name
+     * @param value        the value
+     * @return the by property equal
      */
     public List<User> getByPropertyEqual(String propertyName, String value) {
         Session session = sessionFactory.openSession();
@@ -124,6 +158,10 @@ public class UserDao {
     /**
      * Get user by property (like)
      * sample usage: getByPropertyLike("lastname", "C")
+     *
+     * @param propertyName the property name
+     * @param value        the value
+     * @return the by property like
      */
     public List<User> getByPropertyLike(String propertyName, String value) {
         Session session = sessionFactory.openSession();
