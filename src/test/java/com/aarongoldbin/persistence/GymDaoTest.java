@@ -66,7 +66,7 @@ class GymDaoTest {
      */
     @Test
     void getAllSuccess() {
-        List<Gym> gyms = dao.getAll();
+        List<Gym> gyms = dao.getAllGyms();
         assertEquals(6, gyms.size());
     }
 
