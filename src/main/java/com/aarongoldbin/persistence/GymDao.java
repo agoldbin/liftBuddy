@@ -36,9 +36,8 @@ public class GymDao {
         return gyms;
     }
 
-//    TODO change this method to getByGym/getByLocation?
     /**
-     * Gets a user by id
+     * Gets a gym by id
      *
      * @return a user
      */

@@ -47,6 +47,9 @@ public class User {
     private String sex;
     private LocalDate dob;
 
+    @Transient
+    private String gymName;
+
     /**
      * Instantiates a new User.
      */
@@ -170,6 +173,10 @@ public class User {
      */
     public void setGym(Gym gym) {
         this.gym = gym;
+    }
+
+    public String getGymName() {
+        return gym.getGymName();
     }
 
     /**

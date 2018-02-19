@@ -45,13 +45,15 @@ public class searchForm extends HttpServlet {
                     case "id":
                         List<User> users = new ArrayList<User>(Arrays.asList(userDao.getById(Integer.parseInt(searchTerm))));
                         req.setAttribute("users", users);
-//                        userDao.getByPropertyLike("id", searchTerm);
+                        directResults(req, resp, "/userResults.jsp");
                         break;
                     case "lastName":
                         req.setAttribute("users", userDao.getAllUsersByLastName(searchTerm));
+                        directResults(req, resp, "/userResults.jsp");
                         break;
                     case "gymName":
                         req.setAttribute("gyms", gymDao.getByPropertyLike("gymName", searchTerm));
+                        directResults(req, resp, "/gymResults.jsp");
                         break;
                     default:
                         logger.info("Error in searchForm. Unexpected Search Term. "
@@ -61,53 +63,20 @@ public class searchForm extends HttpServlet {
                 }
             case "viewAllUsers":
                 req.setAttribute("users", userDao.getAll());
-//           userDao.getAllUsers();
+                directResults(req, resp, "/userResults.jsp");
                 break;
             case "viewAllGyms":
                 req.setAttribute("gyms", gymDao.getAll());
-//                gymDao.getAllGyms();
+                directResults(req, resp, "/gymResults.jsp");
                 break;
             default:
                 logger.info("Error in searchForm. Unexpected form action: " + formAction);
         }
+    }
 
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
+    private void directResults(HttpServletRequest req, HttpServletResponse resp, String url)
+            throws ServletException, IOException {
+        RequestDispatcher dispatcher = req.getRequestDispatcher(url);
         dispatcher.forward(req, resp);
     }
 }
-
-
-/*
-
-
-        if (req.getParameter("submit").equals("searchForm")) {
-
-        }
-        switch ()
-
-
-/*
-        String searchButton = "submit";
-
-
-
-        if (req.getParameter("submit").equals("searchForm")) {
-            if (req.getParameter("searchType").equals("lastName")) {
-                req.setAttribute("users", userDao.getAllUsersByLastName(req.getParameter("searchTerm")));
-            } else if (req.getParameter("searchType").equals("id")) {
-                // convert returned user id to a list
-                List<User> users = new ArrayList<User>(Arrays.asList(userDao.getById(Integer.parseInt(req.getParameter("searchTerm")))));
-                req.setAttribute("users", users);
-            } else if (req.getParameter("searchType").equals("gymName")) {
-                // convert returned user id to a list
-                List<User> users = new ArrayList<User>(Arrays.asList(userDao.getById(Integer.parseInt(req.getParameter("searchTerm")))));
-                req.setAttribute("users", users);
-            }
-        } else {
-            req.setAttribute("users", userDao.getAllGyms());
-        }
-
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
-        dispatcher.forward(req, resp);
-
-*/
