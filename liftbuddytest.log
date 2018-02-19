@@ -232,3 +232,25 @@
 [DEBUG] 2018-02-19 04:43:39.595 [main] UserDao - Searching for user with location = 71
 [DEBUG] 2018-02-19 04:43:39.677 [main] UserDao - Searching for user with lastName = Curry
 [DEBUG] 2018-02-19 04:43:39.714 [main] UserDao - Searching for user with userName = c
+[DEBUG] 2018-02-19 04:44:19.910 [http-nio-8080-exec-10] GymDao - The list of gyms [com.aarongoldbin.entity.Gym@232fc498, com.aarongoldbin.entity.Gym@1d19709c, com.aarongoldbin.entity.Gym@52227960, com.aarongoldbin.entity.Gym@76d2832d, com.aarongoldbin.entity.Gym@3fcb33ee, com.aarongoldbin.entity.Gym@6980391b]
+[DEBUG] 2018-02-19 04:47:21.272 [main] GymDao - The list of gyms [com.aarongoldbin.entity.Gym@236134a1, com.aarongoldbin.entity.Gym@369c9bb, com.aarongoldbin.entity.Gym@76d05cc9, com.aarongoldbin.entity.Gym@42b21d99, com.aarongoldbin.entity.Gym@68dcfd52, com.aarongoldbin.entity.Gym@25b5c5e3]
+[DEBUG] 2018-02-19 04:47:21.292 [main] GymDao - Searching for gyms with gymName = ymca
+[DEBUG] 2018-02-19 04:47:21.341 [main] GymDao - Searching for gyms with gymName = c
+[DEBUG] 2018-02-19 04:47:21.494 [main] UserDao - Searching for user with location = 71
+[DEBUG] 2018-02-19 04:47:21.568 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2018-02-19 04:47:21.595 [main] UserDao - Searching for user with userName = c
+[DEBUG] 2018-02-19 04:47:41.656 [http-nio-8080-exec-9] GymDao - The list of gyms [com.aarongoldbin.entity.Gym@7a16bcfb, com.aarongoldbin.entity.Gym@3d0e9a42, com.aarongoldbin.entity.Gym@5f8b53bb, com.aarongoldbin.entity.Gym@4e00a04a, com.aarongoldbin.entity.Gym@64dc573e, com.aarongoldbin.entity.Gym@2d491d6d]
+[DEBUG] 2018-02-19 04:48:33.714 [http-nio-8080-exec-4] GymDao - Searching for gyms with gymName = e
+[DEBUG] 2018-02-19 04:51:35.366 [main] GymDao - The list of gyms [com.aarongoldbin.entity.Gym@46866946, com.aarongoldbin.entity.Gym@44de0113, com.aarongoldbin.entity.Gym@236134a1, com.aarongoldbin.entity.Gym@369c9bb, com.aarongoldbin.entity.Gym@76d05cc9, com.aarongoldbin.entity.Gym@42b21d99]
+[DEBUG] 2018-02-19 04:51:35.393 [main] GymDao - Searching for gyms with gymName = ymca
+[DEBUG] 2018-02-19 04:51:35.434 [main] GymDao - Searching for gyms with gymName = c
+[DEBUG] 2018-02-19 04:51:35.577 [main] UserDao - Searching for user with location = 71
+[DEBUG] 2018-02-19 04:51:35.645 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2018-02-19 04:51:35.677 [main] UserDao - Searching for user with userName = c
+[DEBUG] 2018-02-19 04:52:21.799 [http-nio-8080-exec-1] GymDao - The list of gyms [com.aarongoldbin.entity.Gym@3b58b96b, com.aarongoldbin.entity.Gym@483fa6d9, com.aarongoldbin.entity.Gym@216a3336, com.aarongoldbin.entity.Gym@65feafef, com.aarongoldbin.entity.Gym@1b93c1da, com.aarongoldbin.entity.Gym@2eafa51f]
+[DEBUG] 2018-02-19 04:53:13.663 [main] GymDao - The list of gyms [com.aarongoldbin.entity.Gym@44de0113, com.aarongoldbin.entity.Gym@236134a1, com.aarongoldbin.entity.Gym@369c9bb, com.aarongoldbin.entity.Gym@76d05cc9, com.aarongoldbin.entity.Gym@42b21d99, com.aarongoldbin.entity.Gym@68dcfd52]
+[DEBUG] 2018-02-19 04:53:13.682 [main] GymDao - Searching for gyms with gymName = ymca
+[DEBUG] 2018-02-19 04:53:13.732 [main] GymDao - Searching for gyms with gymName = c
+[DEBUG] 2018-02-19 04:53:13.998 [main] UserDao - Searching for user with location = 71
+[DEBUG] 2018-02-19 04:53:14.065 [main] UserDao - Searching for user with lastName = Curry
+[DEBUG] 2018-02-19 04:53:14.099 [main] UserDao - Searching for user with userName = c

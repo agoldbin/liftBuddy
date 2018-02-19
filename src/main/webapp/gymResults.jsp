@@ -14,39 +14,25 @@
 <div class="container-fluid">
     <h2>Search Results: </h2>
     <table id="searchTable" class="display" cellspacing="0" width="100%">
-        <c:forEach var="gym" items="${gyms}">
-            <thead>
-                <th>Gym</th>
-                <th>Gym Goer</th>
-                <th>Age</th>
-            </thead>
-            <tbody>
-                <c:forEach var="user" items="${users}">
-                <tr>
-                    <td>${gym.gymName}</td>
-                    <td>${user.firstName} ${user.lastName}</td>
-
-                </tr>
-                </c:forEach>
-            </tbody>
-        </c:forEach>
-
-        <!--
         <thead>
         <th>Gym</th>
-        <th>Gym Goer</th>
-        <th>Age</th>
-        <th>Location</th>
+        <th>User Name</th>
+
         </thead>
         <tbody>
         <c:forEach var="gym" items="${gyms}">
             <tr>
                 <td>${gym.gymName}</td>
-                <td>$</td>
+                <td>
+                    <c:forEach var="user" items="${gym.users}">
+                        ${user.firstName} ${user.lastName}<br/>
+                    </c:forEach>
+                </td>
             </tr>
+
+
         </c:forEach>
         </tbody>
-        -->
     </table>
 </div>
 
