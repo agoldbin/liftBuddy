@@ -55,12 +55,12 @@ public class User {
 
     /**
      * Instantiates a new User.
-     *  @param userEmail    the user email
+     * @param userEmail    the user email
      * @param password     the password
      * @param userName     the user name
      * @param firstName    the first name
      * @param lastName     the last name
-     * @param gym          the gym
+     * @param gym        the gymId
      * @param userLocation the user location
      * @param dob          the dob
      * @param height       the height
@@ -88,7 +88,7 @@ public class User {
                 "id=" + id +
                 ", userName='" + userName + '\'' +
                 ", userEmail='" + userEmail + '\'' +
-                ", gymId=" + gym +
+                ", gym=" + gym +
                 ", userLocation='" + userLocation + '\'' +
                 ", password='" + password + '\'' +
                 ", firstName='" + firstName + '\'' +
@@ -315,5 +315,6 @@ public class User {
     public void setDob(LocalDate dob) {
         this.dob = dob;
     }
+
 
 }

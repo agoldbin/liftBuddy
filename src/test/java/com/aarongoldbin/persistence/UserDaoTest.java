@@ -1,5 +1,6 @@
 package com.aarongoldbin.persistence;
 
+import com.aarongoldbin.entity.Gym;
 import com.aarongoldbin.entity.User;
 import com.aarongoldbin.test.util.Database;
 import org.junit.jupiter.api.BeforeEach;
@@ -25,6 +26,7 @@ class UserDaoTest {
     void setUp() {
         dao = new UserDao();
 
+        System.out.println("@BeforeEach");
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
     }
@@ -41,28 +43,12 @@ class UserDaoTest {
         assertEquals(3, retrievedUser.getId());
     }
 
-    /**
-     * Verify successful insert of a user
-     */
     @Test
-    void insertSuccess() {
-   /*     User newUser = new User("Fred", "Flintstone", "fflintstone", LocalDate.parse("1968-01-01"));
-        int id = dao.insert(newUser);
-        assertNotEquals(0,id);
-        User insertedUser = dao.getById(id);
-//        TODO Fix next line
-        assertEquals("Fred", insertedUser.getFirstName());
-        // Could continue comparing all values, but
-        // it may make sense to use .equals()
-        // TODO review .equals recommendations http://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#mapping-model-pojo-equalshashcode
-   */
-    }
-
-    @Test
-    void insertWithProfileSuccess() {
-
-//        TODO fix up the insert profile statement
-        User newUser = new User("teddymo@gmail.com","superdupersecret7","TMoney","Ted","Mosby",null,"53219", LocalDate.parse("1978-04-25"),"5'10",205,"M");
+    void insertNewUserSuccess() {
+        GymDao gymDao = new GymDao();
+        Gym gym = gymDao.getByGymId(1);
+        User newUser = new User("teddymo@gmail.com","superdupersecret7","TMoney","Ted","Mosby", gym,"53219", LocalDate.parse("1978-04-25"),"5'10",205,"M");
+        gym.addUser(newUser);
         int id = dao.insert(newUser);
         assertNotEquals(0,id);
         User insertedUser = dao.getById(id);
@@ -96,13 +82,13 @@ class UserDaoTest {
      */
     @Test
     void updateSuceess() {
-  /*      String newLastName = "Davis";
+        String newLastName = "Davis";
         User userToUpdate = dao.getById(3);
         userToUpdate.setLastName(newLastName);
         dao.saveOrUpdate(userToUpdate);
         User retrievedUser = dao.getById(3);
         assertEquals(newLastName, retrievedUser.getLastName());
-    */}
+    }
 
     /**
      * Verify successful get by property (equal match)
