@@ -12,7 +12,8 @@ DISCLAIMER: All times are estimates as I am bad at actually tracking when I work
 | 2/12/18 | More Dao and DaoTest Setup| 2.5 hrs | Ran into an issue with MySql. Realized I was only able to log in as root and spent time trying to resolve issue. So far, nada. |
 | 2/13/18 | Still more Dao and Setup| 3 hrs | Once again had trouble getting tests to run... may just be my laptop. Will look into. |
 | 2/18/18 | Finished DaoTests, worked on result and index jsps | 6 hrs | |
-| | | | 
+| 2/21/18 | Messing with genericDao/tests| 2 | |
+| 2/22/18 | Trying to get tests/DB working again| 2 | |
 
 ---
 ####Running total: = 28 hrs
