@@ -90,7 +90,7 @@ public class Database {
         Statement stmt = null;
         ClassLoader classloader = Thread.currentThread().getContextClassLoader();
         InputStream inputStream = classloader.getResourceAsStream(sqlFile);
-       try (BufferedReader br = new BufferedReader(new InputStreamReader(inputStream))) {
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(inputStream))) {
 
             Class.forName("com.mysql.jdbc.Driver");
             connect();

@@ -49,7 +49,7 @@ class UserDaoTest {
     void insertNewUserSuccess() {
         GenericDao gymDao = new GenericDao(Gym.class);
         Gym gym = (Gym) gymDao.getById(1);
-        User newUser = new User("teddymo@gmail.com","superdupersecret7","TMoney","Ted","Mosby", gym,"53219", LocalDate.parse("1978-04-25"),"5'10",205,"M");
+        User newUser = new User("teddymo@gmail.com","superdupersecret7","TMoney","Ted","Mosby", 6,"53219", LocalDate.parse("1978-04-25"),"5'10",205,"M");
         gym.addUser(newUser);
         int id = genericDao.insert(newUser);
         assertNotEquals(0,id);
