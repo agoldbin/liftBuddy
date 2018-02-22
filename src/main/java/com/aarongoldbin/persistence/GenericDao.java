@@ -1,15 +1,20 @@
 package com.aarongoldbin.persistence;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import org.hibernate.Session;
-import org.hibernate.Transaction;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Expression;
 import javax.persistence.criteria.Root;
-import java.util.List;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
 
 /**
  * A generic DAO
@@ -90,20 +95,22 @@ public class GenericDao<T> {
     }
 
     /**
-     * Get all entities
+     * Gets all entities
      *
-     * @return list of all entities
+     * @return the all entities
      */
     public List<T> getAll() {
         Session session = getSession();
+
         CriteriaBuilder builder = session.getCriteriaBuilder();
+
         CriteriaQuery<T> query = builder.createQuery(type);
         Root<T> root = query.from(type);
         List<T> list = session.createQuery(query).getResultList();
-
         session.close();
         return list;
     }
+
 
     /**
      * Get entity by property (exact match)
@@ -115,7 +122,7 @@ public class GenericDao<T> {
      */
     public List<T> getByPropertyEqual(String propertyName, String value) {
         Session session = getSession();
-        logger.debug("Searching for {} with  {} = {}", type, propertyName, value);
+        logger.debug("Searching {} with for property {} = {}", type, propertyName, value);
 
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<T> query = builder.createQuery(type);
@@ -137,7 +144,7 @@ public class GenericDao<T> {
      */
     public List<T> getByPropertyLike(String propertyName, String value) {
         Session session = getSession();
-        logger.debug("Searching for {} with {} LIKE {}", type, propertyName, value);
+        logger.debug("Searching {} with property {} LIKE {}", type, propertyName, value);
 
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<T> query = builder.createQuery(type);

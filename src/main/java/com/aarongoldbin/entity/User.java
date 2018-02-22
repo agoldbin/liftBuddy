@@ -28,6 +28,7 @@ public class User {
 
     //   TODO Check how to pull gym name from gym table or if it is unneeded in this class
     @ManyToOne
+    @JoinColumn(name = "id")
     private Gym gym;
 
     //    TODO Decide if location will be zip, city or both
@@ -42,6 +43,7 @@ public class User {
     @Column(name = "last_name")
     private String lastName;
 
+    private int gymId;
     private String height;
     private int weight;
     private String sex;
@@ -63,21 +65,21 @@ public class User {
      * @param userName     the user name
      * @param firstName    the first name
      * @param lastName     the last name
-     * @param gym        the gymId
-     * @param location the user location
+     * @param gymId        the gymId
+     * @param location     the user location
      * @param dob          the dob
      * @param height       the height
      * @param weight       the weight
      * @param sex          the sex
      */
     public User(String userEmail, String password, String userName, String firstName, String lastName
-            , Gym gym, String location, LocalDate dob, String height, int weight, String sex) {
+            , int gymId, String location, LocalDate dob, String height, int weight, String sex) {
         this.userEmail = userEmail;
         this.password = password;
         this.userName = userName;
         this.firstName = firstName;
         this.lastName = lastName;
-        this.gym = gym;
+        this.gymId = gymId;
         this.location = location;
         this.dob = dob;
         this.height = height;

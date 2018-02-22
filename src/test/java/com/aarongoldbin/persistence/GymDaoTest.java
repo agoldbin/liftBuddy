@@ -1,6 +1,7 @@
 package com.aarongoldbin.persistence;
 
 import com.aarongoldbin.entity.Gym;
+import com.aarongoldbin.entity.User;
 import com.aarongoldbin.test.util.Database;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -13,6 +14,7 @@ class GymDaoTest {
 
     GymDao dao;
     GenericDao genericDao;
+//    GymDao genericDao;
 
     /**
      * Run set up tasks before each test:
@@ -23,7 +25,7 @@ class GymDaoTest {
     void setUp() {
         dao = new GymDao();
         genericDao = new GenericDao(Gym.class);
-
+//        genericDao = new GymDao();
         Database database = Database.getInstance();
         database.runSQL("cleandb.sql");
     }
@@ -64,7 +66,7 @@ class GymDaoTest {
      * Verify successful retrieval of all gyms
      */
     @Test
-    void getAllSuccess() {
+    void getAllGymsSuccess() {
         List<Gym> gyms = genericDao.getAll();
         assertEquals(6, gyms.size());
     }
