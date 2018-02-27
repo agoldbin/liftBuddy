@@ -3,26 +3,26 @@
 ### Week 3
 - [x] Create project repository on GitHub
 - [x] Create project structure in intellij and push
-- [ ] Add link to list of indie projects in student repo.
+- [x] Add link to list of indie projects in student repo.
 - [x] Complete Problem Statement
 - [ ] Determine possible Web Services or APIs to use
 - [ ] List technologies, versions and how they will be used
 - [x] Weekly journal entry
-- [ ] Write project plan
-- [ ] Document application flow in text and pictures - I'll use wireframes that have clickable links for the screen design. Use Balsamiq? 
-- [ ] Triple-check for Checkpoint 1: Problem statement, project plan, screen design and time log pushed to GitHub. 
+- [x] Write project plan
+- [x] Document application flow in text and pictures - I'll use wireframes that have clickable links for the screen design. Use Balsamiq? 
+- [x] Triple-check for Checkpoint 1: Problem statement, project plan, screen design and time log pushed to GitHub. 
 
 ### Week 4
 - [ ] Complete database design
-- [ ] Create the database and user table
-- [ ] Create the user entity class and annotate for hibernate
-- [ ] Create user dao
-- [ ] Create the test database
-- [ ] Create user dao unit tests
-- [ ] Weekly journal entry
-- [ ] Set up logging
+- [x] Create the database and user table
+- [x] Create the user entity class and annotate for hibernate
+- [x] Create user dao
+- [x] Create the test database
+- [x] Create user dao unit tests
+- [x] Weekly journal entry
+- [x] Set up logging
 - [ ] Create class uml diagram
-- [ ] Prepare for Week 5 peer design/code review
+- [x] Prepare for Week 5 peer design/code review
 
 
 ### Week 5
@@ -39,16 +39,16 @@
 ### Week 6
 
 - [ ] Create db on AWS
-- [ ] Deploy to AWS for first time
-- [ ] Weekly journal entry
+- [x] Deploy to AWS for first time
+- [x] Weekly journal entry
 - [ ] Optional: create history table (workouts, weight, reps, sets, etc.)
 - [ ] Optional: Add the workout entity (test, dev and prod dbs)
-- [ ] Realize that these daos are repetitive. Refactor into a generic dao!
+- [x] Realize that these daos are repetitive. Refactor into a generic dao!
 - [ ] Add update and delete functionality in jsp for user and role
 - [ ] Create and test database to store friend list
-- [ ] Create functionality to search for users by location utilizing Google Maps API
-- [ ] Add functionality to search for user based on name (username/email/first and last?)
-- [ ] Prepare for Checkpoint 2: Database designed and created, at least one DAO implemented with Hibernate, DAO is unit tested, Log4J is implemented (no System.out.printlns), class design and any other diagrams you plan to use have been created. 
+- [?] Create functionality to search for users by location utilizing Google Maps API
+- [?] Add functionality to search for user based on name (username/email/first and last?)
+- [x] Prepare for Checkpoint 2: Database designed and created, at least one DAO implemented with Hibernate, DAO is unit tested, Log4J is implemented (no System.out.printlns), class design and any other diagrams you plan to use have been created. 
 
 
 ### Week 7

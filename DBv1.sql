@@ -1,22 +1,29 @@
 CREATE TABLE user
 (
- id         INT AUTO_INCREMENT
-   PRIMARY KEY,
- email      VARCHAR(255) NULL,
- password   VARCHAR(255) NOT NULL,
- user_name  VARCHAR(255) NULL,
- first_name VARCHAR(255) NULL,
- last_name  VARCHAR(255) NULL,
- gymId      INT          NULL,
- location   INT          NULL,
- dob        DATE         NULL,
- height     VARCHAR(255) NULL,
- weight     INT          NULL,
- sex        VARCHAR(1)   NULL,
- CONSTRAINT user_user_name_uindex
- UNIQUE (user_name)
-);
+  id         INT AUTO_INCREMENT
+    PRIMARY KEY,
+  email      VARCHAR(255) NULL,
+  password   VARCHAR(255) NOT NULL,
+  user_name  VARCHAR(255) NULL,
+  first_name VARCHAR(255) NULL,
+  last_name  VARCHAR(255) NULL,
+  gym_id     INT          NULL,
+  location   INT          NULL,
+  dob        DATE         NULL,
+  height     VARCHAR(255) NULL,
+  weight     INT          NULL,
+  sex        VARCHAR(1)   NULL,
+  CONSTRAINT user_user_name_uindex
+  UNIQUE (user_name),
+  CONSTRAINT user_gym_id_fk
+  FOREIGN KEY (gym_id) REFERENCES gym (id)
+)
+  ENGINE = InnoDB;
 
+CREATE INDEX user_gym_id_fk
+  ON user (gym_id);
+  
+  
 CREATE TABLE gym
 (
  id       INT AUTO_INCREMENT
