@@ -115,3 +115,5 @@
 [DEBUG] 2018-02-22 13:23:15.220 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
 [DEBUG] 2018-02-22 13:23:15.726 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
 [DEBUG] 2018-02-22 13:23:15.773 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-02-22 13:28:34.589 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`user`, CONSTRAINT `user_gym_id_fk` FOREIGN KEY (`gym_id`) REFERENCES `gym` (`id`))
+[ERROR] 2018-02-22 13:28:36.583 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`liftbuddytest`.`user`, CONSTRAINT `user_gym_id_fk` FOREIGN KEY (`gym_id`) REFERENCES `gym` (`id`))

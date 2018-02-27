@@ -4,10 +4,6 @@
 
 ![Home Page](wireframes/4-Index.png)
 
-### Add New Trail Report Page
-
-![Add New Report](wireframes/2-NewReport.png)
-
 ### View profile
 
 ![User profile](wireframes/7-UserProfileView.png)

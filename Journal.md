@@ -2,9 +2,37 @@
 
 # Journal
 
-Document project progress, the development process, accomplishments, snags, and time spent on this class. You may use whatever format suits you, as long as this information is shared. 
+Document project progress, the development process, accomplishments, snags, and time spent on this class. You may 
+use whatever format suits you, as long as this information is shared. 
 
 [Time Log](TimeLog.md)
+
+
+### Week 6
+Captains Log: (2/26/2018)
+I just realized that I have been forgetting to update my progress, and jot down any developments and feelings I 
+have been having during this project, so I will try to recap what has happened so far this semester and be diligent
+to journal consistently in the future.
+
+* Project goal chosen
+* Created project repository
+* Created problem statement
+* Have some project plan documentation... other parts still need to be updated
+* Still have to look into technologies that may be useful for my project, specifically for users to message one 
+another
+    ** Technologies I plan to use: Google Maps API
+
+The database for my project has been created but will likely change at some point as it is currently only 2 tables.
+Considering breaking the tables out now that I have a better understanding of hibernate and annotations.
+
+Database utilizes hibernate. Also have created a generic DAO. Unit testing utilizing jUnit and logging messages have
+been implemented. Though at this point the unit testing likely needs to be updated due to the recent switch to the 
+generic DAO.
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
 
 ### Week 1
 

@@ -14,6 +14,7 @@ DISCLAIMER: All times are estimates as I am bad at actually tracking when I work
 | 2/18/18 | Finished DaoTests, worked on result and index jsps | 6 hrs | |
 | 2/21/18 | Messing with genericDao/tests| 2 | |
 | 2/22/18 | Trying to get tests/DB working again| 2 | |
-
+| 2/26/18 | AWS Setup and Deployment of Week 1 exercise | 6 | WOw... no idea what I did, and was stuck for hours just trying to mess around with Putty. Also had an issue with logging into mysql, but somehow was able to resolve that, which was nice. |
+| 2/27/18 |  |  |  |
 ---
-####Running total: = 28 hrs
+####Running total: = 47.5 hrs
