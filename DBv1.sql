@@ -1,0 +1,28 @@
+CREATE TABLE user
+(
+ id         INT AUTO_INCREMENT
+   PRIMARY KEY,
+ email      VARCHAR(255) NULL,
+ password   VARCHAR(255) NOT NULL,
+ user_name  VARCHAR(255) NULL,
+ first_name VARCHAR(255) NULL,
+ last_name  VARCHAR(255) NULL,
+ gymId      INT          NULL,
+ location   INT          NULL,
+ dob        DATE         NULL,
+ height     VARCHAR(255) NULL,
+ weight     INT          NULL,
+ sex        VARCHAR(1)   NULL,
+ CONSTRAINT user_user_name_uindex
+ UNIQUE (user_name)
+);
+
+CREATE TABLE gym
+(
+ id       INT AUTO_INCREMENT
+   PRIMARY KEY,
+ gym_name VARCHAR(255) NULL
+);
+
+INSERT INTO user VALUES (1,'jc123@gmail.com','supersecret1','jcoyne','Joe','Coyne','1','53713','1964-04-01','5''2','180','M'),(2,'nightmareonelm@hotmail.com','fhensen','supersecret2','Fred','Hensen','1','53706','1988-05-08','5''4','120','M'),(3,'curryman@yahoo.com','supersecret3','bcurry','Barney','Curry','4','53704','1947-11-11','6''2','190','M'),(4,'mackattack@aol.com','supersecret4','kmack','Karen','Mack','3','53594','1986-07-08','6''0','172','F'),(5,'calvinklein@gmail.com','supersecret5','dklein','Dianne','Klein','2','53717','1991-09-22','5''8','156','F'),(6,'uptildawn@yahoo.com','supersecret6','dtillman','Dawn','Tillman','2','53714','1979-08-3','6''4','175','F');
+INSERT INTO gym VALUES (1,'YMCA'),(2,'Anytime Fitness'),(3,'Princeton Club'),(4,'Planet Fitness'),(5,'Other'),(6,'None');

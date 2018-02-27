@@ -117,3 +117,15 @@
 [DEBUG] 2018-02-22 13:23:15.773 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
 [ERROR] 2018-02-22 13:28:34.589 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`user`, CONSTRAINT `user_gym_id_fk` FOREIGN KEY (`gym_id`) REFERENCES `gym` (`id`))
 [ERROR] 2018-02-22 13:28:36.583 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`liftbuddytest`.`user`, CONSTRAINT `user_gym_id_fk` FOREIGN KEY (`gym_id`) REFERENCES `gym` (`id`))
+[DEBUG] 2018-02-27 00:15:53.175 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[DEBUG] 2018-02-27 00:15:53.582 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-02-27 00:15:53.895 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-02-27 00:15:53.989 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-02-27 00:15:54.020 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-02-27 00:16:36.774 [http-nio-8080-exec-10] GymDao - The list of gyms [com.aarongoldbin.entity.Gym@7de66fd5, com.aarongoldbin.entity.Gym@6f0b928d, com.aarongoldbin.entity.Gym@3ddbfa3c, com.aarongoldbin.entity.Gym@4c175312, com.aarongoldbin.entity.Gym@41714263, com.aarongoldbin.entity.Gym@725d2f3a]
+[DEBUG] 2018-02-27 00:17:03.123 [http-nio-8080-exec-3] GymDao - Searching for gyms with gymName = c
+[DEBUG] 2018-02-27 00:17:38.888 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[DEBUG] 2018-02-27 00:17:39.435 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-02-27 00:17:39.716 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-02-27 00:17:39.810 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-02-27 00:17:39.857 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
