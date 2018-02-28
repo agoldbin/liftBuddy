@@ -2,8 +2,7 @@ package com.aarongoldbin.controller;
 
 import com.aarongoldbin.entity.User;
 import com.aarongoldbin.entity.Gym;
-import com.aarongoldbin.persistence.UserDao;
-import com.aarongoldbin.persistence.GymDao;
+import com.aarongoldbin.persistence.GenericDao;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -30,8 +29,8 @@ public class searchForm extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        UserDao userDao = new UserDao();
-        GymDao gymDao = new GymDao();
+        GenericDao userDao = new GenericDao(User.class);
+        GenericDao gymDao = new GenericDao(Gym.class);
 
         String searchType;
         String searchTerm;
@@ -43,16 +42,16 @@ public class searchForm extends HttpServlet {
                 searchTerm = req.getParameter("searchTerm");
                 switch (searchType) {
                     case "id":
-                        List<User> users = new ArrayList<User>(Arrays.asList(userDao.getById(Integer.parseInt(searchTerm))));
+                        List<User> users = new ArrayList<User>(Arrays.asList((User) userDao.getById(Integer.parseInt(searchTerm))));
                         req.setAttribute("users", users);
                         directResults(req, resp, "/userResults.jsp");
                         break;
                     case "lastName":
-                        req.setAttribute("users", userDao.getAllUsersByLastName(searchTerm));
+                        req.setAttribute("users", (User) userDao.getByPropertyLike("lastName", searchTerm));
                         directResults(req, resp, "/userResults.jsp");
                         break;
                     case "gymName":
-                        req.setAttribute("gyms", gymDao.getByPropertyLike("gymName", searchTerm));
+                        req.setAttribute("gyms", (Gym) gymDao.getByPropertyLike("gymName", searchTerm));
                         directResults(req, resp, "/gymResults.jsp");
                         break;
                     default:
@@ -62,11 +61,11 @@ public class searchForm extends HttpServlet {
                         ;
                 }
             case "viewAllUsers":
-                req.setAttribute("users", userDao.getAll());
+                req.setAttribute("users", (User) userDao.getAll());
                 directResults(req, resp, "/userResults.jsp");
                 break;
             case "viewAllGyms":
-                req.setAttribute("gyms", gymDao.getAll());
+                req.setAttribute("gyms", (Gym) gymDao.getAll());
                 directResults(req, resp, "/gymResults.jsp");
                 break;
             default:
