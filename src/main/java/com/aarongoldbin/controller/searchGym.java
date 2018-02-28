@@ -1,16 +1,5 @@
 package com.aarongoldbin.controller;
 
-import com.aarongoldbin.entity.Gym;
-import com.aarongoldbin.persistence.GymDao;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-
-import javax.servlet.*;
-import javax.servlet.http.*;
-import javax.servlet.annotation.*;
-import java.io.IOException;
-import java.util.*;
-
 /**
  * A servlet to searchForm for gyms
  *
