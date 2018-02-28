@@ -1,10 +1,13 @@
 package com.aarongoldbin.entity;
 
+import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.Period;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * A class to represent a user
@@ -13,7 +16,6 @@ import java.time.Period;
  */
 @Entity(name = "User")
 @Table(name = "user") // case senstitive
-
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
@@ -26,11 +28,9 @@ public class User {
     @Column(name = "email")
     private String userEmail;
 
-    //   TODO Check how to pull gym name from gym table or if it is unneeded in this class
     @ManyToOne
     private Gym gym;
 
-    //    TODO Decide if location will be zip, city or both
     private String location;
 
     //    TODO is password needed to be stored? How to store a password hash
@@ -44,6 +44,10 @@ public class User {
 
     private String height;
     private int weight;
+
+    @OneToMany(mappedBy = "weightId", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Set<UserWeight> weights = new HashSet<>();
+
     private String sex;
     private LocalDate dob;
 
@@ -67,11 +71,10 @@ public class User {
      * @param location     the user location
      * @param dob          the dob
      * @param height       the height
-     * @param weight       the weight
      * @param sex          the sex
      */
     public User(String userEmail, String password, String userName, String firstName, String lastName
-            , int gymId, String location, LocalDate dob, String height, int weight, String sex) {
+            , Gym gym, String location, LocalDate dob, String height, String sex) {
         this.userEmail = userEmail;
         this.password = password;
         this.userName = userName;
@@ -81,7 +84,6 @@ public class User {
         this.location = location;
         this.dob = dob;
         this.height = height;
-        this.weight = weight;
         this.sex = sex;
     }
 
@@ -97,10 +99,29 @@ public class User {
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", height=" + height +
-                ", weight=" + weight +
                 ", sex='" + sex + '\'' +
                 ", dob=" + dob +
                 '}';
+    }
+
+    // TODO mess with this method and get new weight created for user
+    /**
+     * Add user weight.
+     *
+     * @param weight weight of the user
+     */
+    public void addUserWeight (UserWeight weight) {
+        weights.add(weight);
+        weight.setUserWeight(this);
+    }
+
+    /**
+     * Sets user weights
+     *
+     * @param weights the users
+     */
+    public void setUserWeights(Set<UserWeight> weights){
+        this.weights = weights;
     }
 
     /**
@@ -267,24 +288,6 @@ public class User {
      */
     public void setHeight(String height) {
         this.height = height;
-    }
-
-    /**
-     * Gets weight.
-     *
-     * @return the weight
-     */
-    public int getWeight() {
-        return weight;
-    }
-
-    /**
-     * Sets weight.
-     *
-     * @param weight the weight
-     */
-    public void setWeight(int weight) {
-        this.weight = weight;
     }
 
     /**
