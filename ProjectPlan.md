@@ -38,7 +38,7 @@
 
 ### Week 6
 
-- [ ] Create db on AWS
+- [x] Create db on AWS
 - [x] Deploy to AWS for first time
 - [x] Weekly journal entry
 - [ ] Optional: create history table (workouts, weight, reps, sets, etc.)

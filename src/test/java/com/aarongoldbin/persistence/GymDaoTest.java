@@ -56,7 +56,7 @@ class GymDaoTest {
     @Test
     void deleteSuccess() {
         genericDao.delete(genericDao.getById(3));
-        assertTrue(genericDao.getById(3).equals(null));
+        assertEquals(5, genericDao.getAll().size());
 
     }
 

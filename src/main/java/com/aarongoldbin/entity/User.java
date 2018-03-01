@@ -46,6 +46,7 @@ public class User {
     private int weight;
 
     @OneToMany(mappedBy = "weightId", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @Transient
     private Set<UserWeight> weights = new HashSet<>();
 
     private String sex;
@@ -110,9 +111,9 @@ public class User {
      *
      * @param weight weight of the user
      */
-    public void addUserWeight (UserWeight weight) {
-        weights.add(weight);
-        weight.setUserWeight(this);
+    public void addUserWeight (int weight) {
+//        weights.add(weight);
+        UserWeight userWeight = new UserWeight(weight);
     }
 
     /**
