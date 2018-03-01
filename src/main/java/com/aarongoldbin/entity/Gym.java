@@ -12,7 +12,6 @@ import java.util.*;
  */
 @Entity(name = "Gym")
 @Table(name = "gym") // case senstitive
-
 public class Gym {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
