@@ -31,26 +31,23 @@ public class User {
     @ManyToOne
     private Gym gym;
 
-    private String location;
-
-    //    TODO is password needed to be stored? How to store a password hash
-    private String password;
-
     @Column(name = "first_name")
     private String firstName;
 
     @Column(name = "last_name")
     private String lastName;
 
-    private String height;
-    private int weight;
-
-    @OneToMany(mappedBy = "weightId", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "user_weight", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     @Transient
-    private Set<UserWeight> weights = new HashSet<>();
+    private Set<UserWeight> userWeights = new HashSet<>();
 
-    private String sex;
+    private String location;
+    //    TODO is password needed to be stored? How to store a password hash
+    private String password;
+    private String height;
     private LocalDate dob;
+    private String sex;
+    private int weight;
 
     @Transient
     private String gymName;
@@ -75,7 +72,7 @@ public class User {
      * @param sex          the sex
      */
     public User(String userEmail, String password, String userName, String firstName, String lastName
-            , Gym gym, String location, LocalDate dob, String height, String sex) {
+            , Gym gym, String location, LocalDate dob, String height, int weight, String sex) {
         this.userEmail = userEmail;
         this.password = password;
         this.userName = userName;
@@ -85,6 +82,7 @@ public class User {
         this.location = location;
         this.dob = dob;
         this.height = height;
+        this.weight = weight;
         this.sex = sex;
     }
 
@@ -100,10 +98,41 @@ public class User {
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", height=" + height +
+                ", weight=" + weight +
                 ", sex='" + sex + '\'' +
                 ", dob=" + dob +
                 '}';
     }
+
+
+    /**
+     * Gets users
+     *
+     * @returns the user weights
+     */
+    public Set<UserWeight> getUserWeights(){
+        return userWeights;
+    }
+
+    /**
+     * Sets users
+     *
+     * @param userWeight the userWeights
+     */
+    public void setUserWeights(Set<UserWeight> userWeight){
+        this.userWeights = userWeights;
+    }
+
+    /**
+     * Add user weight
+     *
+     * @param userWeight the user
+     */
+    public void addUserWeight(UserWeight userWeight) {
+        userWeights.add(userWeight);
+        userWeight.setWeight(weight);
+    }
+
 
     // TODO mess with this method and get new weight created for user
     /**
@@ -121,9 +150,9 @@ public class User {
      *
      * @param weights the users
      */
-    public void setUserWeights(Set<UserWeight> weights){
-        this.weights = weights;
-    }
+//    public void setUserWeights(Set<UserWeight> weights){
+//        this.weights = weights;
+//    }
 
     /**
      * Gets id.

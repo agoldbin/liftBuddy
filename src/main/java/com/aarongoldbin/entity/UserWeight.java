@@ -11,7 +11,7 @@ import java.time.LocalDate;
  * @author agoldbin
  */
 @Entity(name = "UserWeight")
-@Table(name = "weight")
+@Table(name = "user_weight")
 @Data public class UserWeight {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
