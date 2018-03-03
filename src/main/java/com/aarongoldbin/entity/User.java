@@ -49,8 +49,6 @@ public class User {
     private String sex;
     private int weight;
 
-    @Transient
-    private String gymName;
 
     /**
      * Instantiates a new User.
@@ -73,6 +71,7 @@ public class User {
      */
     public User(String userEmail, String password, String userName, String firstName, String lastName
             , Gym gym, String location, LocalDate dob, String height, int weight, String sex) {
+//        addUserWeight(userWeights, weight);
         this.userEmail = userEmail;
         this.password = password;
         this.userName = userName;
@@ -105,33 +104,35 @@ public class User {
     }
 
 
-    /**
-     * Gets users
-     *
-     * @returns the user weights
-     */
-    public Set<UserWeight> getUserWeights(){
-        return userWeights;
-    }
+//    /**
+//     * Gets users
+//     *
+//     * @returns the user weights
+//     */
+//    public Set<UserWeight> getUserWeights(){
+//        return userWeights;
+//    }
+//
+//    /**
+//     * Sets users
+//     *
+//     * @param userWeight the userWeights
+//     */
+//    public void setUserWeights(Set<UserWeight> userWeight){
+//        this.userWeights = userWeights;
+//    }
+//
+//    /**
+//     * Add user weight
+//     *
+//     * @param userWeight the user
+//     */
+//    public void addUserWeight(UserWeight userWeight) {
+//        userWeights.add(userWeight);
+//        userWeight.setWeight(weight);
+//    }
+//
 
-    /**
-     * Sets users
-     *
-     * @param userWeight the userWeights
-     */
-    public void setUserWeights(Set<UserWeight> userWeight){
-        this.userWeights = userWeights;
-    }
-
-    /**
-     * Add user weight
-     *
-     * @param userWeight the user
-     */
-    public void addUserWeight(UserWeight userWeight) {
-        userWeights.add(userWeight);
-        userWeight.setWeight(weight);
-    }
 
 
     // TODO mess with this method and get new weight created for user
@@ -140,9 +141,9 @@ public class User {
      *
      * @param weight weight of the user
      */
-    public void addUserWeight (int weight) {
-//        weights.add(weight);
-        UserWeight userWeight = new UserWeight(weight);
+    public void addUserWeight (UserWeight userWeight, int weight) {
+        userWeights.add(userWeight);
+        userWeight.setWeight(weight);
     }
 
     /**
