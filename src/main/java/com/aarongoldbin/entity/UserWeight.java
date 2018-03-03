@@ -23,7 +23,6 @@ import java.time.LocalDate;
     private User user;
 
     private int weight;
-    private LocalDate date;
 
     /**
      * Constructor for UserWeight
@@ -38,6 +37,5 @@ import java.time.LocalDate;
      */
     public UserWeight(int weight) {
         this.weight = weight;
-        setDate(LocalDate.now());
     }
 }
