@@ -220,3 +220,42 @@
 [ERROR] 2018-03-01 14:05:11.231 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`liftbuddytest`.`user`, CONSTRAINT `user_weight_weightId_fk` FOREIGN KEY (`weight`) REFERENCES `weight` (`weightId`))
 [DEBUG] 2018-03-01 14:05:11.231 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
 [ERROR] 2018-03-01 14:05:11.297 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`liftbuddytest`.`user`, CONSTRAINT `user_weight_weightId_fk` FOREIGN KEY (`weight`) REFERENCES `weight` (`weightId`))
+[ERROR] 2018-03-03 03:38:54.604 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[ERROR] 2018-03-03 03:38:57.334 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[DEBUG] 2018-03-03 03:38:57.335 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[ERROR] 2018-03-03 03:38:57.369 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[DEBUG] 2018-03-03 03:38:57.385 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[ERROR] 2018-03-03 03:38:57.400 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[ERROR] 2018-03-03 03:38:57.438 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[ERROR] 2018-03-03 03:38:57.469 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[ERROR] 2018-03-03 03:38:57.500 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[ERROR] 2018-03-03 03:38:57.538 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[ERROR] 2018-03-03 03:38:57.597 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[DEBUG] 2018-03-03 03:38:57.597 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[ERROR] 2018-03-03 03:38:57.626 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[ERROR] 2018-03-03 03:38:57.654 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[DEBUG] 2018-03-03 03:38:57.654 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[ERROR] 2018-03-03 03:38:57.670 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[DEBUG] 2018-03-03 03:38:57.670 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-03 03:38:57.701 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[ERROR] 2018-03-03 03:39:48.959 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-03-03 03:40:39.147 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLTransactionRollbackException: Lock wait timeout exceeded; try restarting transaction
+[ERROR] 2018-03-03 03:41:28.777 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[ERROR] 2018-03-03 03:41:31.618 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[DEBUG] 2018-03-03 03:41:31.619 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[ERROR] 2018-03-03 03:41:31.673 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[DEBUG] 2018-03-03 03:41:31.678 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[ERROR] 2018-03-03 03:41:31.704 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[ERROR] 2018-03-03 03:41:31.745 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[ERROR] 2018-03-03 03:41:31.771 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[ERROR] 2018-03-03 03:41:31.806 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[ERROR] 2018-03-03 03:41:40.037 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[ERROR] 2018-03-03 03:41:48.437 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[ERROR] 2018-03-03 03:41:51.117 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[DEBUG] 2018-03-03 03:41:51.118 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[ERROR] 2018-03-03 03:41:51.492 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[ERROR] 2018-03-03 03:41:51.531 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[DEBUG] 2018-03-03 03:41:51.531 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[ERROR] 2018-03-03 03:41:51.562 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
+[DEBUG] 2018-03-03 03:41:51.562 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-03 03:41:51.592 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
