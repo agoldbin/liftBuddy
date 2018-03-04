@@ -6,7 +6,9 @@ import org.hibernate.annotations.GenericGenerator;
 import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.Period;
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -38,15 +40,14 @@ public class User {
     @Column(name = "last_name")
     private String lastName;
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
-    private Set<Weight> weights = new HashSet<>();
+    @OneToMany(mappedBy = "weight", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private List<Weight> weights = new ArrayList<>();
 
     private String location;
     //    TODO is password needed to be stored? How to store a password hash
     private String password;
     private String height;
     private LocalDate dob;
-    private Weight weight;
     private String sex;
 
     /**
@@ -66,11 +67,11 @@ public class User {
      * @param location     the user location
      * @param dob          the dob
      * @param height       the height
-     * @param weight       the user weight
+//     * @param weight       the user weight
      * @param sex          the sex
      */
     public User(String userEmail, String password, String userName, String firstName, String lastName
-            , Gym gym, String location, LocalDate dob, String height, Weight weight, String sex) {
+            , Gym gym, String location, LocalDate dob, String height, /*Weight userWeight,*/ String sex) {
         this.userEmail = userEmail;
         this.password = password;
         this.userName = userName;
@@ -80,12 +81,12 @@ public class User {
         this.location = location;
         this.dob = dob;
         this.height = height;
-        this.weight = weight;
+//        addWeight(userWeight);
         this.sex = sex;
     }
 
 
-    public Set<Weight> getWeights(){
+    public List<Weight> getWeights(){
         return weights;
     }
 
@@ -94,7 +95,7 @@ public class User {
      *
      * @param weights the users' weight history
      */
-    public void setWeights(Set<Weight> weights){
+    public void setWeights(List<Weight> weights){
         this.weights = weights;
     }
 
@@ -105,9 +106,13 @@ public class User {
      */
     public void addWeight(Weight weight) {
         weights.add(weight);
-        weight.setWeight(this);
+        weight.setUser(this);
     }
 
+    public void removeWeight(Weight weight) {
+        weights.remove(weight);
+        weight.setUser(null);
+    }
 
     /**
      * Gets age.

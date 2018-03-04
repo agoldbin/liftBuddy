@@ -23,7 +23,6 @@ public class Weight {
     @ManyToOne
     private User user;
 
-    @Column(name="weight")
     private int weight;
 
     /**
@@ -35,9 +34,17 @@ public class Weight {
     /**
      * Constructor for Weight
      *
-     * @param user the user
+     * @param weight the user weight
      */
-    public Weight(User user) {
+    public Weight(int weight) {
+        this.weight = weight;
+    }
+
+    public User getUser(){
+        return user;
+    }
+
+    public void setUser(User user){
         this.user = user;
     }
 }
