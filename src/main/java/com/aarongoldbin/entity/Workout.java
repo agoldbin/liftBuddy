@@ -24,6 +24,6 @@ public class Workout {
     @ManyToOne
     private User user;
 
-    @OneToMany(mappedBy = "exerciseId", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "workout", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<ExerciseType> exercise = new HashSet<>();
 }

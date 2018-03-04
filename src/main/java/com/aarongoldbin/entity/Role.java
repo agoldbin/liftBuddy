@@ -23,6 +23,7 @@ public class Role {
 
     private String name;
 
+    @Transient
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<User> users = new HashSet<>();
 }
