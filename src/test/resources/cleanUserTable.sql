@@ -3,6 +3,7 @@ SET @OLD_FOREIGN_KEY_CHECKS = @@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS = 0;
 CREATE SCHEMA IF NOT EXISTS `liftbuddytest` DEFAULT CHARACTER SET latin1 ;
 USE `liftbuddytest`;
 DROP TABLE IF EXISTS `liftbuddytest`.`weight`;
+CREATE TABLE weight(weightId int auto_increment, primary key, userId int null, weight int null);
 DROP TABLE IF EXISTS `liftbuddytest`.`gym`;
 CREATE TABLE gym(id INT AUTO_INCREMENT PRIMARY KEY, gym_name VARCHAR(255) NULL);
 INSERT INTO gym VALUES (1,'YMCA'),(2,'Anytime Fitness'),(3,'Princeton Club'),(4,'Planet Fitness'),(5,'Other'),(6,'None');

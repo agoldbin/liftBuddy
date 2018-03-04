@@ -25,7 +25,7 @@ class UserDaoTest {
         genericDao = new GenericDao(User.class);
 
         Database database = Database.getInstance();
-        database.runSQL("cleanUserTable.sql");
+        database.runSQL("cleandb.sql");
     }
 
     /**
