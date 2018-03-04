@@ -10,8 +10,8 @@ import java.time.LocalDate;
  *
  * @author agoldbin
  */
-@Entity(name = "UserWeight")
-@Table(name = "user_weight")
+@Entity(name = "Weight")
+@Table(name = "weight")
 @Data
 public class Weight {
     @Id
