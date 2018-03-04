@@ -306,3 +306,77 @@
 [ERROR] 2018-03-04 02:06:01.921 [main] Database - java.sql.SQLException: Can not issue empty query.
 [ERROR] 2018-03-04 02:07:18.686 [main] Database - java.sql.SQLException: Can not issue empty query.
 [ERROR] 2018-03-04 02:08:12.269 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 09:54:44.481 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-04 09:54:46.863 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-04 09:54:46.864 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[ERROR] 2018-03-04 09:54:47.254 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-04 09:54:47.301 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-04 09:54:47.302 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[ERROR] 2018-03-04 09:54:47.331 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-04 09:54:47.332 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-04 09:54:47.388 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-04 09:54:47.409 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-04 09:54:47.445 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-04 09:55:20.761 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-04 10:07:18.157 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-04 10:07:55.364 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-04 10:09:42.682 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-04 10:11:36.952 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-04 10:12:12.113 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-04 10:14:58.835 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[ERROR] 2018-03-04 10:19:55.420 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
+[ERROR] 2018-03-04 10:20:50.249 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
+[ERROR] 2018-03-04 10:21:15.424 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
+[ERROR] 2018-03-04 10:21:17.691 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
+[DEBUG] 2018-03-04 10:21:17.692 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[ERROR] 2018-03-04 10:21:18.012 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
+[ERROR] 2018-03-04 10:21:18.043 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
+[DEBUG] 2018-03-04 10:21:18.043 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[ERROR] 2018-03-04 10:21:18.081 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
+[DEBUG] 2018-03-04 10:21:18.081 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-04 10:21:18.097 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
+[ERROR] 2018-03-04 10:21:18.128 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
+[ERROR] 2018-03-04 10:21:18.159 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
+[ERROR] 2018-03-04 10:24:57.340 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
+[ERROR] 2018-03-04 10:25:07.616 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
+[ERROR] 2018-03-04 10:27:09.687 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
+[ERROR] 2018-03-04 10:29:17.117 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
+[ERROR] 2018-03-04 10:30:00.477 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 10:31:53.075 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 10:32:23.237 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.gym' doesn't exist
+[ERROR] 2018-03-04 10:32:43.400 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 10:32:57.185 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 10:34:53.030 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 10:37:49.548 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 10:49:17.664 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.weight' doesn't exist
+[ERROR] 2018-03-04 10:49:19.552 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.weight' doesn't exist
+[DEBUG] 2018-03-04 10:49:19.553 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[ERROR] 2018-03-04 10:49:19.900 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.weight' doesn't exist
+[ERROR] 2018-03-04 10:49:19.924 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.weight' doesn't exist
+[ERROR] 2018-03-04 10:49:19.954 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.weight' doesn't exist
+[ERROR] 2018-03-04 10:49:19.976 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.weight' doesn't exist
+[ERROR] 2018-03-04 10:49:20.005 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.weight' doesn't exist
+[ERROR] 2018-03-04 10:51:24.659 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-04 10:51:26.972 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[DEBUG] 2018-03-04 10:51:26.973 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[ERROR] 2018-03-04 10:51:27.408 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-04 10:51:27.523 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-04 10:51:27.624 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-04 10:51:27.724 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-04 10:51:27.824 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-04 10:52:57.210 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-04 10:52:59.157 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[DEBUG] 2018-03-04 10:52:59.159 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[ERROR] 2018-03-04 10:52:59.582 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-04 10:52:59.627 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-04 10:52:59.682 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-04 10:52:59.714 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-04 10:52:59.744 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-04 10:56:03.903 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-04 10:56:06.307 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-03-04 10:56:06.308 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[ERROR] 2018-03-04 10:56:06.682 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-04 10:56:06.727 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-04 10:56:06.772 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-04 10:56:06.826 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-04 10:56:06.857 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
