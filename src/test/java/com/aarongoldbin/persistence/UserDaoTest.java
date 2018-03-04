@@ -25,7 +25,7 @@ class UserDaoTest {
         genericDao = new GenericDao(User.class);
 
         Database database = Database.getInstance();
-        database.runSQL("cleandb.sql");
+        database.runSQL("cleanUserTable.sql");
     }
 
     /**
@@ -47,7 +47,7 @@ class UserDaoTest {
     void insertNewUserSuccess() {
         GenericDao gymDao = new GenericDao(Gym.class);
         Gym gym = (Gym) gymDao.getById(6);
-        User newUser = new User("teddymo@gmail.com","superdupersecret7","TMoney","Ted","Mosby", gym,"53219", LocalDate.parse("1978-04-25"),"5'10",240,"M");
+        User newUser = new User("teddymo@gmail.com","superdupersecret7","TMoney","Ted","Mosby", gym,"53219", LocalDate.parse("1978-04-25"),"5'10","M");
         gym.addUser(newUser);
         int id = genericDao.insert(newUser);
         assertNotEquals(0,id);

@@ -1,5 +1,6 @@
 package com.aarongoldbin.entity;
 
+import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -12,6 +13,7 @@ import java.util.*;
  */
 @Entity(name = "Gym")
 @Table(name = "gym") // case senstitive
+@Data
 public class Gym {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
