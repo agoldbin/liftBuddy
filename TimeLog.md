@@ -18,6 +18,6 @@ DISCLAIMER: All times are estimates as I am bad at actually tracking when I work
 | 2/27/18 | AWS Deploy of test app. Redesign/expansion of DB, and design for web page flow  | 1.5 |  |
 | 2/28/18 | Deleting Daos, attempting to update unit tests to use .equals(), implementing DB changes | 2.5 |  |
 | 3/3/18  | Working on db and data entry... Taking fo'eva'... | 4 | |
-| 3/4/18  | More database work |  |  |
+| 3/4/18  | More database work. Still getting no where | 3.5 |  |
 ---
 ####Running total: = 47.5 hrs
