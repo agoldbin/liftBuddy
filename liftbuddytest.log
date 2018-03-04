@@ -281,3 +281,28 @@
 [ERROR] 2018-03-03 04:28:35.972 [main] Database - java.sql.SQLException: Can not issue empty query.
 [ERROR] 2018-03-03 04:28:36.030 [main] Database - java.sql.SQLException: Can not issue empty query.
 [ERROR] 2018-03-03 04:28:36.073 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 00:38:02.984 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 00:38:07.581 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-04 00:38:07.582 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[ERROR] 2018-03-04 00:38:08.020 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 00:38:08.066 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-04 00:38:08.066 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[ERROR] 2018-03-04 00:38:08.098 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-04 00:38:08.098 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-04 00:38:08.118 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 00:38:08.163 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 00:38:08.194 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 00:40:41.822 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 01:48:43.683 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 01:53:55.900 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 01:54:45.663 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 01:55:57.793 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 01:58:55.856 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 02:00:31.905 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 02:01:02.046 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 02:01:40.307 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 02:02:33.172 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 02:03:47.217 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 02:06:01.921 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 02:07:18.686 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-04 02:08:12.269 [main] Database - java.sql.SQLException: Can not issue empty query.

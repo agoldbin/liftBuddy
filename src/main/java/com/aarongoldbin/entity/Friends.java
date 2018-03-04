@@ -1,5 +1,6 @@
 package com.aarongoldbin.entity;
 
+import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -10,11 +11,11 @@ import java.util.*;
  *
  * @author agoldbin
  */
-
 @Entity(name = "Friends")
 @Table(name = "friends") // case senstitive
+@Data
 public class Friends {
+    @Id
     @ManyToOne
-    @Column(name="friendUserId")
-    private Set<User> users = new HashSet<>();
+    private User user;
 }

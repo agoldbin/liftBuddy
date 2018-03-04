@@ -35,7 +35,10 @@ import java.time.LocalDate;
      *
      * @param weight
      */
-    public UserWeight(int weight) {
-        this.weight = weight;
+    public UserWeight(User user) {
+        this.user = user;
+//        user.getWeight();
+//        user.getId();
+//        this.weight = weight;
     }
 }

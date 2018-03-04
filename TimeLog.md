@@ -17,5 +17,7 @@ DISCLAIMER: All times are estimates as I am bad at actually tracking when I work
 | 2/26/18 | AWS Setup and Deployment of Week 1 exercise | 6 | WOw... no idea what I did, and was stuck for hours just trying to mess around with Putty. Also had an issue with logging into mysql, but somehow was able to resolve that, which was nice. |
 | 2/27/18 | AWS Deploy of test app. Redesign/expansion of DB, and design for web page flow  | 1.5 |  |
 | 2/28/18 | Deleting Daos, attempting to update unit tests to use .equals(), implementing DB changes | 2.5 |  |
+| 3/3/18  | Working on db and data entry... Taking fo'eva'... | 4 | |
+| 3/4/18  | More database work |  |  |
 ---
 ####Running total: = 47.5 hrs

@@ -16,8 +16,14 @@
         <property name="hibernate.c3p0.max_statements">50</property>
         <property name="hibernate.c3p0.idle_test_period">3000</property>
 
-        <mapping class="com.aarongoldbin.entity.User"/>
+        <mapping class="com.aarongoldbin.entity.ExerciseAmount" />
+        <mapping class="com.aarongoldbin.entity.ExerciseType" />
+        <mapping class="com.aarongoldbin.entity.Friends" />
         <mapping class="com.aarongoldbin.entity.Gym"/>
+        <mapping class="com.aarongoldbin.entity.Role" />
+        <mapping class="com.aarongoldbin.entity.User"/>
+        <mapping class="com.aarongoldbin.entity.UserWeight" />
+        <mapping class="com.aarongoldbin.entity.Workout" />
 
     </session-factory>
 
