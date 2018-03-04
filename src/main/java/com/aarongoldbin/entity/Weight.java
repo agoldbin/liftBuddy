@@ -12,7 +12,7 @@ import java.time.LocalDate;
  */
 @Entity(name = "UserWeight")
 @Table(name = "user_weight")
-@Data public class UserWeight {
+@Data public class Weight {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
@@ -20,22 +20,25 @@ import java.time.LocalDate;
     private int id;
 
     @ManyToOne
+    @JoinColumn(name = "user_id",
+            foreignKey = @ForeignKey(name = "weight_user_user_id_fk")
+    )
     private User user;
 
     private int weight;
 
     /**
-     * Constructor for UserWeight
+     * Constructor for Weight
      */
-    public UserWeight() {
+    public Weight() {
     }
 
     /**
-     * Constructor for UserWeight
+     * Constructor for Weight
      *
-     * @param weight
+     * @param user the user
      */
-    public UserWeight(User user) {
+    public Weight(User user) {
         this.user = user;
 //        user.getWeight();
 //        user.getId();

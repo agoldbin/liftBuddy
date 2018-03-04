@@ -1,5 +1,6 @@
 package com.aarongoldbin.entity;
 
+import com.sun.xml.internal.ws.developer.Serialization;
 import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 
@@ -11,6 +12,7 @@ import java.util.*;
  *
  * @author agoldbin
  */
+/*
 @Entity(name = "Friends")
 @Table(name = "friends") // case senstitive
 @Data
@@ -19,3 +21,4 @@ public class Friends {
     @ManyToOne
     private User user;
 }
+*/

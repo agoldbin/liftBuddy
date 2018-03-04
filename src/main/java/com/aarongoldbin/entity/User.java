@@ -39,18 +39,15 @@ public class User {
     private String lastName;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
-    private Set<UserWeight> userWeights = new HashSet<>();
+    private Set<Weight> weights = new HashSet<>();
 
     private String location;
     //    TODO is password needed to be stored? How to store a password hash
     private String password;
     private String height;
     private LocalDate dob;
+    private Weight weight;
     private String sex;
-
-    @JoinColumn ()
-    private int weight;
-
 
     /**
      * Instantiates a new User.
@@ -69,12 +66,11 @@ public class User {
      * @param location     the user location
      * @param dob          the dob
      * @param height       the height
-     * @param weight       the weight
-//     * @param userWeight   the weight
+//     * @param weight       the weight
      * @param sex          the sex
      */
     public User(String userEmail, String password, String userName, String firstName, String lastName
-            , Gym gym, String location, LocalDate dob, String height, int weight, String sex) {
+            , Gym gym, String location, LocalDate dob, String height, /*Weight weight,*/ String sex) {
         this.userEmail = userEmail;
         this.password = password;
         this.userName = userName;
@@ -84,8 +80,7 @@ public class User {
         this.location = location;
         this.dob = dob;
         this.height = height;
-        this.weight = weight;
-//        this.userWeight = userWeight;
+//        this.weight = weight;
         this.sex = sex;
     }
 
@@ -101,31 +96,56 @@ public class User {
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", height=" + height +
-                ", weight=" + weight +
+//                ", weight=" + weight +
                 ", sex='" + sex + '\'' +
                 ", dob=" + dob +
                 '}';
     }
 
-    // TODO mess with this method and get new weight created for user
-    /**
-     * Add user weight.
-     *
-     * @param userWeight weight of the user
-     */
-    public void addUserWeight(UserWeight userWeight) {
-        userWeights.add(userWeight);
-        userWeight.setWeight(weight);
+    public Set<Weight> getWeights(){
+        return weights;
     }
 
     /**
-     * Sets user weights
+     * Sets users
      *
-     * @param userWeights the users
+     * @param weights the users' weight history
      */
-    public void setUserWeights(Set<UserWeight> userWeights){
-        this.userWeights = userWeights;
+    public void setWeights(Set<Weight> weights){
+        this.weights = weights;
     }
+
+    /**
+     * Add user weight.
+     *
+     * @param lbs the user's weight
+     */
+    public void addWeight(int lbs) {
+        weights.add(weight);
+        weight.setWeight(lbs);
+    }
+
+
+//
+//    // TODO mess with this method and get new weight created for user
+//    /**
+//     * Add user weight.
+//     *
+//     * @param weight weight of the user
+//     */
+//    public void addUserWeight(Weight weight) {
+//        weights.add(weight);
+//        weight.setWeight(this.weight);
+//    }
+//
+//    /**
+//     * Sets user weights
+//     *
+//     * @param weights the users
+//     */
+//    public void setWeights(Set<Weight> weights){
+//        this.weights = weights;
+//    }
 
     /**
      * Gets age.
