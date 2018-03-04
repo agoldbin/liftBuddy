@@ -66,11 +66,11 @@ public class User {
      * @param location     the user location
      * @param dob          the dob
      * @param height       the height
-//     * @param weight       the weight
+     * @param weight       the user weight
      * @param sex          the sex
      */
     public User(String userEmail, String password, String userName, String firstName, String lastName
-            , Gym gym, String location, LocalDate dob, String height, /*Weight weight,*/ String sex) {
+            , Gym gym, String location, LocalDate dob, String height, Weight weight, String sex) {
         this.userEmail = userEmail;
         this.password = password;
         this.userName = userName;
@@ -80,8 +80,45 @@ public class User {
         this.location = location;
         this.dob = dob;
         this.height = height;
-//        this.weight = weight;
+        this.weight = weight;
         this.sex = sex;
+    }
+
+
+    public Set<Weight> getWeights(){
+        return weights;
+    }
+
+    /**
+     * Sets users
+     *
+     * @param weights the users' weight history
+     */
+    public void setWeights(Set<Weight> weights){
+        this.weights = weights;
+    }
+
+    /**
+     * Add user weight.
+     *
+     * @param weight the user's weight
+     */
+    public void addWeight(Weight weight) {
+        weights.add(weight);
+        weight.setWeight(this);
+    }
+
+
+    /**
+     * Gets age.
+     *
+     * @return the age
+     */
+    public int getAge() {
+        LocalDate now = LocalDate.now();
+        Period period = Period.between(getDob(), now);
+
+        return period.getYears();
     }
 
     @Override
@@ -102,31 +139,8 @@ public class User {
                 '}';
     }
 
-    public Set<Weight> getWeights(){
-        return weights;
-    }
-
-    /**
-     * Sets users
-     *
-     * @param weights the users' weight history
-     */
-    public void setWeights(Set<Weight> weights){
-        this.weights = weights;
-    }
-
-    /**
-     * Add user weight.
-     *
-     * @param lbs the user's weight
-     */
-    public void addWeight(int lbs) {
-        weights.add(weight);
-        weight.setWeight(lbs);
-    }
 
 
-//
 //    // TODO mess with this method and get new weight created for user
 //    /**
 //     * Add user weight.
@@ -147,17 +161,6 @@ public class User {
 //        this.weights = weights;
 //    }
 
-    /**
-     * Gets age.
-     *
-     * @return the age
-     */
-    public int getAge() {
-        LocalDate now = LocalDate.now();
-        Period period = Period.between(getDob(), now);
-
-        return period.getYears();
-    }
 
 //
 //    /**
