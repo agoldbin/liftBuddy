@@ -259,213 +259,46 @@
 [ERROR] 2018-03-03 03:41:51.562 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
 [DEBUG] 2018-03-03 03:41:51.562 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
 [ERROR] 2018-03-03 03:41:51.592 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Column 'weight' cannot be null
-[ERROR] 2018-03-03 04:27:10.210 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-03 04:27:12.909 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-03-03 04:27:12.910 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
-[ERROR] 2018-03-03 04:27:13.453 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-03 04:27:13.498 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-03-03 04:27:13.499 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
-[ERROR] 2018-03-03 04:27:13.535 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-03-03 04:27:13.535 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
-[ERROR] 2018-03-03 04:27:13.583 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-03 04:27:13.627 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-03 04:27:13.655 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-03 04:28:32.465 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-03 04:28:35.421 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-03-03 04:28:35.422 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
-[ERROR] 2018-03-03 04:28:35.852 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-03 04:28:35.895 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-03-03 04:28:35.897 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
-[ERROR] 2018-03-03 04:28:35.934 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-03-03 04:28:35.935 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
-[ERROR] 2018-03-03 04:28:35.972 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-03 04:28:36.030 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-03 04:28:36.073 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 00:38:02.984 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 00:38:07.581 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-03-04 00:38:07.582 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
-[ERROR] 2018-03-04 00:38:08.020 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 00:38:08.066 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-03-04 00:38:08.066 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
-[ERROR] 2018-03-04 00:38:08.098 [main] Database - java.sql.SQLException: Can not issue empty query.
-[DEBUG] 2018-03-04 00:38:08.098 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
-[ERROR] 2018-03-04 00:38:08.118 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 00:38:08.163 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 00:38:08.194 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 00:40:41.822 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 01:48:43.683 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 01:53:55.900 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 01:54:45.663 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 01:55:57.793 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 01:58:55.856 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 02:00:31.905 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 02:01:02.046 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 02:01:40.307 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 02:02:33.172 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 02:03:47.217 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 02:06:01.921 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 02:07:18.686 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 02:08:12.269 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 09:54:44.481 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[ERROR] 2018-03-04 09:54:46.863 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[DEBUG] 2018-03-04 09:54:46.864 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
-[ERROR] 2018-03-04 09:54:47.254 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[ERROR] 2018-03-04 09:54:47.301 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[DEBUG] 2018-03-04 09:54:47.302 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
-[ERROR] 2018-03-04 09:54:47.331 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[DEBUG] 2018-03-04 09:54:47.332 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
-[ERROR] 2018-03-04 09:54:47.388 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[ERROR] 2018-03-04 09:54:47.409 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[ERROR] 2018-03-04 09:54:47.445 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[ERROR] 2018-03-04 09:55:20.761 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[ERROR] 2018-03-04 10:07:18.157 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[ERROR] 2018-03-04 10:07:55.364 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[ERROR] 2018-03-04 10:09:42.682 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[ERROR] 2018-03-04 10:11:36.952 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[ERROR] 2018-03-04 10:12:12.113 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[ERROR] 2018-03-04 10:14:58.835 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
-[ERROR] 2018-03-04 10:19:55.420 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
-[ERROR] 2018-03-04 10:20:50.249 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
-[ERROR] 2018-03-04 10:21:15.424 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
-[ERROR] 2018-03-04 10:21:17.691 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
-[DEBUG] 2018-03-04 10:21:17.692 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
-[ERROR] 2018-03-04 10:21:18.012 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
-[ERROR] 2018-03-04 10:21:18.043 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
-[DEBUG] 2018-03-04 10:21:18.043 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
-[ERROR] 2018-03-04 10:21:18.081 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
-[DEBUG] 2018-03-04 10:21:18.081 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
-[ERROR] 2018-03-04 10:21:18.097 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
-[ERROR] 2018-03-04 10:21:18.128 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
-[ERROR] 2018-03-04 10:21:18.159 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
-[ERROR] 2018-03-04 10:24:57.340 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
-[ERROR] 2018-03-04 10:25:07.616 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
-[ERROR] 2018-03-04 10:27:09.687 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
-[ERROR] 2018-03-04 10:29:17.117 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''liftbuddytest'' at line 1
-[ERROR] 2018-03-04 10:30:00.477 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 10:31:53.075 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 10:32:23.237 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.gym' doesn't exist
-[ERROR] 2018-03-04 10:32:43.400 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 10:32:57.185 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 10:34:53.030 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 10:37:49.548 [main] Database - java.sql.SQLException: Can not issue empty query.
-[ERROR] 2018-03-04 10:49:17.664 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.weight' doesn't exist
-[ERROR] 2018-03-04 10:49:19.552 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.weight' doesn't exist
-[DEBUG] 2018-03-04 10:49:19.553 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[ERROR] 2018-03-04 10:49:19.900 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.weight' doesn't exist
-[ERROR] 2018-03-04 10:49:19.924 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.weight' doesn't exist
-[ERROR] 2018-03-04 10:49:19.954 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.weight' doesn't exist
-[ERROR] 2018-03-04 10:49:19.976 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.weight' doesn't exist
-[ERROR] 2018-03-04 10:49:20.005 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.weight' doesn't exist
-[ERROR] 2018-03-04 10:51:24.659 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
-[ERROR] 2018-03-04 10:51:26.972 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
-[DEBUG] 2018-03-04 10:51:26.973 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[ERROR] 2018-03-04 10:51:27.408 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
-[ERROR] 2018-03-04 10:51:27.523 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
-[ERROR] 2018-03-04 10:51:27.624 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
-[ERROR] 2018-03-04 10:51:27.724 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
-[ERROR] 2018-03-04 10:51:27.824 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
-[ERROR] 2018-03-04 10:52:57.210 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
-[ERROR] 2018-03-04 10:52:59.157 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
-[DEBUG] 2018-03-04 10:52:59.159 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[ERROR] 2018-03-04 10:52:59.582 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
-[ERROR] 2018-03-04 10:52:59.627 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
-[ERROR] 2018-03-04 10:52:59.682 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
-[ERROR] 2018-03-04 10:52:59.714 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
-[ERROR] 2018-03-04 10:52:59.744 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
-[ERROR] 2018-03-04 10:56:03.903 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 10:56:06.307 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[DEBUG] 2018-03-04 10:56:06.308 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[ERROR] 2018-03-04 10:56:06.682 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 10:56:06.727 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 10:56:06.772 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 10:56:06.826 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 10:56:06.857 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[DEBUG] 2018-03-04 10:58:54.892 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[DEBUG] 2018-03-04 10:59:34.563 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[DEBUG] 2018-03-04 11:02:52.074 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[ERROR] 2018-03-04 11:04:55.268 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[ERROR] 2018-03-04 11:04:57.306 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[DEBUG] 2018-03-04 11:04:57.307 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[ERROR] 2018-03-04 11:04:57.768 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[ERROR] 2018-03-04 11:04:57.794 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[ERROR] 2018-03-04 11:04:57.831 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[ERROR] 2018-03-04 11:04:57.859 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[ERROR] 2018-03-04 11:04:57.893 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`weight`, CONSTRAINT `user_weight_user_id_fk` FOREIGN KEY (`userId`) REFERENCES `user` (`id`))
-[ERROR] 2018-03-04 11:07:47.666 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Can't DROP 'user_weight_user_id_fk'; check that column/key exists
-[DEBUG] 2018-03-04 11:07:47.682 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[ERROR] 2018-03-04 11:07:48.036 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Can't DROP 'user_weight_user_id_fk'; check that column/key exists
-[ERROR] 2018-03-04 11:07:48.067 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Can't DROP 'user_weight_user_id_fk'; check that column/key exists
-[ERROR] 2018-03-04 11:07:48.120 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Can't DROP 'user_weight_user_id_fk'; check that column/key exists
-[ERROR] 2018-03-04 11:07:48.167 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Can't DROP 'user_weight_user_id_fk'; check that column/key exists
-[ERROR] 2018-03-04 11:07:48.205 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Can't DROP 'user_weight_user_id_fk'; check that column/key exists
-[ERROR] 2018-03-04 11:10:24.949 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF EXISTS user_weight_user_id_fk' at line 1
-[ERROR] 2018-03-04 11:10:27.099 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF EXISTS user_weight_user_id_fk' at line 1
-[DEBUG] 2018-03-04 11:10:27.100 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[ERROR] 2018-03-04 11:10:27.432 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF EXISTS user_weight_user_id_fk' at line 1
-[ERROR] 2018-03-04 11:10:27.448 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF EXISTS user_weight_user_id_fk' at line 1
-[ERROR] 2018-03-04 11:10:27.479 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF EXISTS user_weight_user_id_fk' at line 1
-[ERROR] 2018-03-04 11:10:27.502 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF EXISTS user_weight_user_id_fk' at line 1
-[ERROR] 2018-03-04 11:10:27.518 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IF EXISTS user_weight_user_id_fk' at line 1
-[ERROR] 2018-03-04 11:18:42.276 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown table 'liftbuddytest.weight'
-[DEBUG] 2018-03-04 11:18:42.277 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[ERROR] 2018-03-04 11:18:42.830 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown table 'liftbuddytest.weight'
-[ERROR] 2018-03-04 11:18:42.866 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown table 'liftbuddytest.weight'
-[ERROR] 2018-03-04 11:18:42.905 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown table 'liftbuddytest.weight'
-[ERROR] 2018-03-04 11:18:42.916 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown table 'liftbuddytest.weight'
-[ERROR] 2018-03-04 11:18:42.958 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown table 'liftbuddytest.weight'
-[ERROR] 2018-03-04 11:19:53.761 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown table 'liftbuddytest.weight'
-[ERROR] 2018-03-04 11:19:56.152 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown table 'liftbuddytest.weight'
-[DEBUG] 2018-03-04 11:19:56.153 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[ERROR] 2018-03-04 11:19:56.471 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown table 'liftbuddytest.weight'
-[ERROR] 2018-03-04 11:19:56.517 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown table 'liftbuddytest.weight'
-[ERROR] 2018-03-04 11:19:56.563 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown table 'liftbuddytest.weight'
-[ERROR] 2018-03-04 11:19:56.590 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown table 'liftbuddytest.weight'
-[ERROR] 2018-03-04 11:19:56.623 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown table 'liftbuddytest.weight'
-[DEBUG] 2018-03-04 11:20:38.418 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[DEBUG] 2018-03-04 11:21:18.210 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[DEBUG] 2018-03-04 11:21:39.576 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[DEBUG] 2018-03-04 11:22:26.491 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[ERROR] 2018-03-04 11:30:47.649 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 11:30:50.237 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[DEBUG] 2018-03-04 11:30:50.238 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[ERROR] 2018-03-04 11:30:50.705 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 11:30:50.751 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 11:30:50.791 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 11:30:50.828 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 11:30:50.852 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 11:31:57.204 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 11:31:59.755 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[DEBUG] 2018-03-04 11:31:59.756 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[ERROR] 2018-03-04 11:32:00.104 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 11:32:00.134 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 11:32:00.182 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 11:32:00.229 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 11:32:00.244 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 11:33:09.506 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 11:33:52.734 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: A table must have at least 1 column
-[ERROR] 2018-03-04 11:34:24.492 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 11:34:26.772 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[DEBUG] 2018-03-04 11:34:26.774 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
-[ERROR] 2018-03-04 11:34:27.120 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 11:34:27.136 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[DEBUG] 2018-03-04 11:34:27.136 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
-[ERROR] 2018-03-04 11:34:27.186 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[DEBUG] 2018-03-04 11:34:27.186 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
-[ERROR] 2018-03-04 11:34:27.219 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 11:34:27.247 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[ERROR] 2018-03-04 11:34:27.266 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
-[DEBUG] 2018-03-04 11:36:29.611 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
-[DEBUG] 2018-03-04 11:36:29.972 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
-[DEBUG] 2018-03-04 11:36:30.011 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
-[DEBUG] 2018-03-04 11:37:18.216 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[DEBUG] 2018-03-04 11:38:07.657 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[ERROR] 2018-03-04 11:41:09.570 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`liftbuddytest`.`gym`, CONSTRAINT `gym_user_gymId_fk` FOREIGN KEY (`id`) REFERENCES `user` (`gymId`))
-[ERROR] 2018-03-04 11:41:12.075 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`liftbuddytest`.`gym`, CONSTRAINT `gym_user_gymId_fk` FOREIGN KEY (`id`) REFERENCES `user` (`gymId`))
-[DEBUG] 2018-03-04 11:41:12.076 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[ERROR] 2018-03-04 11:41:12.409 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`liftbuddytest`.`gym`, CONSTRAINT `gym_user_gymId_fk` FOREIGN KEY (`id`) REFERENCES `user` (`gymId`))
-[ERROR] 2018-03-04 11:41:12.440 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`liftbuddytest`.`gym`, CONSTRAINT `gym_user_gymId_fk` FOREIGN KEY (`id`) REFERENCES `user` (`gymId`))
-[ERROR] 2018-03-04 11:41:12.472 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`liftbuddytest`.`gym`, CONSTRAINT `gym_user_gymId_fk` FOREIGN KEY (`id`) REFERENCES `user` (`gymId`))
-[ERROR] 2018-03-04 11:41:12.503 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`liftbuddytest`.`gym`, CONSTRAINT `gym_user_gymId_fk` FOREIGN KEY (`id`) REFERENCES `user` (`gymId`))
-[ERROR] 2018-03-04 11:41:12.532 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`liftbuddytest`.`gym`, CONSTRAINT `gym_user_gymId_fk` FOREIGN KEY (`id`) REFERENCES `user` (`gymId`))
-[DEBUG] 2018-03-04 11:43:14.661 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
-[DEBUG] 2018-03-04 11:45:12.485 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[ERROR] 2018-03-05 01:16:27.927 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.user_weight' doesn't exist
+[ERROR] 2018-03-05 01:16:31.721 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.user_weight' doesn't exist
+[DEBUG] 2018-03-05 01:16:31.721 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[ERROR] 2018-03-05 01:16:32.238 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.user_weight' doesn't exist
+[ERROR] 2018-03-05 01:16:32.285 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.user_weight' doesn't exist
+[ERROR] 2018-03-05 01:16:32.367 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.user_weight' doesn't exist
+[ERROR] 2018-03-05 01:16:32.412 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.user_weight' doesn't exist
+[ERROR] 2018-03-05 01:16:32.457 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.user_weight' doesn't exist
+[ERROR] 2018-03-05 01:22:53.058 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.user_weight' doesn't exist
+[ERROR] 2018-03-05 01:22:55.969 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.user_weight' doesn't exist
+[DEBUG] 2018-03-05 01:22:55.970 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[ERROR] 2018-03-05 01:22:56.726 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.user_weight' doesn't exist
+[ERROR] 2018-03-05 01:22:56.780 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.user_weight' doesn't exist
+[ERROR] 2018-03-05 01:22:56.839 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.user_weight' doesn't exist
+[ERROR] 2018-03-05 01:22:56.877 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.user_weight' doesn't exist
+[ERROR] 2018-03-05 01:22:56.921 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'liftbuddytest.user_weight' doesn't exist
+[ERROR] 2018-03-05 01:26:57.073 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-05 01:26:59.678 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-03-05 01:26:59.679 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[ERROR] 2018-03-05 01:27:00.172 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-05 01:27:00.194 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-05 01:27:00.256 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-05 01:27:00.294 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-05 01:27:00.341 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-03-05 01:29:44.356 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[DEBUG] 2018-03-05 01:31:47.544 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-05 01:31:48.081 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-05 01:31:48.134 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-05 02:20:10.715 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-05 02:20:11.292 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-05 02:20:11.348 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-05 02:25:41.641 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-05 02:25:42.153 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-05 02:25:42.224 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-05 02:26:26.769 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[DEBUG] 2018-03-05 02:28:09.962 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[DEBUG] 2018-03-05 02:29:14.483 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[DEBUG] 2018-03-05 02:32:43.423 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[DEBUG] 2018-03-05 02:34:13.768 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[DEBUG] 2018-03-05 02:35:05.548 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[DEBUG] 2018-03-05 02:42:55.403 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[DEBUG] 2018-03-05 02:46:26.807 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[DEBUG] 2018-03-05 02:49:54.168 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with for property gymName = ymca
