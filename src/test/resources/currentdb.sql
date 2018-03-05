@@ -59,7 +59,7 @@ create table user
 ;
 
 create index user_gym_id_fk
-  on user (gymId)
+  on user (gym_id)
 ;
 
 create table weight
