@@ -40,6 +40,7 @@ public class User {
     @Column(name = "last_name")
     private String lastName;
 
+    @Transient
     @OneToMany(mappedBy = "weight", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private List<Weight> weights = new ArrayList<>();
 
