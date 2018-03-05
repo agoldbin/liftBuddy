@@ -82,3 +82,19 @@
 [ERROR] 2018-03-05 08:48:00.106 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
 [ERROR] 2018-03-05 08:48:00.169 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
 [ERROR] 2018-03-05 08:48:00.184 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-05 10:18:00.450 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-05 10:18:03.232 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[DEBUG] 2018-03-05 10:18:03.232 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[ERROR] 2018-03-05 10:18:03.633 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-05 10:18:03.664 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-05 10:18:03.711 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-05 10:18:03.742 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-05 10:18:03.789 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-05 10:51:55.002 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-05 10:51:57.349 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[DEBUG] 2018-03-05 10:51:57.349 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[ERROR] 2018-03-05 10:51:58.286 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-05 10:51:58.318 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-05 10:51:58.693 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-05 10:51:58.708 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-05 10:51:58.739 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
