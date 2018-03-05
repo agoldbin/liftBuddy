@@ -72,3 +72,13 @@
 [DEBUG] 2018-03-05 08:43:09.001 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
 [DEBUG] 2018-03-05 08:43:09.454 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
 [DEBUG] 2018-03-05 08:43:09.517 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-05 08:47:45.223 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-05 08:47:45.738 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-05 08:47:45.785 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-05 08:47:59.356 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[DEBUG] 2018-03-05 08:47:59.356 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[ERROR] 2018-03-05 08:48:00.013 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-05 08:48:00.059 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-05 08:48:00.106 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-05 08:48:00.169 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[ERROR] 2018-03-05 08:48:00.184 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails

@@ -68,7 +68,7 @@ public class User {
      * @param location     the user location
      * @param dob          the dob
      * @param height       the height
-//     * @param weight       the user weight
+     * @param weight       the user weight
      * @param sex          the sex
      */
     public User(String userEmail, String password, String userName, String firstName, String lastName
