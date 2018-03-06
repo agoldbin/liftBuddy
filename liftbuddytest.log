@@ -125,3 +125,62 @@
 [DEBUG] 2018-03-06 01:26:40.047 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
 [DEBUG] 2018-03-06 01:26:40.469 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
 [DEBUG] 2018-03-06 01:27:15.671 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with for property gymName = ymca
+[DEBUG] 2018-03-06 02:21:49.735 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with for property gymName = ymca
+[DEBUG] 2018-03-06 02:21:50.157 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-06 02:22:02.514 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-06 02:22:03.029 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-06 02:22:03.076 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-06 03:01:07.599 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-06 03:01:08.127 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-06 03:01:08.195 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-06 03:13:39.679 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-06 03:13:40.331 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-06 03:13:40.375 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-06 03:15:35.894 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-06 03:15:36.422 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-06 03:15:36.494 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-06 03:16:07.420 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-06 03:16:08.004 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-06 03:16:08.064 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-06 03:18:12.102 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-06 03:18:12.646 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-06 03:18:12.698 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-06 03:18:46.691 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-06 03:18:47.263 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-06 03:18:47.311 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-06 03:19:06.971 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-06 03:19:09.835 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-03-06 03:19:09.839 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[ERROR] 2018-03-06 03:19:10.323 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-06 03:19:10.359 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-03-06 03:19:10.359 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[ERROR] 2018-03-06 03:19:10.395 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-03-06 03:19:10.399 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-06 03:19:10.439 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-06 03:19:10.475 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-06 03:19:10.503 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-06 03:20:19.852 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-06 03:20:22.764 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-03-06 03:20:22.764 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with for property gymName = ymca
+[ERROR] 2018-03-06 03:20:23.248 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-03-06 03:20:23.248 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[ERROR] 2018-03-06 03:20:23.284 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-06 03:20:23.332 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-06 03:20:23.364 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-06 03:20:23.400 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-06 03:22:03.282 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-06 03:22:06.795 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-03-06 03:22:06.795 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with for property gymName = ymca
+[ERROR] 2018-03-06 03:22:07.499 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-03-06 03:22:07.499 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[ERROR] 2018-03-06 03:22:07.535 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-06 03:22:07.583 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-06 03:22:07.623 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-06 03:22:07.655 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-03-06 03:23:04.621 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with for property gymName = ymca
+[DEBUG] 2018-03-06 03:23:05.109 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-06 03:24:49.166 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with for property gymName = ymca
+[DEBUG] 2018-03-06 03:24:49.686 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-06 03:25:05.747 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-06 03:25:06.415 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-06 03:25:06.455 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c

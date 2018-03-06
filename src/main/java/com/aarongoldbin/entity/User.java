@@ -1,6 +1,5 @@
 package com.aarongoldbin.entity;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.GenericGenerator;
@@ -9,9 +8,7 @@ import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 /**
  * A class to represent a user
@@ -52,7 +49,6 @@ public class User {
     private String password;
     private String height;
     private LocalDate dob;
-    private int userWeight;
     private String sex;
 
     /**
@@ -72,11 +68,11 @@ public class User {
      * @param location     the user location
      * @param dob          the dob
      * @param height       the height
-     * @param userWeight   the user weight
+//     * @param weight   the user weight
      * @param sex          the sex
      */
     public User(String userEmail, String password, String userName, String firstName, String lastName
-            , Gym gym, String location, LocalDate dob, String height, int  userWeight, String sex) {
+            , Gym gym, String location, LocalDate dob, String height, /*int weight,*/ String sex) {
         this.userEmail = userEmail;
         this.password = password;
         this.userName = userName;
@@ -86,7 +82,9 @@ public class User {
         this.location = location;
         this.dob = dob;
         this.height = height;
-        this.userWeight = userWeight;
+//        this.userWeight = userWeight;
+//        Weight updateWeight = new Weight(this, weight);
+//        addWeight(updateWeight);
         this.sex = sex;
     }
 
@@ -110,7 +108,6 @@ public class User {
      * @param weight the user's weight
      */
     public void addWeight(Weight weight) {
-        weight.setWeight(userWeight);
         weights.add(weight);
         weight.setUser(this);
     }
@@ -144,7 +141,7 @@ public class User {
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", height=" + height +
-                ", userWeight=" + userWeight +
+//                ", userWeight=" + userWeight +
                 ", sex='" + sex + '\'' +
                 ", dob=" + dob +
                 '}';

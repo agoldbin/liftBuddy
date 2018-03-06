@@ -20,6 +20,7 @@ public class Weight {
     @Column(name = "weightId")
     private int id;
 
+    @Transient
     @ManyToOne
     private User user;
 
@@ -36,9 +37,10 @@ public class Weight {
      *
      * @param user the user object
      */
-    public Weight(User user) {
+    public Weight(User user, int weight) {
+        this.weight = weight;
         this.user = user;
-        weight = user.getUserWeight();
+        user.addWeight(this);
     }
 
     public User getUser(){

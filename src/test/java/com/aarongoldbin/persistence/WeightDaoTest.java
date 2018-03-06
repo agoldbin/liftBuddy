@@ -1,6 +1,6 @@
 package com.aarongoldbin.persistence;
 
-import com.aarongoldbin.entity.Gym;
+import com.aarongoldbin.entity.Weight;
 import com.aarongoldbin.entity.User;
 import com.aarongoldbin.test.util.Database;
 import org.junit.jupiter.api.BeforeEach;
@@ -12,13 +12,15 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * Tests for User Dao (Using GenericDao)
+ * Tests for WeightDao (Using GenericDao)
  *
  * @author agoldbin
  */
-class UserDaoTest {
+
+public class WeightDaoTest {
 
     GenericDao genericDao;
+    GenericDao userDao;
 
     /**
      * Run set up tasks before each test:
@@ -27,7 +29,7 @@ class UserDaoTest {
      */
     @BeforeEach
     void setUp() {
-        genericDao = new GenericDao(User.class);
+        genericDao = new GenericDao(Weight.class);
 
         Database database = Database.getInstance();
         database.runSQL("userAndGymTestsNoLbs.sql");
@@ -38,23 +40,26 @@ class UserDaoTest {
      */
     @Test
     void getByIdSuccess() {
-        User retrievedUser = (User) genericDao.getById(3);
-        assertEquals("bcurry", retrievedUser.getUserName());
+        userDao = new GenericDao(User.class);
+        User user = (User) userDao.getById(3);
+        Weight retrievedWeight = (Weight) genericDao.getById(3);
+ /*       assertEquals(, retrievedWeight.getUser());
         assertEquals("curryman@yahoo.com", retrievedUser.getUserEmail());
         assertEquals("53704", retrievedUser.getLocation());
         assertEquals(3, retrievedUser.getId());
+   */
     }
 
     /**
      * Verify that new user is successfully added
      */
     @Test
-    void insertNewUserSuccess() {
-        GenericDao gymDao = new GenericDao(Gym.class);
-        Gym gym = (Gym) gymDao.getById(6);
+    void insertNewUserWeightSuccess() {
+ /*       GenericDao userDao = new GenericDao(User.class);
+        User user = (User) userDao.getById(6);
 //        Weight weight = (Weight) genericDao.getByPropertyLike("userId", "1");
-        User newUser = new User("teddymo@gmail.com","superdupersecret7","TMoney","Ted","Mosby", gym,"53219", LocalDate.parse("1978-04-25"),"5'10","M");
-        gym.addUser(newUser);
+        User newUser = new User("teddymo@gmail.com","superdupersecret7","TMoney","Ted","Mosby", gym,"53219", LocalDate.parse("1978-04-25"),"5'10",240,"M");
+        weight.addUser(newUser);
 //        weight.setUser(newUser);
         int id = genericDao.insert(newUser);
         assertNotEquals(0,id);
@@ -62,7 +67,7 @@ class UserDaoTest {
         assertEquals("TMoney", insertedUser.getUserName());
         assertEquals("teddymo@gmail.com", insertedUser.getUserEmail());
         assertEquals("53219", insertedUser.getLocation());
-
+*/
         // TODO review .equals recommendations http://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#mapping-model-pojo-equalshashcode
     }
 
@@ -79,9 +84,9 @@ class UserDaoTest {
      * Verify successful retrieval of all users
      */
     @Test
-    void getAllSuccess() {
-        List<User> users = genericDao.getAll();
-        assertEquals(6, users.size());
+    void getAllUserWeightSuccess() {
+        List<Weight> weights = genericDao.getAll();
+        assertEquals(6, weights.size());
     }
 
     /**
@@ -102,9 +107,9 @@ class UserDaoTest {
      */
     @Test
     void getByPropertyEqualSuccess() {
-        List<User> users = genericDao.getByPropertyLike("lastName", "Curry");
-        assertEquals(1, users.size());
-        assertEquals(3, users.get(0).getId());
+        List<Weight> weights = genericDao.getByPropertyLike("weightId", "2");
+        assertEquals(1, weights.size());
+        assertEquals(2, weights.get(0).getId());
 
     }
 
@@ -113,17 +118,18 @@ class UserDaoTest {
      */
     @Test
     void getByPropertyLikeSuccess() {
-        List<User> users = genericDao.getByPropertyLike("userName", "c");
-        assertEquals(3, users.size());
+        List<Weight> weights = genericDao.getByPropertyLike("weight", "1");
+        assertEquals(3, weights.size());
     }
 
     /**
      * Verify successful finding of users in a location
      */
     @Test
-    void getUsersFromLocationSuccess() {
-        List<User> users = genericDao.getByPropertyLike("location", "71");
-        assertEquals(3, users.size());
-        assertEquals(6, users.get(2).getId());
+    void getAllWeights() {
+        List<Weight> weights = genericDao.getByPropertyLike("location", "71");
+        assertEquals(3, weights.size());
+        assertEquals(6, weights.get(2).getUser());
     }
+
 }
