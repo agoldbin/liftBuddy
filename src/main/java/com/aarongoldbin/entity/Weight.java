@@ -20,7 +20,6 @@ public class Weight {
     @Column(name = "weightId")
     private int id;
 
-    @Transient
     @ManyToOne
     private User user;
 
@@ -30,6 +29,10 @@ public class Weight {
      * Constructor for Weight
      */
     public Weight() {
+    }
+
+    public Weight(int weight) {
+        this.weight = weight;
     }
 
     /**

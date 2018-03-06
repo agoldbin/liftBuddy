@@ -40,8 +40,8 @@ public class User {
     @Column(name = "last_name")
     private String lastName;
 
-    @Transient
-    @OneToMany(mappedBy = "weight", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    // TODO properly map this. If not transient, tests will fail currently
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private List<Weight> weights = new ArrayList<>();
 
     private String location;
@@ -58,7 +58,7 @@ public class User {
     }
 
     /**
-     * Instantiates a new User.
+     * Instantiates a new User WITHOUT weight.
      * @param userEmail    the user email
      * @param password     the password
      * @param userName     the user name
@@ -68,11 +68,10 @@ public class User {
      * @param location     the user location
      * @param dob          the dob
      * @param height       the height
-//     * @param weight   the user weight
      * @param sex          the sex
      */
     public User(String userEmail, String password, String userName, String firstName, String lastName
-            , Gym gym, String location, LocalDate dob, String height, /*int weight,*/ String sex) {
+            , Gym gym, String location, LocalDate dob, String height, String sex) {
         this.userEmail = userEmail;
         this.password = password;
         this.userName = userName;
@@ -82,9 +81,36 @@ public class User {
         this.location = location;
         this.dob = dob;
         this.height = height;
-//        this.userWeight = userWeight;
-//        Weight updateWeight = new Weight(this, weight);
-//        addWeight(updateWeight);
+        this.sex = sex;
+    }
+
+
+    /**
+     * Instantiates a new User WITH their weight.
+     * @param userEmail    the user email
+     * @param password     the password
+     * @param userName     the user name
+     * @param firstName    the first name
+     * @param lastName     the last name
+     * @param gym          the gym
+     * @param location     the user location
+     * @param dob          the dob
+     * @param height       the height
+     * @param weight       the user weight
+     * @param sex          the sex
+     */
+    public User(String userEmail, String password, String userName, String firstName, String lastName
+            , Gym gym, String location, LocalDate dob, String height, Weight weight, String sex) {
+        this.userEmail = userEmail;
+        this.password = password;
+        this.userName = userName;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.gym = gym;
+        this.location = location;
+        this.dob = dob;
+        this.height = height;
+        addWeight(weight);
         this.sex = sex;
     }
 
