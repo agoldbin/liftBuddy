@@ -8,6 +8,12 @@ import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
+/**
+ * Tests for GymDao (Using GenericDao)
+ *
+ * @author agoldbin
+ */
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class GymDaoTest {
@@ -22,9 +28,9 @@ class GymDaoTest {
     @BeforeEach
     void setUp() {
         genericDao = new GenericDao(Gym.class);
-//        genericDao = new GymDao();
+
         Database database = Database.getInstance();
-        database.runSQL("userAndGymTestsWithLbs.sql");
+        database.runSQL("userAndGymTestsNoLbs.sql");
     }
 
     /**

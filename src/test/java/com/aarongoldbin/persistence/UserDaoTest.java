@@ -11,6 +11,11 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Tests for User Dao (Using GenericDao)
+ *
+ * @author agoldbin
+ */
 class UserDaoTest {
 
     GenericDao genericDao;
@@ -25,7 +30,7 @@ class UserDaoTest {
         genericDao = new GenericDao(User.class);
 
         Database database = Database.getInstance();
-        database.runSQL("userAndGymTestsWithLbs.sql");
+        database.runSQL("userAndGymTestsNoLbs.sql");
     }
 
     /**
@@ -48,7 +53,7 @@ class UserDaoTest {
         GenericDao gymDao = new GenericDao(Gym.class);
         Gym gym = (Gym) gymDao.getById(6);
 //        Weight weight = (Weight) genericDao.getByPropertyLike("userId", "1");
-        User newUser = new User("teddymo@gmail.com","superdupersecret7","TMoney","Ted","Mosby", gym,"53219", LocalDate.parse("1978-04-25"),"5'10",240,"M");
+        User newUser = new User("teddymo@gmail.com","superdupersecret7","TMoney","Ted","Mosby", gym,"53219", LocalDate.parse("1978-04-25"),"5'10","M");
         gym.addUser(newUser);
 //        weight.setUser(newUser);
         int id = genericDao.insert(newUser);

@@ -20,5 +20,6 @@ DISCLAIMER: All times are estimates as I am bad at actually tracking when I work
 | 3/3/18  | Working on db and data entry... Taking fo'eva'... | 4 | |
 | 3/4/18  | More database work. Still getting no where | 3.5 |  |
 | 3/5/18  | Trying to get back to where I was earlier this week because apparently I have broke everything. | 6 |  |
+| 3/6/18  | Attempt #325638952423908 to get database working/connected |  |  |
 ---
-####Running total: = 47.5 hrs
+####Running total: = 65 hrs
