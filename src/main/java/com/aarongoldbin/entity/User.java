@@ -1,6 +1,8 @@
 package com.aarongoldbin.entity;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -16,9 +18,10 @@ import java.util.Set;
  *
  * @author agoldbin
  */
-@Data
 @Entity(name = "User")
 @Table(name = "user") // case senstitive
+@Getter
+@Setter
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
@@ -49,6 +52,7 @@ public class User {
     private String password;
     private String height;
     private LocalDate dob;
+    private int userWeight;
     private String sex;
 
     /**
@@ -68,11 +72,11 @@ public class User {
      * @param location     the user location
      * @param dob          the dob
      * @param height       the height
-     * @param weight       the user weight
+     * @param userWeight   the user weight
      * @param sex          the sex
      */
     public User(String userEmail, String password, String userName, String firstName, String lastName
-            , Gym gym, String location, LocalDate dob, String height, /*Weight userWeight,*/ String sex) {
+            , Gym gym, String location, LocalDate dob, String height, int  userWeight, String sex) {
         this.userEmail = userEmail;
         this.password = password;
         this.userName = userName;
@@ -82,7 +86,7 @@ public class User {
         this.location = location;
         this.dob = dob;
         this.height = height;
-//        addWeight(userWeight);
+        this.userWeight = userWeight;
         this.sex = sex;
     }
 
@@ -106,6 +110,7 @@ public class User {
      * @param weight the user's weight
      */
     public void addWeight(Weight weight) {
+        weight.setWeight(userWeight);
         weights.add(weight);
         weight.setUser(this);
     }
@@ -139,7 +144,7 @@ public class User {
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", height=" + height +
-//                ", weight=" + weight +
+                ", userWeight=" + userWeight +
                 ", sex='" + sex + '\'' +
                 ", dob=" + dob +
                 '}';

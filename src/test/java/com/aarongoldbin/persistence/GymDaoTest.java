@@ -13,7 +13,6 @@ import static org.junit.jupiter.api.Assertions.*;
 class GymDaoTest {
 
     GenericDao genericDao;
-//    GymDao genericDao;
 
     /**
      * Run set up tasks before each test:
@@ -23,9 +22,9 @@ class GymDaoTest {
     @BeforeEach
     void setUp() {
         genericDao = new GenericDao(Gym.class);
-
+//        genericDao = new GymDao();
         Database database = Database.getInstance();
-        database.runSQL("cleanUserTable.sql");
+        database.runSQL("userAndGymTestsWithLbs.sql");
     }
 
     /**
@@ -34,7 +33,7 @@ class GymDaoTest {
     @Test
     void getByIdSuccess() {
         Gym retrievedGym = (Gym) genericDao.getById(1);
-        assertTrue(retrievedGym.getGymName().equals("YMCA"));
+        assertEquals("YMCA", retrievedGym.getGymName());
         assertEquals(1, retrievedGym.getId());
     }
 
@@ -47,7 +46,7 @@ class GymDaoTest {
         int id = genericDao.insert(newGym);
         assertNotEquals(0,id);
         Gym insertedGym = (Gym) genericDao.getById(id);
-        assertTrue(newGym.getGymName().equals(insertedGym.getGymName()));
+        assertEquals("Gold's Gym", insertedGym.getGymName());
     }
 
     /**
@@ -56,7 +55,7 @@ class GymDaoTest {
     @Test
     void deleteSuccess() {
         genericDao.delete(genericDao.getById(3));
-        assertEquals(5, genericDao.getAll().size());
+        assertNull(genericDao.getById(3));
 
     }
 
@@ -78,9 +77,8 @@ class GymDaoTest {
         Gym gymToUpdate = (Gym) genericDao.getById(3);
         gymToUpdate.setGymName(newGymName);
         genericDao.saveOrUpdate(gymToUpdate);
-        Gym retrievedGym = (Gym) genericDao.getById(3);
-
-        assertTrue(retrievedGym.getGymName().equals(newGymName));
+        Gym retrivedGym = (Gym) genericDao.getById(3);
+        assertEquals(newGymName, retrivedGym.getGymName());
     }
 
     /**
@@ -88,8 +86,7 @@ class GymDaoTest {
      */
     @Test
     void getByPropertyEqualSuccess() {
-        //        Gym retrievedGym = (Gym) genericDao.getById(1);
-        List<Gym> gyms = genericDao.getByPropertyLike("gymName", "ymca");
+        List<Gym> gyms = genericDao.getByPropertyEqual("gymName", "ymca");
         assertEquals(1, gyms.size());
         assertEquals(1, gyms.get(0).getId());
     }
@@ -99,10 +96,8 @@ class GymDaoTest {
      */
     @Test
     void getByPropertyLikeSuccess() {
-                Gym retrievedGym = (Gym) genericDao.getById(1);
         List<Gym> gyms = genericDao.getByPropertyLike("gymName", "c");
         assertEquals(2, gyms.size());
         assertEquals(3, gyms.get(1).getId());
-//        assertTrue(retrievedGym.equals(gyms.get(0)));
     }
 }
