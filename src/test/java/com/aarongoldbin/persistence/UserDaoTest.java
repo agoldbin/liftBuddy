@@ -25,7 +25,7 @@ class UserDaoTest {
         genericDao = new GenericDao(User.class);
 
         Database database = Database.getInstance();
-        database.runSQL("cleandb.sql");
+        database.runSQL("userAndGymTestsWithLbs.sql");
     }
 
     /**
@@ -46,9 +46,9 @@ class UserDaoTest {
     @Test
     void insertNewUserSuccess() {
         GenericDao gymDao = new GenericDao(Gym.class);
-        Gym gym = (Gym) genericDao.getById(6);
+        Gym gym = (Gym) gymDao.getById(6);
 //        Weight weight = (Weight) genericDao.getByPropertyLike("userId", "1");
-        User newUser = new User("teddymo@gmail.com","superdupersecret7","TMoney","Ted","Mosby", gym,"53219", LocalDate.parse("1978-04-25"),"5'10",/*240,*/"M");
+        User newUser = new User("teddymo@gmail.com","superdupersecret7","TMoney","Ted","Mosby", gym,"53219", LocalDate.parse("1978-04-25"),"5'10",240,"M");
         gym.addUser(newUser);
 //        weight.setUser(newUser);
         int id = genericDao.insert(newUser);

@@ -98,3 +98,30 @@
 [ERROR] 2018-03-05 10:51:58.693 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
 [ERROR] 2018-03-05 10:51:58.708 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
 [ERROR] 2018-03-05 10:51:58.739 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails
+[DEBUG] 2018-03-06 01:13:56.540 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[DEBUG] 2018-03-06 01:15:08.481 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[DEBUG] 2018-03-06 01:16:35.055 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[DEBUG] 2018-03-06 01:18:04.467 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[ERROR] 2018-03-06 01:20:56.295 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-06 01:21:00.030 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-03-06 01:21:00.030 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[ERROR] 2018-03-06 01:21:00.498 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-03-06 01:21:00.498 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[ERROR] 2018-03-06 01:21:00.530 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-06 01:21:00.577 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-06 01:21:00.592 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[ERROR] 2018-03-06 01:21:00.639 [main] Database - java.sql.SQLException: Column count doesn't match value count at row 1
+[DEBUG] 2018-03-06 01:22:16.043 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[DEBUG] 2018-03-06 01:22:17.158 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-06 01:23:16.797 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-06 01:23:17.281 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-06 01:23:17.312 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-06 01:25:31.533 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-06 01:25:32.049 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-06 01:25:32.080 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-06 01:26:21.690 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-06 01:26:22.190 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-06 01:26:22.221 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-06 01:26:40.047 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE ymca
+[DEBUG] 2018-03-06 01:26:40.469 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-06 01:27:15.671 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with for property gymName = ymca

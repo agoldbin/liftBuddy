@@ -34,10 +34,11 @@ public class Weight {
     /**
      * Constructor for Weight
      *
-     * @param weight the user weight
+     * @param user the user object
      */
-    public Weight(int weight) {
-        this.weight = weight;
+    public Weight(User user) {
+        this.user = user;
+        weight = user.getUserWeight();
     }
 
     public User getUser(){
