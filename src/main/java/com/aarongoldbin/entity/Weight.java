@@ -1,6 +1,7 @@
 package com.aarongoldbin.entity;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -12,12 +13,13 @@ import java.time.LocalDate;
  */
 @Entity(name = "Weight")
 @Table(name = "weight")
-@Data
+@Getter
+@Setter
 public class Weight {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
-    @Column(name = "weightId")
+    @Column(name = "weight_id")
     private int id;
 
     @ManyToOne
@@ -31,6 +33,11 @@ public class Weight {
     public Weight() {
     }
 
+    /**
+     * Constructor for weight with user weight param
+     *
+     * @param weight
+     */
     public Weight(int weight) {
         this.weight = weight;
     }
@@ -44,13 +51,5 @@ public class Weight {
         this.weight = weight;
         this.user = user;
         user.addWeight(this);
-    }
-
-    public User getUser(){
-        return user;
-    }
-
-    public void setUser(User user){
-        this.user = user;
     }
 }
