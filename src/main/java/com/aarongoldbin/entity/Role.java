@@ -1,6 +1,8 @@
 package com.aarongoldbin.entity;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -12,9 +14,10 @@ import java.util.Set;
  *
  * @author agoldbin
  */
-@Data
 @Entity(name = "Role")
 @Table(name = "role") // case senstitive
+@Getter
+@Setter
 public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")

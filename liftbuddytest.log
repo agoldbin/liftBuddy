@@ -298,3 +298,12 @@
 [DEBUG] 2018-03-06 13:57:55.871 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
 [DEBUG] 2018-03-06 13:57:56.340 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
 [DEBUG] 2018-03-06 13:57:56.387 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-07 04:40:38.098 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-07 04:40:38.442 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-07 04:40:38.473 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-07 04:57:38.170 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-07 04:57:38.545 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-07 04:57:38.588 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-07 05:20:30.553 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-07 05:20:31.080 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-07 05:20:31.119 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
