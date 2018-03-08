@@ -1,6 +1,5 @@
 package com.aarongoldbin.entity;
 
-import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.GenericGenerator;

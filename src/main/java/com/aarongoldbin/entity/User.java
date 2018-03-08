@@ -46,6 +46,11 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     private List<Workout> workouts = new ArrayList<>();
 
+    // TODO properly connect role and user tables
+    @Transient
+    @ManyToOne
+    private Role role;
+
     private String location;
     //    TODO is password needed to be stored? How to store a password hash
     private String password;
