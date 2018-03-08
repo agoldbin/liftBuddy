@@ -30,49 +30,47 @@ public class WeightDaoTest {
     @BeforeEach
     void setUp() {
         genericDao = new GenericDao(Weight.class);
+        userDao = new GenericDao(User.class);
 
         Database database = Database.getInstance();
-        database.runSQL("userAndGymTestsNoLbs.sql");
+        database.runSQL("weightTest.sql");
     }
 
     /**
-     * Verify successful retrieval of a user
+     * Verify successful retrieval of a weight
      */
     @Test
     void getByIdSuccess() {
-        userDao = new GenericDao(User.class);
-        User user = (User) userDao.getById(3);
         Weight retrievedWeight = (Weight) genericDao.getById(3);
- /*       assertEquals(, retrievedWeight.getUser());
-        assertEquals("curryman@yahoo.com", retrievedUser.getUserEmail());
-        assertEquals("53704", retrievedUser.getLocation());
-        assertEquals(3, retrievedUser.getId());
-   */
+        assertEquals(3, retrievedWeight.getId());
+        assertEquals(6, retrievedWeight.getUser().getId());
+        assertEquals(200, retrievedWeight.getWeight());
     }
 
     /**
-     * Verify that new user is successfully added
+     * Verify that new weight is successfully added for user 2
      */
     @Test
     void insertNewUserWeightSuccess() {
- /*       GenericDao userDao = new GenericDao(User.class);
-        User user = (User) userDao.getById(6);
-//        Weight weight = (Weight) genericDao.getByPropertyLike("userId", "1");
-        User newUser = new User("teddymo@gmail.com","superdupersecret7","TMoney","Ted","Mosby", gym,"53219", LocalDate.parse("1978-04-25"),"5'10",240,"M");
-        weight.addUser(newUser);
-//        weight.setUser(newUser);
-        int id = genericDao.insert(newUser);
+        User user = (User) userDao.getById(2);
+        Weight newWeight = new Weight(user, 150);
+        int id = genericDao.insert(newWeight);
+
+        // TODO is this really how I have to set a user's weight?
+        user.addWeight(newWeight);
+//        newWeight.setUser(user);
+
         assertNotEquals(0,id);
-        User insertedUser = (User) genericDao.getById(id);
-        assertEquals("TMoney", insertedUser.getUserName());
-        assertEquals("teddymo@gmail.com", insertedUser.getUserEmail());
-        assertEquals("53219", insertedUser.getLocation());
-*/
+
+        Weight insertedWeight = (Weight) genericDao.getById(id);
+        assertEquals(150, insertedWeight.getWeight());
+        assertEquals(user.getId(), insertedWeight.getUser().getId());
+
         // TODO review .equals recommendations http://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#mapping-model-pojo-equalshashcode
     }
 
     /**
-     * Verify successful delete of user
+     * Verify successful delete of weight
      */
     @Test
     void deleteSuccess() {
@@ -81,55 +79,53 @@ public class WeightDaoTest {
     }
 
     /**
-     * Verify successful retrieval of all users
+     * Verify successful retrieval of all weights
      */
     @Test
-    void getAllUserWeightSuccess() {
+    void getAllWeightsSuccess() {
         List<Weight> weights = genericDao.getAll();
-        assertEquals(6, weights.size());
+        assertEquals(9, weights.size());
     }
+
+    /**
+     * Verify successful retrieval of weights for user 1
+     */
+//    @Test
+//    void getAllUserWeightsSuccess() {
+//        List<Weight> weights = genericDao.getByPropertyLike("weight", "5");
+//        assertEquals(4, weights.size());
+//    }
 
     /**
      * Verify successful update of user.
      */
     @Test
     void updateSuceess() {
-        String newLastName = "Davis";
-        User userToUpdate = (User) genericDao.getById(3);
-        userToUpdate.setLastName(newLastName);
-        genericDao.saveOrUpdate(userToUpdate);
-        User retrievedUser = (User) genericDao.getById(3);
-        assertEquals(newLastName, retrievedUser.getLastName());
+        int newWeight = 225;
+        Weight weightToUpdate = (Weight) genericDao.getById(3);
+        weightToUpdate.setWeight(newWeight);
+        genericDao.saveOrUpdate(weightToUpdate);
+        Weight retrievedWeight = (Weight) genericDao.getById(3);
+        assertEquals(newWeight, retrievedWeight.getWeight());
     }
 
     /**
      * Verify successful get by property (equal match)
      */
-    @Test
-    void getByPropertyEqualSuccess() {
-        List<Weight> weights = genericDao.getByPropertyLike("weightId", "2");
-        assertEquals(1, weights.size());
-        assertEquals(2, weights.get(0).getId());
-
-    }
-
-    /**
-     * Verify successful get by property (like match)
-     */
-    @Test
-    void getByPropertyLikeSuccess() {
-        List<Weight> weights = genericDao.getByPropertyLike("weight", "1");
-        assertEquals(3, weights.size());
-    }
-
-    /**
-     * Verify successful finding of users in a location
-     */
-    @Test
-    void getAllWeights() {
-        List<Weight> weights = genericDao.getByPropertyLike("location", "71");
-        assertEquals(3, weights.size());
-        assertEquals(6, weights.get(2).getUser());
-    }
-
+//    @Test
+//    void getByPropertyEqualSuccess() {
+//        List<Weight> weights = genericDao.getByPropertyLike("weightId", "2");
+//        assertEquals(1, weights.size());
+//        assertEquals(2, weights.get(0).getId());
+//
+//    }
+//
+//    /**
+//     * Verify successful get by property (like match)
+//     */
+//    @Test
+//    void getByPropertyLikeSuccess() {
+//        List<Weight> weights = genericDao.getByPropertyLike("weight", "1");
+//        assertEquals(3, weights.size());
+//    }
 }

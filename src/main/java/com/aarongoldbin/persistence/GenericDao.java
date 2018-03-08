@@ -121,7 +121,7 @@ public class GenericDao<T> {
      */
     public List<T> getByPropertyEqual(String propertyName, String value) {
         Session session = getSession();
-        logger.debug("Searching {} with for property {} = {}", type, propertyName, value);
+        logger.debug("Searching {} for property {} = {}", type, propertyName, value);
 
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<T> query = builder.createQuery(type);
