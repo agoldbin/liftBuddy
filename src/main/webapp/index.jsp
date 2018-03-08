@@ -4,8 +4,9 @@
         $('.parallax').parallax();
     });
     $(document).ready(function(){
-        $('.login').modal();
+        $('#login').modal();
     });
+    $('#login').modal('open');
 </script>
 
 <html>
@@ -16,7 +17,7 @@
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#">Search</a></li>
-                <li><a href="#login">Login</a></li>
+                <li><a class="modal-trigger" href="#login">Login</a></li>
                 <li><a href="#">Sign Up</a></li>
             </ul>
         </div>
@@ -82,9 +83,11 @@
                 <input type="text" class="form-control" name="loginPassword" id="loginPassword" aria-describedby="passwordHelp" placeholder="Password">
             </div>
 
-            <button class="btn btn-primary" type="submit" name="submit" value="viewAllGyms">
-                Log In
-            </button>
+            <div class="right-align">
+                <button class="btn waves-effect waves-light" type="submit" name="action">Login
+                    <i class="material-icons right">send</i>
+                </button>
+            </div>
         </form>
     </div>
 </div>
