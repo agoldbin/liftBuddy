@@ -416,3 +416,105 @@
 [DEBUG] 2018-03-08 05:31:04.265 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
 [DEBUG] 2018-03-08 05:31:04.393 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
 [DEBUG] 2018-03-08 05:31:04.457 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-08 12:31:51.828 [main] GenericDao - Searching class com.aarongoldbin.entity.Weight for property userId = 1
+[DEBUG] 2018-03-08 12:32:12.392 [main] GenericDao - Searching class com.aarongoldbin.entity.Weight for property user_id = 1
+[DEBUG] 2018-03-08 12:49:48.248 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-08 12:49:48.651 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-08 12:49:49.022 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-08 12:49:49.136 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-08 12:49:49.180 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-08 12:53:31.297 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-08 12:53:31.618 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-08 12:53:31.926 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-08 12:53:32.019 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-08 12:53:32.050 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-08 12:57:50.630 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-08 12:57:51.063 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-08 12:57:51.348 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-08 12:57:51.432 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-08 12:57:51.458 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-08 13:34:15.724 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-08 13:34:16.045 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-08 13:34:16.373 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-08 13:34:16.475 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-08 13:34:16.512 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-08 13:36:39.748 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-08 13:36:40.044 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-08 13:36:40.373 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-08 13:36:40.466 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-08 13:36:40.513 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-08 13:59:52.152 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-08 13:59:52.457 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-08 13:59:52.764 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-08 13:59:52.895 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-08 13:59:52.930 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-08 14:03:43.664 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-08 14:03:43.975 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-08 14:03:44.294 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-08 14:03:44.390 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-08 14:03:44.424 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-08 14:09:39.769 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:09:43.364 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-08 14:09:43.364 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[ERROR] 2018-03-08 14:09:43.686 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-08 14:09:43.687 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[ERROR] 2018-03-08 14:09:43.741 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:09:43.784 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:09:43.807 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:09:43.824 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:09:43.872 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:09:43.911 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-08 14:09:43.912 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[ERROR] 2018-03-08 14:09:43.944 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:09:43.976 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-08 14:09:43.977 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[ERROR] 2018-03-08 14:09:44.000 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-08 14:09:44.000 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-08 14:09:44.058 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:09:44.101 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:09:44.117 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:09:44.149 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:09:44.168 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:09:44.226 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:09:44.252 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:09:44.278 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:11:06.614 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:11:09.052 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-08 14:11:09.052 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[ERROR] 2018-03-08 14:11:09.411 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-08 14:11:09.412 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[ERROR] 2018-03-08 14:11:09.449 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:11:09.494 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:11:09.516 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:11:09.530 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:11:09.588 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:11:09.607 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-08 14:11:09.608 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[ERROR] 2018-03-08 14:11:09.646 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:11:09.683 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-08 14:11:09.685 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[ERROR] 2018-03-08 14:11:09.717 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-08 14:11:09.718 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-08 14:11:09.745 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:11:09.787 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:11:09.810 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:11:09.834 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:11:09.851 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:11:09.911 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:11:09.938 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[ERROR] 2018-03-08 14:11:09.957 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`liftbuddytest`.`role`, CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`))
+[DEBUG] 2018-03-08 14:12:27.716 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-08 14:12:28.052 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-08 14:12:28.393 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-08 14:12:28.507 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-08 14:12:28.552 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[DEBUG] 2018-03-09 00:22:24.366 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-09 00:22:24.770 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-09 00:22:25.195 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-09 00:22:25.323 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-09 00:22:25.371 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-09 00:22:25.570 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-09 00:22:25.648 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-09 00:22:25.697 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-09 00:22:25.757 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-09 00:22:25.789 [main] Database - java.sql.SQLException: Can not issue empty query.

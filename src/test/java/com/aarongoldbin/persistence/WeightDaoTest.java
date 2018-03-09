@@ -88,6 +88,15 @@ public class WeightDaoTest {
     }
 
     /**
+     * Successfully delete all weights for a user
+     */
+//    @Test
+//    void deleteAllUserSuccess(){
+//        User user = (User) userDao.getById(1);
+//        genericDao.delete(genericDao.getByPropertyEqual(user.getId(), "1"));
+//    }
+
+    /**
      * Verify successful retrieval of weights for user 1
      */
 //    @Test

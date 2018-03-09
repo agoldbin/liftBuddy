@@ -17,7 +17,8 @@
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#">Search</a></li>
-                <li><a class="modal-trigger" href="#login">Login</a></li>
+                <li><a class="modal-trigger" href="#login">Login M</a></li>
+                <li><a href="login.jsp">Login JSP</a></li>
                 <li><a href="#">Sign Up</a></li>
             </ul>
         </div>
@@ -36,31 +37,32 @@
             <h2 class="header">Parallax</h2>
             <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image
                 in this case, is moved at a different speed than the foreground content while scrolling.</p>
+            <a href="search.jsp">Click here to search! (Admin only)</a>
 
-            <h2>Search form</h2>
-            <form action="searchForm" class="form-inline">
-                <div class="form-group">
-                    <input type="text" class="form-control" name="searchTerm" id="searchTerm" aria-describedby="searchTermHelp" placeholder="Search">
-                </div>
-                <div class="form-group">
-                    <label>Search by:</label>
-                    <select class="form-control" name="searchType" id="searchType">
-                        <option value="id">User ID</option>
-                        <option value="lastName">User Last Name</option>
-                        <option value="gymName">Gym Name</option>
-                    </select>
-                </div>
-                <button class="btn btn-primary" type="submit" name="submit" value="search">
-                    Submit Search
-                </button>
-                <button class="btn btn-primary" type="submit" name="submit" value="viewAllUsers">
-                    View All Users
-                </button>
+            <%--<h2>Search form</h2>--%>
+            <%--<form action="searchForm" class="form-inline">--%>
+                <%--<div class="form-group">--%>
+                    <%--<input type="text" class="form-control" name="searchTerm" id="searchTerm" aria-describedby="searchTermHelp" placeholder="Search">--%>
+                <%--</div>--%>
+                <%--<div class="form-group">--%>
+                    <%--<label>Search by:</label>--%>
+                    <%--<select class="form-control" name="searchType" id="searchType">--%>
+                        <%--<option value="id">User ID</option>--%>
+                        <%--<option value="lastName">User Last Name</option>--%>
+                        <%--<option value="gymName">Gym Name</option>--%>
+                    <%--</select>--%>
+                <%--</div>--%>
+                <%--<button class="btn btn-primary" type="submit" name="submit" value="search">--%>
+                    <%--Submit Search--%>
+                <%--</button>--%>
+                <%--<button class="btn btn-primary" type="submit" name="submit" value="viewAllUsers">--%>
+                    <%--View All Users--%>
+                <%--</button>--%>
 
-                <button class="btn btn-primary" type="submit" name="submit" value="viewAllGyms">
-                    View All Gyms
-                </button>
-            </form>
+                <%--<button class="btn btn-primary" type="submit" name="submit" value="viewAllGyms">--%>
+                    <%--View All Gyms--%>
+                <%--</button>--%>
+            <%--</form>--%>
 
 
         </div>
@@ -72,15 +74,19 @@
 
 <!-- Login Modal -->
 <div id="login" class="modal">
+    <form>
+
     <div class="modal-content">
-        <form>
+        <%--<form>--%>
             <h4>Log In</h4>
 
-            <div class="form-group, row">
-                <input type="text" class="form-control" name="loginUserName" id="loginUserName" aria-describedby="userNameHelp" placeholder="User Name">
+            <div class="input-field col s12 m6 l6">
+                <input type="text" class="form-control" name="loginUserName" id="loginUserName" aria-describedby="userNameHelp">
+                <label for="loginUserName">User Name</label>
             </div>
-            <div class="form-group, row">
-                <input type="text" class="form-control" name="loginPassword" id="loginPassword" aria-describedby="passwordHelp" placeholder="Password">
+            <div class="input-field col s12 m6 l6">
+                <input type="text" class="form-control" name="loginPassword" id="loginPassword" aria-describedby="passwordHelp">
+                <label for="loginPassword">Password</label>
             </div>
 
             <div class="right-align">
@@ -88,10 +94,15 @@
                     <i class="material-icons right">send</i>
                 </button>
             </div>
-        </form>
+        <%--</form>--%>
     </div>
+    </form>
 </div>
 
 <%--</div>--%>
+<footer>
+    <p>Hi there!</p>
+</footer>
+
 </body>
 </html>
