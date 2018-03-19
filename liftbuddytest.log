@@ -518,3 +518,297 @@
 [ERROR] 2018-03-09 00:22:25.697 [main] Database - java.sql.SQLException: Can not issue empty query.
 [ERROR] 2018-03-09 00:22:25.757 [main] Database - java.sql.SQLException: Can not issue empty query.
 [ERROR] 2018-03-09 00:22:25.789 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-09 05:11:28.209 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-09 05:11:28.645 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-09 05:11:29.041 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-09 05:11:29.177 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-09 05:11:29.225 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-09 05:11:29.469 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-09 05:11:29.513 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-09 05:11:29.573 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-09 05:11:29.681 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-09 05:11:29.717 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-13 21:49:41.098 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-13 21:49:41.676 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-13 21:49:42.207 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-13 21:49:42.379 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-13 21:49:42.426 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-13 21:49:42.661 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-13 21:49:42.864 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-13 21:49:42.911 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-13 21:49:42.973 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-13 21:49:42.989 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-13 21:54:09.596 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-13 21:54:10.080 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-13 21:54:10.565 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-13 21:54:10.690 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-13 21:54:10.752 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-13 21:54:11.002 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-13 21:54:11.049 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-13 21:54:11.096 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-13 21:54:11.159 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-13 21:54:11.205 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-13 21:57:53.835 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-13 21:57:54.434 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-13 21:57:54.997 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-13 21:57:55.184 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-13 21:57:55.278 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-13 21:57:55.512 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-13 21:57:55.575 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-13 21:57:55.653 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-13 21:57:55.731 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-13 21:57:55.778 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-13 22:00:33.317 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-13 22:00:33.848 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-13 22:00:34.280 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-13 22:00:34.421 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-13 22:00:34.468 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-13 22:00:34.671 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-13 22:00:34.718 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-13 22:00:34.780 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-13 22:00:34.843 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-13 22:00:34.890 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-13 22:04:38.549 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-13 22:04:39.080 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-13 22:04:39.565 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-13 22:04:39.737 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-13 22:04:39.784 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-13 22:04:40.080 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-13 22:04:40.143 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-13 22:04:40.205 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-13 22:04:40.268 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-13 22:04:40.299 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-19 00:39:42.613 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-19 00:39:43.097 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-19 00:39:43.558 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-19 00:39:43.734 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-19 00:39:43.790 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-19 00:39:44.102 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 00:39:44.275 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 00:39:44.353 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 00:39:44.510 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 00:39:44.556 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-19 00:42:44.025 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-19 00:42:44.534 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-19 00:42:45.033 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-19 00:42:45.158 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-19 00:42:45.205 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-19 00:42:45.424 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 00:42:45.486 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 00:42:45.549 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 00:42:45.598 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 00:42:45.619 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-19 00:45:33.937 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-19 00:45:34.457 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-19 00:45:34.839 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-19 00:45:34.949 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-19 00:45:35.043 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-19 00:45:35.244 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 00:45:35.302 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 00:45:35.371 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 00:45:35.433 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 00:45:35.464 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-19 00:49:55.690 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-19 00:49:56.080 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-19 00:49:56.487 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-19 00:49:56.619 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-19 00:49:56.663 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-19 00:49:56.895 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 00:49:57.071 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 00:49:57.131 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 00:49:57.199 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 00:49:57.235 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-19 00:55:43.382 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-19 00:55:43.771 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-19 00:55:44.144 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-19 00:55:44.252 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-19 00:55:44.283 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-19 00:55:44.507 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 00:55:44.549 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 00:55:44.619 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 00:55:44.676 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 00:55:44.791 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-19 01:02:06.570 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-19 01:02:06.911 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-19 01:02:07.211 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-19 01:02:07.330 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-19 01:02:07.361 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-19 01:02:07.673 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:02:07.718 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:02:07.775 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:02:07.840 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:02:07.862 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-19 01:06:17.085 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-19 01:06:17.398 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-19 01:06:17.695 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-19 01:06:17.788 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-19 01:06:17.835 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-19 01:06:18.007 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:06:18.038 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:06:18.117 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:06:18.163 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:06:18.195 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-19 01:07:48.398 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-19 01:07:48.715 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-19 01:07:49.054 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-19 01:07:49.181 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-19 01:07:49.230 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-19 01:07:49.470 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:07:49.569 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:07:49.624 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:07:49.685 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:07:49.717 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-19 01:08:46.648 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-19 01:08:47.107 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-19 01:08:47.482 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-19 01:08:47.591 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-19 01:08:47.642 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-19 01:08:47.860 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:08:47.904 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:08:47.955 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:08:48.063 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:08:48.098 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-19 01:10:55.560 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-19 01:10:55.904 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-19 01:10:56.232 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-19 01:10:56.341 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-19 01:10:56.388 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-19 01:10:56.560 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:10:56.591 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:10:56.638 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:10:56.700 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:10:56.716 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-19 01:11:38.507 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-19 01:11:38.820 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-19 01:11:39.163 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-19 01:11:39.273 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-19 01:11:39.320 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-19 01:11:39.523 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:11:39.570 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:11:39.616 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:11:39.695 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:11:39.710 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-19 01:14:12.677 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-19 01:14:13.380 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-19 01:14:13.724 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-19 01:14:13.818 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-19 01:14:13.849 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-19 01:14:14.021 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:14:14.052 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:14:14.099 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:14:14.130 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 01:14:14.161 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:13:55.289 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-03-19 05:15:41.945 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-03-19 05:17:25.568 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-03-19 05:19:09.752 [main] Database - java.lang.NullPointerException
+[ERROR] 2018-03-19 05:19:09.768 [main] Database - java.lang.NullPointerException
+[ERROR] 2018-03-19 05:19:09.784 [main] Database - java.lang.NullPointerException
+[ERROR] 2018-03-19 05:19:09.784 [main] Database - java.lang.NullPointerException
+[ERROR] 2018-03-19 05:20:21.311 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-03-19 05:22:08.427 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-03-19 05:24:01.252 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-03-19 05:24:15.642 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-03-19 05:25:48.906 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-03-19 05:26:02.497 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-03-19 05:27:47.558 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-03-19 05:29:31.629 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-03-19 05:31:32.086 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-03-19 05:33:20.787 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-03-19 05:34:03.995 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-03-19 05:35:13.045 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-03-19 05:35:50.637 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-03-19 05:36:58.825 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-03-19 05:37:34.863 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-03-19 05:38:43.153 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[DEBUG] 2018-03-19 05:39:56.049 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-19 05:39:56.439 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-19 05:39:56.487 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-19 05:39:56.734 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:39:56.788 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:39:56.846 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:39:56.905 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:39:56.953 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:40:07.521 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:40:11.364 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:40:11.458 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:40:11.943 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:40:11.989 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-19 05:40:34.735 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-19 05:40:35.235 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-19 05:40:35.732 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-19 05:40:35.857 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-19 05:40:35.967 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-19 05:40:36.256 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:40:36.303 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:40:36.365 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:40:36.412 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:40:36.444 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-19 05:42:30.471 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-19 05:42:30.940 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-19 05:42:31.346 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-19 05:42:31.471 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-19 05:42:31.518 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-19 05:42:31.846 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:42:31.878 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:42:31.924 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:42:31.987 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:42:32.018 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-19 05:50:32.711 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-19 05:50:33.103 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-19 05:50:33.559 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-19 05:50:33.691 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-19 05:50:33.747 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-19 05:50:34.063 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:50:34.131 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:50:34.187 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:50:34.247 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:50:34.287 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-19 05:53:14.003 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-19 05:53:14.532 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-19 05:53:14.923 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-19 05:53:15.048 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-19 05:53:15.104 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-19 05:53:15.316 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:53:16.113 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:53:17.191 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:53:17.754 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-19 05:53:17.895 [main] Database - java.sql.SQLException: Can not issue empty query.
