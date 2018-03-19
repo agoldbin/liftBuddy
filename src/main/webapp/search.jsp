@@ -16,10 +16,6 @@
             <a href="#" class="brand-logo">Lift Buddy</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Search</a></li>
-                <li><a class="modal-trigger" href="#login">Login M</a></li>
-                <li><a href="login.jsp">Login JSP</a></li>
-                <li><a href="#">Sign Up</a></li>
             </ul>
         </div>
     </nav>
@@ -62,7 +58,6 @@
                     View All Gyms
                 </button>
             </form>
-        <a href="search.jsp">Click here to search! (Admin only)</a>
 
         </div>
     </div>
