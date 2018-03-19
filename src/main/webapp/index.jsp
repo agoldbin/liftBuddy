@@ -18,7 +18,7 @@
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#">Search</a></li>
                 <li><a class="modal-trigger" href="#login">Login M</a></li>
-                <li><a href="login.jsp">Login JSP</a></li>
+                <li><a href="search.jsp">Admin Search JSP</a></li>
                 <li><a href="#">Sign Up</a></li>
             </ul>
         </div>
@@ -29,7 +29,7 @@
 <%--<div class="container">--%>
 <%--<h2>Lift Buddy Display</h2>--%>
     <div class="parallax-container">
-        <div class="parallax"><img src="/images/background_bar.jpg"></div>
+        <div class="parallax"><img src="images/background_bar.jpg"></div>
     </div>
     <div class="section white">
         <div class="row container">
@@ -68,7 +68,7 @@
         </div>
     </div>
     <div class="parallax-container">
-        <div class="parallax"><img src="/images/test3.jpg"></div>
+        <div class="parallax"><img src="images/test3.jpg"></div>
     </div>
 
 
