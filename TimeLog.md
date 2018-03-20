@@ -23,7 +23,7 @@ DISCLAIMER: All times are estimates as I am bad at actually tracking when I work
 | 3/6/18 | Attempt #325638952423908 to get database working/connected | 3 |  |
 | 3/7/18 | Connecting up the more db tables/classes | 1.5 |  | 
 | 3/19/18 | Finally back to working on project. Trying to get AuthDemo to work/index images to display | 2.5 | |
-| 3/20/18 | Looking into database issue not showing up on page. Beginning week 8 ex |  | 
+| 3/20/18 | Looking into database issue not showing up on page. Beginning week 8 ex | 4 | 
 ---
 
 ####Running total: = 65 hrs
