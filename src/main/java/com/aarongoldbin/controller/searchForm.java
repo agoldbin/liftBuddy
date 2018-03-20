@@ -47,11 +47,11 @@ public class searchForm extends HttpServlet {
                         directResults(req, resp, "/userResults.jsp");
                         break;
                     case "lastName":
-                        req.setAttribute("users", (User) userDao.getByPropertyLike("lastName", searchTerm));
+                        req.setAttribute("users", userDao.getByPropertyLike("lastName", searchTerm));
                         directResults(req, resp, "/userResults.jsp");
                         break;
                     case "gymName":
-                        req.setAttribute("gyms", (Gym) gymDao.getByPropertyLike("gymName", searchTerm));
+                        req.setAttribute("gyms", gymDao.getByPropertyLike("gymName", searchTerm));
                         directResults(req, resp, "/gymResults.jsp");
                         break;
                     default:
@@ -61,11 +61,11 @@ public class searchForm extends HttpServlet {
                         ;
                 }
             case "viewAllUsers":
-                req.setAttribute("users", (User) userDao.getAll());
+                req.setAttribute("users", userDao.getAll());
                 directResults(req, resp, "/userResults.jsp");
                 break;
             case "viewAllGyms":
-                req.setAttribute("gyms", (Gym) gymDao.getAll());
+                req.setAttribute("gyms", gymDao.getAll());
                 directResults(req, resp, "/gymResults.jsp");
                 break;
             default:

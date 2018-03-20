@@ -58,6 +58,10 @@ public class User {
     private LocalDate dob;
     private String sex;
 
+    // Cheating to get the gym name of the users gym
+    @Transient
+    private String gymName = gym.getGymName();
+
     /**
      * Instantiates a new User.
      */
