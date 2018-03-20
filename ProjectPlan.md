@@ -13,7 +13,7 @@
 - [x] Triple-check for Checkpoint 1: Problem statement, project plan, screen design and time log pushed to GitHub. 
 
 ### Week 4
-- [ ] Complete database design
+- [x] Complete database design
 - [x] Create the database and user table
 - [x] Create the user entity class and annotate for hibernate
 - [x] Create user dao
@@ -21,18 +21,18 @@
 - [x] Create user dao unit tests
 - [x] Weekly journal entry
 - [x] Set up logging
-- [ ] Create class uml diagram
+- [x] Create class uml diagram
 - [x] Prepare for Week 5 peer design/code review
 
 
 ### Week 5
 
-- [ ] Create the template for all jsps using materialize
-- [ ] Weekly journal entry
-- [ ] Add the role table
-- [ ] Add the role entity
-- [ ] Create the role dao
-- [ ] Create the role dao unit tests
+- [x] Create the template for all jsps using materialize
+- [x] Weekly journal entry
+- [x] Add the role table
+- [x] Add the role entity
+- [x] Create the role dao
+- [x] Create the role dao unit tests
 - [ ] Add a jsp to display user and role
 - [ ] Add jsp to add a user
 
@@ -41,8 +41,8 @@
 - [x] Create db on AWS
 - [x] Deploy to AWS for first time
 - [x] Weekly journal entry
-- [ ] Optional: create history table (workouts, weight, reps, sets, etc.)
-- [ ] Optional: Add the workout entity (test, dev and prod dbs)
+- [x] Optional: create history table (workouts, weight, reps, sets, etc.)
+- [x] Optional: Add the workout entity (test, dev and prod dbs)
 - [x] Realize that these daos are repetitive. Refactor into a generic dao!
 - [ ] Add update and delete functionality in jsp for user and role
 - [ ] Create and test database to store friend list
@@ -53,17 +53,17 @@
 
 ### Week 7
 
-- [ ] Weekly journal entry
-- [ ] Set up authentication locally
+- [x] Weekly journal entry
+- [x] Set up authentication locally
 - [ ] Set up authentication on AWS
-- [ ] Review and incorporate any feedback from Checkpoint 2.
+- [x] Review and incorporate any feedback from Checkpoint 2.
 
 
 ### Week 8
 
-- [ ] Weekly journal entry
+- [x] Weekly journal entry
 - [ ] Integration with google maps api
-- [ ] Other stuff that Paula tells/forces me to do
+- [x] Other stuff that Paula tells/forces me to do
 - [ ] Ability to message other users?
 - [ ] Add ability for users to add friends
 - [ ] Create and test database to store friend list
@@ -71,8 +71,8 @@
 
 ### Week 9
 - [ ] Weekly journal entry
-- [ ] Integration with weather service and/or snow depth data
 - [ ] Review and incorporate feedback from Checkpoint 3.
+- [ ] Begin integrating Firebase Cloud Messaging (time to remember some JS!)
 - [ ] Carefully review code for standards and best practices - use a code quality tool? 
 
 ### Week 8

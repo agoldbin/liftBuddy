@@ -60,7 +60,7 @@ public class User {
 
     // Cheating to get the gym name of the users gym
     @Transient
-    private String gymName = gym.getGymName();
+    private String gymName;
 
     /**
      * Instantiates a new User.
@@ -122,6 +122,15 @@ public class User {
         this.height = height;
         addWeight(weight);
         this.sex = sex;
+    }
+
+    /**
+     * Getter for gym name
+     *
+     * @return name of the gym
+     */
+    public String getGymName() {
+        return gym.getGymName();
     }
 
     /**
