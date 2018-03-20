@@ -842,3 +842,13 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [ERROR] 2018-03-19 06:16:37.279 [main] Database - java.sql.SQLException: Can not issue empty query.
 [ERROR] 2018-03-19 06:16:37.351 [main] Database - java.sql.SQLException: Can not issue empty query.
 [ERROR] 2018-03-19 06:16:37.387 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-03-20 01:02:16.711 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[DEBUG] 2018-03-20 01:02:17.327 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[DEBUG] 2018-03-20 01:02:17.839 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[DEBUG] 2018-03-20 01:02:18.043 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[DEBUG] 2018-03-20 01:02:18.111 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[ERROR] 2018-03-20 01:02:18.363 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-20 01:02:18.419 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-20 01:02:18.483 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-20 01:02:18.547 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-03-20 01:02:18.581 [main] Database - java.sql.SQLException: Can not issue empty query.
