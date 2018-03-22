@@ -15,7 +15,7 @@
 ### Week 4
 - [x] Complete database design
 - [x] Create the database and user table
-- [x] Create the user entity class and annotate for hibernate
+- [x] Create the user com.aarongoldbin.entity class and annotate for hibernate
 - [x] Create user dao
 - [x] Create the test database
 - [x] Create user dao unit tests
@@ -30,7 +30,7 @@
 - [x] Create the template for all jsps using materialize
 - [x] Weekly journal entry
 - [x] Add the role table
-- [x] Add the role entity
+- [x] Add the role com.aarongoldbin.entity
 - [x] Create the role dao
 - [x] Create the role dao unit tests
 - [ ] Add a jsp to display user and role
@@ -42,7 +42,7 @@
 - [x] Deploy to AWS for first time
 - [x] Weekly journal entry
 - [x] Optional: create history table (workouts, weight, reps, sets, etc.)
-- [x] Optional: Add the workout entity (test, dev and prod dbs)
+- [x] Optional: Add the workout com.aarongoldbin.entity (test, dev and prod dbs)
 - [x] Realize that these daos are repetitive. Refactor into a generic dao!
 - [ ] Add update and delete functionality in jsp for user and role
 - [ ] Create and test database to store friend list

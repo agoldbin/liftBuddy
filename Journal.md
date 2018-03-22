@@ -75,7 +75,7 @@ Reviewed the wireframes with a potential users. Made a few small updates to incl
 2/2/2016
 
 Added unit testing, logging, and hibernate to the application to set up for 
-demonstrating DAOs and Hibernate. Created packages, added a User entity and 
+demonstrating DAOs and Hibernate. Created packages, added a User com.aarongoldbin.entity and 
 built the persistence layer to demonstrate both a sql and hibernate dao. Only
  one method is built out at this point, along with a test for it. This was a 
  good way to ensure everything is connected and working before I build out 
@@ -343,7 +343,7 @@ Connected new fields with the servlet so recently added fields are saved.
 It's refactoring day.  After talking with Matt and seeing Alex's presentation
  on using annotations for hibernate entities, I decided to do away with the 
  xml config method and use annotations instead. I delete all the old entities
-  and hibernate entity xmls and regenerated in IntelliJ.  I did have to add 
+  and hibernate com.aarongoldbin.entity xmls and regenerated in IntelliJ.  I did have to add 
   the annotation for auto-generated ids. I also got rid of the user interface
    dao since it was only used as an example. Things seem much cleaner in the 
    project and tests pass.  

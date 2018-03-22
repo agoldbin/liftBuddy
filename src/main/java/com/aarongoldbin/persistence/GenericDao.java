@@ -39,10 +39,10 @@ public class GenericDao<T> {
     }
 
     /**
-     * Gets an entity by id
+     * Gets an com.aarongoldbin.entity by id
      *
-     * @param id entity id to search by
-     * @return an entity
+     * @param id com.aarongoldbin.entity id to search by
+     * @return an com.aarongoldbin.entity
      */
     public <T>T getById(int id) {
         Session session = getSession();
@@ -52,7 +52,7 @@ public class GenericDao<T> {
     }
 
     /**
-     * Update an entity
+     * Update an com.aarongoldbin.entity
      *
      * @param entity Entity to be updated
      */
@@ -65,7 +65,7 @@ public class GenericDao<T> {
     }
 
     /**
-     * Insert an entity
+     * Insert an com.aarongoldbin.entity
      *
      * @param entity Entity to be inserted
      * @return the int
@@ -81,7 +81,7 @@ public class GenericDao<T> {
     }
 
     /**
-     * Delete an entity
+     * Delete an com.aarongoldbin.entity
      *
      * @param entity Entity to be deleted
      */
@@ -112,7 +112,7 @@ public class GenericDao<T> {
 
 
     /**
-     * Get entity by property (exact match)
+     * Get com.aarongoldbin.entity by property (exact match)
      * sample usage: getByPropertyEqual("lastname", "Curry")
      *
      * @param propertyName the property name
@@ -134,7 +134,7 @@ public class GenericDao<T> {
     }
 
     /**
-     * Get entity by property (like)
+     * Get com.aarongoldbin.entity by property (like)
      * sample usage: getByPropertyLike(User, "lastname", "C")
      *
      * @param propertyName the property name
