@@ -16,7 +16,7 @@
             <a href="#" class="brand-logo">Lift Buddy</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li class="active"><a href="#">ADMIN PAGE BABY!</a></li>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.jsp">Home</a></li>
                 <li ><a href="search.jsp">Search</a></li>
                 <li><a class="modal-trigger" href="#login">Login M</a></li>
             </ul>
@@ -46,7 +46,7 @@
                     <label>Search by:</label>
                     <select class="form-control" name="searchType" id="searchType">
                         <option value="id">User ID</option>
-                        <option value="lastName">User Last Name</option>
+                        <option value="userName">Username</option>
                         <option value="gymName">Gym Name</option>
                     </select>
                 </div>
