@@ -1,27 +1,22 @@
 <%@include file="head.jsp"%>
+<head>
+
 <script>
+    // script for parallax
     $(document).ready(function(){
         $('.parallax').parallax();
     });
+    // for modal
     $(document).ready(function(){
         $('#login').modal();
     });
+    // for modal
     $('#login').modal('open');
 </script>
-
+<head>
 <html>
 <header>
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Lift Buddy</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="search.jsp">Search</a></li>
-                <li><a class="modal-trigger" href="#login">Login M</a></li>
-                <li><a href="#">Sign Up</a></li>
-            </ul>
-        </div>
-    </nav>
+    <%@include file="navbar.jsp"%>
 </header>
 
 <body>
@@ -38,31 +33,6 @@
                 in this case, is moved at a different speed than the foreground content while scrolling.</p>
             <a href="adminSearch.jsp">Click here to search! (Admin only)</a>
 
-            <%--<h2>Search form</h2>--%>
-            <%--<form action="searchForm" class="form-inline">--%>
-                <%--<div class="form-group">--%>
-                    <%--<input type="text" class="form-control" name="searchTerm" id="searchTerm" aria-describedby="searchTermHelp" placeholder="Search">--%>
-                <%--</div>--%>
-                <%--<div class="form-group">--%>
-                    <%--<label>Search by:</label>--%>
-                    <%--<select class="form-control" name="searchType" id="searchType">--%>
-                        <%--<option value="id">User ID</option>--%>
-                        <%--<option value="lastName">User Last Name</option>--%>
-                        <%--<option value="gymName">Gym Name</option>--%>
-                    <%--</select>--%>
-                <%--</div>--%>
-                <%--<button class="btn btn-primary" type="submit" name="submit" value="search">--%>
-                    <%--Submit Search--%>
-                <%--</button>--%>
-                <%--<button class="btn btn-primary" type="submit" name="submit" value="viewAllUsers">--%>
-                    <%--View All Users--%>
-                <%--</button>--%>
-
-                <%--<button class="btn btn-primary" type="submit" name="submit" value="viewAllGyms">--%>
-                    <%--View All Gyms--%>
-                <%--</button>--%>
-            <%--</form>--%>
-
 
         </div>
     </div>
@@ -72,8 +42,9 @@
 
 
 <!-- Login Modal -->
+<form>
 <div id="login" class="modal">
-    <form>
+    <%--<form>--%>
 
     <div class="modal-content">
         <%--<form>--%>
@@ -95,8 +66,9 @@
             </div>
         <%--</form>--%>
     </div>
-    </form>
+    <%--</form>--%>
 </div>
+</form>
 
 <%--</div>--%>
 <footer>

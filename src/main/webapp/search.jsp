@@ -11,17 +11,7 @@
 
 <html>
 <header>
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Lift Buddy</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="#">Home</a></li>
-                <li class="active"><a href="search.jsp">Search</a></li>
-                <li><a class="modal-trigger" href="#login">Login M</a></li>
-                <li><a href="#">Sign Up</a></li>
-            </ul>
-        </div>
-    </nav>
+    <%@include file="navbar.jsp"%>
 </header>
 
 <body>
@@ -49,7 +39,7 @@
                 <div class="form-group">
                     <label>Search by:</label>
                     <select class="form-control" name="searchType" id="searchType">
-                        <option value="lastName">User Last Name</option>
+                        <option value="userName">Username</option>
                         <option value="gymName">Gym Name</option>
                     </select>
                 </div>
