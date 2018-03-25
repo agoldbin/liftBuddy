@@ -1,22 +1,15 @@
 <%@include file="head.jsp"%>
-<script>
-    $(document).ready(function(){
-        $('.parallax').parallax();
-    });
-    $(document).ready(function(){
-        $('#login').modal();
-    });
-    $('#login').modal('open');
-</script>
 
 <html>
+
+<body>
 <header>
     <nav>
         <div class="nav-wrapper">
             <a href="#" class="brand-logo">Lift Buddy</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li class="active"><a href="#">ADMIN PAGE BABY!</a></li>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.jsp">Home</a></li>
                 <li ><a href="search.jsp">Search</a></li>
                 <li><a class="modal-trigger" href="#login">Login M</a></li>
             </ul>
@@ -24,7 +17,6 @@
     </nav>
 </header>
 
-<body>
 <%--<div class="container">--%>
 <%--<h2>Lift Buddy Display</h2>--%>
     <div class="parallax-container">
@@ -39,27 +31,31 @@
 
             <h2>Search form</h2>
             <form action="searchForm" class="form-inline">
-                <div class="form-group">
-                    <input type="text" class="form-control" name="searchTerm" id="searchTerm" aria-describedby="searchTermHelp" placeholder="Search">
+                <div class="valign-wrapper">
+                    <div class="input-field col m6">
+                        <input type="text" class="form-control" name="searchTerm" id="searchTerm" aria-describedby="searchTermHelp" placeholder="Search">
+                        <label for="searchTerm">Search</label>
+                    </div>
+                    <div class="form-group col m6">
+                        <select class="form-control" name="searchType" id="searchType">
+                            <option value="" disabled value>Search by:</option>
+                            <option value="id">User ID</option>
+                            <option value="userName">User Last Name</option>
+                            <option value="gymName">Gym Name</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label>Search by:</label>
-                    <select class="form-control" name="searchType" id="searchType">
-                        <option value="id">User ID</option>
-                        <option value="lastName">User Last Name</option>
-                        <option value="gymName">Gym Name</option>
-                    </select>
+                <div class="center-align col s12">
+                    <button class="btn btn-primary" type="submit" name="submit" value="search">
+                        Submit Search
+                    </button>
+                    <button class="btn btn-primary" type="submit" name="submit" value="viewAllUsers">
+                        View All Users
+                    </button>
+                    <button class="btn btn-primary" type="submit" name="submit" value="viewAllGyms">
+                        View All Gyms
+                    </button>
                 </div>
-                <button class="btn btn-primary" type="submit" name="submit" value="search">
-                    Submit Search
-                </button>
-                <button class="btn btn-primary" type="submit" name="submit" value="viewAllUsers">
-                    View All Users
-                </button>
-
-                <button class="btn btn-primary" type="submit" name="submit" value="viewAllGyms">
-                    View All Gyms
-                </button>
             </form>
 
         </div>
@@ -68,38 +64,22 @@
         <div class="parallax"><img src="images/test3.jpg"></div>
     </div>
 
-
-<!-- Login Modal -->
-<div id="login" class="modal">
-    <form>
-
-    <div class="modal-content">
-        <%--<form>--%>
-            <h4>Log In</h4>
-
-            <div class="input-field col s12 m6 l6">
-                <input type="text" class="form-control" name="loginUserName" id="loginUserName" aria-describedby="userNameHelp">
-                <label for="loginUserName">User Name</label>
-            </div>
-            <div class="input-field col s12 m6 l6">
-                <input type="text" class="form-control" name="loginPassword" id="loginPassword" aria-describedby="passwordHelp">
-                <label for="loginPassword">Password</label>
-            </div>
-
-            <div class="right-align">
-                <button class="btn waves-effect waves-light" type="submit" name="action">Login
-                    <i class="material-icons right">send</i>
-                </button>
-            </div>
-        <%--</form>--%>
-    </div>
-    </form>
-</div>
+<%@include file="loginModal.jsp"%>
 
 <%--</div>--%>
 <footer>
     <p>Hi there!</p>
 </footer>
+
+<script>
+    $(document).ready(function(){
+        $('.parallax').parallax();
+    });
+    $(document).ready(function(){
+        $('#login').modal();
+    });
+    $('#login').modal('open');
+</script>
 
 </body>
 </html>

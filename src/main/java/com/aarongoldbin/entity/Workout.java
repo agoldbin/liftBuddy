@@ -27,6 +27,7 @@ public class Workout {
     @ManyToOne
     private User user;
 
+    @Transient
     @OneToMany(mappedBy = "workout", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<ExerciseType> exercise = new HashSet<>();
 

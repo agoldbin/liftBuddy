@@ -1,30 +1,12 @@
 <%@include file="head.jsp"%>
-<script>
-    $(document).ready(function(){
-        $('.parallax').parallax();
-    });
-    $(document).ready(function(){
-        $('#login').modal();
-    });
-    $('#login').modal('open');
-</script>
 
 <html>
+<body>
+
 <header>
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Lift Buddy</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="search.jsp">Search</a></li>
-                <li><a class="modal-trigger" href="#login">Login M</a></li>
-                <li><a href="#">Sign Up</a></li>
-            </ul>
-        </div>
-    </nav>
+    <%@include file="navbar.jsp"%>
 </header>
 
-<body>
 <%--<div class="container">--%>
 <%--<h2>Lift Buddy Display</h2>--%>
     <div class="parallax-container">
@@ -70,13 +52,12 @@
         <div class="parallax"><img src="images/test3.jpg"></div>
     </div>
 
-
 <!-- Login Modal -->
 <div id="login" class="modal">
     <form>
 
-    <div class="modal-content">
-        <%--<form>--%>
+        <div class="modal-content">
+            <%--<form>--%>
             <h4>Log In</h4>
 
             <div class="input-field col s12 m6 l6">
@@ -93,15 +74,24 @@
                     <i class="material-icons right">send</i>
                 </button>
             </div>
-        <%--</form>--%>
-    </div>
+            <%--</form>--%>
+        </div>
     </form>
 </div>
-
 <%--</div>--%>
 <footer>
     <p>Hi there!</p>
 </footer>
+
+<script>
+    $(document).ready(function(){
+        $('.parallax').parallax();
+    });
+    $(document).ready(function(){
+        $('#login').modal();
+    });
+    $('#login').modal('open');
+</script>
 
 </body>
 </html>
