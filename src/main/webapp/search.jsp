@@ -1,14 +1,6 @@
+<!DOCTYPE html>
 <head>
     <%@include file="head.jsp"%>
-    <script>
-        $(document).ready(function(){
-            $('.parallax').parallax();
-        });
-        $(document).ready(function(){
-            $('#login').modal();
-        });
-        $('#login').modal('open');
-    </script>
 </head>
 
 <html>
@@ -91,6 +83,17 @@
 <footer>
     <p>Hi there!</p>
 </footer>
+
+
+<script>
+    $(document).ready(function(){
+        $('.parallax').parallax();
+    });
+    $(document).ready(function(){
+        $('#login').modal();
+    });
+    $('#login').modal('open');
+</script>
 
 </body>
 </html>

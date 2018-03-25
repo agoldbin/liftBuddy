@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <head>
     <%@include file="head.jsp"%>
     <script>
@@ -30,7 +31,7 @@
 <%--<div class="container">--%>
 <%--<h2>Lift Buddy Display</h2>--%>
     <div class="parallax-container">
-        <div class="parallax"><img src="images/background_bar.jpg"></div>
+        <div class="parallax"><img src="/images/background_bar.jpg"></div>
     </div>
     <div class="section white">
         <div class="row container">
@@ -67,7 +68,7 @@
         </div>
     </div>
     <div class="parallax-container">
-        <div class="parallax"><img src="images/test3.jpg"></div>
+        <div class="parallax"><img src="/images/test3.jpg"></div>
     </div>
 
 
