@@ -1,13 +1,15 @@
-<%@include file="head.jsp"%>
-<script>
-    $(document).ready(function(){
-        $('.parallax').parallax();
-    });
-    $(document).ready(function(){
-        $('#login').modal();
-    });
-    $('#login').modal('open');
-</script>
+<head>
+    <%@include file="head.jsp"%>
+    <script>
+        $(document).ready(function(){
+            $('.parallax').parallax();
+        });
+        $(document).ready(function(){
+            $('#login').modal();
+        });
+        $('#login').modal('open');
+    </script>
+</head>
 
 <html>
 <header>
