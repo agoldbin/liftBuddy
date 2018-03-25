@@ -1,18 +1,24 @@
-<%@include file="head.jsp"%>
 <head>
+    <%@include file="head.jsp"%>
 
 <script>
     // script for parallax
-    $(document).ready(function(){
-        $('.parallax').parallax();
-    });
+    var elem = document.querySelector('.parallax');
+    var instance = M.Parallax.init(elem, options);
+
     // for modal
-    $(document).ready(function(){
-        $('#login').modal();
-    });
-    // for modal
-    $('#login').modal('open');
+    var elem = document.querySelector('.login');
+    var instance = M.Modal.init(elem, options);
+
+    // script for sidenav
+    var elem = document.querySelector('.sidenav');
+    var instance = M.Sidenav.init(elem, options);
+
+    // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
+    var collapsibleElem = document.querySelector('.collapsible');
+    var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
 </script>
+
 <head>
 <html>
 <header>
@@ -41,6 +47,7 @@
     </div>
 
 
+<%-- TODO either work on making login modal functional --%>
 <!-- Login Modal -->
 <form>
 <div id="login" class="modal">
