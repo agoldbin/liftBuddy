@@ -16,7 +16,7 @@ $(document).ready(function() {
 });
 
 //************************* Functions *************************\\
-// Function to validate user login
+// Function to validate user login credentials
 function userLoginValidation() {
     var userName = document.forms["loginForm"]["loginUserName"].value;
     var password = document.forms["loginForm"]["loginPassword"].value;
