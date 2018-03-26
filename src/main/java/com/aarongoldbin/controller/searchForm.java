@@ -46,7 +46,7 @@ public class searchForm extends HttpServlet {
                         req.setAttribute("users", users);
                         directResults(req, resp, "/userResults.jsp");
                         break;
-                    case "lastName":
+                    case "userName":
                         req.setAttribute("users", userDao.getByPropertyLike("userName", searchTerm));
                         directResults(req, resp, "/userResults.jsp");
                         break;

@@ -1,4 +1,17 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+
+<head>
+    <%@include file="head.jsp"%>
+    <script>
+        var elem = document.querySelector('.sidenav');
+        var instance = M.Sidenav.init(elem, options);
+
+        // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
+        var collapsibleElem = document.querySelector('.collapsible');
+        var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
+    </script>
+</head>
+
 <html>
 <body>
     <nav>
@@ -34,4 +47,3 @@
     <%--<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>--%>
 
 </body>
-</html>
