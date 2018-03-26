@@ -26,7 +26,9 @@ DISCLAIMER: All times are estimates as I am bad at actually tracking when I work
 | 3/20/18 | Looking into database issue not showing up on page. Beginning week 8 ex | 4 | |
 | 3/22/18 | Working on week 8 activities | 3 | |
 | 3/23/18 | Finished week 8 act 3. Working on getting mysql jar working on AWS | 2 |  |
-| 3/24/18 | Creating jsps, formatting parts of site. Packaging redundant site code |  |  |
 ---
+| 3/24/18 | Creating jsps, formatting parts of site. Packaging redundant site code | 2.5 |  |
+| 3/25/18 | Debugging and breaking the site | 3 |  |
+| 3/26/18 | More debugging, bit of frontend work (like on login modal). Starting work on new user page | 5.5 |  |
 
 ####Running total: = 81 hrs

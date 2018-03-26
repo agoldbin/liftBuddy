@@ -1,12 +1,18 @@
+<%-- User search results page --%>
+<!DOCTYPE html>
 <%@include file="taglib.jsp"%>
 <c:set var="title" value="User Query Results" />
-<%@include file="head.jsp"%>
 
-<script type="text/javascript" class="init">
-    $(document).ready( function () {
-        $('#searchTable').DataTable();
-    } );
-</script>
+<head>
+    <%@include file="head.jsp"%>
+    <script src="js/varInitialize.js"></script>
+    <script type="text/javascript" class="init">
+        $(document).ready( function () {
+            $('#searchTable').DataTable();
+        } );
+    </script>
+</head>
+
 
 <html>
 <body>
