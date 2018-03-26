@@ -1,17 +1,5 @@
+<%-- This jsp contains the code for the header of the majority of the web pages --%>
 <!DOCTYPE html>
-
-<head>
-    <%@include file="head.jsp"%>
-    <script>
-        var elem = document.querySelector('.sidenav');
-        var instance = M.Sidenav.init(elem, options);
-
-        // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
-        var collapsibleElem = document.querySelector('.collapsible');
-        var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
-    </script>
-</head>
-
 <html>
 <body>
     <nav>
@@ -21,7 +9,7 @@
                 <%-- TODO work on making li dynamically use class="active" when user is on that page --%>
                 <li><a href="index.jsp">Home</a></li>
                 <li><a href="search.jsp">Search</a></li>
-                <li><a class="modal-trigger" href="#loginModal" data-target="loginModal">Login M</a></li>
+                <li><a class="modal-trigger" href="#login" data-target="login">Login M</a></li>
                 <li><a href="newUser.jsp">Sign Up</a></li>
             </ul>
         </div>
@@ -45,5 +33,11 @@
         <%--<li><a class="waves-effect" href="#!">Third Link With Waves</a></li>--%>
     <%--</ul>--%>
     <%--<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>--%>
-
+<script>
+    // Initialize MODAL (for user login)
+    $(document).ready(function(){
+        $('#login').modal();
+    });
+    $('#login').modal('open');
+</script>
 </body>

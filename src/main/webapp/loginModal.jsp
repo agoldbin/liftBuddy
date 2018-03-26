@@ -1,3 +1,4 @@
+<%-- This jsp contains the code for the user login modal  which is used throughout the site --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <body>
@@ -6,11 +7,11 @@
 
 
 <!-- Login Modal -->
-<div id="loginModal" class="modal">
-    <%--<form>--%>
+<form>
+
+    <div id="login" class="modal">
 
         <div class="modal-content">
-            <%--<form>--%>
             <h4>Log In</h4>
 
             <div class="input-field col s12 m6 l6">
@@ -27,9 +28,8 @@
                     <i class="material-icons right">send</i>
                 </button>
             </div>
-            <%--</form>--%>
         </div>
-    <%--</form>--%>
-</div>
+    </div>
+</form>
 </body>
 </html>

@@ -1,3 +1,4 @@
+<%-- Jsp for all the files/plugins to be included throughout site --%>
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
