@@ -2,15 +2,7 @@
 <!DOCTYPE html>
 <head>
     <%@include file="head.jsp"%>
-    <script>
-        $(document).ready(function(){
-            $('.parallax').parallax();
-        });
-        $(document).ready(function(){
-            $('#login').modal();
-        });
-        $('#login').modal('open');
-    </script>
+    <script src="js/varInitialize.js"></script>
 </head>
 
 <html>
@@ -30,10 +22,8 @@
     </nav>
 </header>
 
-<%--<div class="container">--%>
-<%--<h2>Lift Buddy Display</h2>--%>
     <div class="parallax-container">
-        <div class="parallax"><img src="/images/background_bar.jpg"></div>
+        <div class="parallax"><img src="images/background_bar.jpg"></div>
     </div>
     <div class="section white">
         <div class="row container">
@@ -51,7 +41,7 @@
                     </div>
                     <div class="input-field col s6 m3">
                         <select name="searchType" id="searchType">
-                            <option value="" disabled selected>Search by:</option>
+                            <option value="" disabled="disabled">Search by:</option>
                             <option value="id">User ID</option>
                             <option value="userName">User Last Name</option>
                             <option value="gymName">Gym Name</option>
@@ -77,39 +67,14 @@
         </div>
     </div>
     <div class="parallax-container">
-        <div class="parallax"><img src="/images/test3.jpg"></div>
+        <div class="parallax"><img src="images/test3.jpg"></div>
     </div>
 
 <%@include file="loginModal.jsp"%>
 
-<%--</div>--%>
 <footer>
     <p>Hi there!</p>
 </footer>
-
-<script>
-    // Initialize SELECT boxes (forms)
-    var elem = document.querySelector('select');
-    var instance = M.FormSelect.init(elem, options);
-
-    // Initialize PARALLAX (styling for pages)
-    var elem = document.querySelector('.parallax');
-    var instance = M.Parallax.init(elem, options);
-
-    // Initialize MODAL (for user login)
-    $(document).ready(function(){
-        $('#login').modal();
-    });
-    $('#login').modal('open');
-
-
-    var elem = document.querySelector('.sidenav');
-    var instance = M.Sidenav.init(elem, options);
-
-    // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
-    var collapsibleElem = document.querySelector('.collapsible');
-    var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
-</script>
 
 </body>
 </html>

@@ -33,11 +33,12 @@
         <%--<li><a class="waves-effect" href="#!">Third Link With Waves</a></li>--%>
     <%--</ul>--%>
     <%--<a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>--%>
-<script>
-    // Initialize MODAL (for user login)
-    $(document).ready(function(){
-        $('#login').modal();
-    });
-    $('#login').modal('open');
-</script>
+
+    <script>
+        // Initialize MODAL (for user login)
+        $(document).ready(function(){
+            $('#login').modal();
+        });
+        $('#login').modal('open');
+    </script>
 </body>
