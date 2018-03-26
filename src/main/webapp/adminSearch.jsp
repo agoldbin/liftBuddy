@@ -1,3 +1,4 @@
+<%-- Search page for Admins --%>
 <!DOCTYPE html>
 <head>
     <%@include file="head.jsp"%>
@@ -23,7 +24,7 @@
                 <li class="active"><a href="#">ADMIN PAGE BABY!</a></li>
                 <li><a href="index.jsp">Home</a></li>
                 <li ><a href="search.jsp">Search</a></li>
-                <li><a class="modal-trigger" href="#loginModal">Login M</a></li>
+                <li><a class="modal-trigger" href="#login" data-target="login">Login M</a></li>
             </ul>
         </div>
     </nav>
@@ -48,19 +49,22 @@
                         <input type="text" class="form-control" name="searchTerm" id="searchTerm" aria-describedby="searchTermHelp">
                         <label for="searchTerm">Search</label>
                     </div>
-                    <div class="form-group col m6">
-                        <select class="form-control" name="searchType" id="searchType">
-                            <option value="" disabled value>Search by:</option>
+                    <div class="input-field col s6 m3">
+                        <select name="searchType" id="searchType">
+                            <option value="" disabled selected>Search by:</option>
                             <option value="id">User ID</option>
                             <option value="userName">User Last Name</option>
                             <option value="gymName">Gym Name</option>
                         </select>
                     </div>
+                    <div class="col s6 m3">
+                        <button class="btn btn-primary" type="submit" name="submit" value="search">
+                            Submit Search
+                        </button>
+                    </div>
                 </div>
+                OR
                 <div class="center-align col s12">
-                    <button class="btn btn-primary" type="submit" name="submit" value="search">
-                        Submit Search
-                    </button>
                     <button class="btn btn-primary" type="submit" name="submit" value="viewAllUsers">
                         View All Users
                     </button>
@@ -84,13 +88,27 @@
 </footer>
 
 <script>
-    $(document).ready(function(){
-        $('.parallax').parallax();
-    });
+    // Initialize SELECT boxes (forms)
+    var elem = document.querySelector('select');
+    var instance = M.FormSelect.init(elem, options);
+
+    // Initialize PARALLAX (styling for pages)
+    var elem = document.querySelector('.parallax');
+    var instance = M.Parallax.init(elem, options);
+
+    // Initialize MODAL (for user login)
     $(document).ready(function(){
         $('#login').modal();
     });
     $('#login').modal('open');
+
+
+    var elem = document.querySelector('.sidenav');
+    var instance = M.Sidenav.init(elem, options);
+
+    // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
+    var collapsibleElem = document.querySelector('.collapsible');
+    var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
 </script>
 
 </body>
