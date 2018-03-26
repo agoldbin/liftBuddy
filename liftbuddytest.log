@@ -3244,3 +3244,750 @@
 [INFO ] 2018-03-26 04:14:46.807 [main] GenericDao - Entity save/update success: com.aarongoldbin.entity.Weight@e9ef5b6
 [INFO ] 2018-03-26 04:14:46.807 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
 [INFO ] 2018-03-26 04:14:46.823 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@5d5c04f9
+[INFO ] 2018-03-26 04:27:24.089 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:27:24.167 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@1549bba7
+[INFO ] 2018-03-26 04:27:24.167 [main] GymDaoTest - Deleting Gym test, gym to be deleted: com.aarongoldbin.entity.Gym@1549bba7
+[INFO ] 2018-03-26 04:27:24.167 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:27:24.182 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@7a231dfd
+[INFO ] 2018-03-26 04:27:24.182 [main] GenericDao - Entity to be deleted: com.aarongoldbin.entity.Gym@7a231dfd
+[INFO ] 2018-03-26 04:27:24.245 [main] GenericDao - com.aarongoldbin.entity.Gym@7a231dfddeletion success!
+[INFO ] 2018-03-26 04:27:24.245 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:27:24.245 [main] GenericDao - Found: null
+[DEBUG] 2018-03-26 04:27:24.276 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[INFO ] 2018-03-26 04:27:24.604 [main] GenericDao - Matches found: [com.aarongoldbin.entity.Gym@3ffb3598]
+[DEBUG] 2018-03-26 04:27:24.635 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[INFO ] 2018-03-26 04:27:24.666 [main] GenericDao - Matches found: [com.aarongoldbin.entity.Gym@701bc94e, com.aarongoldbin.entity.Gym@3d8b319e]
+[INFO ] 2018-03-26 04:27:24.694 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Gym
+[INFO ] 2018-03-26 04:27:24.725 [main] GenericDao - Retrieved list: [com.aarongoldbin.entity.Gym@6ab7ce48, com.aarongoldbin.entity.Gym@2c6aed22, com.aarongoldbin.entity.Gym@e322ec9, com.aarongoldbin.entity.Gym@7acfb656, com.aarongoldbin.entity.Gym@2e5ee2c9, com.aarongoldbin.entity.Gym@55a609dd]
+[INFO ] 2018-03-26 04:27:24.765 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-03-26 04:27:24.773 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@228cea97
+[INFO ] 2018-03-26 04:27:24.809 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:27:24.809 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@38af1bf6
+[INFO ] 2018-03-26 04:27:24.809 [main] GenericDao - Saving/updating entity: com.aarongoldbin.entity.Gym@38af1bf6
+[INFO ] 2018-03-26 04:27:24.825 [main] GenericDao - Entity save/update success: com.aarongoldbin.entity.Gym@38af1bf6
+[INFO ] 2018-03-26 04:27:24.825 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:27:24.825 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@abff8b7
+[INFO ] 2018-03-26 04:27:24.872 [main] GenericDao - Inserting entity: com.aarongoldbin.entity.Gym@2954b5ea
+[INFO ] 2018-03-26 04:27:24.888 [main] GenericDao - Insert success! ID = 96
+[INFO ] 2018-03-26 04:27:24.888 [main] GymDaoTest - New Gym test: com.aarongoldbin.entity.Gym@2954b5ea
+[INFO ] 2018-03-26 04:27:24.888 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 96
+[INFO ] 2018-03-26 04:27:24.888 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@cbc8d0f
+[INFO ] 2018-03-26 04:27:24.966 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:27:24.966 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@341672e, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:27:24.966 [main] GenericDao - Entity to be deleted: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@341672e, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:27:24.981 [main] GenericDao - User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@341672e, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}deletion success!
+[INFO ] 2018-03-26 04:27:24.981 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:27:24.981 [main] GenericDao - Found: null
+[DEBUG] 2018-03-26 04:27:25.028 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[INFO ] 2018-03-26 04:27:25.044 [main] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@3f049056, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@670d4d38, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=1991-09-22}, User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@35cd68d4, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=1979-08-03}]
+[INFO ] 2018-03-26 04:27:25.091 [main] GenericDao - GetAll for class com.aarongoldbin.entity.User
+[INFO ] 2018-03-26 04:27:25.122 [main] GenericDao - Retrieved list: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@ef1695a, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@ef1695a, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=1988-05-08}, User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@4e1ce44, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}, User{id=4, userName='kmack', userEmail='mackattack@aol.com', gym=com.aarongoldbin.entity.Gym@1416cf9f, location='53594', password='supersecret4', firstName='Karen', lastName='Mack', height=6'0, sex='F', dob=1986-07-08}, User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@43d38654, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=1991-09-22}, User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@29eda4f8, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=1979-08-03}]
+[DEBUG] 2018-03-26 04:27:25.138 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[INFO ] 2018-03-26 04:27:25.153 [main] GenericDao - Matches found: [User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@19650aa6, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}]
+[DEBUG] 2018-03-26 04:27:25.184 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[INFO ] 2018-03-26 04:27:25.200 [main] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@3a543f31, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@34acbc60, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}, User{id=4, userName='kmack', userEmail='mackattack@aol.com', gym=com.aarongoldbin.entity.Gym@3e104d4b, location='53594', password='supersecret4', firstName='Karen', lastName='Mack', height=6'0, sex='F', dob=1986-07-08}]
+[INFO ] 2018-03-26 04:27:25.231 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 6
+[INFO ] 2018-03-26 04:27:25.231 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@3e7c4815
+[INFO ] 2018-03-26 04:27:25.231 [main] GenericDao - Inserting entity: User{id=0, userName='TMoney', userEmail='teddymo@gmail.com', gym=com.aarongoldbin.entity.Gym@3e7c4815, location='53219', password='superdupersecret7', firstName='Ted', lastName='Mosby', height=5'10, sex='M', dob=1978-04-25}
+[INFO ] 2018-03-26 04:27:25.247 [main] GenericDao - Insert success! ID = 96
+[INFO ] 2018-03-26 04:27:25.247 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 96
+[INFO ] 2018-03-26 04:27:25.263 [main] GenericDao - Found: User{id=96, userName='TMoney', userEmail='teddymo@gmail.com', gym=com.aarongoldbin.entity.Gym@382c90c2, location='53219', password='superdupersecret7', firstName='Ted', lastName='Mosby', height=5'10, sex='M', dob=1978-04-25}
+[INFO ] 2018-03-26 04:27:25.309 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:27:25.325 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@396ef8b2, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:27:25.372 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:27:25.372 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@690bc15e, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:27:25.372 [main] GenericDao - Saving/updating entity: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@690bc15e, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:27:25.388 [main] GenericDao - Entity save/update success: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@690bc15e, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:27:25.388 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:27:25.403 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@1a2909ae, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[ERROR] 2018-03-26 04:27:25.481 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:27:25.481 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:27:25.481 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@2b10ace9
+[INFO ] 2018-03-26 04:27:25.481 [main] GenericDao - Entity to be deleted: com.aarongoldbin.entity.Weight@2b10ace9
+[INFO ] 2018-03-26 04:27:25.481 [main] GenericDao - com.aarongoldbin.entity.Weight@2b10ace9deletion success!
+[INFO ] 2018-03-26 04:27:25.481 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:27:25.481 [main] GenericDao - Found: null
+[ERROR] 2018-03-26 04:27:25.513 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:27:25.513 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 2
+[INFO ] 2018-03-26 04:27:25.528 [main] GenericDao - Found: User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@34d4860f, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=1988-05-08}
+[INFO ] 2018-03-26 04:27:25.528 [main] GenericDao - Inserting entity: com.aarongoldbin.entity.Weight@71945bc0
+[INFO ] 2018-03-26 04:27:25.528 [main] GenericDao - Insert success! ID = 9850
+[INFO ] 2018-03-26 04:27:25.528 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 9850
+[INFO ] 2018-03-26 04:27:25.544 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@435e60ff
+[ERROR] 2018-03-26 04:27:25.559 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:27:25.559 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Weight
+[INFO ] 2018-03-26 04:27:25.591 [main] GenericDao - Retrieved list: [com.aarongoldbin.entity.Weight@59ed3e6c, com.aarongoldbin.entity.Weight@7cd4a4d7, com.aarongoldbin.entity.Weight@317e9c3c, com.aarongoldbin.entity.Weight@18da4dd, com.aarongoldbin.entity.Weight@31a3f4de, com.aarongoldbin.entity.Weight@68880c21, com.aarongoldbin.entity.Weight@2dd2e270, com.aarongoldbin.entity.Weight@4195105b, com.aarongoldbin.entity.Weight@6f3e19b3]
+[ERROR] 2018-03-26 04:27:25.622 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:27:25.622 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:27:25.622 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@6c008c24
+[ERROR] 2018-03-26 04:27:25.653 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:27:25.653 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:27:25.653 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@5292ceca
+[INFO ] 2018-03-26 04:27:25.653 [main] GenericDao - Saving/updating entity: com.aarongoldbin.entity.Weight@5292ceca
+[INFO ] 2018-03-26 04:27:25.669 [main] GenericDao - Entity save/update success: com.aarongoldbin.entity.Weight@5292ceca
+[INFO ] 2018-03-26 04:27:25.669 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:27:25.669 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@5d5c04f9
+[INFO ] 2018-03-26 04:28:46.453 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:28:46.531 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@1549bba7
+[INFO ] 2018-03-26 04:28:46.531 [main] GymDaoTest - Deleting Gym test, gym to be deleted: com.aarongoldbin.entity.Gym@1549bba7
+[INFO ] 2018-03-26 04:28:46.531 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:28:46.546 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@7a231dfd
+[INFO ] 2018-03-26 04:28:46.546 [main] GenericDao - Entity to be deleted: com.aarongoldbin.entity.Gym@7a231dfd
+[INFO ] 2018-03-26 04:28:46.593 [main] GenericDao - com.aarongoldbin.entity.Gym@7a231dfddeletion success!
+[INFO ] 2018-03-26 04:28:46.593 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:28:46.593 [main] GenericDao - Found: null
+[DEBUG] 2018-03-26 04:28:46.624 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[INFO ] 2018-03-26 04:28:46.986 [main] GenericDao - Matches found: [com.aarongoldbin.entity.Gym@3ffb3598]
+[DEBUG] 2018-03-26 04:28:47.017 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[INFO ] 2018-03-26 04:28:47.048 [main] GenericDao - Matches found: [com.aarongoldbin.entity.Gym@3d8b319e, com.aarongoldbin.entity.Gym@27a97e08]
+[INFO ] 2018-03-26 04:28:47.079 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Gym
+[INFO ] 2018-03-26 04:28:47.126 [main] GenericDao - Retrieved list: [com.aarongoldbin.entity.Gym@2c6aed22, com.aarongoldbin.entity.Gym@e322ec9, com.aarongoldbin.entity.Gym@7acfb656, com.aarongoldbin.entity.Gym@2e5ee2c9, com.aarongoldbin.entity.Gym@55a609dd, com.aarongoldbin.entity.Gym@4afd21c6]
+[INFO ] 2018-03-26 04:28:47.158 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-03-26 04:28:47.158 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@1d0a61c8
+[INFO ] 2018-03-26 04:28:47.189 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:28:47.204 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@129bd55d
+[INFO ] 2018-03-26 04:28:47.204 [main] GenericDao - Saving/updating entity: com.aarongoldbin.entity.Gym@129bd55d
+[INFO ] 2018-03-26 04:28:47.220 [main] GenericDao - Entity save/update success: com.aarongoldbin.entity.Gym@129bd55d
+[INFO ] 2018-03-26 04:28:47.220 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:28:47.236 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@6d7cada5
+[INFO ] 2018-03-26 04:28:47.267 [main] GenericDao - Inserting entity: com.aarongoldbin.entity.Gym@4acb2510
+[INFO ] 2018-03-26 04:28:47.283 [main] GenericDao - Insert success! ID = 97
+[INFO ] 2018-03-26 04:28:47.283 [main] GymDaoTest - New Gym test: com.aarongoldbin.entity.Gym@4acb2510
+[INFO ] 2018-03-26 04:28:47.283 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 97
+[INFO ] 2018-03-26 04:28:47.283 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@37b57b54
+[INFO ] 2018-03-26 04:28:47.423 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:28:47.439 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@2bebb74f, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:28:47.439 [main] GenericDao - Entity to be deleted: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@2bebb74f, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:28:47.454 [main] GenericDao - User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@2bebb74f, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}deletion success!
+[INFO ] 2018-03-26 04:28:47.454 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:28:47.454 [main] GenericDao - Found: null
+[DEBUG] 2018-03-26 04:28:47.486 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[INFO ] 2018-03-26 04:28:47.517 [main] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@4d1f1ff5, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@42c28305, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=1991-09-22}, User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@5633dafd, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=1979-08-03}]
+[INFO ] 2018-03-26 04:28:47.548 [main] GenericDao - GetAll for class com.aarongoldbin.entity.User
+[INFO ] 2018-03-26 04:28:47.579 [main] GenericDao - Retrieved list: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@199bc830, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@199bc830, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=1988-05-08}, User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@2f61d591, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}, User{id=4, userName='kmack', userEmail='mackattack@aol.com', gym=com.aarongoldbin.entity.Gym@1290c49, location='53594', password='supersecret4', firstName='Karen', lastName='Mack', height=6'0, sex='F', dob=1986-07-08}, User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@710d89e2, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=1991-09-22}, User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@1dd7796b, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=1979-08-03}]
+[DEBUG] 2018-03-26 04:28:47.611 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[INFO ] 2018-03-26 04:28:47.626 [main] GenericDao - Matches found: [User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@59d77850, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}]
+[DEBUG] 2018-03-26 04:28:47.658 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[INFO ] 2018-03-26 04:28:47.673 [main] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@ac20bb4, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@76889e60, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}, User{id=4, userName='kmack', userEmail='mackattack@aol.com', gym=com.aarongoldbin.entity.Gym@6cd164a6, location='53594', password='supersecret4', firstName='Karen', lastName='Mack', height=6'0, sex='F', dob=1986-07-08}]
+[INFO ] 2018-03-26 04:28:47.704 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 6
+[INFO ] 2018-03-26 04:28:47.704 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@474c9131
+[INFO ] 2018-03-26 04:28:47.720 [main] GenericDao - Inserting entity: User{id=0, userName='TMoney', userEmail='teddymo@gmail.com', gym=com.aarongoldbin.entity.Gym@474c9131, location='53219', password='superdupersecret7', firstName='Ted', lastName='Mosby', height=5'10, sex='M', dob=1978-04-25}
+[INFO ] 2018-03-26 04:28:47.720 [main] GenericDao - Insert success! ID = 97
+[INFO ] 2018-03-26 04:28:47.720 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 97
+[INFO ] 2018-03-26 04:28:47.736 [main] GenericDao - Found: User{id=97, userName='TMoney', userEmail='teddymo@gmail.com', gym=com.aarongoldbin.entity.Gym@31ceba99, location='53219', password='superdupersecret7', firstName='Ted', lastName='Mosby', height=5'10, sex='M', dob=1978-04-25}
+[INFO ] 2018-03-26 04:28:47.767 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:28:47.767 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@4cfa8227, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:28:47.798 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:28:47.814 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@181e72d3, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:28:47.814 [main] GenericDao - Saving/updating entity: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@181e72d3, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:28:47.814 [main] GenericDao - Entity save/update success: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@181e72d3, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:28:47.814 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:28:47.829 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@3f4f5330, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[ERROR] 2018-03-26 04:28:47.861 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:28:47.861 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:28:47.876 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@d0865a3
+[INFO ] 2018-03-26 04:28:47.876 [main] GenericDao - Entity to be deleted: com.aarongoldbin.entity.Weight@d0865a3
+[INFO ] 2018-03-26 04:28:47.876 [main] GenericDao - com.aarongoldbin.entity.Weight@d0865a3deletion success!
+[INFO ] 2018-03-26 04:28:47.876 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:28:47.876 [main] GenericDao - Found: null
+[ERROR] 2018-03-26 04:28:47.923 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:28:47.923 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 2
+[INFO ] 2018-03-26 04:28:47.923 [main] GenericDao - Found: User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@51a6cc2a, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=1988-05-08}
+[INFO ] 2018-03-26 04:28:47.923 [main] GenericDao - Inserting entity: com.aarongoldbin.entity.Weight@45404d5
+[INFO ] 2018-03-26 04:28:47.939 [main] GenericDao - Insert success! ID = 9957
+[INFO ] 2018-03-26 04:28:47.939 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 9957
+[INFO ] 2018-03-26 04:28:47.939 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@65d57e4e
+[ERROR] 2018-03-26 04:28:47.970 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:28:47.970 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Weight
+[INFO ] 2018-03-26 04:28:48.017 [main] GenericDao - Retrieved list: [com.aarongoldbin.entity.Weight@68880c21, com.aarongoldbin.entity.Weight@2dd2e270, com.aarongoldbin.entity.Weight@4195105b, com.aarongoldbin.entity.Weight@6f3e19b3, com.aarongoldbin.entity.Weight@47ffe971, com.aarongoldbin.entity.Weight@7d04529c, com.aarongoldbin.entity.Weight@14fa92af, com.aarongoldbin.entity.Weight@b16e202, com.aarongoldbin.entity.Weight@339a3670]
+[ERROR] 2018-03-26 04:28:48.033 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:28:48.033 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:28:48.048 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@fcc6023
+[ERROR] 2018-03-26 04:28:48.064 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:28:48.064 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:28:48.079 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@5300cac
+[INFO ] 2018-03-26 04:28:48.079 [main] GenericDao - Saving/updating entity: com.aarongoldbin.entity.Weight@5300cac
+[INFO ] 2018-03-26 04:28:48.079 [main] GenericDao - Entity save/update success: com.aarongoldbin.entity.Weight@5300cac
+[INFO ] 2018-03-26 04:28:48.079 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:28:48.095 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@7e7f0216
+[INFO ] 2018-03-26 04:38:52.599 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:38:52.719 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@1549bba7
+[INFO ] 2018-03-26 04:38:52.731 [main] GymDaoTest - Deleting Gym test, gym to be deleted: com.aarongoldbin.entity.Gym@1549bba7
+[INFO ] 2018-03-26 04:38:52.731 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:38:52.735 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@7a231dfd
+[INFO ] 2018-03-26 04:38:52.735 [main] GenericDao - Entity to be deleted: com.aarongoldbin.entity.Gym@7a231dfd
+[INFO ] 2018-03-26 04:38:52.807 [main] GenericDao - com.aarongoldbin.entity.Gym@7a231dfddeletion success!
+[INFO ] 2018-03-26 04:38:52.807 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:38:52.811 [main] GenericDao - Found: null
+[DEBUG] 2018-03-26 04:38:52.855 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[INFO ] 2018-03-26 04:38:53.407 [main] GenericDao - Matches found: [com.aarongoldbin.entity.Gym@3b2f4a93]
+[DEBUG] 2018-03-26 04:38:53.447 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[INFO ] 2018-03-26 04:38:53.475 [main] GenericDao - Matches found: [com.aarongoldbin.entity.Gym@27a97e08, com.aarongoldbin.entity.Gym@77e7246b]
+[INFO ] 2018-03-26 04:38:53.508 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Gym
+[INFO ] 2018-03-26 04:38:53.552 [main] GenericDao - Retrieved list: [com.aarongoldbin.entity.Gym@e322ec9, com.aarongoldbin.entity.Gym@7acfb656, com.aarongoldbin.entity.Gym@2e5ee2c9, com.aarongoldbin.entity.Gym@55a609dd, com.aarongoldbin.entity.Gym@4afd21c6, com.aarongoldbin.entity.Gym@4d0753c9]
+[INFO ] 2018-03-26 04:38:53.580 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-03-26 04:38:53.592 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@46731692
+[INFO ] 2018-03-26 04:38:53.628 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:38:53.636 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@7be7e15
+[INFO ] 2018-03-26 04:38:53.636 [main] GenericDao - Saving/updating entity: com.aarongoldbin.entity.Gym@7be7e15
+[INFO ] 2018-03-26 04:38:53.652 [main] GenericDao - Entity save/update success: com.aarongoldbin.entity.Gym@7be7e15
+[INFO ] 2018-03-26 04:38:53.652 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:38:53.656 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@350a94ce
+[INFO ] 2018-03-26 04:38:53.684 [main] GenericDao - Inserting entity: com.aarongoldbin.entity.Gym@7be3a9ce
+[INFO ] 2018-03-26 04:38:53.704 [main] GenericDao - Insert success! ID = 98
+[INFO ] 2018-03-26 04:38:53.704 [main] GymDaoTest - New Gym test: com.aarongoldbin.entity.Gym@7be3a9ce
+[INFO ] 2018-03-26 04:38:53.704 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 98
+[INFO ] 2018-03-26 04:38:53.712 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@5c1f6d57
+[INFO ] 2018-03-26 04:38:53.768 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:38:53.828 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@58cf8f94, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:38:53.828 [main] GenericDao - Entity to be deleted: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@58cf8f94, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:38:53.860 [main] GenericDao - User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@58cf8f94, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}deletion success!
+[INFO ] 2018-03-26 04:38:53.860 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:38:53.864 [main] GenericDao - Found: null
+[DEBUG] 2018-03-26 04:38:53.940 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[INFO ] 2018-03-26 04:38:53.972 [main] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@1de0a46c, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@2e060819, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=1991-09-22}, User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@35764bef, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=1979-08-03}]
+[INFO ] 2018-03-26 04:38:54.016 [main] GenericDao - GetAll for class com.aarongoldbin.entity.User
+[INFO ] 2018-03-26 04:38:54.048 [main] GenericDao - Retrieved list: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@7139bd31, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@7139bd31, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=1988-05-08}, User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@524a2ffb, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}, User{id=4, userName='kmack', userEmail='mackattack@aol.com', gym=com.aarongoldbin.entity.Gym@2dfe5525, location='53594', password='supersecret4', firstName='Karen', lastName='Mack', height=6'0, sex='F', dob=1986-07-08}, User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@3419e23b, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=1991-09-22}, User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@3d5790ea, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=1979-08-03}]
+[DEBUG] 2018-03-26 04:38:54.084 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[INFO ] 2018-03-26 04:38:54.104 [main] GenericDao - Matches found: [User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@1a6cf771, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}]
+[DEBUG] 2018-03-26 04:38:54.140 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[INFO ] 2018-03-26 04:38:54.168 [main] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@7efe7b87, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@20134094, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}, User{id=4, userName='kmack', userEmail='mackattack@aol.com', gym=com.aarongoldbin.entity.Gym@2e807c54, location='53594', password='supersecret4', firstName='Karen', lastName='Mack', height=6'0, sex='F', dob=1986-07-08}]
+[INFO ] 2018-03-26 04:38:54.208 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 6
+[INFO ] 2018-03-26 04:38:54.212 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@1835d3ed
+[INFO ] 2018-03-26 04:38:54.212 [main] GenericDao - Inserting entity: User{id=0, userName='TMoney', userEmail='teddymo@gmail.com', gym=com.aarongoldbin.entity.Gym@1835d3ed, location='53219', password='superdupersecret7', firstName='Ted', lastName='Mosby', height=5'10, sex='M', dob=1978-04-25}
+[INFO ] 2018-03-26 04:38:54.228 [main] GenericDao - Insert success! ID = 98
+[INFO ] 2018-03-26 04:38:54.228 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 98
+[INFO ] 2018-03-26 04:38:54.232 [main] GenericDao - Found: User{id=98, userName='TMoney', userEmail='teddymo@gmail.com', gym=com.aarongoldbin.entity.Gym@760245e1, location='53219', password='superdupersecret7', firstName='Ted', lastName='Mosby', height=5'10, sex='M', dob=1978-04-25}
+[INFO ] 2018-03-26 04:38:54.272 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:38:54.280 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@1866da85, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:38:54.328 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:38:54.332 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@687e4c93, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:38:54.332 [main] GenericDao - Saving/updating entity: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@687e4c93, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:38:54.344 [main] GenericDao - Entity save/update success: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@687e4c93, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:38:54.344 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:38:54.352 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@1000d54d, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[ERROR] 2018-03-26 04:38:54.396 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:38:54.400 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:38:54.408 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@6b4283c4
+[INFO ] 2018-03-26 04:38:54.408 [main] GenericDao - Entity to be deleted: com.aarongoldbin.entity.Weight@6b4283c4
+[INFO ] 2018-03-26 04:38:54.412 [main] GenericDao - com.aarongoldbin.entity.Weight@6b4283c4deletion success!
+[INFO ] 2018-03-26 04:38:54.412 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:38:54.416 [main] GenericDao - Found: null
+[ERROR] 2018-03-26 04:38:54.452 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:38:54.452 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 2
+[INFO ] 2018-03-26 04:38:54.464 [main] GenericDao - Found: User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@6a0094c9, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=1988-05-08}
+[INFO ] 2018-03-26 04:38:54.464 [main] GenericDao - Inserting entity: com.aarongoldbin.entity.Weight@29138d3a
+[INFO ] 2018-03-26 04:38:54.472 [main] GenericDao - Insert success! ID = 10064
+[INFO ] 2018-03-26 04:38:54.472 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 10064
+[INFO ] 2018-03-26 04:38:54.484 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@a2ddf26
+[ERROR] 2018-03-26 04:38:54.512 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:38:54.512 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Weight
+[INFO ] 2018-03-26 04:38:54.552 [main] GenericDao - Retrieved list: [com.aarongoldbin.entity.Weight@31a3f4de, com.aarongoldbin.entity.Weight@68880c21, com.aarongoldbin.entity.Weight@2dd2e270, com.aarongoldbin.entity.Weight@4195105b, com.aarongoldbin.entity.Weight@6f3e19b3, com.aarongoldbin.entity.Weight@47ffe971, com.aarongoldbin.entity.Weight@7d04529c, com.aarongoldbin.entity.Weight@14fa92af, com.aarongoldbin.entity.Weight@b16e202]
+[ERROR] 2018-03-26 04:38:54.612 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:38:54.612 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:38:54.620 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@21079a12
+[ERROR] 2018-03-26 04:38:54.640 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:38:54.644 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:38:54.648 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@e9ef5b6
+[INFO ] 2018-03-26 04:38:54.648 [main] GenericDao - Saving/updating entity: com.aarongoldbin.entity.Weight@e9ef5b6
+[INFO ] 2018-03-26 04:38:54.652 [main] GenericDao - Entity save/update success: com.aarongoldbin.entity.Weight@e9ef5b6
+[INFO ] 2018-03-26 04:38:54.652 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:38:54.660 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@5d5c04f9
+[INFO ] 2018-03-26 04:41:36.791 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:41:36.916 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@1549bba7
+[INFO ] 2018-03-26 04:41:36.916 [main] GymDaoTest - Deleting Gym test, gym to be deleted: com.aarongoldbin.entity.Gym@1549bba7
+[INFO ] 2018-03-26 04:41:36.916 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:41:36.931 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@7a231dfd
+[INFO ] 2018-03-26 04:41:36.931 [main] GenericDao - Entity to be deleted: com.aarongoldbin.entity.Gym@7a231dfd
+[INFO ] 2018-03-26 04:41:36.978 [main] GenericDao - com.aarongoldbin.entity.Gym@7a231dfddeletion success!
+[INFO ] 2018-03-26 04:41:36.978 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:41:36.994 [main] GenericDao - Found: null
+[DEBUG] 2018-03-26 04:41:37.025 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[INFO ] 2018-03-26 04:41:37.400 [main] GenericDao - Matches found: [com.aarongoldbin.entity.Gym@3ffb3598]
+[DEBUG] 2018-03-26 04:41:37.431 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[INFO ] 2018-03-26 04:41:37.463 [main] GenericDao - Matches found: [com.aarongoldbin.entity.Gym@3d8b319e, com.aarongoldbin.entity.Gym@27a97e08]
+[INFO ] 2018-03-26 04:41:37.494 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Gym
+[INFO ] 2018-03-26 04:41:37.541 [main] GenericDao - Retrieved list: [com.aarongoldbin.entity.Gym@2c6aed22, com.aarongoldbin.entity.Gym@e322ec9, com.aarongoldbin.entity.Gym@7acfb656, com.aarongoldbin.entity.Gym@2e5ee2c9, com.aarongoldbin.entity.Gym@55a609dd, com.aarongoldbin.entity.Gym@4afd21c6]
+[INFO ] 2018-03-26 04:41:37.556 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-03-26 04:41:37.572 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@1d0a61c8
+[INFO ] 2018-03-26 04:41:37.603 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:41:37.603 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@129bd55d
+[INFO ] 2018-03-26 04:41:37.603 [main] GenericDao - Saving/updating entity: com.aarongoldbin.entity.Gym@129bd55d
+[INFO ] 2018-03-26 04:41:37.619 [main] GenericDao - Entity save/update success: com.aarongoldbin.entity.Gym@129bd55d
+[INFO ] 2018-03-26 04:41:37.619 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:41:37.619 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@7e00ed0f
+[INFO ] 2018-03-26 04:41:37.650 [main] GenericDao - Inserting entity: com.aarongoldbin.entity.Gym@7be3a9ce
+[INFO ] 2018-03-26 04:41:37.666 [main] GenericDao - Insert success! ID = 99
+[INFO ] 2018-03-26 04:41:37.666 [main] GymDaoTest - New Gym test: com.aarongoldbin.entity.Gym@7be3a9ce
+[INFO ] 2018-03-26 04:41:37.666 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 99
+[INFO ] 2018-03-26 04:41:37.681 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@5c1f6d57
+[INFO ] 2018-03-26 04:41:37.728 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:41:37.744 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@6e33fcae, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:41:37.744 [main] GenericDao - Entity to be deleted: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@6e33fcae, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:41:37.775 [main] GenericDao - User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@6e33fcae, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}deletion success!
+[INFO ] 2018-03-26 04:41:37.775 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:41:37.775 [main] GenericDao - Found: null
+[DEBUG] 2018-03-26 04:41:37.806 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[INFO ] 2018-03-26 04:41:37.822 [main] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@4c2fb9dd, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@7d199c68, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=1991-09-22}, User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@2eadc9f6, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=1979-08-03}]
+[INFO ] 2018-03-26 04:41:37.869 [main] GenericDao - GetAll for class com.aarongoldbin.entity.User
+[INFO ] 2018-03-26 04:41:37.884 [main] GenericDao - Retrieved list: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@27b45ea, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@27b45ea, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=1988-05-08}, User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@7173ae5b, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}, User{id=4, userName='kmack', userEmail='mackattack@aol.com', gym=com.aarongoldbin.entity.Gym@55d9b8f0, location='53594', password='supersecret4', firstName='Karen', lastName='Mack', height=6'0, sex='F', dob=1986-07-08}, User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@4fc142ec, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=1991-09-22}, User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@57402ba1, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=1979-08-03}]
+[DEBUG] 2018-03-26 04:41:37.916 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[INFO ] 2018-03-26 04:41:37.931 [main] GenericDao - Matches found: [User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@53ed09e8, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}]
+[DEBUG] 2018-03-26 04:41:37.947 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[INFO ] 2018-03-26 04:41:37.963 [main] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@7ca8d498, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@6c15e8c7, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}, User{id=4, userName='kmack', userEmail='mackattack@aol.com', gym=com.aarongoldbin.entity.Gym@64469d8, location='53594', password='supersecret4', firstName='Karen', lastName='Mack', height=6'0, sex='F', dob=1986-07-08}]
+[INFO ] 2018-03-26 04:41:38.009 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 6
+[INFO ] 2018-03-26 04:41:38.009 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@aa4d8cc
+[INFO ] 2018-03-26 04:41:38.025 [main] GenericDao - Inserting entity: User{id=0, userName='TMoney', userEmail='teddymo@gmail.com', gym=com.aarongoldbin.entity.Gym@aa4d8cc, location='53219', password='superdupersecret7', firstName='Ted', lastName='Mosby', height=5'10, sex='M', dob=1978-04-25}
+[INFO ] 2018-03-26 04:41:38.041 [main] GenericDao - Insert success! ID = 99
+[INFO ] 2018-03-26 04:41:38.041 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 99
+[INFO ] 2018-03-26 04:41:38.041 [main] GenericDao - Found: User{id=99, userName='TMoney', userEmail='teddymo@gmail.com', gym=com.aarongoldbin.entity.Gym@bbf9e07, location='53219', password='superdupersecret7', firstName='Ted', lastName='Mosby', height=5'10, sex='M', dob=1978-04-25}
+[INFO ] 2018-03-26 04:41:38.103 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:41:38.119 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@4cfa8227, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:41:38.166 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:41:38.181 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@181e72d3, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:41:38.181 [main] GenericDao - Saving/updating entity: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@181e72d3, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:41:38.181 [main] GenericDao - Entity save/update success: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@181e72d3, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:41:38.181 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:41:38.181 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@750ff7d3, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[ERROR] 2018-03-26 04:41:38.213 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:41:38.213 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:41:38.228 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@7eae3764
+[INFO ] 2018-03-26 04:41:38.228 [main] GenericDao - Entity to be deleted: com.aarongoldbin.entity.Weight@7eae3764
+[INFO ] 2018-03-26 04:41:38.228 [main] GenericDao - com.aarongoldbin.entity.Weight@7eae3764deletion success!
+[INFO ] 2018-03-26 04:41:38.228 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:41:38.228 [main] GenericDao - Found: null
+[ERROR] 2018-03-26 04:41:38.259 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:41:38.259 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 2
+[INFO ] 2018-03-26 04:41:38.259 [main] GenericDao - Found: User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@7d2998d8, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=1988-05-08}
+[INFO ] 2018-03-26 04:41:38.259 [main] GenericDao - Inserting entity: com.aarongoldbin.entity.Weight@3c69362a
+[INFO ] 2018-03-26 04:41:38.291 [main] GenericDao - Insert success! ID = 10171
+[INFO ] 2018-03-26 04:41:38.291 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 10171
+[INFO ] 2018-03-26 04:41:38.291 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@212dfd39
+[ERROR] 2018-03-26 04:41:38.322 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:41:38.322 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Weight
+[INFO ] 2018-03-26 04:41:38.369 [main] GenericDao - Retrieved list: [com.aarongoldbin.entity.Weight@68880c21, com.aarongoldbin.entity.Weight@2dd2e270, com.aarongoldbin.entity.Weight@4195105b, com.aarongoldbin.entity.Weight@6f3e19b3, com.aarongoldbin.entity.Weight@47ffe971, com.aarongoldbin.entity.Weight@7d04529c, com.aarongoldbin.entity.Weight@14fa92af, com.aarongoldbin.entity.Weight@b16e202, com.aarongoldbin.entity.Weight@339a3670]
+[ERROR] 2018-03-26 04:41:38.447 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:41:38.447 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:41:38.463 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@fcc6023
+[ERROR] 2018-03-26 04:41:38.494 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:41:38.494 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:41:38.494 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@5300cac
+[INFO ] 2018-03-26 04:41:38.494 [main] GenericDao - Saving/updating entity: com.aarongoldbin.entity.Weight@5300cac
+[INFO ] 2018-03-26 04:41:38.494 [main] GenericDao - Entity save/update success: com.aarongoldbin.entity.Weight@5300cac
+[INFO ] 2018-03-26 04:41:38.494 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:41:38.509 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@7e7f0216
+[INFO ] 2018-03-26 04:47:39.299 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:47:39.393 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@1549bba7
+[INFO ] 2018-03-26 04:47:39.393 [main] GymDaoTest - Deleting Gym test, gym to be deleted: com.aarongoldbin.entity.Gym@1549bba7
+[INFO ] 2018-03-26 04:47:39.393 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:47:39.408 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@7a231dfd
+[INFO ] 2018-03-26 04:47:39.408 [main] GenericDao - Entity to be deleted: com.aarongoldbin.entity.Gym@7a231dfd
+[INFO ] 2018-03-26 04:47:39.455 [main] GenericDao - com.aarongoldbin.entity.Gym@7a231dfddeletion success!
+[INFO ] 2018-03-26 04:47:39.471 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:47:39.471 [main] GenericDao - Found: null
+[DEBUG] 2018-03-26 04:47:39.518 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[INFO ] 2018-03-26 04:47:39.846 [main] GenericDao - Matches found: [com.aarongoldbin.entity.Gym@3ffb3598]
+[DEBUG] 2018-03-26 04:47:39.877 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[INFO ] 2018-03-26 04:47:39.908 [main] GenericDao - Matches found: [com.aarongoldbin.entity.Gym@3d8b319e, com.aarongoldbin.entity.Gym@27a97e08]
+[INFO ] 2018-03-26 04:47:39.939 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Gym
+[INFO ] 2018-03-26 04:47:39.986 [main] GenericDao - Retrieved list: [com.aarongoldbin.entity.Gym@2c6aed22, com.aarongoldbin.entity.Gym@e322ec9, com.aarongoldbin.entity.Gym@7acfb656, com.aarongoldbin.entity.Gym@2e5ee2c9, com.aarongoldbin.entity.Gym@55a609dd, com.aarongoldbin.entity.Gym@4afd21c6]
+[INFO ] 2018-03-26 04:47:40.018 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-03-26 04:47:40.018 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@1d0a61c8
+[INFO ] 2018-03-26 04:47:40.064 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:47:40.064 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@129bd55d
+[INFO ] 2018-03-26 04:47:40.064 [main] GenericDao - Saving/updating entity: com.aarongoldbin.entity.Gym@129bd55d
+[INFO ] 2018-03-26 04:47:40.080 [main] GenericDao - Entity save/update success: com.aarongoldbin.entity.Gym@129bd55d
+[INFO ] 2018-03-26 04:47:40.080 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:47:40.096 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@7e00ed0f
+[INFO ] 2018-03-26 04:47:40.127 [main] GenericDao - Inserting entity: com.aarongoldbin.entity.Gym@37d871c2
+[INFO ] 2018-03-26 04:47:40.143 [main] GenericDao - Insert success! ID = 100
+[INFO ] 2018-03-26 04:47:40.143 [main] GymDaoTest - New Gym test: com.aarongoldbin.entity.Gym@37d871c2
+[INFO ] 2018-03-26 04:47:40.143 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 100
+[INFO ] 2018-03-26 04:47:40.158 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@f288c14
+[INFO ] 2018-03-26 04:47:40.221 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:47:40.236 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@6e33fcae, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:47:40.236 [main] GenericDao - Entity to be deleted: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@6e33fcae, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:47:40.236 [main] GenericDao - User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@6e33fcae, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}deletion success!
+[INFO ] 2018-03-26 04:47:40.236 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:47:40.252 [main] GenericDao - Found: null
+[DEBUG] 2018-03-26 04:47:40.283 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[INFO ] 2018-03-26 04:47:40.314 [main] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@25cd49a4, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@216914, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=1991-09-22}, User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@778d82e9, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=1979-08-03}]
+[INFO ] 2018-03-26 04:47:40.361 [main] GenericDao - GetAll for class com.aarongoldbin.entity.User
+[INFO ] 2018-03-26 04:47:40.393 [main] GenericDao - Retrieved list: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@150ede8b, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@150ede8b, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=1988-05-08}, User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@4d192aef, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}, User{id=4, userName='kmack', userEmail='mackattack@aol.com', gym=com.aarongoldbin.entity.Gym@6d303498, location='53594', password='supersecret4', firstName='Karen', lastName='Mack', height=6'0, sex='F', dob=1986-07-08}, User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@5e048149, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=1991-09-22}, User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@5c534b5b, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=1979-08-03}]
+[DEBUG] 2018-03-26 04:47:40.424 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[INFO ] 2018-03-26 04:47:40.439 [main] GenericDao - Matches found: [User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@44c13103, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}]
+[DEBUG] 2018-03-26 04:47:40.471 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[INFO ] 2018-03-26 04:47:40.486 [main] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@55259aa7, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@282ffbf5, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}, User{id=4, userName='kmack', userEmail='mackattack@aol.com', gym=com.aarongoldbin.entity.Gym@1cec219f, location='53594', password='supersecret4', firstName='Karen', lastName='Mack', height=6'0, sex='F', dob=1986-07-08}]
+[INFO ] 2018-03-26 04:47:40.518 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 6
+[INFO ] 2018-03-26 04:47:40.533 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@5c8e67b9
+[INFO ] 2018-03-26 04:47:40.533 [main] GenericDao - Inserting entity: User{id=0, userName='TMoney', userEmail='teddymo@gmail.com', gym=com.aarongoldbin.entity.Gym@5c8e67b9, location='53219', password='superdupersecret7', firstName='Ted', lastName='Mosby', height=5'10, sex='M', dob=1978-04-25}
+[INFO ] 2018-03-26 04:47:40.533 [main] GenericDao - Insert success! ID = 100
+[INFO ] 2018-03-26 04:47:40.533 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 100
+[INFO ] 2018-03-26 04:47:40.549 [main] GenericDao - Found: User{id=100, userName='TMoney', userEmail='teddymo@gmail.com', gym=com.aarongoldbin.entity.Gym@73d3e555, location='53219', password='superdupersecret7', firstName='Ted', lastName='Mosby', height=5'10, sex='M', dob=1978-04-25}
+[INFO ] 2018-03-26 04:47:40.580 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:47:40.580 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@987455b, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:47:40.627 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:47:40.627 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@5c448433, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:47:40.627 [main] GenericDao - Saving/updating entity: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@5c448433, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:47:40.643 [main] GenericDao - Entity save/update success: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@5c448433, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:47:40.643 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:47:40.643 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@2620e717, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[ERROR] 2018-03-26 04:47:40.689 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:47:40.689 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:47:40.705 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@4f668f29
+[INFO ] 2018-03-26 04:47:40.705 [main] GenericDao - Entity to be deleted: com.aarongoldbin.entity.Weight@4f668f29
+[INFO ] 2018-03-26 04:47:40.721 [main] GenericDao - com.aarongoldbin.entity.Weight@4f668f29deletion success!
+[INFO ] 2018-03-26 04:47:40.721 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:47:40.721 [main] GenericDao - Found: null
+[ERROR] 2018-03-26 04:47:40.761 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:47:40.761 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 2
+[INFO ] 2018-03-26 04:47:40.789 [main] GenericDao - Found: User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@2123064f, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=1988-05-08}
+[INFO ] 2018-03-26 04:47:40.789 [main] GenericDao - Inserting entity: com.aarongoldbin.entity.Weight@5cbe2654
+[INFO ] 2018-03-26 04:47:40.791 [main] GenericDao - Insert success! ID = 10278
+[INFO ] 2018-03-26 04:47:40.791 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 10278
+[INFO ] 2018-03-26 04:47:40.807 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@65d57e4e
+[ERROR] 2018-03-26 04:47:40.823 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:47:40.838 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Weight
+[INFO ] 2018-03-26 04:47:40.869 [main] GenericDao - Retrieved list: [com.aarongoldbin.entity.Weight@68880c21, com.aarongoldbin.entity.Weight@2dd2e270, com.aarongoldbin.entity.Weight@4195105b, com.aarongoldbin.entity.Weight@6f3e19b3, com.aarongoldbin.entity.Weight@47ffe971, com.aarongoldbin.entity.Weight@7d04529c, com.aarongoldbin.entity.Weight@14fa92af, com.aarongoldbin.entity.Weight@b16e202, com.aarongoldbin.entity.Weight@339a3670]
+[ERROR] 2018-03-26 04:47:40.901 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:47:40.901 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:47:40.901 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@fcc6023
+[ERROR] 2018-03-26 04:47:40.932 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:47:40.932 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:47:40.932 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@5300cac
+[INFO ] 2018-03-26 04:47:40.932 [main] GenericDao - Saving/updating entity: com.aarongoldbin.entity.Weight@5300cac
+[INFO ] 2018-03-26 04:47:40.948 [main] GenericDao - Entity save/update success: com.aarongoldbin.entity.Weight@5300cac
+[INFO ] 2018-03-26 04:47:40.948 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:47:40.948 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@6f49d153
+[INFO ] 2018-03-26 04:49:19.641 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:49:19.743 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@24e08d59
+[INFO ] 2018-03-26 04:49:19.743 [main] GymDaoTest - Deleting Gym test, gym to be deleted: com.aarongoldbin.entity.Gym@24e08d59
+[INFO ] 2018-03-26 04:49:19.743 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:49:19.759 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@7144655b
+[INFO ] 2018-03-26 04:49:19.759 [main] GenericDao - Entity to be deleted: com.aarongoldbin.entity.Gym@7144655b
+[INFO ] 2018-03-26 04:49:19.821 [main] GenericDao - com.aarongoldbin.entity.Gym@7144655bdeletion success!
+[INFO ] 2018-03-26 04:49:19.821 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:49:19.821 [main] GenericDao - Found: null
+[DEBUG] 2018-03-26 04:49:19.868 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[INFO ] 2018-03-26 04:49:20.380 [main] GenericDao - Matches found: [com.aarongoldbin.entity.Gym@4016ccc1]
+[DEBUG] 2018-03-26 04:49:20.426 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[INFO ] 2018-03-26 04:49:20.458 [main] GenericDao - Matches found: [com.aarongoldbin.entity.Gym@68fe48d7, com.aarongoldbin.entity.Gym@379ce046]
+[INFO ] 2018-03-26 04:49:20.489 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Gym
+[INFO ] 2018-03-26 04:49:20.536 [main] GenericDao - Retrieved list: [com.aarongoldbin.entity.Gym@459cfcca, com.aarongoldbin.entity.Gym@2acbc859, com.aarongoldbin.entity.Gym@6ab7ce48, com.aarongoldbin.entity.Gym@2c6aed22, com.aarongoldbin.entity.Gym@e322ec9, com.aarongoldbin.entity.Gym@7acfb656]
+[INFO ] 2018-03-26 04:49:20.567 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-03-26 04:49:20.567 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@62d73ead
+[INFO ] 2018-03-26 04:49:20.598 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:49:20.614 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@75fc1992
+[INFO ] 2018-03-26 04:49:20.614 [main] GenericDao - Saving/updating entity: com.aarongoldbin.entity.Gym@75fc1992
+[INFO ] 2018-03-26 04:49:20.630 [main] GenericDao - Entity save/update success: com.aarongoldbin.entity.Gym@75fc1992
+[INFO ] 2018-03-26 04:49:20.630 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:49:20.630 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@3bfc6a5e
+[INFO ] 2018-03-26 04:49:20.661 [main] GenericDao - Inserting entity: com.aarongoldbin.entity.Gym@5fbdc49b
+[INFO ] 2018-03-26 04:49:20.676 [main] GenericDao - Insert success! ID = 101
+[INFO ] 2018-03-26 04:49:20.676 [main] GymDaoTest - New Gym test: com.aarongoldbin.entity.Gym@5fbdc49b
+[INFO ] 2018-03-26 04:49:20.676 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 101
+[INFO ] 2018-03-26 04:49:20.692 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@28c86134
+[INFO ] 2018-03-26 04:49:20.801 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:49:20.817 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@5b051a5c, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:49:20.817 [main] GenericDao - Entity to be deleted: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@5b051a5c, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:49:20.833 [main] GenericDao - User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@5b051a5c, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}deletion success!
+[INFO ] 2018-03-26 04:49:20.833 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:49:20.833 [main] GenericDao - Found: null
+[DEBUG] 2018-03-26 04:49:20.880 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[INFO ] 2018-03-26 04:49:20.900 [main] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@1de0a46c, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@2e060819, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=1991-09-22}, User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@35764bef, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=1979-08-03}]
+[INFO ] 2018-03-26 04:49:20.931 [main] GenericDao - GetAll for class com.aarongoldbin.entity.User
+[INFO ] 2018-03-26 04:49:20.968 [main] GenericDao - Retrieved list: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@7139bd31, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@7139bd31, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=1988-05-08}, User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@524a2ffb, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}, User{id=4, userName='kmack', userEmail='mackattack@aol.com', gym=com.aarongoldbin.entity.Gym@2dfe5525, location='53594', password='supersecret4', firstName='Karen', lastName='Mack', height=6'0, sex='F', dob=1986-07-08}, User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@3419e23b, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=1991-09-22}, User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@3d5790ea, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=1979-08-03}]
+[DEBUG] 2018-03-26 04:49:21.011 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[INFO ] 2018-03-26 04:49:21.027 [main] GenericDao - Matches found: [User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@f679798, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}]
+[DEBUG] 2018-03-26 04:49:21.058 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[INFO ] 2018-03-26 04:49:21.074 [main] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@7efe7b87, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@20134094, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}, User{id=4, userName='kmack', userEmail='mackattack@aol.com', gym=com.aarongoldbin.entity.Gym@2e807c54, location='53594', password='supersecret4', firstName='Karen', lastName='Mack', height=6'0, sex='F', dob=1986-07-08}]
+[INFO ] 2018-03-26 04:49:21.105 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 6
+[INFO ] 2018-03-26 04:49:21.121 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@1835d3ed
+[INFO ] 2018-03-26 04:49:21.121 [main] GenericDao - Inserting entity: User{id=0, userName='TMoney', userEmail='teddymo@gmail.com', gym=com.aarongoldbin.entity.Gym@1835d3ed, location='53219', password='superdupersecret7', firstName='Ted', lastName='Mosby', height=5'10, sex='M', dob=1978-04-25}
+[INFO ] 2018-03-26 04:49:21.136 [main] GenericDao - Insert success! ID = 101
+[INFO ] 2018-03-26 04:49:21.136 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 101
+[INFO ] 2018-03-26 04:49:21.136 [main] GenericDao - Found: User{id=101, userName='TMoney', userEmail='teddymo@gmail.com', gym=com.aarongoldbin.entity.Gym@760245e1, location='53219', password='superdupersecret7', firstName='Ted', lastName='Mosby', height=5'10, sex='M', dob=1978-04-25}
+[INFO ] 2018-03-26 04:49:21.168 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:49:21.183 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@1174a305, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:49:21.224 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:49:21.228 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@3db972d2, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:49:21.228 [main] GenericDao - Saving/updating entity: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@3db972d2, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:49:21.240 [main] GenericDao - Entity save/update success: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@3db972d2, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:49:21.240 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:49:21.248 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@1000d54d, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[ERROR] 2018-03-26 04:49:21.311 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:49:21.311 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:49:21.327 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@6b4283c4
+[INFO ] 2018-03-26 04:49:21.327 [main] GenericDao - Entity to be deleted: com.aarongoldbin.entity.Weight@6b4283c4
+[INFO ] 2018-03-26 04:49:21.327 [main] GenericDao - com.aarongoldbin.entity.Weight@6b4283c4deletion success!
+[INFO ] 2018-03-26 04:49:21.327 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:49:21.327 [main] GenericDao - Found: null
+[ERROR] 2018-03-26 04:49:21.358 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:49:21.358 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 2
+[INFO ] 2018-03-26 04:49:21.373 [main] GenericDao - Found: User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@2016f509, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=1988-05-08}
+[INFO ] 2018-03-26 04:49:21.373 [main] GenericDao - Inserting entity: com.aarongoldbin.entity.Weight@3dd4a6fa
+[INFO ] 2018-03-26 04:49:21.373 [main] GenericDao - Insert success! ID = 10385
+[INFO ] 2018-03-26 04:49:21.373 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 10385
+[INFO ] 2018-03-26 04:49:21.389 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@66f0548d
+[ERROR] 2018-03-26 04:49:21.420 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:49:21.420 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Weight
+[INFO ] 2018-03-26 04:49:21.467 [main] GenericDao - Retrieved list: [com.aarongoldbin.entity.Weight@59ed3e6c, com.aarongoldbin.entity.Weight@7cd4a4d7, com.aarongoldbin.entity.Weight@317e9c3c, com.aarongoldbin.entity.Weight@18da4dd, com.aarongoldbin.entity.Weight@31a3f4de, com.aarongoldbin.entity.Weight@68880c21, com.aarongoldbin.entity.Weight@2dd2e270, com.aarongoldbin.entity.Weight@4195105b, com.aarongoldbin.entity.Weight@6f3e19b3]
+[ERROR] 2018-03-26 04:49:21.498 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:49:21.498 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:49:21.506 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@4068102e
+[ERROR] 2018-03-26 04:49:21.530 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:49:21.530 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:49:21.534 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@1bc0d349
+[INFO ] 2018-03-26 04:49:21.534 [main] GenericDao - Saving/updating entity: com.aarongoldbin.entity.Weight@1bc0d349
+[INFO ] 2018-03-26 04:49:21.540 [main] GenericDao - Entity save/update success: com.aarongoldbin.entity.Weight@1bc0d349
+[INFO ] 2018-03-26 04:49:21.540 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:49:21.540 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@292158f8
+[INFO ] 2018-03-26 04:52:18.591 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:52:18.714 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@1549bba7
+[INFO ] 2018-03-26 04:52:18.722 [main] GymDaoTest - Deleting Gym test, gym to be deleted: com.aarongoldbin.entity.Gym@1549bba7
+[INFO ] 2018-03-26 04:52:18.726 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:52:18.730 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@7a231dfd
+[INFO ] 2018-03-26 04:52:18.730 [main] GenericDao - Entity to be deleted: com.aarongoldbin.entity.Gym@7a231dfd
+[INFO ] 2018-03-26 04:52:18.780 [main] GenericDao - com.aarongoldbin.entity.Gym@7a231dfddeletion success!
+[INFO ] 2018-03-26 04:52:18.780 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:52:18.780 [main] GenericDao - Found: null
+[DEBUG] 2018-03-26 04:52:18.812 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[INFO ] 2018-03-26 04:52:19.180 [main] GenericDao - Matches found: [com.aarongoldbin.entity.Gym@3ffb3598]
+[DEBUG] 2018-03-26 04:52:19.224 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[INFO ] 2018-03-26 04:52:19.248 [main] GenericDao - Matches found: [com.aarongoldbin.entity.Gym@3d8b319e, com.aarongoldbin.entity.Gym@27a97e08]
+[INFO ] 2018-03-26 04:52:19.284 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Gym
+[INFO ] 2018-03-26 04:52:19.324 [main] GenericDao - Retrieved list: [com.aarongoldbin.entity.Gym@2c6aed22, com.aarongoldbin.entity.Gym@e322ec9, com.aarongoldbin.entity.Gym@7acfb656, com.aarongoldbin.entity.Gym@2e5ee2c9, com.aarongoldbin.entity.Gym@55a609dd, com.aarongoldbin.entity.Gym@4afd21c6]
+[INFO ] 2018-03-26 04:52:19.384 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-03-26 04:52:19.392 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@1d0a61c8
+[INFO ] 2018-03-26 04:52:19.433 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:52:19.437 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@129bd55d
+[INFO ] 2018-03-26 04:52:19.441 [main] GenericDao - Saving/updating entity: com.aarongoldbin.entity.Gym@129bd55d
+[INFO ] 2018-03-26 04:52:19.456 [main] GenericDao - Entity save/update success: com.aarongoldbin.entity.Gym@129bd55d
+[INFO ] 2018-03-26 04:52:19.456 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 04:52:19.456 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@7e00ed0f
+[INFO ] 2018-03-26 04:52:19.487 [main] GenericDao - Inserting entity: com.aarongoldbin.entity.Gym@37d871c2
+[INFO ] 2018-03-26 04:52:19.503 [main] GenericDao - Insert success! ID = 102
+[INFO ] 2018-03-26 04:52:19.503 [main] GymDaoTest - New Gym test: com.aarongoldbin.entity.Gym@37d871c2
+[INFO ] 2018-03-26 04:52:19.503 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 102
+[INFO ] 2018-03-26 04:52:19.519 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@f288c14
+[INFO ] 2018-03-26 04:52:19.574 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:52:19.586 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@6e33fcae, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:52:19.590 [main] GenericDao - Entity to be deleted: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@6e33fcae, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:52:19.603 [main] GenericDao - User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@6e33fcae, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}deletion success!
+[INFO ] 2018-03-26 04:52:19.603 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:52:19.603 [main] GenericDao - Found: null
+[DEBUG] 2018-03-26 04:52:19.678 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[INFO ] 2018-03-26 04:52:19.722 [main] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@25cd49a4, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@216914, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=1991-09-22}, User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@778d82e9, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=1979-08-03}]
+[INFO ] 2018-03-26 04:52:19.758 [main] GenericDao - GetAll for class com.aarongoldbin.entity.User
+[INFO ] 2018-03-26 04:52:19.786 [main] GenericDao - Retrieved list: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@150ede8b, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@150ede8b, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=1988-05-08}, User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@4d192aef, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}, User{id=4, userName='kmack', userEmail='mackattack@aol.com', gym=com.aarongoldbin.entity.Gym@6d303498, location='53594', password='supersecret4', firstName='Karen', lastName='Mack', height=6'0, sex='F', dob=1986-07-08}, User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@5e048149, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=1991-09-22}, User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@5c534b5b, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=1979-08-03}]
+[DEBUG] 2018-03-26 04:52:19.826 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[INFO ] 2018-03-26 04:52:19.842 [main] GenericDao - Matches found: [User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@44c13103, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}]
+[DEBUG] 2018-03-26 04:52:19.874 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[INFO ] 2018-03-26 04:52:19.898 [main] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@55259aa7, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@282ffbf5, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}, User{id=4, userName='kmack', userEmail='mackattack@aol.com', gym=com.aarongoldbin.entity.Gym@1cec219f, location='53594', password='supersecret4', firstName='Karen', lastName='Mack', height=6'0, sex='F', dob=1986-07-08}]
+[INFO ] 2018-03-26 04:52:19.974 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 6
+[INFO ] 2018-03-26 04:52:19.978 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@5c8e67b9
+[INFO ] 2018-03-26 04:52:19.978 [main] GenericDao - Inserting entity: User{id=0, userName='TMoney', userEmail='teddymo@gmail.com', gym=com.aarongoldbin.entity.Gym@5c8e67b9, location='53219', password='superdupersecret7', firstName='Ted', lastName='Mosby', height=5'10, sex='M', dob=1978-04-25}
+[INFO ] 2018-03-26 04:52:19.990 [main] GenericDao - Insert success! ID = 102
+[INFO ] 2018-03-26 04:52:19.990 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 102
+[INFO ] 2018-03-26 04:52:19.998 [main] GenericDao - Found: User{id=102, userName='TMoney', userEmail='teddymo@gmail.com', gym=com.aarongoldbin.entity.Gym@73d3e555, location='53219', password='superdupersecret7', firstName='Ted', lastName='Mosby', height=5'10, sex='M', dob=1978-04-25}
+[INFO ] 2018-03-26 04:52:20.034 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:52:20.046 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@987455b, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:52:20.082 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:52:20.088 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@5c448433, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:52:20.088 [main] GenericDao - Saving/updating entity: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@5c448433, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:52:20.104 [main] GenericDao - Entity save/update success: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@5c448433, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 04:52:20.104 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 04:52:20.104 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@2620e717, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[ERROR] 2018-03-26 04:52:20.151 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:52:20.151 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:52:20.166 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@4f668f29
+[INFO ] 2018-03-26 04:52:20.166 [main] GenericDao - Entity to be deleted: com.aarongoldbin.entity.Weight@4f668f29
+[INFO ] 2018-03-26 04:52:20.166 [main] GenericDao - com.aarongoldbin.entity.Weight@4f668f29deletion success!
+[INFO ] 2018-03-26 04:52:20.166 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:52:20.182 [main] GenericDao - Found: null
+[ERROR] 2018-03-26 04:52:20.198 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:52:20.198 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 2
+[INFO ] 2018-03-26 04:52:20.213 [main] GenericDao - Found: User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@28cb3a25, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=1988-05-08}
+[INFO ] 2018-03-26 04:52:20.213 [main] GenericDao - Inserting entity: com.aarongoldbin.entity.Weight@51841ac6
+[INFO ] 2018-03-26 04:52:20.213 [main] GenericDao - Insert success! ID = 10492
+[INFO ] 2018-03-26 04:52:20.213 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 10492
+[INFO ] 2018-03-26 04:52:20.229 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@23a5818e
+[ERROR] 2018-03-26 04:52:20.260 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:52:20.260 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Weight
+[INFO ] 2018-03-26 04:52:20.296 [main] GenericDao - Retrieved list: [com.aarongoldbin.entity.Weight@4195105b, com.aarongoldbin.entity.Weight@6f3e19b3, com.aarongoldbin.entity.Weight@47ffe971, com.aarongoldbin.entity.Weight@7d04529c, com.aarongoldbin.entity.Weight@14fa92af, com.aarongoldbin.entity.Weight@b16e202, com.aarongoldbin.entity.Weight@339a3670, com.aarongoldbin.entity.Weight@6cd5122d, com.aarongoldbin.entity.Weight@2c7a8af2]
+[ERROR] 2018-03-26 04:52:20.324 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:52:20.324 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:52:20.324 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@36417a54
+[ERROR] 2018-03-26 04:52:20.393 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 04:52:20.393 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:52:20.397 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@1ba359bd
+[INFO ] 2018-03-26 04:52:20.397 [main] GenericDao - Saving/updating entity: com.aarongoldbin.entity.Weight@1ba359bd
+[INFO ] 2018-03-26 04:52:20.405 [main] GenericDao - Entity save/update success: com.aarongoldbin.entity.Weight@1ba359bd
+[INFO ] 2018-03-26 04:52:20.405 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 04:52:20.410 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@62db3891
+[INFO ] 2018-03-26 05:14:26.845 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 05:14:26.933 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@1549bba7
+[INFO ] 2018-03-26 05:14:26.937 [main] GymDaoTest - Deleting Gym test, gym to be deleted: com.aarongoldbin.entity.Gym@1549bba7
+[INFO ] 2018-03-26 05:14:26.937 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 05:14:26.941 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@7a231dfd
+[INFO ] 2018-03-26 05:14:26.945 [main] GenericDao - Entity to be deleted: com.aarongoldbin.entity.Gym@7a231dfd
+[INFO ] 2018-03-26 05:14:27.001 [main] GenericDao - com.aarongoldbin.entity.Gym@7a231dfddeletion success!
+[INFO ] 2018-03-26 05:14:27.005 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 05:14:27.005 [main] GenericDao - Found: null
+[DEBUG] 2018-03-26 05:14:27.053 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[INFO ] 2018-03-26 05:14:27.441 [main] GenericDao - Matches found: [com.aarongoldbin.entity.Gym@3b2f4a93]
+[DEBUG] 2018-03-26 05:14:27.485 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[INFO ] 2018-03-26 05:14:27.505 [main] GenericDao - Matches found: [com.aarongoldbin.entity.Gym@27a97e08, com.aarongoldbin.entity.Gym@77e7246b]
+[INFO ] 2018-03-26 05:14:27.541 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Gym
+[INFO ] 2018-03-26 05:14:27.585 [main] GenericDao - Retrieved list: [com.aarongoldbin.entity.Gym@e322ec9, com.aarongoldbin.entity.Gym@7acfb656, com.aarongoldbin.entity.Gym@2e5ee2c9, com.aarongoldbin.entity.Gym@55a609dd, com.aarongoldbin.entity.Gym@4afd21c6, com.aarongoldbin.entity.Gym@4d0753c9]
+[INFO ] 2018-03-26 05:14:27.617 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-03-26 05:14:27.629 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@46731692
+[INFO ] 2018-03-26 05:14:27.661 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 05:14:27.669 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@7be7e15
+[INFO ] 2018-03-26 05:14:27.669 [main] GenericDao - Saving/updating entity: com.aarongoldbin.entity.Gym@7be7e15
+[INFO ] 2018-03-26 05:14:27.685 [main] GenericDao - Entity save/update success: com.aarongoldbin.entity.Gym@7be7e15
+[INFO ] 2018-03-26 05:14:27.685 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 05:14:27.689 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@350a94ce
+[INFO ] 2018-03-26 05:14:27.725 [main] GenericDao - Inserting entity: com.aarongoldbin.entity.Gym@7be3a9ce
+[INFO ] 2018-03-26 05:14:27.741 [main] GenericDao - Insert success! ID = 103
+[INFO ] 2018-03-26 05:14:27.741 [main] GymDaoTest - New Gym test: com.aarongoldbin.entity.Gym@7be3a9ce
+[INFO ] 2018-03-26 05:14:27.745 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 103
+[INFO ] 2018-03-26 05:14:27.749 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@5c1f6d57
+[INFO ] 2018-03-26 05:14:27.833 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 05:14:27.841 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@58cf8f94, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 05:14:27.845 [main] GenericDao - Entity to be deleted: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@58cf8f94, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 05:14:27.857 [main] GenericDao - User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@58cf8f94, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}deletion success!
+[INFO ] 2018-03-26 05:14:27.857 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 05:14:27.861 [main] GenericDao - Found: null
+[DEBUG] 2018-03-26 05:14:27.897 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[INFO ] 2018-03-26 05:14:27.917 [main] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@222afc67, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@2184b4f4, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=1991-09-22}, User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@5d5160e6, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=1979-08-03}]
+[INFO ] 2018-03-26 05:14:27.961 [main] GenericDao - GetAll for class com.aarongoldbin.entity.User
+[INFO ] 2018-03-26 05:14:27.993 [main] GenericDao - Retrieved list: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@4b3fe06e, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@4b3fe06e, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=1988-05-08}, User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@332820f4, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}, User{id=4, userName='kmack', userEmail='mackattack@aol.com', gym=com.aarongoldbin.entity.Gym@6a9b9909, location='53594', password='supersecret4', firstName='Karen', lastName='Mack', height=6'0, sex='F', dob=1986-07-08}, User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@1d75e7af, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=1991-09-22}, User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@67a3bd51, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=1979-08-03}]
+[DEBUG] 2018-03-26 05:14:28.053 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[INFO ] 2018-03-26 05:14:28.065 [main] GenericDao - Matches found: [User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@59d77850, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}]
+[DEBUG] 2018-03-26 05:14:28.097 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[INFO ] 2018-03-26 05:14:28.117 [main] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@5a2bd7c8, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@706fe5c6, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}, User{id=4, userName='kmack', userEmail='mackattack@aol.com', gym=com.aarongoldbin.entity.Gym@242a209e, location='53594', password='supersecret4', firstName='Karen', lastName='Mack', height=6'0, sex='F', dob=1986-07-08}]
+[INFO ] 2018-03-26 05:14:28.149 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 6
+[INFO ] 2018-03-26 05:14:28.153 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@66213a0d
+[INFO ] 2018-03-26 05:14:28.157 [main] GenericDao - Inserting entity: User{id=0, userName='TMoney', userEmail='teddymo@gmail.com', gym=com.aarongoldbin.entity.Gym@66213a0d, location='53219', password='superdupersecret7', firstName='Ted', lastName='Mosby', height=5'10, sex='M', dob=1978-04-25}
+[INFO ] 2018-03-26 05:14:28.169 [main] GenericDao - Insert success! ID = 103
+[INFO ] 2018-03-26 05:14:28.169 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 103
+[INFO ] 2018-03-26 05:14:28.173 [main] GenericDao - Found: User{id=103, userName='TMoney', userEmail='teddymo@gmail.com', gym=com.aarongoldbin.entity.Gym@295bf2a, location='53219', password='superdupersecret7', firstName='Ted', lastName='Mosby', height=5'10, sex='M', dob=1978-04-25}
+[INFO ] 2018-03-26 05:14:28.205 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 05:14:28.213 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@1866da85, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 05:14:28.273 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 05:14:28.281 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@687e4c93, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 05:14:28.281 [main] GenericDao - Saving/updating entity: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@687e4c93, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 05:14:28.293 [main] GenericDao - Entity save/update success: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@687e4c93, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 05:14:28.293 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 05:14:28.305 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@1000d54d, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[ERROR] 2018-03-26 05:14:28.341 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 05:14:28.341 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 05:14:28.349 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@6b4283c4
+[INFO ] 2018-03-26 05:14:28.349 [main] GenericDao - Entity to be deleted: com.aarongoldbin.entity.Weight@6b4283c4
+[INFO ] 2018-03-26 05:14:28.357 [main] GenericDao - com.aarongoldbin.entity.Weight@6b4283c4deletion success!
+[INFO ] 2018-03-26 05:14:28.357 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 05:14:28.361 [main] GenericDao - Found: null
+[ERROR] 2018-03-26 05:14:28.385 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 05:14:28.385 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 2
+[INFO ] 2018-03-26 05:14:28.397 [main] GenericDao - Found: User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@10fda3d0, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=1988-05-08}
+[INFO ] 2018-03-26 05:14:28.397 [main] GenericDao - Inserting entity: com.aarongoldbin.entity.Weight@7c251f90
+[INFO ] 2018-03-26 05:14:28.405 [main] GenericDao - Insert success! ID = 10599
+[INFO ] 2018-03-26 05:14:28.405 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 10599
+[INFO ] 2018-03-26 05:14:28.417 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@6daf7d37
+[ERROR] 2018-03-26 05:14:28.441 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 05:14:28.445 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Weight
+[INFO ] 2018-03-26 05:14:28.481 [main] GenericDao - Retrieved list: [com.aarongoldbin.entity.Weight@2dd2e270, com.aarongoldbin.entity.Weight@4195105b, com.aarongoldbin.entity.Weight@6f3e19b3, com.aarongoldbin.entity.Weight@47ffe971, com.aarongoldbin.entity.Weight@7d04529c, com.aarongoldbin.entity.Weight@14fa92af, com.aarongoldbin.entity.Weight@b16e202, com.aarongoldbin.entity.Weight@339a3670, com.aarongoldbin.entity.Weight@6cd5122d]
+[ERROR] 2018-03-26 05:14:28.505 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 05:14:28.505 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 05:14:28.517 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@67c5ac52
+[ERROR] 2018-03-26 05:14:28.541 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 05:14:28.545 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 05:14:28.553 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@4110765e
+[INFO ] 2018-03-26 05:14:28.553 [main] GenericDao - Saving/updating entity: com.aarongoldbin.entity.Weight@4110765e
+[INFO ] 2018-03-26 05:14:28.561 [main] GenericDao - Entity save/update success: com.aarongoldbin.entity.Weight@4110765e
+[INFO ] 2018-03-26 05:14:28.561 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 05:14:28.569 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@4339baec
+[INFO ] 2018-03-26 05:16:04.185 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 05:16:04.326 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@1549bba7
+[INFO ] 2018-03-26 05:16:04.482 [main] GymDaoTest - Deleting Gym test, gym to be deleted: com.aarongoldbin.entity.Gym@1549bba7
+[INFO ] 2018-03-26 05:16:04.482 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 05:16:04.482 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@7a231dfd
+[INFO ] 2018-03-26 05:16:04.482 [main] GenericDao - Entity to be deleted: com.aarongoldbin.entity.Gym@7a231dfd
+[INFO ] 2018-03-26 05:16:04.560 [main] GenericDao - com.aarongoldbin.entity.Gym@7a231dfddeletion success!
+[INFO ] 2018-03-26 05:16:04.560 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 05:16:04.576 [main] GenericDao - Found: null
+[DEBUG] 2018-03-26 05:16:04.638 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = ymca
+[INFO ] 2018-03-26 05:16:04.957 [main] GenericDao - Matches found: [com.aarongoldbin.entity.Gym@3b2f4a93]
+[DEBUG] 2018-03-26 05:16:05.004 [main] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE c
+[INFO ] 2018-03-26 05:16:05.020 [main] GenericDao - Matches found: [com.aarongoldbin.entity.Gym@27a97e08, com.aarongoldbin.entity.Gym@77e7246b]
+[INFO ] 2018-03-26 05:16:05.067 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Gym
+[INFO ] 2018-03-26 05:16:05.098 [main] GenericDao - Retrieved list: [com.aarongoldbin.entity.Gym@e322ec9, com.aarongoldbin.entity.Gym@7acfb656, com.aarongoldbin.entity.Gym@2e5ee2c9, com.aarongoldbin.entity.Gym@55a609dd, com.aarongoldbin.entity.Gym@4afd21c6, com.aarongoldbin.entity.Gym@4d0753c9]
+[INFO ] 2018-03-26 05:16:05.145 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-03-26 05:16:05.145 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@46731692
+[INFO ] 2018-03-26 05:16:05.176 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 05:16:05.192 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@7be7e15
+[INFO ] 2018-03-26 05:16:05.192 [main] GenericDao - Saving/updating entity: com.aarongoldbin.entity.Gym@7be7e15
+[INFO ] 2018-03-26 05:16:05.207 [main] GenericDao - Entity save/update success: com.aarongoldbin.entity.Gym@7be7e15
+[INFO ] 2018-03-26 05:16:05.207 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 3
+[INFO ] 2018-03-26 05:16:05.207 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@350a94ce
+[INFO ] 2018-03-26 05:16:05.239 [main] GenericDao - Inserting entity: com.aarongoldbin.entity.Gym@7be3a9ce
+[INFO ] 2018-03-26 05:16:05.254 [main] GenericDao - Insert success! ID = 104
+[INFO ] 2018-03-26 05:16:05.254 [main] GymDaoTest - New Gym test: com.aarongoldbin.entity.Gym@7be3a9ce
+[INFO ] 2018-03-26 05:16:05.270 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 104
+[INFO ] 2018-03-26 05:16:05.270 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@5c1f6d57
+[INFO ] 2018-03-26 05:16:05.317 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 05:16:05.332 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@58cf8f94, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 05:16:05.332 [main] GenericDao - Entity to be deleted: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@58cf8f94, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 05:16:05.332 [main] GenericDao - User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@58cf8f94, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}deletion success!
+[INFO ] 2018-03-26 05:16:05.332 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 05:16:05.348 [main] GenericDao - Found: null
+[DEBUG] 2018-03-26 05:16:05.379 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 71
+[INFO ] 2018-03-26 05:16:05.411 [main] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@222afc67, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@2184b4f4, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=1991-09-22}, User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@5d5160e6, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=1979-08-03}]
+[INFO ] 2018-03-26 05:16:05.426 [main] GenericDao - GetAll for class com.aarongoldbin.entity.User
+[INFO ] 2018-03-26 05:16:05.473 [main] GenericDao - Retrieved list: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@4b3fe06e, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@4b3fe06e, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=1988-05-08}, User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@332820f4, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}, User{id=4, userName='kmack', userEmail='mackattack@aol.com', gym=com.aarongoldbin.entity.Gym@6a9b9909, location='53594', password='supersecret4', firstName='Karen', lastName='Mack', height=6'0, sex='F', dob=1986-07-08}, User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@1d75e7af, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=1991-09-22}, User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@67a3bd51, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=1979-08-03}]
+[DEBUG] 2018-03-26 05:16:05.520 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property lastName LIKE Curry
+[INFO ] 2018-03-26 05:16:05.536 [main] GenericDao - Matches found: [User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@53ed09e8, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}]
+[DEBUG] 2018-03-26 05:16:05.551 [main] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE c
+[INFO ] 2018-03-26 05:16:05.582 [main] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@5a2bd7c8, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=1964-04-01}, User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@706fe5c6, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}, User{id=4, userName='kmack', userEmail='mackattack@aol.com', gym=com.aarongoldbin.entity.Gym@242a209e, location='53594', password='supersecret4', firstName='Karen', lastName='Mack', height=6'0, sex='F', dob=1986-07-08}]
+[INFO ] 2018-03-26 05:16:05.598 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 6
+[INFO ] 2018-03-26 05:16:05.614 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@66213a0d
+[INFO ] 2018-03-26 05:16:05.614 [main] GenericDao - Inserting entity: User{id=0, userName='TMoney', userEmail='teddymo@gmail.com', gym=com.aarongoldbin.entity.Gym@66213a0d, location='53219', password='superdupersecret7', firstName='Ted', lastName='Mosby', height=5'10, sex='M', dob=1978-04-25}
+[INFO ] 2018-03-26 05:16:05.614 [main] GenericDao - Insert success! ID = 104
+[INFO ] 2018-03-26 05:16:05.614 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 104
+[INFO ] 2018-03-26 05:16:05.629 [main] GenericDao - Found: User{id=104, userName='TMoney', userEmail='teddymo@gmail.com', gym=com.aarongoldbin.entity.Gym@295bf2a, location='53219', password='superdupersecret7', firstName='Ted', lastName='Mosby', height=5'10, sex='M', dob=1978-04-25}
+[INFO ] 2018-03-26 05:16:05.661 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 05:16:05.661 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@1866da85, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 05:16:05.692 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 05:16:05.707 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@687e4c93, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 05:16:05.707 [main] GenericDao - Saving/updating entity: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@687e4c93, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 05:16:05.707 [main] GenericDao - Entity save/update success: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@687e4c93, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[INFO ] 2018-03-26 05:16:05.707 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[INFO ] 2018-03-26 05:16:05.723 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@14b7786, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11}
+[ERROR] 2018-03-26 05:16:05.817 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 05:16:05.817 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 05:16:05.832 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@636bbbbb
+[INFO ] 2018-03-26 05:16:05.832 [main] GenericDao - Entity to be deleted: com.aarongoldbin.entity.Weight@636bbbbb
+[INFO ] 2018-03-26 05:16:05.848 [main] GenericDao - com.aarongoldbin.entity.Weight@636bbbbbdeletion success!
+[INFO ] 2018-03-26 05:16:05.848 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 05:16:05.848 [main] GenericDao - Found: null
+[ERROR] 2018-03-26 05:16:05.864 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 05:16:05.864 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 2
+[INFO ] 2018-03-26 05:16:05.879 [main] GenericDao - Found: User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@6a0094c9, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=1988-05-08}
+[INFO ] 2018-03-26 05:16:05.879 [main] GenericDao - Inserting entity: com.aarongoldbin.entity.Weight@2412a42b
+[INFO ] 2018-03-26 05:16:05.879 [main] GenericDao - Insert success! ID = 10706
+[INFO ] 2018-03-26 05:16:05.879 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 10706
+[INFO ] 2018-03-26 05:16:05.895 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@741f8dbe
+[ERROR] 2018-03-26 05:16:05.926 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 05:16:05.926 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Weight
+[INFO ] 2018-03-26 05:16:05.957 [main] GenericDao - Retrieved list: [com.aarongoldbin.entity.Weight@317e9c3c, com.aarongoldbin.entity.Weight@18da4dd, com.aarongoldbin.entity.Weight@31a3f4de, com.aarongoldbin.entity.Weight@68880c21, com.aarongoldbin.entity.Weight@2dd2e270, com.aarongoldbin.entity.Weight@4195105b, com.aarongoldbin.entity.Weight@6f3e19b3, com.aarongoldbin.entity.Weight@47ffe971, com.aarongoldbin.entity.Weight@7d04529c]
+[ERROR] 2018-03-26 05:16:05.973 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 05:16:05.973 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 05:16:05.989 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@6c008c24
+[ERROR] 2018-03-26 05:16:06.004 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-03-26 05:16:06.004 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 05:16:06.020 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@5292ceca
+[INFO ] 2018-03-26 05:16:06.020 [main] GenericDao - Saving/updating entity: com.aarongoldbin.entity.Weight@5292ceca
+[INFO ] 2018-03-26 05:16:06.020 [main] GenericDao - Entity save/update success: com.aarongoldbin.entity.Weight@5292ceca
+[INFO ] 2018-03-26 05:16:06.020 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
+[INFO ] 2018-03-26 05:16:06.036 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@5d5c04f9
