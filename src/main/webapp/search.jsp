@@ -1,4 +1,7 @@
-<%@include file="head.jsp"%>
+<!DOCTYPE html>
+<head>
+    <%@include file="head.jsp"%>
+</head>
 
 <html>
 
@@ -7,7 +10,7 @@
     <%@include file="navbar.jsp"%>
 </header>
 
-<%--<div class="container">--%>
+<div class="container">
 <%--<h2>Lift Buddy Display</h2>--%>
     <div class="parallax-container">
         <div class="parallax"><img src="images/background_bar.jpg"></div>
@@ -97,6 +100,6 @@
     });
     $('#login').modal('open');
 </script>
-
+</div>
 </body>
 </html>

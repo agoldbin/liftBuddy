@@ -5,8 +5,12 @@ import com.aarongoldbin.entity.User;
 import com.aarongoldbin.test.util.Database;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.List;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * Tests for GymDao (Using GenericDao)
@@ -14,10 +18,8 @@ import java.util.List;
  * @author agoldbin
  */
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class GymDaoTest {
-
+    private final Logger logger = LogManager.getLogger(this.getClass());
     GenericDao genericDao;
 
     /**
@@ -50,6 +52,7 @@ class GymDaoTest {
     void insertSuccess() {
         Gym newGym = new Gym("Gold's Gym");
         int id = genericDao.insert(newGym);
+        logger.info("New Gym test: " + newGym);
         assertNotEquals(0,id);
         Gym insertedGym = (Gym) genericDao.getById(id);
         assertEquals("Gold's Gym", insertedGym.getGymName());
@@ -60,6 +63,8 @@ class GymDaoTest {
      */
     @Test
     void deleteSuccess() {
+        logger.info("Deleting Gym test, gym to be deleted: "
+                + genericDao.getById(3));
         genericDao.delete(genericDao.getById(3));
         assertNull(genericDao.getById(3));
 

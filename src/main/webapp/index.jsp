@@ -1,4 +1,7 @@
-<%@include file="head.jsp"%>
+<!DOCTYPE html>
+<head>
+    <%@include file="head.jsp"%>
+<head>
 
 <html>
 <body>
@@ -10,7 +13,7 @@
 <%--<div class="container">--%>
 <%--<h2>Lift Buddy Display</h2>--%>
     <div class="parallax-container">
-        <div class="parallax"><img src="images/background_bar.jpg"></div>
+        <div class="parallax"><img src="/images/background_bar.jpg"></div>
     </div>
     <div class="section white">
         <div class="row container">
@@ -20,65 +23,13 @@
                 in this case, is moved at a different speed than the foreground content while scrolling.</p>
             <a href="adminSearch.jsp">Click here to search! (Admin only)</a>
 
-            <%--<h2>Search form</h2>--%>
-            <%--<form action="searchForm" class="form-inline">--%>
-                <%--<div class="form-group">--%>
-                    <%--<input type="text" class="form-control" name="searchTerm" id="searchTerm" aria-describedby="searchTermHelp" placeholder="Search">--%>
-                <%--</div>--%>
-                <%--<div class="form-group">--%>
-                    <%--<label>Search by:</label>--%>
-                    <%--<select class="form-control" name="searchType" id="searchType">--%>
-                        <%--<option value="id">User ID</option>--%>
-                        <%--<option value="lastName">User Last Name</option>--%>
-                        <%--<option value="gymName">Gym Name</option>--%>
-                    <%--</select>--%>
-                <%--</div>--%>
-                <%--<button class="btn btn-primary" type="submit" name="submit" value="search">--%>
-                    <%--Submit Search--%>
-                <%--</button>--%>
-                <%--<button class="btn btn-primary" type="submit" name="submit" value="viewAllUsers">--%>
-                    <%--View All Users--%>
-                <%--</button>--%>
-
-                <%--<button class="btn btn-primary" type="submit" name="submit" value="viewAllGyms">--%>
-                    <%--View All Gyms--%>
-                <%--</button>--%>
-            <%--</form>--%>
-
 
         </div>
     </div>
     <div class="parallax-container">
-        <div class="parallax"><img src="images/test3.jpg"></div>
+        <div class="parallax"><img src="/images/test3.jpg"></div>
     </div>
 
-<!-- Login Modal -->
-<div id="login" class="modal">
-    <form>
-
-        <div class="modal-content">
-            <%--<form>--%>
-            <h4>Log In</h4>
-
-            <div class="input-field col s12 m6 l6">
-                <input type="text" class="form-control" name="loginUserName" id="loginUserName" aria-describedby="userNameHelp">
-                <label for="loginUserName">User Name</label>
-            </div>
-            <div class="input-field col s12 m6 l6">
-                <input type="text" class="form-control" name="loginPassword" id="loginPassword" aria-describedby="passwordHelp">
-                <label for="loginPassword">Password</label>
-            </div>
-
-            <div class="right-align">
-                <button class="btn waves-effect waves-light" type="submit" name="action">Login
-                    <i class="material-icons right">send</i>
-                </button>
-            </div>
-            <%--</form>--%>
-        </div>
-    </form>
-</div>
-<%--</div>--%>
 <footer>
     <p>Hi there!</p>
 </footer>
@@ -91,6 +42,22 @@
         $('#login').modal();
     });
     $('#login').modal('open');
+    // // script for parallax
+    // var elem = document.querySelector('.parallax');
+    // var instance = M.Parallax.init(elem, options);
+    //
+    // // for modal
+    // var elem = document.querySelector('.login');
+    // var login = M.Modal.init(elem, options);
+    // login.open();
+    //
+    // // script for sidenav
+    // var elem = document.querySelector('.sidenav');
+    // var instance = M.Sidenav.init(elem, options);
+    //
+    // // Initialize collapsible (uncomment the lines below if you use the dropdown variation)
+    // var collapsibleElem = document.querySelector('.collapsible');
+    // var collapsibleInstance = M.Collapsible.init(collapsibleElem, options);
 </script>
 
 </body>

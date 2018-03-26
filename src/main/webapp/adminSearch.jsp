@@ -1,4 +1,16 @@
-<%@include file="head.jsp"%>
+<!DOCTYPE html>
+<head>
+    <%@include file="head.jsp"%>
+    <script>
+        $(document).ready(function(){
+            $('.parallax').parallax();
+        });
+        $(document).ready(function(){
+            $('#login').modal();
+        });
+        $('#login').modal('open');
+    </script>
+</head>
 
 <html>
 
@@ -11,7 +23,7 @@
                 <li class="active"><a href="#">ADMIN PAGE BABY!</a></li>
                 <li><a href="index.jsp">Home</a></li>
                 <li ><a href="search.jsp">Search</a></li>
-                <li><a class="modal-trigger" href="#login">Login M</a></li>
+                <li><a class="modal-trigger" href="#loginModal">Login M</a></li>
             </ul>
         </div>
     </nav>
@@ -20,7 +32,7 @@
 <%--<div class="container">--%>
 <%--<h2>Lift Buddy Display</h2>--%>
     <div class="parallax-container">
-        <div class="parallax"><img src="images/background_bar.jpg"></div>
+        <div class="parallax"><img src="/images/background_bar.jpg"></div>
     </div>
     <div class="section white">
         <div class="row container">
@@ -33,7 +45,7 @@
             <form action="searchForm" class="form-inline">
                 <div class="valign-wrapper">
                     <div class="input-field col m6">
-                        <input type="text" class="form-control" name="searchTerm" id="searchTerm" aria-describedby="searchTermHelp" placeholder="Search">
+                        <input type="text" class="form-control" name="searchTerm" id="searchTerm" aria-describedby="searchTermHelp">
                         <label for="searchTerm">Search</label>
                     </div>
                     <div class="form-group col m6">
@@ -61,7 +73,7 @@
         </div>
     </div>
     <div class="parallax-container">
-        <div class="parallax"><img src="images/test3.jpg"></div>
+        <div class="parallax"><img src="/images/test3.jpg"></div>
     </div>
 
 <%@include file="loginModal.jsp"%>

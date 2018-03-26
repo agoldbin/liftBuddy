@@ -46,7 +46,9 @@ public class GenericDao<T> {
      */
     public <T>T getById(int id) {
         Session session = getSession();
+        logger.info("Getting a " + type + " with ID " + id);
         T entity = (T) session.get(type, id);
+        logger.info("Found: " + entity);
         session.close();
         return entity;
     }
@@ -57,11 +59,13 @@ public class GenericDao<T> {
      * @param entity Entity to be updated
      */
     public void saveOrUpdate(T entity) {
+        logger.info("Saving/updating entity: " + entity);
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
         session.saveOrUpdate(entity);
         transaction.commit();
         session.close();
+        logger.info("Entity save/update success: " + entity);
     }
 
     /**
@@ -71,12 +75,14 @@ public class GenericDao<T> {
      * @return the int
      */
     public int insert(T entity) {
+        logger.info("Inserting entity: " + entity);
         int id = 0;
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
         id = (int) session.save(entity);
         transaction.commit();
         session.close();
+        logger.info("Insert success! ID = " + id);
         return id;
     }
 
@@ -86,11 +92,13 @@ public class GenericDao<T> {
      * @param entity Entity to be deleted
      */
     public void delete(T entity) {
+        logger.info("Entity to be deleted: " + entity);
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
         session.delete(entity);
         transaction.commit();
         session.close();
+        logger.info(entity + "deletion success!");
     }
 
     /**
@@ -99,6 +107,7 @@ public class GenericDao<T> {
      * @return the all entities
      */
     public List<T> getAll() {
+        logger.info("GetAll for " + type);
         Session session = getSession();
 
         CriteriaBuilder builder = session.getCriteriaBuilder();
@@ -107,6 +116,7 @@ public class GenericDao<T> {
         Root<T> root = query.from(type);
         List<T> list = session.createQuery(query).getResultList();
         session.close();
+        logger.info("Retrieved list: " + list);
         return list;
     }
 
@@ -129,6 +139,7 @@ public class GenericDao<T> {
         query.select(root).where(builder.equal(root.get(propertyName), value));
         List<T> types = session.createQuery(query).getResultList();
 
+        logger.info("Matches found: " + types);
         session.close();
         return types;
     }
@@ -152,6 +163,7 @@ public class GenericDao<T> {
         query.where(builder.like(propertyPath, "%" + value + "%"));
         List<T> types = session.createQuery(query).getResultList();
 
+        logger.info("Matches found: " + types);
         session.close();
         return types;
     }
