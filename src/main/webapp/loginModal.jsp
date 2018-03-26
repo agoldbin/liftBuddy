@@ -3,7 +3,7 @@
 <html>
 <body>
 
-    <%-- TODO work on making modal functional for login --%>
+    <%-- TODO work on making modal functional for user login --%>
     <div id="login" class="modal">
 
         <div class="modal-content">
@@ -11,7 +11,7 @@
             <form id="loginForm" onsubmit="return userLoginValidation()" method="POST">
             <div class="input-field col s12 m6 l6">
                 <input id="loginUserName" name="loginUserName" type="text" class="form-control"
-                        pattern=pattern="^[a-zA-Z0-9_]*$"{4,}"
+                        pattern="^[a-zA-Z0-9_]{4,}$"
                         title="Username must be at least 4 characters, no special symbols" required>
                 <label for="loginUserName">User Name</label>
             </div>
@@ -30,12 +30,5 @@
         </div>
     </div>
 
-    <script>
-        $(document).keypress(function(e) {
-            if ($("#login").hasClass('in') && (e.keycode == 13 || e.which == 13)) {
-                userLoginValidation();
-            }
-        });
-    </script>
 </body>
 </html>

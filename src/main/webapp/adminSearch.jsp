@@ -53,7 +53,7 @@
                         </button>
                     </div>
                 </div>
-                OR
+                <h4 align="center-align">OR</h4>
                 <div class="center-align col s12">
                     <button class="btn btn-primary" type="submit" name="submit" value="viewAllUsers">
                         View All Users
