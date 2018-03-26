@@ -1,3 +1,4 @@
+//********************* Materialize Variables *********************\\
 // Initialize PARALLAX (used for styling of pages)
 $(document).ready(function(){
     $('.parallax').parallax();
@@ -14,12 +15,15 @@ $(document).ready(function() {
     $('select').material_select();
 });
 
+//************************* Functions *************************\\
 // Function to validate user login
-function userLogin() {
-    var userName = document.getElementById("loginUserName");
-    var password = document.getElementById("loginPassword");
+function userLoginValidation() {
+    var userName = document.forms["loginForm"]["loginUserName"].value;
+    var password = document.forms["loginForm"]["loginPassword"].value;
 
     window.alert(userName);
+    console.log(userName);
+
 }
 
 // Function to validate user search

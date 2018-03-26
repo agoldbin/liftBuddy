@@ -8,22 +8,34 @@
 
         <div class="modal-content">
             <h4>Log In</h4>
-
+            <form id="loginForm" onsubmit="return userLoginValidation()" method="POST">
             <div class="input-field col s12 m6 l6">
-                <input type="text" class="form-control" name="loginUserName" id="loginUserName" required>
+                <input id="loginUserName" name="loginUserName" type="text" class="form-control"
+                        pattern=pattern="^[a-zA-Z0-9_]*$"{4,}"
+                        title="Username must be at least 4 characters, no special symbols" required>
                 <label for="loginUserName">User Name</label>
             </div>
             <div class="input-field col s12 m6 l6">
-                <input type="password" class="form-control" name="loginPassword" id="loginPassword" required>
+                <input id="loginPassword" name="loginPassword" type="password" class="form-control"
+                        pattern="{6,}" title="Password must be at least 6 characters" required>
                 <label for="loginPassword">Password</label>
             </div>
 
             <div class="right-align">
-                <button class="btn waves-effect waves-light" type="submit" onsubmit="userLogin()" formaction="#" >Login
+                <button id="userLogin" class="btn waves-effect waves-light" type="submit">Login
                     <i class="material-icons right">send</i>
                 </button>
             </div>
+            </form>
         </div>
     </div>
+
+    <script>
+        $(document).keypress(function(e) {
+            if ($("#login").hasClass('in') && (e.keycode == 13 || e.which == 13)) {
+                userLoginValidation();
+            }
+        });
+    </script>
 </body>
 </html>
