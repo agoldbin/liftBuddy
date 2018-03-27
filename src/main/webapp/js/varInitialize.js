@@ -29,3 +29,18 @@ function userLoginValidation() {
 // Function to validate user search
 
 // Function to validate Admin search
+
+// Function to check that new user passwords match
+function checkPasswordMatch() {
+    var password = $("#password").val();
+    var confirmPassword = $("#confirmPassword").val();
+
+    if (password != confirmPassword) {
+        $("#divCheckPasswordMatch").html("<span class=\"badge red\">Passwords do not match</span>");
+    } else {
+        $("#divCheckPasswordMatch").html("<span class=\"badge blue\">Passwords match</span>");
+    }
+}
+$(document).ready(function () {
+    $("#password, #confirmPassword").keyup(checkPasswordMatch);
+});

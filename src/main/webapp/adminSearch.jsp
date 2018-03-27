@@ -16,7 +16,8 @@
                 <li class="active"><a href="#">ADMIN PAGE BABY!</a></li>
                 <li><a href="index.jsp">Home</a></li>
                 <li ><a href="search.jsp">Search</a></li>
-                <li><a class="modal-trigger" href="#login" data-target="login">Login M</a></li>
+                <%--<li><a class="modal-trigger" href="#login" data-target="login">Login M</a></li>--%>
+                <li><a href="#">Admin Logout</a></li>
             </ul>
         </div>
     </nav>
@@ -73,7 +74,7 @@
 <%@include file="loginModal.jsp"%>
 
 <footer>
-    <p>Hi there!</p>
+    <%@include file="footer.jsp"%>
 </footer>
 
 </body>

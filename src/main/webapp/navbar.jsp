@@ -1,20 +1,24 @@
 <%-- This jsp contains the code for the header of the majority of the web pages --%>
 <!DOCTYPE html>
 <html>
+<%@include file="taglib.jsp"%>
+<% %>
 <body>
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Lift Buddy</a>
-            <ul id="nav-big" class="right hide-on-med-and-down">
-                <%-- TODO work on making li dynamically use class="active" when user is on that page --%>
-                <li><a href="index.jsp">Home</a></li>
-                <li><a href="search.jsp">Search</a></li>
-                <li><a class="modal-trigger" href="#login" data-target="login">Login M</a></li>
-                <li><a href="newUser.jsp">Sign Up</a></li>
-            </ul>
-        </div>
-    </nav>
-
+    <header>
+        <nav>
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Lift Buddy</a>
+                <ul id="nav-big" class="right hide-on-med-and-down">
+                    <%-- TODO work on making li dynamically use class="active" when user is on that page --%>
+                    <%-- TODO add functionality so login changes to logout depending on session status --%>
+                    <li><a href="index.jsp">Home</a></li>
+                    <li><a href="search.jsp">Search</a></li>
+                    <li><a class="modal-trigger" href="#login" data-target="login">Login</a></li>
+                    <li><a href="newUser.jsp">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <%--  TODO work on making damn sidenav actually collapse on load  OR figure out another option
           TODO  for mobile. Floating action bar? --%>
     <%--<ul id="slide-out" class="sidenav">--%>

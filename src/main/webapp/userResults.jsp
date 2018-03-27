@@ -16,7 +16,10 @@
 
 <html>
 <body>
-
+<header>
+    <%@include file="navbar.jsp"%>
+</header>
+<%@include file="loginModal.jsp"%>
 <div class="container-fluid">
     <h2>Search Results: </h2>
     <table id="searchTable" class="display" cellspacing="0" width="100%">
@@ -41,5 +44,8 @@
     </table>
 </div>
 
+<footer>
+    <%@include file="footer.jsp"%>
+</footer>
 </body>
 </html>
