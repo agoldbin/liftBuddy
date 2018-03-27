@@ -61,7 +61,7 @@
     <%@include file="loginModal.jsp"%>
 
 <footer>
-    <p>Hi there!</p>
+    <%@include file="footer.jsp"%>
 </footer>
 </body>
 </html>

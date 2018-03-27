@@ -31,10 +31,10 @@
         <div class="parallax"><img src="images/test3.jpg"></div>
     </div>
 
-<%@include file="loginModal.jsp"%>
+    <%@include file="loginModal.jsp"%>
 
 <footer>
-    <p>Hi there!</p>
+    <%@include file="footer.jsp"%>
 </footer>
 </body>
 </html>
