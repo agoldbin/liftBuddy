@@ -44,7 +44,7 @@
                         </button>
                     </div>
                 </div>
-                <h4 align="center-align">OR</h4>
+                <h4 class="center-align">OR</h4>
                 <div class="center-align col s12">
                     <button class="btn btn-primary" type="submit" name="submit" value="viewAllGyms">
                         View All Gyms

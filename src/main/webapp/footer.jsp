@@ -6,7 +6,7 @@
     <title>Title</title>
 </head>
 <body>
-<footer class="page-footer">
+<div class="page-footer">
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
@@ -30,6 +30,6 @@
             <div class="grey-text text-lighten-4 right" href="#!">Layout created by Aaron Goldbin</div>
         </div>
     </div>
-</footer>
+</div>
 </body>
 </html>
