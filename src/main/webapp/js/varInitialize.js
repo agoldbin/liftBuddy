@@ -15,6 +15,11 @@ $(document).ready(function() {
     $('select').material_select();
 });
 
+// // Initialize SIDENAV bar for headers
+// $(document).ready(function(){
+//     $('.sidenav').sidenav();
+// });
+
 //************************* Functions *************************\\
 // Function to validate user login credentials
 function userLoginValidation() {

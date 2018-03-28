@@ -19,7 +19,7 @@
                     <li><a class="grey-text text-lighten-3" href="#">About</a></li>
                     <li><a class="grey-text text-lighten-3" href="#">Link 2</a></li>
                     <li><a class="grey-text text-lighten-3" href="#">Link 3</a></li>
-                    <li><a class="grey-text text-lighten-3" href="adminSearch.jsp">Admin</a></li>
+                    <li><a class="grey-text text-lighten-3" href="../adminSearch.jsp">Admin</a></li>
                 </ul>
             </div>
         </div>

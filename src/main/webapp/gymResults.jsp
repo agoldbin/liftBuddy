@@ -1,11 +1,11 @@
 <%-- Gym search results page --%>
 <!DOCTYPE html>
 
-<%@include file="taglib.jsp"%>
+<%@include file="jsp/taglib.jsp"%>
 <c:set var="title" value="Gym Query Results" />
 
 <head>
-    <%@include file="head.jsp"%>
+    <%@include file="jsp/head.jsp"%>
     <script src="js/varInitialize.js"></script>
     <script type="text/javascript" class="init">
         $(document).ready( function () {
@@ -17,9 +17,9 @@
 <html>
 <body>
 <header>
-    <%@include file="navbar.jsp"%>
+    <%@include file="jsp/navbar.jsp"%>
 </header>
-<%@include file="loginModal.jsp"%>
+<%@include file="jsp/loginModal.jsp"%>
 <div class="container-fluid">
     <h2>Search Results: </h2>
     <table id="searchTable" class="display" cellspacing="0" width="100%">
@@ -45,7 +45,7 @@
     </table>
 </div>
 <footer>
-    <%@include file="footer.jsp"%>
+    <%@include file="jsp/footer.jsp"%>
 </footer>
 </body>
 </html>

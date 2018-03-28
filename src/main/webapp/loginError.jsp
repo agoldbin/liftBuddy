@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <%@include file="head.jsp"%>
+    <%@include file="jsp/head.jsp"%>
     <title>Login Failed</title>
 </head>
 <body>
@@ -16,49 +16,28 @@
     <nav>
         <div class="nav-wrapper">
             <a href="#" class="brand-logo">Lift Buddy</a>
+            <a href="#" data-target="nav-mobile-loginError" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="right hide-on-med-and-down">
                 <li><a href="index.jsp">Home</a></li>
                 <li ><a href="search.jsp">Search</a></li>
                 <li><a class="modal-trigger" href="#login" data-target="login">Login M</a></li>
             </ul>
-        </div>
-    </nav>
-</header>
 
-<header>
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Lift Buddy</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li class="active"><a href="#">ADMIN PAGE BABY!</a></li>
+            <ul class="side-nav">
                 <li><a href="index.jsp">Home</a></li>
                 <li ><a href="search.jsp">Search</a></li>
                 <li><a class="modal-trigger" href="#login" data-target="login">Login M</a></li>
-                <li><a href="#">Logout</a></li>
             </ul>
         </div>
     </nav>
 </header>
 
-<header>
-    <nav>
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Lift Buddy</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li class="active"><a href="#">ADMIN PAGE BABY!</a></li>
-                <li><a href="index.jsp">Home</a></li>
-                <li ><a href="search.jsp">Search</a></li>
-                <li><a class="modal-trigger" href="#login" data-target="login">Login M</a></li>
-                <li><a href="#">Logout</a></li>
-            </ul>
-        </div>
-    </nav>
-</header>
-
-
-Login Failed. Please try again.
+<div class="row">
+    <img class="col s3" src="images/loginErr.png" alt="Login Error" />
+    <h2 class="col s9 left-align">Login Failed. Please try again.</h2>
+</div>
 <footer>
-    <%@include file="footer.jsp"%>
+    <%@include file="jsp/footer.jsp"%>
 </footer>
 </body>
 </html>

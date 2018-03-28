@@ -1,4 +1,6 @@
 <%-- This jsp contains the code for the header of the majority of the web pages --%>
+<%-- PAGES NOT USED IN: --%>
+<%-- adminSearch.jsp, loginError.jsp  --%>
 <!DOCTYPE html>
 <html>
 <%@include file="taglib.jsp"%>
@@ -8,13 +10,23 @@
         <nav>
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo">Lift Buddy</a>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul id="nav-big" class="right hide-on-med-and-down">
                     <%-- TODO work on making li dynamically use class="active" when user is on that page --%>
                     <%-- TODO add functionality so login changes to logout depending on session status --%>
-                    <li><a href="index.jsp">Home</a></li>
-                    <li><a href="search.jsp">Search</a></li>
+                    <li><a href="../index.jsp">Home</a></li>
+                    <li><a href="../search.jsp">Search</a></li>
                     <li><a class="modal-trigger" href="#login" data-target="login">Login</a></li>
-                    <li><a href="newUser.jsp">Sign Up</a></li>
+                    <li><a href="../newUser.jsp">Sign Up</a></li>
+                </ul>
+
+                <ul id="nav-mobile" class="side-nav hide-on-med-and-up">
+                    <%-- TODO work on making li dynamically use class="active" when user is on that page --%>
+                    <%-- TODO add functionality so login changes to logout depending on session status --%>
+                    <li><a href="../index.jsp">Home</a></li>
+                    <li><a href="../search.jsp">Search</a></li>
+                    <li><a class="modal-trigger" href="#login" data-target="login">Login</a></li>
+                    <li><a href="../newUser.jsp">Sign Up</a></li>
                 </ul>
             </div>
         </nav>
@@ -44,5 +56,11 @@
             $('#login').modal();
         });
         $('#login').modal('open');
+
+        // Initialize SIDENAV bar for headers
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+        });
+
     </script>
 </body>

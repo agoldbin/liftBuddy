@@ -1,5 +1,5 @@
-<%@include file="head.jsp"%>
-<%@include file="taglib.jsp"%>
+<%@include file="jsp/head.jsp"%>
+<%@include file="jsp/taglib.jsp"%>
 <script language="JavaScript">
     function OnSearch() {
         var searchType = document.getElementById("searchType")
