@@ -1,7 +1,7 @@
 <%-- Search page for Admins --%>
 <!DOCTYPE html>
 <head>
-    <%@include file="head.jsp"%>
+    <%@include file="jsp/head.jsp"%>
     <script src="js/varInitialize.js"></script>
 </head>
 
@@ -12,7 +12,16 @@
     <nav>
         <div class="nav-wrapper">
             <a href="#" class="brand-logo">Lift Buddy</a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <a href="#" data-target="nav-mobile-admin" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-admin" class="right hide-on-med-and-down">
+                <li class="active"><a href="#">ADMIN PAGE BABY!</a></li>
+                <li><a href="index.jsp">Home</a></li>
+                <li ><a href="search.jsp">Search</a></li>
+                <%--<li><a class="modal-trigger" href="#login" data-target="login">Login M</a></li>--%>
+                <li><a href="#">Admin Logout</a></li>
+            </ul>
+
+            <ul id="nav-mobile-admin" class="right hide-on-med-and-down">
                 <li class="active"><a href="#">ADMIN PAGE BABY!</a></li>
                 <li><a href="index.jsp">Home</a></li>
                 <li ><a href="search.jsp">Search</a></li>
@@ -23,8 +32,11 @@
     </nav>
 </header>
 
-    <div class="parallax-container">
-        <div class="parallax"><img src="images/background_bar.jpg"></div>
+    <div class="parallax-container hide-on-large-and-up">
+        <div class="parallax"><img src="images/background_bar_s.jpg"></div>
+    </div>
+    <div class="parallax-container hide-on-med-and-down">
+        <div class="parallax"><img src="images/background_bar_m.jpg"></div>
     </div>
     <div class="section white">
         <div class="row container">
@@ -71,10 +83,10 @@
         <div class="parallax"><img src="images/test3.jpg"></div>
     </div>
 
-<%@include file="loginModal.jsp"%>
+<%@include file="jsp/loginModal.jsp"%>
 
 <footer>
-    <%@include file="footer.jsp"%>
+    <%@include file="jsp/footer.jsp"%>
 </footer>
 
 </body>

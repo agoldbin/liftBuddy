@@ -1,7 +1,7 @@
 <%-- Jsp for the home screen --%>
 <!DOCTYPE html>
 <head>
-    <%@include file="head.jsp"%>
+    <%@include file="jsp/head.jsp"%>
     <script src="js/varInitialize.js"></script>
 <head>
 
@@ -9,12 +9,15 @@
 <body>
 
 <header>
-    <%@include file="navbar.jsp"%>
+    <%@include file="jsp/navbar.jsp"%>
 </header>
 
 <%--<h2>Lift Buddy Display</h2>--%>
-    <div class="parallax-container">
-        <div class="parallax"><img src="images/background_bar.jpg"></div>
+    <div class="parallax-container hide-on-large-and-up">
+        <div class="parallax"><img src="images/background_bar_s.jpg"></div>
+    </div>
+    <div class="parallax-container hide-on-med-and-down">
+        <div class="parallax"><img src="images/background_bar_m.jpg"></div>
     </div>
     <div class="section white">
         <div class="row container">
@@ -31,10 +34,10 @@
         <div class="parallax"><img src="images/test3.jpg"></div>
     </div>
 
-    <%@include file="loginModal.jsp"%>
+    <%@include file="jsp/loginModal.jsp"%>
 
 <footer>
-    <%@include file="footer.jsp"%>
+    <%@include file="jsp/footer.jsp"%>
 </footer>
 </body>
 </html>

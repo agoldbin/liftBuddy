@@ -3,17 +3,17 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <head>
-    <%@include file="head.jsp"%>
+    <%@include file="jsp/head.jsp"%>
     <script src="js/varInitialize.js"></script>
 </head>
 
 <html>
 <body>
 <header>
-    <%@include file="navbar.jsp"%>
+    <%@include file="jsp/navbar.jsp"%>
 </header>
 <div class="row">
-    <form class="offset-m3 col m6">
+    <form class="col s12 m6 offset-m3">
         <div class="row">
             <div class="input-field col m6">
                 <input id="first_name" type="text" class="validate" pattern="^[a-zA-Z]*$"
@@ -59,30 +59,36 @@
             </div>
         </div>
     </form>
+    <div class="col m3 hide-on-small-and-down">
+        Some content. Lolz.
+    </div>
 </div>
-    <%--<div class="row">--%>
-    <%--<form class="col s12">--%>
-    <%--<div class="row">--%>
-    <%--<div class="input-field col s6">--%>
-    <%--<input placeholder="Placeholder" id="first_name" type="text" class="validate">--%>
-    <%--<label for="first_name">First Name</label>--%>
-    <%--</div>--%>
-    <%--<div class="input-field col s6">--%>
-    <%--<input id="last_name" type="text" class="validate">--%>
-    <%--<label for="last_name">Last Name</label>--%>
-    <%--</div>--%>
-    <%--</div>--%>
-    <%--<div class="row">--%>
-    <%--<div class="input-field col s12">--%>
-    <%--<input disabled value="I am not editable" id="disabled" type="text" class="validate">--%>
-    <%--<label for="disabled">Disabled</label>--%>
-    <%--</div>--%>
-    <%--</div>--%>
 
-    <%--</form>--%>
-    <%--</div>--%>
 <footer>
-    <%@include file="footer.jsp"%>
+    <%@include file="jsp/footer.jsp"%>
 </footer>
 </body>
 </html>
+
+<%--<div class="row">--%>
+<%--<form class="col s12">--%>
+<%--<div class="row">--%>
+<%--<div class="input-field col s6">--%>
+<%--<input placeholder="Placeholder" id="first_name" type="text" class="validate">--%>
+<%--<label for="first_name">First Name</label>--%>
+<%--</div>--%>
+<%--<div class="input-field col s6">--%>
+<%--<input id="last_name" type="text" class="validate">--%>
+<%--<label for="last_name">Last Name</label>--%>
+<%--</div>--%>
+<%--</div>--%>
+<%--<div class="row">--%>
+<%--<div class="input-field col s12">--%>
+<%--<input disabled value="I am not editable" id="disabled" type="text" class="validate">--%>
+<%--<label for="disabled">Disabled</label>--%>
+<%--</div>--%>
+<%--</div>--%>
+
+<%--</form>--%>
+<%--</div>--%>
+
