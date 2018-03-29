@@ -1,7 +1,7 @@
 <%-- Search page for Admins --%>
 <!DOCTYPE html>
 <head>
-    <%@include file="jsp/head.jsp"%>
+    <%@include file="head.jsp"%>
     <script src="js/varInitialize.js"></script>
 </head>
 
@@ -12,8 +12,8 @@
     <nav>
         <div class="nav-wrapper">
             <a href="#" class="brand-logo">Lift Buddy</a>
-            <a href="#" data-target="nav-mobile-admin" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul id="nav-admin" class="right hide-on-med-and-down">
+            <a href="#" data-target="nav-mobile-admin" class="sidenav-trigger hide-on-med-and-up"><i class="material-icons">menu</i></a>
+            <ul id="nav-admin" class="right hide-on-med-and-down show-on-large">
                 <li class="active"><a href="#">ADMIN PAGE BABY!</a></li>
                 <li><a href="index.jsp">Home</a></li>
                 <li ><a href="search.jsp">Search</a></li>
@@ -21,7 +21,7 @@
                 <li><a href="#">Admin Logout</a></li>
             </ul>
 
-            <ul id="nav-mobile-admin" class="right hide-on-med-and-down">
+            <ul id="nav-mobile-admin" class="sidenav hide-on-med-and-up">
                 <li class="active"><a href="#">ADMIN PAGE BABY!</a></li>
                 <li><a href="index.jsp">Home</a></li>
                 <li ><a href="search.jsp">Search</a></li>
@@ -32,10 +32,10 @@
     </nav>
 </header>
 
-    <div class="parallax-container hide-on-large-and-up">
+    <div class="parallax-container hide-on-med-and-up">
         <div class="parallax"><img src="images/background_bar_s.jpg"></div>
     </div>
-    <div class="parallax-container hide-on-med-and-down">
+    <div class="parallax-container hide-on-small-and-down show-on-medium-and-up">
         <div class="parallax"><img src="images/background_bar_m.jpg"></div>
     </div>
     <div class="section white">
@@ -83,11 +83,17 @@
         <div class="parallax"><img src="images/test3.jpg"></div>
     </div>
 
-<%@include file="jsp/loginModal.jsp"%>
+<%@include file="loginModal.jsp"%>
 
 <footer>
-    <%@include file="jsp/footer.jsp"%>
+    <%@include file="footer.jsp"%>
 </footer>
 
+<script>
+    // Initialize SIDENAV bar for headers
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+    });
+</script>
 </body>
 </html>
