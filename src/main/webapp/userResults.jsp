@@ -1,10 +1,10 @@
 <%-- User search results page --%>
 <!DOCTYPE html>
-<%@include file="jsp/taglib.jsp"%>
+<%@include file="taglib.jsp"%>
 <c:set var="title" value="User Query Results" />
 
 <head>
-    <%@include file="jsp/head.jsp"%>
+    <%@include file="head.jsp"%>
     <script src="js/varInitialize.js"></script>
     <script type="text/javascript" class="init">
         $(document).ready( function () {
@@ -17,9 +17,9 @@
 <html>
 <body>
 <header>
-    <%@include file="jsp/navbar.jsp"%>
+    <%@include file="navbar.jsp"%>
 </header>
-<%@include file="jsp/loginModal.jsp"%>
+<%@include file="loginModal.jsp"%>
 <div class="container-fluid">
     <h2>Search Results: </h2>
     <table id="searchTable" class="display" cellspacing="0" width="100%">
@@ -45,7 +45,7 @@
 </div>
 
 <footer>
-    <%@include file="jsp/footer.jsp"%>
+    <%@include file="footer.jsp"%>
 </footer>
 </body>
 </html>

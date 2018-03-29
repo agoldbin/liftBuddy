@@ -25,7 +25,8 @@ public class Gym {
     @Column(name = "gym_name")
     private String gymName;
 
-    @OneToMany(mappedBy = "gym", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "gym", cascade = CascadeType.ALL, orphanRemoval = false, fetch = FetchType.EAGER)
+//    @JoinColumn(name="gym")
     private Set<User> users = new HashSet<>();
 
     /**

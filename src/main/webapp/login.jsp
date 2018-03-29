@@ -4,13 +4,13 @@
 
 <html>
 <head>
-    <%@include file="jsp/head.jsp"%>
+    <%@include file="head.jsp"%>
     <title>Login</title>
     <script src="js/varInitialize.js"></script>
 </head>
 <body>
 <header>
-    <%@include file="jsp/navbar.jsp"%>
+    <%@include file="navbar.jsp"%>
 </header>
 <FORM ACTION="j_security_check" METHOD="POST">
     <TABLE>
@@ -20,7 +20,7 @@
     </TABLE>
 </FORM>
 <footer>
-    <%@include file="jsp/footer.jsp"%>
+    <%@include file="footer.jsp"%>
 </footer>
 </body>
 </html>

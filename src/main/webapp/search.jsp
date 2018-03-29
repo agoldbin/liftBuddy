@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <head>
-    <%@include file="jsp/head.jsp"%>
+    <%@include file="head.jsp"%>
     <script src="js/varInitialize.js"></script>
 </head>
 
 <html>
 <header>
-    <%@include file="jsp/navbar.jsp"%>
+    <%@include file="navbar.jsp"%>
 </header>
 
-    <div class="parallax-container hide-on-large-and-up">
+    <div class="parallax-container hide-on-med-and-up">
         <div class="parallax"><img src="images/background_bar_s.jpg"></div>
     </div>
-    <div class="parallax-container hide-on-med-and-down">
+    <div class="parallax-container hide-on-small-and-down show-on-medium-and-up">
         <div class="parallax"><img src="images/background_bar_m.jpg"></div>
     </div>
     <div class="section white">
@@ -60,10 +60,10 @@
         <div class="parallax"><img src="images/test3.jpg"></div>
     </div>
 
-    <%@include file="jsp/loginModal.jsp"%>
+    <%@include file="loginModal.jsp"%>
 
 <footer>
-    <%@include file="jsp/footer.jsp"%>
+    <%@include file="footer.jsp"%>
 </footer>
 </body>
 </html>

@@ -1,7 +1,7 @@
 <%-- Jsp for the home screen --%>
 <!DOCTYPE html>
 <head>
-    <%@include file="jsp/head.jsp"%>
+    <%@include file="head.jsp"%>
     <script src="js/varInitialize.js"></script>
 <head>
 
@@ -9,15 +9,13 @@
 <body>
 
 <header>
-    <%@include file="jsp/navbar.jsp"%>
+    <%@include file="navbar.jsp"%>
 </header>
 
 <%--<h2>Lift Buddy Display</h2>--%>
-    <div class="parallax-container hide-on-large-and-up">
-        <div class="parallax"><img src="images/background_bar_s.jpg"></div>
-    </div>
-    <div class="parallax-container hide-on-med-and-down">
-        <div class="parallax"><img src="images/background_bar_m.jpg"></div>
+    <div class="parallax-container">
+        <div class="parallax background-l"><img src="images/background_bar_m.jpg"></div>
+        <div class="parallax background-s"><img src="images/background_bar_s.jpg"></div>
     </div>
     <div class="section white">
         <div class="row container">
@@ -34,10 +32,23 @@
         <div class="parallax"><img src="images/test3.jpg"></div>
     </div>
 
-    <%@include file="jsp/loginModal.jsp"%>
+    <%@include file="loginModal.jsp"%>
 
 <footer>
-    <%@include file="jsp/footer.jsp"%>
+    <%@include file="footer.jsp"%>
 </footer>
+
+<script>
+    // Initialize SIDENAV bar for headers
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+    });
+
+    // Initialize MODAL (used for user login)
+    $(document).ready(function(){
+        $('#login').modal();
+    });
+    $('#login').modal('open');
+</script>
 </body>
 </html>

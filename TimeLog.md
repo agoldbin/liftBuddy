@@ -30,5 +30,7 @@ DISCLAIMER: All times are estimates as I am bad at actually tracking when I work
 | 3/24/18 | Creating jsps, formatting parts of site. Packaging redundant site code | 2.5 |  |
 | 3/25/18 | Debugging and breaking the site | 3 |  |
 | 3/26/18 | More debugging, bit of frontend work (like on login modal). Starting work on new user page | 5.5 |  |
-
+| 3/27/18 | Frontend stuff/styling | 4 | |
+| 3/28/18 | Working on frontend | 4 |  |
+| 3/29/18 | That awkward moment when you realize your css changes weren't showing up because the file wasn't linked... | 5 |  |
 ####Running total: = 81 hrs
