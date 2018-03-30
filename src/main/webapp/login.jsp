@@ -6,7 +6,7 @@
 <head>
     <%@include file="head.jsp"%>
     <title>Login</title>
-    <script src="js/varInitialize.js"></script>
+    <script src="js/init.js"></script>
 </head>
 <body>
 <header>

@@ -5,7 +5,7 @@
 
 <head>
     <%@include file="head.jsp"%>
-    <script src="js/varInitialize.js"></script>
+    <script src="js/init.js"></script>
     <script type="text/javascript" class="init">
         $(document).ready( function () {
             $('#searchTable').DataTable();

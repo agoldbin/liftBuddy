@@ -4,7 +4,7 @@
 <body>
 
     <%-- TODO work on making modal functional for user login --%>
-    <div id="login" class="modal">
+    <div id="loginModal" class="modal">
 
         <div class="modal-content">
             <h4>Log In</h4>
