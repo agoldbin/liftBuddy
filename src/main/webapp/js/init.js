@@ -1,14 +1,23 @@
 //********************* Materialize Variables *********************\\
 // Initialize PARALLAX (used for styling of pages)
-$(document).ready(function(){
-    $('.parallax').parallax();
-});
+(function($){
+    $(function(){
+
+        $('.button-collapse').sideNav();
+        $('.parallax').parallax();
+
+    }); // end of document ready
+})(jQuery); // end of jQuery name space
+
+// $(document).ready(function(){
+//     $('.parallax').parallax();
+// });
 
 // Initialize MODAL (used for user login)
 $(document).ready(function(){
-    $('#login').modal();
+    $('#loginModal').modal();
 });
-$('#login').modal('open');
+$('#loginModal').modal('open');
 
 // Initialize SELECT boxes (used in forms)
 $(document).ready(function() {
@@ -16,10 +25,20 @@ $(document).ready(function() {
 });
 
 // Initialize SIDENAV bar for headers
-$(document).ready(function(){
-    $('.sidenav').sidenav();
-});
-$('.sidenav').close();
+// $(document).ready(function(){
+//     $('.sidenav').sidenav();
+// });
+// $('.sidenav').close();
+
+// functions for sidenav functionality
+// function initialize() {
+//     $('.button-collapse').sideNav();
+//     $('.button-collapse').click(removeOverlay);
+// }
+
+function removeOverlay() {
+    $('div[id^=sidenav-overlay]').remove();
+}
 //************************* Functions *************************\\
 // Function to validate user login credentials
 function userLoginValidation() {

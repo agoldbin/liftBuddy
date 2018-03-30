@@ -4,7 +4,7 @@
 
 <head>
     <%@include file="head.jsp"%>
-    <script src="js/varInitialize.js"></script>
+    <script src="js/init.js"></script>
 </head>
 
 <html>

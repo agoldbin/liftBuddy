@@ -10,17 +10,17 @@
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+        <!-- jQuery slim -->
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.js" integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA="   crossorigin="anonymous"></script>
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <!-- The next two items are to support jQuery datatables. Learn more about datatables here:https://datatables.net -->
         <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.css">
         <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.js"></script>
 
-        <!-- jQuery slim -->
-        <script src="https://code.jquery.com/jquery-3.1.1.slim.js" integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA="   crossorigin="anonymous"></script>
 
-        <!--Import jQuery before materialize.js-->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <%-- Media query CSS since Materialize doesn't work for crap --%>
-        <link rel="stylesheet" href="css/screens.css">
+        <%--<link rel="stylesheet" href="css/screens.css">--%>
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="css/materialize.css">
         <!-- Compiled and minified JavaScript -->

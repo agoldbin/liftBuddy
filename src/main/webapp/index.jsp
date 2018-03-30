@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <head>
     <%@include file="head.jsp"%>
-    <script src="js/varInitialize.js"></script>
+    <script src="js/init.js"></script>
 <head>
 
 <html>
@@ -14,8 +14,10 @@
 
 <%--<h2>Lift Buddy Display</h2>--%>
     <div class="parallax-container">
-        <div class="parallax background-l"><img src="images/background_bar_m.jpg"></div>
-        <div class="parallax background-s"><img src="images/background_bar_s.jpg"></div>
+        <div class="parallax show-on-large"><img src="images/background_bar_m.jpg"></div>
+        <div class="parallax show-on-medium-and-down"><img src="images/background_bar_s.jpg"></div>
+        <%--<div class="parallax background-l"><img src="images/background_bar_m.jpg"></div>--%>
+        <%--<div class="parallax background-s"><img src="images/background_bar_s.jpg"></div>--%>
     </div>
     <div class="section white">
         <div class="row container">

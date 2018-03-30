@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <head>
     <%@include file="head.jsp"%>
-    <script src="js/varInitialize.js"></script>
+    <script src="js/init.js"></script>
 </head>
 
 <html>
@@ -35,7 +35,7 @@
     <div class="parallax-container hide-on-med-and-up">
         <div class="parallax"><img src="images/background_bar_s.jpg"></div>
     </div>
-    <div class="parallax-container hide-on-small-and-down show-on-medium-and-up">
+    <div class="parallax-container show-on-medium-and-up">
         <div class="parallax"><img src="images/background_bar_m.jpg"></div>
     </div>
     <div class="section white">
