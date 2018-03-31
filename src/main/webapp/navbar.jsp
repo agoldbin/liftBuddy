@@ -17,7 +17,7 @@
         var PageName = getPageNameFromURL();
         switch (PageName) {
             case 'index.jsp':
-                $('.brand-logo').addClass("green-text text-darken-4");
+                $('.brand-logo').addClass("green-text text-darken-4 active");
                 break;
             case 'search.jsp':
                 $('#search').addClass("active");
@@ -61,6 +61,33 @@
                 <a href="#" data-activates="nav-sidenav" class="button-collapse iconLinks"><i class="material-icons">menu</i></a>
             </div>
 
+            <ul id="nav-sidenav" class="sidenav hide-on-large-only">
+                <%-- TODO work on making li dynamically use class="active" when user is on that page --%>
+                <%-- TODO add functionality so login changes to logout depending on session status --%>
+                <li id="search"><a href="search.jsp">Search</a></li>
+                <li id="login"><a class="modal-trigger" href="#login" data-target="login">Login</a></li>
+                <li id="signUp"><a href="newUser.jsp">Sign Up</a></li>
+            </ul>
+
+
+            <%--//////////////////////////////////////////////////////////--%>
+            <%--<ul id="nav-mobile" class="side-nav">--%>
+                <%--<li><a href="explore"><i class="material-icons">search</i>Search</a></li>--%>
+                <%--<c:if test="${empty user}">--%>
+                <%--<li><a class="modal-trigger" href="#signup">Sign Up</a></li>--%>
+                <%--<li><a href="login">Login</a><li>--%>
+                <%--</c:if>--%>
+                <%--<c:if test="${not empty user}">--%>
+                <%--<li class="divider"></li>--%>
+                <%--<li><a href="user.jsp#favorites">${user.userName}'s favorites</a></li>--%>
+                <%--<li><a href="user.jsp#reviews">${user.userName}'s reviews</a></li>--%>
+                <%--<li><a href="user.jsp#profile">${user.userName}'s profile</a></li>--%>
+                <%--<li class="divider"></li>--%>
+                <%--<li><a href="logout">logout</a></li>--%>
+                <%--</c:if>--%>
+            <%--</ul>--%>
+            <%--<a href="#" data-activates="nav-mobile" class="button-collapse iconLinks"><i class="material-icons teal">menu</i></a>--%>
+            <%--//////////////////////////////////////////////////////////--%>
 
         <%--<ul class="sidenav" id="mobile-demo" style="transform: translateX(0%);">--%>
         <%--<li><a href="sass.html">Sass</a></li>--%>
@@ -72,12 +99,5 @@
     <%@include file="loginModal.jsp" %>
         </div>
     </nav>
-    <ul id="nav-sidenav" class="sidenav hide-on-large-only">
-        <%-- TODO work on making li dynamically use class="active" when user is on that page --%>
-        <%-- TODO add functionality so login changes to logout depending on session status --%>
-        <li id="search"><a href="search.jsp">Search</a></li>
-        <li id="login"><a class="modal-trigger" href="#login" data-target="login">Login</a></li>
-        <li id="signUp"><a href="newUser.jsp">Sign Up</a></li>
-    </ul>
 
 </div>
