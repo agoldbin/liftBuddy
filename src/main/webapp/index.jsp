@@ -36,10 +36,10 @@
 </footer>
 
 <script>
-    // Initialize SIDENAV bar for headers
-    $(document).ready(function(){
-        $('.sidenav').sidenav();
-    });
+    // // Initialize SIDENAV bar for headers
+    // $(document).ready(function(){
+    //     $('.sidenav').sidenav();
+    // });
 
     // Initialize MODAL (used for user login)
     $(document).ready(function(){
