@@ -7,6 +7,7 @@
 <%@include file="head.jsp"%>
 <% %>
 <script type="text/javascript">
+
     function getPageNameFromURL() {
         var URL = document.location.href;
         var PageFileName = URL.substring(URL.lastIndexOf('/') + 1);
@@ -15,6 +16,9 @@
     $(document).ready(function() {
         var PageName = getPageNameFromURL();
         switch (PageName) {
+            case 'index.jsp':
+                $('.brand-logo').addClass("green-text text-darken-4");
+                break;
             case 'search.jsp':
                 $('#search').addClass("active");
                 break;

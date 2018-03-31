@@ -36,9 +36,9 @@ $(document).ready(function() {
 //     $('.button-collapse').click(removeOverlay);
 // }
 
-function removeOverlay() {
-    $('div[id^=sidenav-overlay]').remove();
-}
+// function removeOverlay() {
+//     $('div[id^=sidenav-overlay]').remove();
+// }
 //************************* Functions *************************\\
 // Function to validate user login credentials
 function userLoginValidation() {
