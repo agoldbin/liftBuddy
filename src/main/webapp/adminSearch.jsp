@@ -90,10 +90,10 @@
 </footer>
 
 <script>
-    // Initialize SIDENAV bar for headers
-    $(document).ready(function(){
-        $('.sidenav').sidenav();
-    });
+    // // Initialize SIDENAV bar for headers
+    // $(document).ready(function(){
+    //     $('.sidenav').sidenav();
+    // });
 </script>
 </body>
 </html>
