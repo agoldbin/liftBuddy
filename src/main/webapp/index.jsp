@@ -8,9 +8,7 @@
 <html>
 <body>
 
-<header>
-    <%@include file="navbar.jsp"%>
-</header>
+<%@include file="navbar.jsp"%>
 
 <%--<h2>Lift Buddy Display</h2>--%>
     <div class="parallax-container">
@@ -21,13 +19,10 @@
     </div>
     <div class="section white">
         <div class="row container">
-
             <h2 class="header">Parallax</h2>
             <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image
                 in this case, is moved at a different speed than the foreground content while scrolling.</p>
             <a href="adminSearch.jsp">Click here to search! (Admin only)</a>
-
-
         </div>
     </div>
     <div class="parallax-container">
@@ -48,9 +43,9 @@
 
     // Initialize MODAL (used for user login)
     $(document).ready(function(){
-        $('#login').modal();
+        $('#loginModal').modal();
     });
-    $('#login').modal('open');
+    $('#loginModal').modal('open');
 </script>
 </body>
 </html>
