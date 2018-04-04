@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <%@include file="head.jsp"%>
+    <%@include file="../templates/head.jsp"%>
     <title>Login Failed</title>
 </head>
 <body>
@@ -37,7 +37,7 @@
     <h2 class="col s9 left-align">Login Failed. Please try again.</h2>
 </div>
 <footer>
-    <%@include file="footer.jsp"%>
+    <%@include file="../templates/footer.jsp"%>
 </footer>
 </body>
 </html>

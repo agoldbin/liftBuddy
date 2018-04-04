@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <head>
-    <%@include file="head.jsp"%>
+    <%@include file="templates/head.jsp"%>
     <script src="js/init.js"></script>
 </head>
 
 <html>
 <header>
-    <%@include file="navbar.jsp"%>
+    <%@include file="templates/navbar.jsp"%>
 </header>
 
     <div class="parallax-container hide-on-med-and-up">
@@ -60,10 +60,10 @@
         <div class="parallax"><img src="images/test3.jpg"></div>
     </div>
 
-    <%@include file="loginModal.jsp"%>
+    <%@include file="templates/loginModal.jsp"%>
 
 <footer>
-    <%@include file="footer.jsp"%>
+    <%@include file="templates/footer.jsp"%>
 </footer>
 </body>
 </html>
