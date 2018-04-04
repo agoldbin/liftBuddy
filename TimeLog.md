@@ -33,4 +33,7 @@ DISCLAIMER: All times are estimates as I am bad at actually tracking when I work
 | 3/27/18 | Frontend stuff/styling | 4 | |
 | 3/28/18 | Working on frontend | 4 |  |
 | 3/29/18 | That awkward moment when you realize your css changes weren't showing up because the file wasn't linked... | 5 |  |
+| 4/2/18 | Week 9 activities | 3 | | 
+| 4/3/18 | Week 11 exercise | 3 | |
+| 4/4/18 | Team project, a bit of servlet stuff | | |
 ####Running total: = 81 hrs

@@ -3,14 +3,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <head>
-    <%@include file="head.jsp"%>
-    <script src="js/init.js"></script>
+    <%@include file="../templates/head.jsp"%>
+    <script src="../js/init.js"></script>
 </head>
 
 <html>
 <body>
 <header>
-    <%@include file="navbar.jsp"%>
+    <%@include file="../templates/navbar.jsp"%>
 </header>
 <div class="row">
     <form class="col s12 m6 offset-m3">
@@ -56,7 +56,7 @@
     </div>
 </div>
 <footer>
-    <%@include file="footer.jsp"%>
+    <%@include file="../templates/footer.jsp"%>
 </footer>
 </body>
 </html>

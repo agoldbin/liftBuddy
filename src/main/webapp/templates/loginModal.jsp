@@ -1,7 +1,7 @@
 <%-- This jsp contains the code for the user login modal  which is used throughout the site --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<body>
+<body background="gray">
 
     <%-- TODO work on making modal functional for user login --%>
     <div id="loginModal" class="modal">
@@ -21,7 +21,7 @@
                 <label for="loginPassword">Password</label>
             </div>
             <div class="left-align">
-                <p>Not a member? <a href="newUser.jsp">Sign up now!</a></p>
+                <p>Not a member? <a href="../newUser.jsp">Sign up now!</a></p>
                 <a href="#">Forgot username or password?</a>
             </div>
             <div class="right-align">
