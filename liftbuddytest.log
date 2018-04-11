@@ -498,3 +498,64 @@
 [INFO ] 2018-04-04 02:56:40.158 [main] GenericDao - Entity save/update success: com.aarongoldbin.entity.Weight@5bc7e78e
 [INFO ] 2018-04-04 02:56:40.158 [main] GenericDao - Getting a class com.aarongoldbin.entity.Weight with ID 3
 [INFO ] 2018-04-04 02:56:40.174 [main] GenericDao - Found: com.aarongoldbin.entity.Weight@5ef6fd7f
+[ERROR] 2018-04-10 11:39:02.968 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-04-10 12:44:12.227 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-04-10 12:45:59.646 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-04-10 12:47:43.753 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-04-10 12:49:38.284 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[INFO ] 2018-04-10 12:49:38.284 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Gym
+[ERROR] 2018-04-10 12:51:25.686 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-04-10 12:53:13.058 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-04-10 12:54:58.195 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[INFO ] 2018-04-10 12:54:58.195 [main] GenericDao - Inserting entity: com.aarongoldbin.entity.Gym@39ad977d
+[ERROR] 2018-04-10 12:56:43.677 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-04-10 12:58:29.418 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-04-10 13:00:13.374 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[INFO ] 2018-04-10 13:00:13.374 [main] GenericDao - GetAll for class com.aarongoldbin.entity.User
+[ERROR] 2018-04-10 13:02:07.465 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-04-10 13:03:54.813 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-04-10 13:05:42.901 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-04-10 13:07:27.916 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-04-10 13:09:13.435 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-04-10 13:10:57.574 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-04-10 13:12:43.294 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2018-04-10 13:14:29.544 [main] Database - com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[INFO ] 2018-04-10 13:14:29.544 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Weight

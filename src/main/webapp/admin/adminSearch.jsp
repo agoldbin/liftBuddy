@@ -11,7 +11,10 @@
 <header>
     <nav>
         <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Lift Buddy</a>
+            <div class="valign-wrapper">
+                <img src="../images/logo.png" height="60px">
+                <a id="home" href="../index.jsp" class="brand-logo left">Lift Buddy</a>
+            </div>
             <a href="#" data-target="nav-mobile-admin" class="sidenav-trigger hide-on-med-and-up"><i class="material-icons">menu</i></a>
             <ul id="nav-admin" class="right hide-on-med-and-down show-on-large">
                 <li class="active"><a href="#">ADMIN PAGE BABY!</a></li>
