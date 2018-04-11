@@ -41,18 +41,20 @@
         }
     });
 </script>
-<div class="mobile-collapse">
-    <nav>
-        <div class="nav-wrapper">
-            <div id="nav-large" class="hide-on-med-and-down">
-                <a id="home" href="../index.jsp" class="brand-logo left">Lift Buddy</a>
-                <ul class="right">
-                    <%-- TODO add functionality so login changes to logout depending on session status --%>
-                    <li id="search"><a href="../search.jsp">Search</a></li>
-                    <li id="loginLink"><a class="modal-trigger" href="#loginModal" data-target="modal">Login</a></li>
-                    <li id="signUp"><a href="../newUser.jsp">Sign Up</a></li>
-                </ul>
-            </div>
+<nav>
+    <div class="nav-wrapper">
+        <div id="nav-large" class="hide-on-med-and-down">
+            <img src="images/logo2.png" class="valign-wrapper center-align" height="60px">
+            <a id="home" href="../index.jsp" class="brand-logo left">Lift Buddy</a>
+            <ul class="right">
+                <%-- TODO add functionality so login changes to logout depending on session status --%>
+                <li id="search"><a href="../search.jsp">Search</a></li>
+                <li id="loginLink"><a class="modal-trigger" href="#loginModal" data-target="modal">Login</a></li>
+                <li id="signUp"><a href="../newUser.jsp">Sign Up</a></li>
+            </ul>
+        </div>
+
+        <div id="nav-mobile" class="hide-on-large-only">
 
             <%--TODO create dem servlets--%>
             <%--TODO make sidenave close on first click, redundant code?--%>
@@ -72,8 +74,13 @@
                 <%--</c:if>--%>
             </ul>
             <a href="#" data-activates="nav-m" class="button-collapse iconLinks"><i class="material-icons gray">menu</i></a>
+            <div class="hide-on-large-only valign-wrapper">
+                <a href="index.jsp" class="center">
+                    <img src="images/logo2.png" class="center-block" height="50px">
+                </a>
+            </div>
 
-    <%@include file="loginModal.jsp" %>
         </div>
-    </nav>
-</div>
+    <%@include file="loginModal.jsp" %>
+    </div>
+</nav>
