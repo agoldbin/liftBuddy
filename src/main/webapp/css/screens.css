@@ -1,71 +1,71 @@
-/* CSS File to display and hide content since Materialize .hide and .show are buggy to say the least */
+/*!* CSS File to display and hide content since Materialize .hide and .show are buggy to say the least *!*/
 
-@media (max-width: 450px) {
-    .sidenav {
-        display: inline-block;
-    }
-    .material-icons {
-        display: inline-block;
-    }
-    .sidenav-trigger {
-        display: inline-block;
-    }
-    #nav-big {
-        display: none;
-    }
-    #logo-large {
-        display: none;
-    }
-    #logo-mobile {
-        display: inline-block;
-        font-size-adjust: inherit;
-    }
-}
+/*@media (max-width: 450px) {*/
+    /*.sidenav {*/
+        /*display: inline-block;*/
+    /*}*/
+    /*.material-icons {*/
+        /*display: inline-block;*/
+    /*}*/
+    /*.sidenav-trigger {*/
+        /*display: inline-block;*/
+    /*}*/
+    /*#nav-big {*/
+        /*display: none;*/
+    /*}*/
+    /*#logo-large {*/
+        /*display: none;*/
+    /*}*/
+    /*#logo-mobile {*/
+        /*display: inline-block;*/
+        /*font-size-adjust: inherit;*/
+    /*}*/
+/*}*/
 
-@media (min-width: 450px) {
-    .sidenav {
-        display: none;
-    }
-    .material-icons {
-        display: none;
-    }
-    .sidenav-trigger {
-        display: none;
-    }
-    #nav-big {
-        display: inline-block;
-    }
-    #logo-large {
-        display: inline-block;
-    }
-    #logo-mobile {
-        display: none;
-    }
-}
+/*@media (min-width: 450px) {*/
+    /*.sidenav {*/
+        /*display: none;*/
+    /*}*/
+    /*.material-icons {*/
+        /*display: none;*/
+    /*}*/
+    /*.sidenav-trigger {*/
+        /*display: none;*/
+    /*}*/
+    /*#nav-big {*/
+        /*display: inline-block;*/
+    /*}*/
+    /*#logo-large {*/
+        /*display: inline-block;*/
+    /*}*/
+    /*#logo-mobile {*/
+        /*display: none;*/
+    /*}*/
+/*}*/
 
-@media (max-width: 992px) {
-    .background-l {
-        display: none;
-    }
-    .background-s {
-        display: inline-block;
-    }
-}
+/*@media (max-width: 992px) {*/
+    /*.background-l {*/
+        /*display: none;*/
+    /*}*/
+    /*.background-s {*/
+        /*display: inline-block;*/
+    /*}*/
+/*}*/
 
-@media (min-width: 992px) {
-    .background-l {
-        display: inline-block;
-    }
-    .background-s {
-        display: none;
-    }
-}
+/*@media (min-width: 992px) {*/
+    /*.background-l {*/
+        /*display: inline-block;*/
+    /*}*/
+    /*.background-s {*/
+        /*display: none;*/
+    /*}*/
+/*}*/
 
-#nav-big {
-    color: #76ff03;
-}
+/*#nav-big {*/
+    /*color: #76ff03;*/
+/*}*/
 
-.modal {
-    max-width: 90%;
-    position: relative;
-}
+/*.modal {*/
+    /*max-width: 90%;*/
+    /*position: relative;*/
+/*}*/

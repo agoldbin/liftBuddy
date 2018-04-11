@@ -24,9 +24,9 @@
                 <p>Not a member? <a href="../newUser.jsp">Sign up now!</a></p>
                 <a href="#">Forgot username or password?</a>
             </div>
-            <div class="right-align valign-wrapper">
+            <div class="right-align">
                 <button id="userLogin" class="btn waves-effect waves-light" type="submit">Login
-                    <i class="material-icons right">send</i>
+                    <i class="material-icons right valign-wrapper">send</i>
                 </button>
             </div>
             </form>
