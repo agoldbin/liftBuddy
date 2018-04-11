@@ -44,7 +44,7 @@
 <nav>
     <div class="nav-wrapper">
         <div id="nav-large" class="hide-on-med-and-down">
-            <img src="images/logo2.png" class="valign-wrapper center-align" height="60px">
+            <img src="images/logo2.png" class="center-align" height="60px">
             <a id="home" href="../index.jsp" class="brand-logo left">Lift Buddy</a>
             <ul class="right">
                 <%-- TODO add functionality so login changes to logout depending on session status --%>
@@ -61,7 +61,7 @@
             <ul id="nav-m" class="side-nav">
                 <li><a href="#search"><i class="material-icons">search</i>Search</a></li>
                 <%--<c:if test="${empty user}">--%>
-                <li><a class="modal-trigger" href="#login">Login</a><li>
+                <li><a class="modal-trigger" href="#loginModal">Login</a><li>
                 <li><a href="#newUser">Sign Up</a></li>
                 <%--</c:if>--%>
                 <%--<c:if test="${not empty user}">--%>

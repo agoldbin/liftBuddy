@@ -27,7 +27,12 @@
     <div class="footer-copyright">
         <div class="container">
             © 2018 Copyright Text
-            <div class="grey-text text-lighten-4 right" href="#!">Layout created by Aaron Goldbin</div>
+            <div class="grey-text text-lighten-4 right" href="#!">Layout created by Aaron Goldbin
+                <br />
+                Logo made using <a href="https://logomakr.com/">LogoMakr</a>
+
+            </div>
+
         </div>
     </div>
 </div>

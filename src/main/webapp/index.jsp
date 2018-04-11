@@ -12,7 +12,7 @@
 
 <%--<h2>Lift Buddy Display</h2>--%>
     <div class="parallax-container">
-        <div class="parallax hide-on-med-and-down"><img src="images/background_bar_m.jpg"></div>
+        <div class="parallax show-on-large"><img src="images/background_bar_m.jpg"></div>
         <div class="parallax hide-on-large-only"><img src="images/background_bar_s.jpg"></div>
     </div>
     <div class="section white">
