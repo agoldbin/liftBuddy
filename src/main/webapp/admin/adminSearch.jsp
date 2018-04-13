@@ -1,7 +1,7 @@
 <%-- Search page for Admins --%>
 <!DOCTYPE html>
 <head>
-    <%@include file="templates/head.jsp"%>
+    <%@include file="../templates/head.jsp"%>
     <script src="../js/init.js"></script>
 </head>
 
@@ -86,10 +86,10 @@
         <div class="parallax"><img src="../images/test3.jpg"></div>
     </div>
 
-<%@include file="templates/loginModal.jsp"%>
+<%@include file="../templates/loginModal.jsp"%>
 
 <footer>
-    <%@include file="templates/footer.jsp"%>
+    <%@include file="../templates/footer.jsp"%>
 </footer>
 
 <script>

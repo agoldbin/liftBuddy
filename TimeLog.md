@@ -35,5 +35,7 @@ DISCLAIMER: All times are estimates as I am bad at actually tracking when I work
 | 3/29/18 | That awkward moment when you realize your css changes weren't showing up because the file wasn't linked... | 5 |  |
 | 4/2/18 | Week 9 activities | 3 | | 
 | 4/3/18 | Week 11 exercise | 3 | |
-| 4/4/18 | Team project, a bit of servlet stuff | | |
+| 4/4/18 | Team project, a bit of servlet stuff | 1 | |
+| 4/11/18 | Final deploy of team project | 1 |  |
+| 4/13/18 | Servlets for pages, search functions, login modal usable |  |  |
 ####Running total: = 81 hrs
