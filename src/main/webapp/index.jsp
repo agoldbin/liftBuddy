@@ -6,15 +6,12 @@
 <head>
 
 <html>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- Container element -->
+    <div class="bgimg1"></div>
 
-<%@include file="templates/navbar.jsp"%>
+    <%@include file="templates/navbar.jsp"%>
 
-<%--<h2>Lift Buddy Display</h2>--%>
-    <div class="parallax-container">
-        <div class="parallax show-on-large"><img src="images/background_bar_m.jpg"></div>
-        <div class="parallax hide-on-large-only"><img src="images/background_bar_s.jpg"></div>
-    </div>
     <div class="section white">
         <div class="row container">
             <h2 class="header">Parallax</h2>
@@ -23,22 +20,13 @@
             <a href="../admin/adminSearch.jsp">Click here to search! (Admin only)</a>
         </div>
     </div>
-    <div class="parallax-container">
-        <div class="parallax"><img src="../images/test3.jpg"></div>
-    </div>
+    <div class="bgimg2"></div>
 
     <%@include file="templates/loginModal.jsp"%>
 
-<footer>
-    <%@include file="templates/footer.jsp"%>
-</footer>
+    <footer>
+        <%@include file="templates/footer.jsp"%>
+    </footer>
 
-<script>
-    // Initialize MODAL (used for user login)
-    $(document).ready(function(){
-        $('#loginModal').modal();
-    });
-    $('#loginModal').modal('open');
-</script>
 </body>
 </html>

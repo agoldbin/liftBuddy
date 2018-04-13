@@ -1,5 +1,61 @@
 /*!* CSS File to display and hide content since Materialize .hide and .show are buggy to say the least *!*/
 
+/*Determine user screen size and set applicable vars */
+@media (max-width: 992px) {
+    /*#loginModal*/
+    /*modal*/
+    .bgimg1, .bgimg2 {
+        background-attachment: scroll;
+        width: 100%;
+        height: 150px;
+    }
+
+}
+
+
+/* CSS */
+.navbar {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.bgimg1 {
+    /* The image used */
+    background-image: url("../images/background_bar_m.jpg");
+
+    /* Set a specific height */
+    height: 400px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg2 {
+  /* The image used */
+  background-image: url("../images/test3.jpg");
+
+  /* Set a specific height */
+  height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg1, .bgimg2 {
+    position: relative;
+    opacity: 0.5;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /*@media (max-width: 450px) {*/
     /*.sidenav {*/
         /*display: inline-block;*/

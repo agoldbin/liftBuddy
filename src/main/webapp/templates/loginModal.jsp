@@ -1,13 +1,15 @@
 <%-- This jsp contains the code for the user login modal  which is used throughout the site --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<body background="gray">
-
+<body>
     <%-- TODO work on making modal functional for user login --%>
-    <div id="loginModal" class="modal">
+    <div id="loginModal" class="modal fade" role="dialog">
 
         <div class="modal-content">
-            <h4>Log In</h4>
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Log In</h4>
+            </div>
             <form id="loginForm" onsubmit="return userLoginValidation()" method="POST">
             <div class="input-field col s12 m6 l6">
                 <input id="loginUserName" name="loginUserName" type="text" class="form-control"
@@ -26,12 +28,24 @@
             </div>
             <div class="right-align">
                 <button id="userLogin" class="btn waves-effect waves-light" type="submit">Login
-                    <i class="material-icons right valign-wrapper">send</i>
+                    <span class="glyphicon glyphicon-send">send</span>
                 </button>
             </div>
             </form>
         </div>
     </div>
 
+
+<script>
+    // Wrap everything in an IIFE
+    (function($, viewport) {
+        // Executes in XS and SM breakpoints
+        if (viewport.is('>sm')) {
+            $(".modal").addClass("modal-sm");
+        } else {
+            $(".modal").addClass("modal-lg");
+        }
+    });
+</script>
 </body>
 </html>
