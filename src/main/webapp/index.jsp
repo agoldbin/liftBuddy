@@ -6,7 +6,7 @@
 <head>
 
 <html>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-spy="scroll" data-target="#bigNav">
     <!-- Container element -->
     <div class="bgimg1"></div>
 

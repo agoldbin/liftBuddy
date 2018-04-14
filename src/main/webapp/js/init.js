@@ -1,29 +1,29 @@
 //********************* Materialize Variables *********************\\
 // Initialize PARALLAX (used for styling of pages)
-(function($){
-    $(function(){
-
-        $('.button-collapse').sideNav();
-        $('.parallax').parallax();
-
-    }); // end of document ready
-})(jQuery); // end of jQuery name space
-
+// (function($){
+//     $(function(){
+//
+//         $('.button-collapse').sideNav();
+//         $('.parallax').parallax();
+//
+//     }); // end of document ready
+// })(jQuery); // end of jQuery name space
+//
+// // $(document).ready(function(){
+// //     $('.parallax').parallax();
+// // });
+//
+// // Initialize MODAL (used for user login)
 // $(document).ready(function(){
-//     $('.parallax').parallax();
+//     $('#loginModal').modal();
 // });
-
-// Initialize MODAL (used for user login)
-$(document).ready(function(){
-    $('#loginModal').modal();
-});
-$('#loginModal').modal('open');
-
-// Initialize SELECT boxes (used in forms)
-$(document).ready(function() {
-    $('select').material_select();
-});
-
+// $('#loginModal').modal('open');
+//
+// // Initialize SELECT boxes (used in forms)
+// $(document).ready(function() {
+//     $('select').material_select();
+// });
+//
 // Initialize SIDENAV bar for headers
 // $(document).ready(function(){
 //     $('.sidenav').sidenav();
