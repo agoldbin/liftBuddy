@@ -15,16 +15,16 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * A servlet to searchForm for users
+ * A servlet to SearchForm for users
  *
  * @author agoldbin
  */
 
 @WebServlet(
-        urlPatterns = {"/searchForm"}
+        urlPatterns = {"/SearchForm"}
 )
 
-public class searchForm extends HttpServlet {
+public class SearchForm extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
     @Override
@@ -55,7 +55,7 @@ public class searchForm extends HttpServlet {
                         directResults(req, resp, "/gymResults.jsp");
                         break;
                     default:
-                        logger.info("Error in searchForm. Unexpected Search Term. "
+                        logger.info("Error in SearchForm. Unexpected Search Term. "
                                 + "\nsearchType: " + searchType
                                 + "\nsearchTerm: " + searchTerm)
                         ;
@@ -69,7 +69,7 @@ public class searchForm extends HttpServlet {
                 directResults(req, resp, "/gymResults.jsp");
                 break;
             default:
-                logger.info("Error in searchForm. Unexpected form action: " + formAction);
+                logger.info("Error in SearchForm. Unexpected form action: " + formAction);
         }
     }
 

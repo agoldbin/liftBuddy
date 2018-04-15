@@ -6,16 +6,16 @@
         if (searchType === "gymName") {
             $.get('localhost/controller/searchGym');
 /*
-            document.searchForm.action = "/searchGym";
-            document.searchForm.target = "/results"
-            document.searchForm.submit();
+            document.SearchForm.action = "/searchGym";
+            document.SearchForm.target = "/results"
+            document.SearchForm.submit();
 */
         } else {
             $.get('localhost/webapp/searchUser');
 /*
-            document.searchForm.action = "/searchUser";
-            document.searchForm.target = "/results"
-            document.searchForm.submit();
+            document.SearchForm.action = "/searchUser";
+            document.SearchForm.target = "/results"
+            document.SearchForm.submit();
 */
         }
     }

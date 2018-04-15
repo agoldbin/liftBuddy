@@ -6,16 +6,13 @@
 
     <div class="modal-content">
         <h4>Log In</h4>
-        <form id="loginForm" onsubmit="return userLoginValidation()" method="POST">
+        <form id="loginForm" ACTION="j_security_check" method="POST">
         <div class="input-field col s12 m6 l6">
-            <input id="loginUserName" name="loginUserName" type="text" class="form-control"
-                    pattern="^[a-zA-Z0-9_]{4,}$"
-                    title="Username must be at least 4 characters, no special symbols" required>
+            <input id="loginUserName" name="j_username" type="text" class="form-control" required>
             <label for="loginUserName">User Name</label>
         </div>
         <div class="input-field col s12 m6 l6">
-            <input id="loginPassword" name="loginPassword" type="password" class="form-control"
-                    pattern="{6,}" title="Password must be at least 6 characters" required>
+            <input id="loginPassword" name="j_password" type="password" class="form-control" required>
             <label for="loginPassword">Password</label>
         </div>
         <div class="left-align">
