@@ -3,17 +3,17 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <head>
-    <%@include file="../templates/head.jsp"%>
-    <script src="../js/init.js"></script>
+    <%@include file="templates/head.jsp"%>
+    <script src="js/init.js"></script>
 </head>
 
 <html>
 <body>
 <header>
-    <%@include file="../templates/navbar.jsp"%>
+    <%@include file="templates/navbar.jsp"%>
 </header>
 <div class="row">
-    <form class="col s12 m6 offset-m3">
+    <form class="col s12 m6 offset-m3" action="addUser" method="POST">
         <div class="row">
             <div class="input-field col s12 m6">
                 <input id="first_name" type="text" class="validate" pattern="^[a-zA-Z]*$" title="First name must be only letters" required="">
@@ -25,7 +25,7 @@
             </div>
             <div class="input-field col s12">
                 <input id="email" type="email" class="validate" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))
-                           ([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" title="Please enter a valid email" placeholder="johnsnow@winterfell.com" required="">
+                           ([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" title="Please enter a valid email" required="">
                 <label for="email" class="active">Email</label>
             </div>
             <div class="input-field col s12">
@@ -49,6 +49,25 @@
                 <div class="registrationFormAlert" id="divCheckPasswordMatch">
                 </div>
             </div>
+            <p>Would you like to track your weight with LiftBuddy?</p>
+            <div class="switch col s12">
+                <label>
+                    No
+                    <input id="trackWeight" type="checkbox" onchange="trackWeights();">
+                    <span class="lever"></span>
+                    Yes
+                </label>
+            </div>
+        </div>
+        <div id="weight" class="input-field col s12">
+            <input id="currentWeight" type="number" class="validate" pattern="^[0-9]{1-3}$"
+                   title="Please enter a valid weight">
+            <label for="currentWeight">Weight</label>
+        </div>
+        <div class="center-align">
+            <button id="createUser" class="btn waves-effect waves-light" type="submit">Submit
+                <i class="material-icons right">send</i>
+            </button>
         </div>
     </form>
     <div class="col m3 hide-on-small-and-down">
@@ -56,8 +75,18 @@
     </div>
 </div>
 <footer>
-    <%@include file="../templates/footer.jsp"%>
+    <%@include file="templates/footer.jsp"%>
 </footer>
+
+<script>
+    function trackWeights() {
+        if (document.getElementById("trackWeight").checked) {
+            document.getElementById("weight").style.display = "block";
+        } else {
+            document.getElementById("weight").style.display = "none";
+        }
+    }
+</script>
 </body>
 </html>
 

@@ -1,5 +1,7 @@
 /*!* CSS File to display and hide content since Materialize .hide and .show are buggy to say the least *!*/
-
+#weight {
+    display: none;
+}
 /*@media (max-width: 450px) {*/
     /*.sidenav {*/
         /*display: inline-block;*/
