@@ -110,6 +110,12 @@ CREATE TABLE `role` (
 
 /*!40000 ALTER TABLE `role` DISABLE KEYS */;
 INSERT INTO `role` (`role_id`, `role_name`, `user_name`, `user_id`) VALUES (1,'admin','jcoyne',1);
+INSERT INTO `role` (`role_id`, `role_name`, `user_name`, `user_id`) VALUES (2,'lifter','fhensen',2);
+INSERT INTO `role` (`role_id`, `role_name`, `user_name`, `user_id`) VALUES (3,'lifter','bcurry',3);
+INSERT INTO `role` (`role_id`, `role_name`, `user_name`, `user_id`) VALUES (4,'lifter','kmack',4);
+INSERT INTO `role` (`role_id`, `role_name`, `user_name`, `user_id`) VALUES (5,'lifter','dklein',5);
+INSERT INTO `role` (`role_id`, `role_name`, `user_name`, `user_id`) VALUES (6,'lifter','dtillman',6);
+INSERT INTO `role` (`role_id`, `role_name`, `user_name`, `user_id`) VALUES (7,'admin','agoldbin',7);
 /*!40000 ALTER TABLE `role` ENABLE KEYS */;
 
 --
@@ -143,7 +149,7 @@ CREATE TABLE `user` (
 --
 
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` (`id`, `email`, `password`, `user_name`, `first_name`, `last_name`, `gym_id`, `location`, `dob`, `height`, `sex`) VALUES (1,'jc123@gmail.com','supersecret1','jcoyne','Joe','Coyne',1,53713,'1964-04-01','5\'2','M'),(2,'nightmareonelm@hotmail.com','supersecret2','fhensen','Fred','Hensen',1,53706,'1988-05-08','5\'4','M'),(3,'curryman@yahoo.com','supersecret3','bcurry','Barney','Curry',4,53704,'1947-11-11','6\'2','M'),(4,'mackattack@aol.com','supersecret4','kmack','Karen','Mack',3,53594,'1986-07-08','6\'0','F'),(5,'calvinklein@gmail.com','supersecret5','dklein','Dianne','Klein',2,53717,'1991-09-22','5\'8','F'),(6,'uptildawn@yahoo.com','supersecret6','dtillman','Dawn','Tillman',5,53714,'1979-08-03','6\'4','F');
+INSERT INTO `user` (`id`, `email`, `password`, `user_name`, `first_name`, `last_name`, `gym_id`, `location`, `dob`, `height`, `sex`) VALUES (1,'jc123@gmail.com','supersecret1','jcoyne','Joe','Coyne',1,53713,'1964-04-01','5\'2','M'),(2,'nightmareonelm@hotmail.com','supersecret2','fhensen','Fred','Hensen',1,53706,'1988-05-08','5\'4','M'),(3,'curryman@yahoo.com','supersecret3','bcurry','Barney','Curry',4,53704,'1947-11-11','6\'2','M'),(4,'mackattack@aol.com','supersecret4','kmack','Karen','Mack',3,53594,'1986-07-08','6\'0','F'),(5,'calvinklein@gmail.com','supersecret5','dklein','Dianne','Klein',2,53717,'1991-09-22','5\'8','F'),(6,'uptildawn@yahoo.com','supersecret6','dtillman','Dawn','Tillman',5,53714,'1979-08-03','6\'4','F'), (7,'goldbina16@gmail.com','supersecret','agoldbin','Aaron','Goldbin',1,53713,'1991-01-16','6\'2','M');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 
 --
