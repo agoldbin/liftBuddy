@@ -1,4 +1,6 @@
 package com.aarongoldbin.controller;
 
-public class AddUser {
+import javax.servlet.http.HttpServlet;
+
+public class AddUser extends HttpServlet{
 }
