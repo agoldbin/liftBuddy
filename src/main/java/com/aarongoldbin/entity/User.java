@@ -69,7 +69,32 @@ public class User {
     }
 
     /**
+     * Instantiates a new User WITHOUT height, weight or sex. Defaults user role to lifter
+     *
+     * @param userEmail    the user email
+     * @param password     the password
+     * @param userName     the user name
+     * @param firstName    the first name
+     * @param lastName     the last name
+     * @param gym          the gym
+     * @param location     the user location
+     */
+    public User(String userEmail, String password, String userName, String firstName, String lastName
+            , Gym gym, String location) {
+        this.userEmail = userEmail;
+        this.password = password;
+        this.userName = userName;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.gym = gym;
+        this.location = location;
+        role.setRoleName("lifter");
+    }
+
+
+    /**
      * Instantiates a new User WITHOUT weight.
+     *
      * @param userEmail    the user email
      * @param password     the password
      * @param userName     the user name
@@ -97,6 +122,7 @@ public class User {
 
     /**
      * Instantiates a new User WITH their weight.
+     *
      * @param userEmail    the user email
      * @param password     the password
      * @param userName     the user name

@@ -13,7 +13,7 @@
     <%@include file="templates/navbar.jsp"%>
 </header>
 <div class="row">
-    <form class="col s12 m6 offset-m3" action="addUser" method="POST">
+    <form class="col s12 m6 offset-m3" action="newUser" method="GET">
         <div class="row">
             <div class="input-field col s12 m6">
                 <input id="first_name" type="text" class="validate" pattern="^[a-zA-Z]*$" title="First name must be only letters" required="">
@@ -23,14 +23,17 @@
                 <input id="last_name" type="text" class="validate" pattern="^[a-zA-Z]*$" title="Last name must be only letters" required="">
                 <label for="last_name">Last Name</label>
             </div>
+            <%--TODO fix validation for username and email--%>
             <div class="input-field col s12">
-                <input id="email" type="email" class="validate" pattern="^([a-zA-Z0-9_\-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([a-zA-Z0-9\-]+\.)+))
-                           ([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$" title="Please enter a valid email" required="">
+                <input id="email" type="email" class="validate" title="Please enter a valid email" required="">
+                <%--pattern="^([a-zA-Z0-9_\-\.]+)@|(([a-zA-Z0-9\-]+\.)+))--%>
+                <%--([a-zA-Z]{2,4}$"--%>
                 <label for="email" class="active">Email</label>
             </div>
             <div class="input-field col s12">
-                <input id="user_name" type="text" class="validate" pattern="^[A-Za-z_]\\w{4,19}$" title="Username must begin with a letter or underscore, no special characters.
-                           5 to 20 characters long" required="">
+                <input id="user_name" type="text" class="validate" title="Username must begin with a letter or underscore, no special characters.
+                <%--pattern="^[A-Za-z_]\\w{4,19}$"--%>
+                    5 to 20 characters long" required="">
                 <label for="user_name">Username</label>
             </div>
             <div class="input-field col s12">

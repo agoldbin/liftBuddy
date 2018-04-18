@@ -559,3 +559,8 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
 [INFO ] 2018-04-10 13:14:29.544 [main] GenericDao - GetAll for class com.aarongoldbin.entity.Weight
+[DEBUG] 2018-04-18 16:01:50.955 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = null
+[INFO ] 2018-04-18 16:01:51.299 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-18 16:01:51.315 [http-nio-8080-exec-10] GenericDao - Inserting entity: com.aarongoldbin.entity.Gym@6fe1005e
+[INFO ] 2018-04-18 16:01:51.408 [http-nio-8080-exec-10] GenericDao - Insert success! ID = 7
+[INFO ] 2018-04-18 16:01:51.408 [http-nio-8080-exec-10] AddUser - New Gym entered by user: com.aarongoldbin.entity.Gym@6fe1005e
