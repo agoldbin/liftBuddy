@@ -88,7 +88,8 @@ public class User {
         this.lastName = lastName;
         this.gym = gym;
         this.location = location;
-        role.setRoleName("lifter");
+//        role.setRoleName("user");
+//        setRole(role);
     }
 
 

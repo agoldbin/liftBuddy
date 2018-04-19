@@ -37,5 +37,6 @@ DISCLAIMER: All times are estimates as I am bad at actually tracking when I work
 | 4/3/18 | Week 11 exercise | 3 | |
 | 4/4/18 | Team project, a bit of servlet stuff | 1 | |
 | 4/11/18 | Final deploy of team project | 1 |  |
-| 4/13/18 | Servlets for pages, search functions, login modal usable |  |  |
+| 4/13/18 | Servlets for pages, search functions, login modal usable | 1 |  |
+| 4/19/18 | Finally can have users sign up. Servlet work stuff | 1.5 |  |
 ####Running total: = 81 hrs

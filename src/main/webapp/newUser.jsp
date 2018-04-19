@@ -13,35 +13,35 @@
     <%@include file="templates/navbar.jsp"%>
 </header>
 <div class="row">
-    <form class="col s12 m6 offset-m3" action="newUser" method="GET">
+    <form class="col s12 m6 offset-m3" action="newUser">
         <div class="row">
             <div class="input-field col s12 m6">
-                <input id="first_name" type="text" class="validate" pattern="^[a-zA-Z]*$" title="First name must be only letters" required="">
+                <input id="first_name" name="first_name" type="text" class="validate" pattern="^[a-zA-Z]*$" title="First name must be only letters" required="">
                 <label for="first_name">First Name</label>
             </div>
             <div class="input-field col s12 m6">
-                <input id="last_name" type="text" class="validate" pattern="^[a-zA-Z]*$" title="Last name must be only letters" required="">
+                <input id="last_name" name="last_name" type="text" class="validate" pattern="^[a-zA-Z]*$" title="Last name must be only letters" required="">
                 <label for="last_name">Last Name</label>
             </div>
             <%--TODO fix validation for username and email--%>
             <div class="input-field col s12">
-                <input id="email" type="email" class="validate" title="Please enter a valid email" required="">
+                <input id="email" name="email" type="email" class="validate" title="Please enter a valid email" required="">
                 <%--pattern="^([a-zA-Z0-9_\-\.]+)@|(([a-zA-Z0-9\-]+\.)+))--%>
                 <%--([a-zA-Z]{2,4}$"--%>
                 <label for="email" class="active">Email</label>
             </div>
             <div class="input-field col s12">
-                <input id="user_name" type="text" class="validate" title="Username must begin with a letter or underscore, no special characters.
+                <input id="user_name" name="user_name" type="text" class="validate" title="Username must begin with a letter or underscore, no special characters.
                 <%--pattern="^[A-Za-z_]\\w{4,19}$"--%>
                     5 to 20 characters long" required="">
                 <label for="user_name">Username</label>
             </div>
             <div class="input-field col s12">
-                <input id="location" type="text" class="validate" pattern="^[\d]{5}" title="Enter 5 digit Zip Code" required="">
+                <input id="location" name="location" type="text" class="validate" pattern="^[\d]{5}" title="Enter 5 digit Zip Code" required="">
                 <label for="location">Zip Code</label>
             </div>
             <div class="input-field col s12">
-                <input id="password" type="password" class="validate" pattern="^[A-Za-z\d$@$!%*#?&amp;]{6,}$" title="Password must be at least 6 characters long" required="">
+                <input id="password" name="password" type="password" class="validate" pattern="^[A-Za-z\d$@$!%*#?&amp;]{6,}$" title="Password must be at least 6 characters long" required="">
                 <label for="password">Password</label>
             </div>
             <div class="input-field col s12">
@@ -56,7 +56,7 @@
             <div class="switch col s12">
                 <label>
                     No
-                    <input id="trackWeight" type="checkbox" onchange="trackWeights();">
+                    <input id="trackWeight" name="trackWeight" type="checkbox" onchange="trackWeights();">
                     <span class="lever"></span>
                     Yes
                 </label>
@@ -68,7 +68,7 @@
             <label for="currentWeight">Weight</label>
         </div>
         <div class="center-align">
-            <button id="createUser" class="btn waves-effect waves-light" type="submit">Submit
+            <button id="createUser" class="btn waves-effect waves-light" type="submit" name="action">Submit
                 <i class="material-icons right">send</i>
             </button>
         </div>
