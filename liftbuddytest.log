@@ -564,3 +564,57 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [INFO ] 2018-04-18 16:01:51.315 [http-nio-8080-exec-10] GenericDao - Inserting entity: com.aarongoldbin.entity.Gym@6fe1005e
 [INFO ] 2018-04-18 16:01:51.408 [http-nio-8080-exec-10] GenericDao - Insert success! ID = 7
 [INFO ] 2018-04-18 16:01:51.408 [http-nio-8080-exec-10] AddUser - New Gym entered by user: com.aarongoldbin.entity.Gym@6fe1005e
+[DEBUG] 2018-04-18 16:05:50.196 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = null
+[INFO ] 2018-04-18 16:05:50.665 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-18 16:05:50.665 [http-nio-8080-exec-10] GenericDao - Inserting entity: com.aarongoldbin.entity.Gym@21024f22
+[INFO ] 2018-04-18 16:05:50.774 [http-nio-8080-exec-10] GenericDao - Insert success! ID = 8
+[INFO ] 2018-04-18 16:05:50.774 [http-nio-8080-exec-10] AddUser - New Gym entered by user: com.aarongoldbin.entity.Gym@21024f22
+[DEBUG] 2018-04-18 16:52:10.665 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.Gym for property gymName = null
+[INFO ] 2018-04-18 16:52:10.978 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-18 16:52:10.994 [http-nio-8080-exec-10] GenericDao - Inserting entity: com.aarongoldbin.entity.Gym@7fc04a79
+[INFO ] 2018-04-18 16:52:11.087 [http-nio-8080-exec-10] GenericDao - Insert success! ID = 9
+[INFO ] 2018-04-18 16:52:11.087 [http-nio-8080-exec-10] AddUser - New Gym entered by user: com.aarongoldbin.entity.Gym@7fc04a79
+[INFO ] 2018-04-18 16:55:33.069 [http-nio-8080-exec-1] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-04-18 16:55:33.147 [http-nio-8080-exec-1] GenericDao - Found: com.aarongoldbin.entity.Gym@3497753
+[INFO ] 2018-04-18 16:57:51.860 [http-nio-8080-exec-10] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-04-18 16:57:51.954 [http-nio-8080-exec-10] GenericDao - Found: com.aarongoldbin.entity.Gym@fc5fe7c
+[INFO ] 2018-04-18 16:58:58.422 [http-nio-8080-exec-2] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-04-18 16:58:58.516 [http-nio-8080-exec-2] GenericDao - Found: com.aarongoldbin.entity.Gym@3f1828
+[INFO ] 2018-04-18 16:58:58.516 [http-nio-8080-exec-2] GenericDao - Saving/updating entity: User{id=0, userName='null', userEmail='null', gym=com.aarongoldbin.entity.Gym@3f1828, location='null', password='null', firstName='null', lastName='null', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:09:55.390 [http-nio-8080-exec-10] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-04-19 05:09:55.546 [http-nio-8080-exec-10] GenericDao - Found: com.aarongoldbin.entity.Gym@3aa33ffb
+[INFO ] 2018-04-19 05:14:12.910 [http-nio-8080-exec-10] AddUser - User{id=0, userName='null', userEmail='null', gym=com.aarongoldbin.entity.Gym@3aa33ffb, location='null', password='null', firstName='null', lastName='null', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:15:37.446 [http-nio-8080-exec-3] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-04-19 05:15:37.603 [http-nio-8080-exec-3] GenericDao - Found: com.aarongoldbin.entity.Gym@3b1dc0ff
+[INFO ] 2018-04-19 05:15:37.618 [http-nio-8080-exec-3] AddUser - User{id=0, userName='null', userEmail='null', gym=com.aarongoldbin.entity.Gym@3b1dc0ff, location='null', password='null', firstName='null', lastName='null', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:15:37.618 [http-nio-8080-exec-3] GenericDao - Saving/updating entity: User{id=0, userName='null', userEmail='null', gym=com.aarongoldbin.entity.Gym@3b1dc0ff, location='null', password='null', firstName='null', lastName='null', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:16:47.402 [http-nio-8080-exec-1] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-04-19 05:16:47.574 [http-nio-8080-exec-1] GenericDao - Found: com.aarongoldbin.entity.Gym@d94fed9
+[INFO ] 2018-04-19 05:17:43.996 [http-nio-8080-exec-1] AddUser - User{id=0, userName='null', userEmail='null', gym=com.aarongoldbin.entity.Gym@d94fed9, location='null', password='null', firstName='null', lastName='null', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:17:43.996 [http-nio-8080-exec-1] GenericDao - Saving/updating entity: User{id=0, userName='null', userEmail='null', gym=com.aarongoldbin.entity.Gym@d94fed9, location='null', password='null', firstName='null', lastName='null', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:20:09.066 [http-nio-8080-exec-10] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-04-19 05:20:09.206 [http-nio-8080-exec-10] GenericDao - Found: com.aarongoldbin.entity.Gym@27233c2
+[INFO ] 2018-04-19 05:20:09.222 [http-nio-8080-exec-10] AddUser - User{id=0, userName='null', userEmail='null', gym=com.aarongoldbin.entity.Gym@27233c2, location='null', password='null', firstName='null', lastName='null', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:20:09.222 [http-nio-8080-exec-10] GenericDao - Inserting entity: User{id=0, userName='null', userEmail='null', gym=com.aarongoldbin.entity.Gym@27233c2, location='null', password='null', firstName='null', lastName='null', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:24:49.214 [http-nio-8080-exec-5] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-04-19 05:24:49.417 [http-nio-8080-exec-5] GenericDao - Found: com.aarongoldbin.entity.Gym@55bfab1f
+[INFO ] 2018-04-19 05:32:05.547 [http-nio-8080-exec-5] AddUser - User{id=0, userName='null', userEmail='null', gym=com.aarongoldbin.entity.Gym@55bfab1f, location='null', password='null', firstName='null', lastName='null', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:32:05.547 [http-nio-8080-exec-5] GenericDao - Inserting entity: User{id=0, userName='null', userEmail='null', gym=com.aarongoldbin.entity.Gym@55bfab1f, location='null', password='null', firstName='null', lastName='null', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:38:56.495 [http-nio-8080-exec-3] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-04-19 05:38:56.636 [http-nio-8080-exec-3] GenericDao - Found: com.aarongoldbin.entity.Gym@748cf4eb
+[INFO ] 2018-04-19 05:38:56.651 [http-nio-8080-exec-3] AddUser - User{id=0, userName='null', userEmail='null', gym=com.aarongoldbin.entity.Gym@748cf4eb, location='null', password='null', firstName='null', lastName='null', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:38:56.651 [http-nio-8080-exec-3] GenericDao - Inserting entity: User{id=0, userName='null', userEmail='null', gym=com.aarongoldbin.entity.Gym@748cf4eb, location='null', password='null', firstName='null', lastName='null', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:42:23.221 [http-nio-8080-exec-3] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-04-19 05:42:23.456 [http-nio-8080-exec-3] GenericDao - Found: com.aarongoldbin.entity.Gym@777ad0bd
+[INFO ] 2018-04-19 05:44:14.660 [http-nio-8080-exec-3] AddUser - User{id=0, userName='null', userEmail='null', gym=com.aarongoldbin.entity.Gym@777ad0bd, location='null', password='null', firstName='null', lastName='null', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:44:14.660 [http-nio-8080-exec-3] GenericDao - Inserting entity: User{id=0, userName='null', userEmail='null', gym=com.aarongoldbin.entity.Gym@777ad0bd, location='null', password='null', firstName='null', lastName='null', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:45:13.151 [http-nio-8080-exec-3] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-04-19 05:45:13.307 [http-nio-8080-exec-3] GenericDao - Found: com.aarongoldbin.entity.Gym@19f16dab
+[INFO ] 2018-04-19 05:45:48.088 [http-nio-8080-exec-3] AddUser - User{id=0, userName='leDoggo', userEmail='null', gym=com.aarongoldbin.entity.Gym@19f16dab, location='null', password='woofwoof', firstName='null', lastName='null', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:45:48.088 [http-nio-8080-exec-3] GenericDao - Inserting entity: User{id=0, userName='leDoggo', userEmail='null', gym=com.aarongoldbin.entity.Gym@19f16dab, location='null', password='woofwoof', firstName='null', lastName='null', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:45:48.228 [http-nio-8080-exec-3] GenericDao - Insert success! ID = 8
+[INFO ] 2018-04-19 05:45:48.228 [http-nio-8080-exec-3] AddUser - User created: User{id=8, userName='leDoggo', userEmail='null', gym=com.aarongoldbin.entity.Gym@19f16dab, location='null', password='woofwoof', firstName='null', lastName='null', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:47:51.382 [http-nio-8080-exec-2] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-04-19 05:47:51.507 [http-nio-8080-exec-2] GenericDao - Found: com.aarongoldbin.entity.Gym@735082e0
+[INFO ] 2018-04-19 05:47:51.507 [http-nio-8080-exec-2] AddUser - User{id=0, userName='leDoggo', userEmail='bark@moon.com', gym=com.aarongoldbin.entity.Gym@735082e0, location='53713', password='woofwoof', firstName='Dixie', lastName='Doge', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:47:51.507 [http-nio-8080-exec-2] GenericDao - Inserting entity: User{id=0, userName='leDoggo', userEmail='bark@moon.com', gym=com.aarongoldbin.entity.Gym@735082e0, location='53713', password='woofwoof', firstName='Dixie', lastName='Doge', height=null, sex='null', dob=null}
