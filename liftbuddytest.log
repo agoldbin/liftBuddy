@@ -618,3 +618,9 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [INFO ] 2018-04-19 05:47:51.507 [http-nio-8080-exec-2] GenericDao - Found: com.aarongoldbin.entity.Gym@735082e0
 [INFO ] 2018-04-19 05:47:51.507 [http-nio-8080-exec-2] AddUser - User{id=0, userName='leDoggo', userEmail='bark@moon.com', gym=com.aarongoldbin.entity.Gym@735082e0, location='53713', password='woofwoof', firstName='Dixie', lastName='Doge', height=null, sex='null', dob=null}
 [INFO ] 2018-04-19 05:47:51.507 [http-nio-8080-exec-2] GenericDao - Inserting entity: User{id=0, userName='leDoggo', userEmail='bark@moon.com', gym=com.aarongoldbin.entity.Gym@735082e0, location='53713', password='woofwoof', firstName='Dixie', lastName='Doge', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:52:48.835 [http-nio-8080-exec-1] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-04-19 05:52:48.960 [http-nio-8080-exec-1] GenericDao - Found: com.aarongoldbin.entity.Gym@78961cbc
+[INFO ] 2018-04-19 05:52:48.975 [http-nio-8080-exec-1] AddUser - User{id=0, userName='leDoggo', userEmail='bark@moon.com', gym=com.aarongoldbin.entity.Gym@78961cbc, location='53713', password='woofwoof', firstName='Dixie', lastName='Doge', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:52:48.975 [http-nio-8080-exec-1] GenericDao - Inserting entity: User{id=0, userName='leDoggo', userEmail='bark@moon.com', gym=com.aarongoldbin.entity.Gym@78961cbc, location='53713', password='woofwoof', firstName='Dixie', lastName='Doge', height=null, sex='null', dob=null}
+[INFO ] 2018-04-19 05:52:49.053 [http-nio-8080-exec-1] GenericDao - Insert success! ID = 10
+[INFO ] 2018-04-19 05:52:49.053 [http-nio-8080-exec-1] AddUser - User created: User{id=10, userName='leDoggo', userEmail='bark@moon.com', gym=com.aarongoldbin.entity.Gym@78961cbc, location='53713', password='woofwoof', firstName='Dixie', lastName='Doge', height=null, sex='null', dob=null}

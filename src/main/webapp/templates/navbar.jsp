@@ -20,7 +20,7 @@
             case 'search.jsp':
                 $('#search').addClass("active");
                 break;
-            case 'newUser.jsp':
+            case 'userNew.jsp':
                 $('#newUser').addClass("active");
                 break;
             // case 'addReport':

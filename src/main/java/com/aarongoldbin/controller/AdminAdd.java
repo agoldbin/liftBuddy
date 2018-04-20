@@ -1,4 +1,4 @@
 package com.aarongoldbin.controller;
 
-public class AddGym {
+public class AdminAdd {
 }

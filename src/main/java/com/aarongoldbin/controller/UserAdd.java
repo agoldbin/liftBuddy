@@ -26,7 +26,7 @@ import org.hibernate.boot.model.relational.Database;
 @WebServlet(
     urlPatterns = {"/newUser"}
 )
-public class AddUser extends HttpServlet {
+public class UserAdd extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
     Gym gym;
 
