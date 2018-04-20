@@ -1,4 +1,4 @@
 package com.aarongoldbin.controller;
 
-public class RemoveUser {
+public class GymRemove {
 }
