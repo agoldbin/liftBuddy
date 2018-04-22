@@ -8,8 +8,10 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
+// TODO work on this class, make sure all vars that are needed are included
+// TODO clean up code, properly connect to UserRole
 /**
- * A class to represent a gym choices
+ * A class to represent a role options
  *
  * @author agoldbin
  */
@@ -27,9 +29,11 @@ public class Role {
     @Column(name = "role_name")
     private String roleName;
 
-    @Column(name = "user_name")
-    private String userName;
+//    private Set<UserRole> userRoles = new HashSet<>();
+//    @Column(name = "user_name")
+//    private String userName;
+//
+//    @OneToMany(mappedBy = "id", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+//    private Set<User> users = new HashSet<>();
 
-    @OneToMany(mappedBy = "id", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
-    private Set<User> users = new HashSet<>();
 }

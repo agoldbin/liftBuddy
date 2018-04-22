@@ -8,7 +8,9 @@ import javax.persistence.*;
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 /**
  * A class to represent a user
@@ -48,8 +50,11 @@ public class User {
 
     // TODO properly connect role and user tables
     @Transient
+//    @ManyToOne
+//    private Role role;
     @ManyToOne
-    private Role role;
+    private Set<UserRole> userRoles = new HashSet<>();
+
 
     private String location;
     //    TODO is password needed to be stored? How to store a password hash
@@ -88,6 +93,8 @@ public class User {
         this.lastName = lastName;
         this.gym = gym;
         this.location = location;
+
+        setUserRole();
 //        role.setRoleName("user");
 //        setRole(role);
     }
@@ -264,4 +271,16 @@ public class User {
                 ", dob=" + dob +
                 '}';
     }
+
+    /**
+     * This method will set the user role to a standard user
+     */
+    private void setUserRole() {
+        Role role = new Role(2, "Lifter");
+
+        UserRole userRole = new UserRole(userName, this, role);
+
+        userRoles.add(userRole);
+    }
+
 }
