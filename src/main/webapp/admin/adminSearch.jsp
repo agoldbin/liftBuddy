@@ -86,8 +86,6 @@
         <div class="parallax"><img src="../images/test3.jpg"></div>
     </div>
 
-<%@include file="../templates/loginModal.jsp"%>
-
 <footer>
     <%@include file="../templates/footer.jsp"%>
 </footer>

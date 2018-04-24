@@ -1,5 +1,7 @@
 package com.aarongoldbin.controller;
 
+import com.aarongoldbin.entity.User;
+import com.aarongoldbin.persistence.GenericDao;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -10,6 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Directs user to user jsp page
@@ -25,8 +29,16 @@ public class Login extends HttpServlet {
 
     @Override
     protected void doGet (HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        // Get user who signed in and set their role
+        GenericDao userDao = new GenericDao(User.class);
+
+        List<User> users = userDao.getByPropertyEqual("userName", req.getParameter("j_username"));
+        User thisUser = users.get(0);
 
         HttpSession session = req.getSession();
+        session.setAttribute("userName", thisUser.getUserName());
+
+        session.setAttribute("role", thisUser.ge());
 
         resp.sendRedirect("user.jsp");
 

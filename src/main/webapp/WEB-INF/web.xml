@@ -12,7 +12,7 @@
   <login-config>
     <auth-method>FORM</auth-method>
     <form-login-config>
-      <form-login-page>/login.jsp</form-login-page>
+      <form-login-page>/templates/loginModal.jsp</form-login-page>
       <form-error-page>/loginError.jsp</form-error-page>
     </form-login-config>
   </login-config>
@@ -35,7 +35,7 @@
       <url-pattern>/admin/*</url-pattern>
     </web-resource-collection>
     <auth-constraint>
-      <role-name>admin</role-name>
+      <role-name>1</role-name>
     </auth-constraint>
   </security-constraint>
 
@@ -43,18 +43,19 @@
     <web-resource-collection>
       <web-resource-name>user</web-resource-name>
       <url-pattern>/user.jsp</url-pattern>
+      <url-pattern>/gymNew.jsp</url-pattern>
     </web-resource-collection>
     <auth-constraint>
-      <role-name>user</role-name>
+      <role-name>2</role-name>
     </auth-constraint>
   </security-constraint>
 
   <security-role>
-    <role-name>user</role-name>
+    <role-name>2</role-name>
   </security-role>
 
   <security-role>
-    <role-name>admin</role-name>
+    <role-name>1</role-name>
   </security-role>
 
 </web-app>

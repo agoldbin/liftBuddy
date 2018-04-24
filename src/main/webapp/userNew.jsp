@@ -17,7 +17,7 @@
         <div class="row">
             <div class="input-field col s12 m6">
                 <input id="first_name" name="first_name" type="text" class="validate" pattern="^[a-zA-Z]*$"
-                       title="First name must be only letters" required="">
+                       title="First name must be only letters" autofocus="autofocus" required="">
                 <label for="first_name">First Name</label>
             </div>
             <div class="input-field col s12 m6">

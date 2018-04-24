@@ -8,10 +8,10 @@ import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
-// TODO work on this class, make sure all vars that are needed are included
-// TODO clean up code, properly connect to UserRole
 /**
- * A class to represent a role options
+ * A class to represent the role options for the site
+ * 1 = admin
+ * 2 = lifter
  *
  * @author agoldbin
  */
@@ -29,11 +29,99 @@ public class Role {
     @Column(name = "role_name")
     private String roleName;
 
-//    private Set<UserRole> userRoles = new HashSet<>();
-//    @Column(name = "user_name")
-//    private String userName;
-//
-//    @OneToMany(mappedBy = "id", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
-//    private Set<User> users = new HashSet<>();
+    private Set<User> users = new HashSet<>();
+
+    /**
+     * Instantiates a new Role.
+     */
+    public Role() {
+    }
+
+    /**
+     * Instantiates a new Role.
+     *
+     * @param roleName the role name
+     */
+    public Role(String roleName) {
+        this.roleName = roleName;
+    }
+
+    /**
+     * Instantiates a new Role.
+     *
+     * @param roleId the role id
+     */
+    public Role(int roleId) {
+        this.roleId = roleId;
+    }
+
+    /**
+     * Instantiates a new Role.
+     *
+     * @param roleId   the role id
+     * @param roleName the role name
+     */
+    public Role(int roleId, String roleName) {
+        this.roleId = roleId;
+        this.roleName = roleName;
+    }
+
+    /**
+     * Instantiates a new Role.
+     *
+     * @param roleName  the role name
+     * @param users the user roles
+     */
+    public Role(String roleName, Set<User> users) {
+        this.roleName = roleName;
+        this.users = this.users;
+    }
+
+    /**
+     * Instantiates a new Role.
+     *
+     * @param roleId    the role id
+     * @param roleName  the role name
+     * @param users the user roles
+     */
+    public Role(int roleId, String roleName, Set<User> users) {
+        this.roleId = roleId;
+        this.roleName = roleName;
+        this.users = users;
+    }
+
+    /**
+     * Method to set a users role.
+     */
+    public void setRole(String roleName) {
+        this.roleName = roleName;
+    }
+
+    /**
+     * Method to set a users role.
+     */
+    public void setRole(int roleId) {
+        this.roleId = roleId;
+    }
+
+    /**
+     * Add user.
+     *
+     * @param user the user
+     */
+    public void addUser(User user) {
+        users.add(user);
+        user.setRole(this);
+    }
+
+    /**
+     * Remove user.
+     *
+     * @param user the user
+     */
+    public void removeUser(User user) {
+        users.remove(user);
+        user.setRole(null);
+    }
 
 }

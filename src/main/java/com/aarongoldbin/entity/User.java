@@ -50,14 +50,14 @@ public class User {
 
     // TODO properly connect role and user tables
     @Transient
-//    @ManyToOne
-//    private Role role;
     @ManyToOne
-    private Set<UserRole> userRoles = new HashSet<>();
+    private Role role;
+//    @ManyToOne
+//    private Set<Role> roles = new HashSet<>();
 
 
     private String location;
-    //    TODO is password needed to be stored? How to store a password hash
+    //    TODO if time permits, store password as hash
     private String password;
     private String height;
     private LocalDate dob;
@@ -71,10 +71,11 @@ public class User {
      * Instantiates a new User.
      */
     public User() {
+        role.setRole(2);
     }
 
     /**
-     * Instantiates a new User WITHOUT height, weight or sex. Defaults user role to lifter
+     * Instantiates a new User WITHOUT height, weight or sex. Defaults user role to buddy
      *
      * @param userEmail    the user email
      * @param password     the password
@@ -94,9 +95,7 @@ public class User {
         this.gym = gym;
         this.location = location;
 
-        setUserRole();
-//        role.setRoleName("user");
-//        setRole(role);
+        role.setRole(2);
     }
 
 
@@ -126,6 +125,8 @@ public class User {
         this.dob = dob;
         this.height = height;
         this.sex = sex;
+
+        role.setRole(2);
     }
 
     /**
@@ -156,6 +157,8 @@ public class User {
         this.height = height;
         addWeight(weight);
         this.sex = sex;
+
+        role.setRole(2);
     }
 
     /**
@@ -272,15 +275,16 @@ public class User {
                 '}';
     }
 
-    /**
-     * This method will set the user role to a standard user
-     */
-    private void setUserRole() {
-        Role role = new Role(2, "Lifter");
-
-        UserRole userRole = new UserRole(userName, this, role);
-
-        userRoles.add(userRole);
-    }
+//    /**
+//     * This method will set the user role to a standard user
+//     */
+//    private void setUserRole() {
+//        Role role = new Role(2, "buddy", this);
+//
+//        UserRole userRole = new UserRole(userName, this, role);
+//
+//        userRoles.add(userRole);
+//        role(this);
+//    }
 
 }
