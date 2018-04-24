@@ -3,9 +3,7 @@ package com.aarongoldbin.entity;
 import lombok.Getter;
 import lombok.Setter;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -21,71 +19,41 @@ import java.util.Set;
 @Getter
 @Setter
 public class UserRole {
+    @OneToOne(mappedBy = "role", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     @Column(name = "role_id")
     private int roleId;
 
-    @Column(name = "role_name")
-    private String roleName;
+    @Id
+    private int userId;
 
-    private Set<UserRole> userRoles = new HashSet<>();
+    @Column(name = "user_name")
+    private String userName;
 
+    @OneToOne(fetch = FetchType.LAZY)
+    @MapsId
+    private User user;
 
-    /**
-     * Instantiates a new UserRole.
-     */
-    public UserRole() {
+    @Transient
+    private Role role;
+
+// TODO fix constructors
+    public UserRole(User user, String roleName) {
+        this.userName = user.getUserName();
+        this.setUser(user);
+//        this.setRole(roleName);
+        role.setRole(roleName);
     }
 
-    /**
-     * Instantiates a new UserRole.
-     *
-     * @param roleName the role name
-     */
-    public UserRole(String roleName) {
-        this.roleName = roleName;
+    public UserRole(String userName, User user, int roleId) {
+        this.userName = userName;
+        this.setUser(user);
+        role.setRole(roleId);
     }
 
-    /**
-     * Instantiates a new UserRole.
-     *
-     * @param roleId the UserRole id
-     */
-    public UserRole(int roleId) {
-        this.roleId = roleId;
+    public UserRole(String userName, User user, Role role) {
+        this.userName = userName;
+        this.setUser(user);
+        this.setRole(role);
     }
 
-    /**
-     * Instantiates a new UserRole.
-     *
-     * @param roleId   the role id
-     * @param roleName the role name
-     */
-    public UserRole(int roleId, String roleName) {
-        this.roleId = roleId;
-        this.roleName = roleName;
-    }
-
-    /**
-     * Instantiates a new UserRole.
-     *
-     * @param roleName  the role name
-     * @param userRoles the user roles
-     */
-    public UserRole(String roleName, Set<UserRole> userRoles) {
-        this.roleName = roleName;
-        this.userRoles = userRoles;
-    }
-
-    /**
-     * Instantiates a new UserRole.
-     *
-     * @param roleId    the role id
-     * @param roleName  the role name
-     * @param userRoles the user roles
-     */
-    public UserRole(int roleId, String roleName, Set<UserRole> userRoles) {
-        this.roleId = roleId;
-        this.roleName = roleName;
-        this.userRoles = userRoles;
-    }
 }

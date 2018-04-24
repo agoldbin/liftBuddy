@@ -110,11 +110,11 @@ CREATE TABLE `role` (
 
 /*!40000 ALTER TABLE `role` DISABLE KEYS */;
 INSERT INTO `role` (`role_id`, `role_name`, `user_name`, `user_id`) VALUES (1,'admin','jcoyne',1);
-INSERT INTO `role` (`role_id`, `role_name`, `user_name`, `user_id`) VALUES (2,'lifter','fhensen',2);
-INSERT INTO `role` (`role_id`, `role_name`, `user_name`, `user_id`) VALUES (3,'lifter','bcurry',3);
-INSERT INTO `role` (`role_id`, `role_name`, `user_name`, `user_id`) VALUES (4,'lifter','kmack',4);
-INSERT INTO `role` (`role_id`, `role_name`, `user_name`, `user_id`) VALUES (5,'lifter','dklein',5);
-INSERT INTO `role` (`role_id`, `role_name`, `user_name`, `user_id`) VALUES (6,'lifter','dtillman',6);
+INSERT INTO `role` (`role_id`, `role_name`, `user_name`, `user_id`) VALUES (2,'buddy','fhensen',2);
+INSERT INTO `role` (`role_id`, `role_name`, `user_name`, `user_id`) VALUES (3,'buddy','bcurry',3);
+INSERT INTO `role` (`role_id`, `role_name`, `user_name`, `user_id`) VALUES (4,'buddy','kmack',4);
+INSERT INTO `role` (`role_id`, `role_name`, `user_name`, `user_id`) VALUES (5,'buddy','dklein',5);
+INSERT INTO `role` (`role_id`, `role_name`, `user_name`, `user_id`) VALUES (6,'buddy','dtillman',6);
 INSERT INTO `role` (`role_id`, `role_name`, `user_name`, `user_id`) VALUES (7,'admin','agoldbin',7);
 /*!40000 ALTER TABLE `role` ENABLE KEYS */;
 

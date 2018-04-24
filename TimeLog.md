@@ -39,6 +39,7 @@ DISCLAIMER: All times are estimates as I am bad at actually tracking when I work
 | 4/13/18 | Servlets for pages, search functions, login modal usable | 1 |
 | 4/19/18 | Finally can have users sign up. Servlet work stuff | 1.5 |
 | 4/20/18 | Created servlets, now just need to copypasta from other servlets... | 1 |
-| 4/22/18 | Refactoring DB a bit, |  |
+| 4/22/18 | Refactoring DB a bit, | 1.5 |
 ---
+| 4/24/18 | Got stuck on week 13 exercise, shifting to working on Hibernate config for project |  | 
 ####Running total: = 116.5 hrs

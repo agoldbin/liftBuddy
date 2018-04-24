@@ -8,7 +8,7 @@
         <h4>Log In</h4>
         <form id="loginForm" ACTION="j_security_check" method="POST">
         <div class="input-field col s12 m6 l6">
-            <input id="loginUserName" name="j_username" type="text" class="form-control" required>
+            <input id="loginUserName" name="j_username" type="text" class="form-control" autofocus="autofocus" required>
             <label for="loginUserName">User Name</label>
         </div>
         <div class="input-field col s12 m6 l6">
