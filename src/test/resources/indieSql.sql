@@ -104,6 +104,11 @@ CREATE TABLE `role` (
 -- Dumping data for table `role`
 --
 
+/*!40000 ALTER TABLE `role` DISABLE KEYS */;
+INSERT INTO `role` (`role_id`, `role_name`) VALUES (1, 'admin'), (2, 'buddy');
+/*!40000 ALTER TABLE `role` ENABLE KEYS */;
+
+
 --
 -- Table structure for table `user`
 --
@@ -123,10 +128,14 @@ CREATE TABLE `user` (
   `dob` date DEFAULT NULL,
   `height` varchar(255) DEFAULT NULL,
   `sex` varchar(1) DEFAULT NULL,
+  `role_id` INT DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `user_user_name_uindex` (`user_name`),
   KEY `user_gym_id_fk` (`gym_id`),
-  CONSTRAINT `user_gym_id_fk` FOREIGN KEY (`gym_id`) REFERENCES `gym` (`id`)
+  CONSTRAINT `user_gym_id_fk` FOREIGN KEY (`gym_id`) REFERENCES `gym` (`id`),
+  KEY `user_role_role_id_fk` (`role_id`),
+  CONSTRAINT user_role_role_id_fk FOREIGN KEY (`role_id`) REFERENCES `role` (`role_id`)
+
 ) ENGINE=InnoDB AUTO_INCREMENT=208 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -135,7 +144,7 @@ CREATE TABLE `user` (
 --
 
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` (`id`, `email`, `password`, `user_name`, `first_name`, `last_name`, `gym_id`, `location`, `dob`, `height`, `sex`, `role_id`) VALUES (1,'jc123@gmail.com','supersecret1','jcoyne','Joe','Coyne',1,53713,'1964-04-01','5\'2','M',1),(2,'nightmareonelm@hotmail.com','supersecret2','fhensen','Fred','Hensen',1,53706,'1988-05-08','5\'4','M',2),(3,'curryman@yahoo.com','supersecret3','bcurry','Barney','Curry',4,53704,'1947-11-11','6\'2','M',2),(4,'mackattack@aol.com','supersecret4','kmack','Karen','Mack',3,53594,'1986-07-08','6\'0','F'),(5,'calvinklein@gmail.com','supersecret5','dklein','Dianne','Klein',2,53717,'1991-09-22','5\'8','F',2),(6,'uptildawn@yahoo.com','supersecret6','dtillman','Dawn','Tillman',5,53714,'1979-08-03','6\'4','F',2), (7,'goldbina16@gmail.com','supersecret','agoldbin','Aaron','Goldbin',1,53713,'1991-01-16','6\'2','M',1);
+INSERT INTO `user` (`id`, `email`, `password`, `user_name`, `first_name`, `last_name`, `gym_id`, `location`, `dob`, `height`, `sex`, `role_id`) VALUES (1,'jc123@gmail.com','supersecret1','jcoyne','Joe','Coyne',1,53713,'1964-04-01','5\'2','M',1),(2,'nightmareonelm@hotmail.com','supersecret2','fhensen','Fred','Hensen',1,53706,'1988-05-08','5\'4','M',2),(3,'curryman@yahoo.com','supersecret3','bcurry','Barney','Curry',4,53704,'1947-11-11','6\'2','M',2),(4,'mackattack@aol.com','supersecret4','kmack','Karen','Mack',3,53594,'1986-07-08','6\'0','F',2),(5,'calvinklein@gmail.com','supersecret5','dklein','Dianne','Klein',2,53717,'1991-09-22','5\'8','F',2),(6,'uptildawn@yahoo.com','supersecret6','dtillman','Dawn','Tillman',5,53714,'1979-08-03','6\'4','F',2), (7,'goldbina16@gmail.com','supersecret','agoldbin','Aaron','Goldbin',1,53713,'1991-01-16','6\'2','M',1);
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 
 --

@@ -1,6 +1,6 @@
--- MySQL dump 10.13  Distrib 5.7.21, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
 --
--- Host: 127.0.0.1    Database: liftbuddytest
+-- Host: localhost    Database: liftbuddytest
 -- ------------------------------------------------------
 -- Server version	5.7.21-log
 
@@ -40,8 +40,10 @@ CREATE TABLE `exercise_type` (
 -- Dumping data for table `exercise_type`
 --
 
+LOCK TABLES `exercise_type` WRITE;
 /*!40000 ALTER TABLE `exercise_type` DISABLE KEYS */;
 /*!40000 ALTER TABLE `exercise_type` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `friends`
@@ -61,8 +63,10 @@ CREATE TABLE `friends` (
 -- Dumping data for table `friends`
 --
 
+LOCK TABLES `friends` WRITE;
 /*!40000 ALTER TABLE `friends` DISABLE KEYS */;
 /*!40000 ALTER TABLE `friends` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `gym`
@@ -82,9 +86,11 @@ CREATE TABLE `gym` (
 -- Dumping data for table `gym`
 --
 
+LOCK TABLES `gym` WRITE;
 /*!40000 ALTER TABLE `gym` DISABLE KEYS */;
-INSERT INTO `gym` (`id`, `gym_name`) VALUES (1,'YMCA'),(2,'Anytime Fitness'),(3,'Princeton Club'),(4,'Planet Fitness'),(5,'Other'),(6,'None');
+INSERT INTO `gym` VALUES (1,'YMCA'),(2,'Anytime Fitness'),(3,'Princeton Club'),(4,'Planet Fitness'),(5,'Other'),(6,'None');
 /*!40000 ALTER TABLE `gym` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `role`
@@ -104,10 +110,10 @@ CREATE TABLE `role` (
 -- Dumping data for table `role`
 --
 
+LOCK TABLES `role` WRITE;
 /*!40000 ALTER TABLE `role` DISABLE KEYS */;
-INSERT INTO `role` (`role_id`, `role_name`) VALUES (1, 'admin'), (2, 'buddy');
 /*!40000 ALTER TABLE `role` ENABLE KEYS */;
-
+UNLOCK TABLES;
 
 --
 -- Table structure for table `user`
@@ -128,14 +134,13 @@ CREATE TABLE `user` (
   `dob` date DEFAULT NULL,
   `height` varchar(255) DEFAULT NULL,
   `sex` varchar(1) DEFAULT NULL,
-  `role_id` INT DEFAULT NULL,
+  `role_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `user_user_name_uindex` (`user_name`),
   KEY `user_gym_id_fk` (`gym_id`),
-  CONSTRAINT `user_gym_id_fk` FOREIGN KEY (`gym_id`) REFERENCES `gym` (`id`),
   KEY `user_role_role_id_fk` (`role_id`),
-  CONSTRAINT user_role_role_id_fk FOREIGN KEY (`role_id`) REFERENCES `role` (`role_id`)
-
+  CONSTRAINT `user_gym_id_fk` FOREIGN KEY (`gym_id`) REFERENCES `gym` (`id`),
+  CONSTRAINT `user_role_role_id_fk` FOREIGN KEY (`role_id`) REFERENCES `role` (`role_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=208 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -143,9 +148,11 @@ CREATE TABLE `user` (
 -- Dumping data for table `user`
 --
 
+LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` (`id`, `email`, `password`, `user_name`, `first_name`, `last_name`, `gym_id`, `location`, `dob`, `height`, `sex`, `role_id`) VALUES (1,'jc123@gmail.com','supersecret1','jcoyne','Joe','Coyne',1,53713,'1964-04-01','5\'2','M',1),(2,'nightmareonelm@hotmail.com','supersecret2','fhensen','Fred','Hensen',1,53706,'1988-05-08','5\'4','M',2),(3,'curryman@yahoo.com','supersecret3','bcurry','Barney','Curry',4,53704,'1947-11-11','6\'2','M',2),(4,'mackattack@aol.com','supersecret4','kmack','Karen','Mack',3,53594,'1986-07-08','6\'0','F',2),(5,'calvinklein@gmail.com','supersecret5','dklein','Dianne','Klein',2,53717,'1991-09-22','5\'8','F',2),(6,'uptildawn@yahoo.com','supersecret6','dtillman','Dawn','Tillman',5,53714,'1979-08-03','6\'4','F',2), (7,'goldbina16@gmail.com','supersecret','agoldbin','Aaron','Goldbin',1,53713,'1991-01-16','6\'2','M',1);
+INSERT INTO `user` VALUES (1,'jc123@gmail.com','supersecret1','jcoyne','Joe','Coyne',1,53713,'1964-04-01','5\'2','M',NULL),(2,'nightmareonelm@hotmail.com','supersecret2','fhensen','Fred','Hensen',1,53706,'1988-05-08','5\'4','M',NULL),(3,'curryman@yahoo.com','supersecret3','bcurry','Barney','Curry',4,53704,'1947-11-11','6\'2','M',NULL),(4,'mackattack@aol.com','supersecret4','kmack','Karen','Mack',3,53594,'1986-07-08','6\'0','F',NULL),(5,'calvinklein@gmail.com','supersecret5','dklein','Dianne','Klein',2,53717,'1991-09-22','5\'8','F',NULL),(6,'uptildawn@yahoo.com','supersecret6','dtillman','Dawn','Tillman',5,53714,'1979-08-03','6\'4','F',NULL),(7,'goldbina16@gmail.com','supersecret','agoldbin','Aaron','Goldbin',1,53713,'1991-01-16','6\'2','M',NULL);
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `weight`
@@ -168,9 +175,11 @@ CREATE TABLE `weight` (
 -- Dumping data for table `weight`
 --
 
+LOCK TABLES `weight` WRITE;
 /*!40000 ALTER TABLE `weight` DISABLE KEYS */;
-INSERT INTO `weight` (`weight_id`, `weight`, `user_id`) VALUES (1,140,1),(2,130,1),(3,225,6),(4,130,2),(5,125,3),(6,135,4),(7,145,5),(8,155,1),(9,170,1);
+INSERT INTO `weight` VALUES (1,140,1),(2,130,1),(3,225,6),(4,130,2),(5,125,3),(6,135,4),(7,145,5),(8,155,1),(9,170,1);
 /*!40000 ALTER TABLE `weight` ENABLE KEYS */;
+UNLOCK TABLES;
 
 --
 -- Table structure for table `workout`
@@ -193,8 +202,10 @@ CREATE TABLE `workout` (
 -- Dumping data for table `workout`
 --
 
+LOCK TABLES `workout` WRITE;
 /*!40000 ALTER TABLE `workout` DISABLE KEYS */;
 /*!40000 ALTER TABLE `workout` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -205,4 +216,4 @@ CREATE TABLE `workout` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-03-30 16:44:59
+-- Dump completed on 2018-04-25  4:43:33
