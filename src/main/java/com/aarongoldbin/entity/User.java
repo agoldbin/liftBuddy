@@ -1,5 +1,6 @@
 package com.aarongoldbin.entity;
 
+import com.aarongoldbin.persistence.GenericDao;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.GenericGenerator;
@@ -169,7 +170,7 @@ public class User {
     }
 
     /**
-     * Gets the user's weights
+     * Gets the users weights
      *
      * @return the users weights
      */
@@ -180,7 +181,7 @@ public class User {
     /**
      * Sets users Weights
      *
-     * @param weights the users' weight history
+     * @param weights the users weight history
      */
     public void setWeights(List<Weight> weights){
         this.weights = weights;
@@ -219,7 +220,7 @@ public class User {
     /**
      * Sets users Workouts
      *
-     * @param workouts the users' workout history
+     * @param workouts the users workout history
      */
     public void setWorkouts(List<Workout> workouts){
         this.workouts = workouts;
@@ -266,12 +267,10 @@ public class User {
 //    }
 
     private void setDefaultRole() {
-        role.setId(2);
-        role.addUser(this);
+//        GenericDao roleDao = new GenericDao(Role.class);
+//        Role role = (Role) roleDao.getById(2);
+//        role.addUser(this);
     }
-
-
-
 
     @Override
     public String toString() {
