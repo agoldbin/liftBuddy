@@ -32,7 +32,7 @@ class UserDaoTest {
         genericDao = new GenericDao(User.class);
 
         Database database = Database.getInstance();
-        database.runSQL("userAndGymTestsNoLbs.sql");
+        database.runSQL("indieSql.sql");
     }
 
     /**

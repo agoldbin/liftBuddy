@@ -2,7 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 <%-- TODO work on making modal functional for user login --%>
-<div id="loginModal" class="modal grey lighten-2 black-text">
+<div id="loginModal" class="modal light-green darken-4">
 
     <div class="modal-content">
         <h4>Log In</h4>
@@ -20,7 +20,7 @@
             <a href="#">Forgot username or password?</a>
         </div>
         <div class="right-align">
-            <button id="userLogin" class="btn waves-effect waves-light" type="submit">Login
+            <button id="userLogin" class="btn waves-effect waves-light" value="Log In" type="submit">Login
                 <i class="material-icons right">send</i>
             </button>
         </div>

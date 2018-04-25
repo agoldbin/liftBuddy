@@ -90,11 +90,5 @@
     <%@include file="../templates/footer.jsp"%>
 </footer>
 
-<script>
-    // // Initialize SIDENAV bar for headers
-    // $(document).ready(function(){
-    //     $('.sidenav').sidenav();
-    // });
-</script>
 </body>
 </html>

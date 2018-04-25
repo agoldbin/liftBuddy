@@ -49,7 +49,7 @@ public class User {
     private List<Workout> workouts = new ArrayList<>();
 
     // TODO properly connect role and user tables
-    @Transient
+//    @Transient
     @ManyToOne
     private Role role;
 //    @ManyToOne
@@ -71,7 +71,7 @@ public class User {
      * Instantiates a new User.
      */
     public User() {
-        role.setRole(2);
+        setDefaultRole();
     }
 
     /**
@@ -94,8 +94,7 @@ public class User {
         this.lastName = lastName;
         this.gym = gym;
         this.location = location;
-
-        role.setRole(2);
+        setDefaultRole();
     }
 
 
@@ -125,8 +124,7 @@ public class User {
         this.dob = dob;
         this.height = height;
         this.sex = sex;
-
-        role.setRole(2);
+        setDefaultRole();
     }
 
     /**
@@ -157,9 +155,9 @@ public class User {
         this.height = height;
         addWeight(weight);
         this.sex = sex;
-
-        role.setRole(2);
+        setDefaultRole();
     }
+
 
     /**
      * Getter for gym name
@@ -208,6 +206,7 @@ public class User {
         weight.setUser(null);
     }
 
+    // TODO currently not being used
     /**
      * Gets users workouts
      *
@@ -257,6 +256,22 @@ public class User {
 
         return period.getYears();
     }
+
+//    private void createContributorPrivilege() {
+//        PrivilegeEntity privilegeEntity = new PrivilegeEntity(2, "Contributor");
+//
+//        UserPrivilegeEntity userPrivilege = new UserPrivilegeEntity(userName, this, privilegeEntity);
+//
+//        userPrivileges.add(userPrivilege);
+//    }
+
+    private void setDefaultRole() {
+        Role role = new Role(2, "buddy");
+        role.addUser(this);
+    }
+
+
+
 
     @Override
     public String toString() {
