@@ -15,7 +15,7 @@
         var PageName = getPageNameFromURL();
         switch (PageName) {
             case 'index.jsp':
-                $('.brand-logo').addClass("green-text text-darken-4 active");
+                $('.brand-logo').addClass("orange-text text-darken-3 active");
                 break;
             case 'search.jsp':
                 $('#search').addClass("active");
@@ -42,14 +42,15 @@
     });
 </script>
 <nav>
-    <div class="nav-wrapper">
+    <div class="nav-wrapper blue darken-2">
         <div id="nav-large" class="hide-on-med-and-down">
             <img src="images/logo2.png" class="center-align" height="60px">
-            <a id="home" href="../index.jsp" class="brand-logo left">Lift Buddy</a>
+            <a id="home" href="../index.jsp" class="brand-logo left orange-text">Lift Buddy</a>
             <ul class="right">
                 <%-- TODO add functionality so login changes to logout depending on session status --%>
                 <li id="search"><a href="../search.jsp">Search</a></li>
-                <li id="loginLink"><a class="modal-trigger" href="#loginModal" data-target="modal">Login</a></li>
+                <%--<li id="loginLink"><a class="modal-trigger" href="#loginModal" data-target="modal">Login</a></li>--%>
+                <li id="loginLink"><a class="" href="user.jsp" data-target="modal">Login</a></li>
                 <li id="signUp"><a href="../newUser.jsp">Sign Up</a></li>
             </ul>
         </div>

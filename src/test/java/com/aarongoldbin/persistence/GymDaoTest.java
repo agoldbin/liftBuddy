@@ -32,7 +32,7 @@ class GymDaoTest {
         genericDao = new GenericDao(Gym.class);
 
         Database database = Database.getInstance();
-        database.runSQL("userAndGymTestsNoLbs.sql");
+        database.runSQL("indieSql.sql");
     }
 
     /**
@@ -63,7 +63,7 @@ class GymDaoTest {
      */
     @Test
     void deleteSuccess() {
-        logger.info("Deleting Gym test, gym to be deleted: "
+        logger.info("Deleting Gym test: gym to be deleted: "
                 + genericDao.getById(3));
         genericDao.delete(genericDao.getById(3));
         assertNull(genericDao.getById(3));

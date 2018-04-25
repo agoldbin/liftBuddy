@@ -2,6 +2,14 @@
 #weight {
     display: none;
 }
+
+#home:hover {
+    text-shadow: #76ff03;
+}
+
+a {
+    font-style: italic;
+}
 /*@media (max-width: 450px) {*/
     /*.sidenav {*/
         /*display: inline-block;*/

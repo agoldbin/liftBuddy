@@ -6,7 +6,7 @@
     <title>Title</title>
 </head>
 <body>
-<div class="page-footer">
+<div class="page-footer light-green accent-4">
     <div class="container">
         <div class="row">
             <div class="col l6 s12">
