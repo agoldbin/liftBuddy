@@ -266,7 +266,7 @@ public class User {
 //    }
 
     private void setDefaultRole() {
-        Role role = new Role(2, "buddy");
+        role.setId(2);
         role.addUser(this);
     }
 
@@ -287,6 +287,7 @@ public class User {
                 ", height=" + height +
                 ", sex='" + sex + '\'' +
                 ", dob=" + dob +
+                ", role=" + role +
                 '}';
     }
 
