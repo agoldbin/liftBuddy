@@ -878,3 +878,20 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [ERROR] 2018-04-25 05:41:46.816 [main] Database - java.sql.SQLException: Can not issue empty query.
 [ERROR] 2018-04-25 05:41:47.097 [main] Database - java.sql.SQLException: Can not issue empty query.
 [ERROR] 2018-04-25 05:41:47.269 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 11:00:03.981 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 11:00:06.762 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 11:00:07.122 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-04-25 11:00:07.122 [main] GenericDao - GetAll for class com.aarongoldbin.entity.User
+[ERROR] 2018-04-25 11:00:07.419 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 11:00:07.825 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 11:00:08.200 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 11:00:08.528 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 11:00:08.887 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 11:00:21.471 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 11:00:29.743 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 11:00:55.789 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 11:06:59.437 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 11:08:56.516 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 11:09:24.068 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 11:09:59.657 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Data source rejected establishment of connection,  message from server: "Too many connections"
+[INFO ] 2018-04-25 11:10:06.954 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
