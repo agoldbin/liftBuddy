@@ -895,3 +895,7 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [ERROR] 2018-04-25 11:09:24.068 [main] Database - java.sql.SQLException: Can not issue empty query.
 [ERROR] 2018-04-25 11:09:59.657 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Data source rejected establishment of connection,  message from server: "Too many connections"
 [INFO ] 2018-04-25 11:10:06.954 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[ERROR] 2018-04-25 11:19:36.422 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-04-25 11:19:40.390 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[ERROR] 2018-04-25 11:24:03.775 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-04-25 11:24:07.306 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3

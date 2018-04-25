@@ -47,17 +47,17 @@
       <url-pattern>/gymNew.jsp</url-pattern>
     </web-resource-collection>
     <auth-constraint>
-      <role-name>1</role-name>
-      <role-name>2</role-name>
+      <role-name>admin</role-name>
+      <role-name>buddy</role-name>
     </auth-constraint>
   </security-constraint>
 
   <security-role>
-    <role-name>2</role-name>
+    <role-name>buddy</role-name>
   </security-role>
 
   <security-role>
-    <role-name>1</role-name>
+    <role-name>admin</role-name>
   </security-role>
 
 </web-app>
