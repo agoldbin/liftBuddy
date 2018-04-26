@@ -21,7 +21,7 @@ import java.util.List;
  */
 
 @WebServlet(
-        urlPatterns = {"/SearchForm"}
+        urlPatterns = {"/searchForm"}
 )
 
 public class SearchForm extends HttpServlet {

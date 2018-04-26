@@ -49,8 +49,8 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.LAZY)
     private List<Workout> workouts = new ArrayList<>();
 
+    //    @Transient
     // TODO properly connect role and user tables
-//    @Transient
     @ManyToOne
     private Role role;
 //    @ManyToOne
