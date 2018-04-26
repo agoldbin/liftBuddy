@@ -1,6 +1,7 @@
 package com.aarongoldbin.persistence;
 
 import com.aarongoldbin.entity.Gym;
+import com.aarongoldbin.entity.Role;
 import com.aarongoldbin.entity.User;
 import com.aarongoldbin.entity.Weight;
 import com.aarongoldbin.test.util.Database;
@@ -57,14 +58,14 @@ class UserDaoTest {
         Weight weight = new Weight(240);
         User newUser = new User("teddymo@gmail.com","superdupersecret7","TMoney","Ted","Mosby", gym,"53219", LocalDate.parse("1978-04-25"),"5'10", weight, "M");
         gym.addUser(newUser);
+//        Role role = new Role();
+//        role.addUser(newUser);
         int id = genericDao.insert(newUser);
         assertNotEquals(0,id);
         User insertedUser = (User) genericDao.getById(id);
         assertEquals("TMoney", insertedUser.getUserName());
         assertEquals("teddymo@gmail.com", insertedUser.getUserEmail());
         assertEquals("53219", insertedUser.getLocation());
-
-        // TODO review .equals recommendations http://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#mapping-model-pojo-equalshashcode
     }
 
     /**
@@ -106,7 +107,6 @@ class UserDaoTest {
         List<User> users = genericDao.getByPropertyLike("lastName", "Curry");
         assertEquals(1, users.size());
         assertEquals(3, users.get(0).getId());
-
     }
 
     /**
