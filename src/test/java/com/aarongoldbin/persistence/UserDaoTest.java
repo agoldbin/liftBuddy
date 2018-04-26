@@ -126,4 +126,28 @@ class UserDaoTest {
         assertEquals(3, users.size());
         assertEquals(6, users.get(2).getId());
     }
+
+    /**
+     * Verify successful insert of a user with a role
+     */
+    @Test
+    void insertWithRoleSuccess() {
+        String userName = "fflintstone";
+        GenericDao gymDao = new GenericDao(Gym.class);
+        Gym gym = (Gym) gymDao.getById(4);
+        User newUser = new User("yabadaba@yahoo.com", "supersecret7", "fflintstone", "Fred", "Flinstone", gym, "53717");
+
+        String roleName = "admin";
+        Role role = new Role(newUser, roleName);
+
+        newUser.addRole(role);
+
+        int id = genericDao.insert(newUser);
+
+        assertNotEquals(0,id);
+        User insertedUser = (User)genericDao.getById(id);
+        assertEquals(newUser.getUserName(), insertedUser.getUserName());
+//        assertEquals(.getRoles(), insertedUser.getRoles());
+        assertEquals(1, insertedUser.getRoles().size());
+    }
 }

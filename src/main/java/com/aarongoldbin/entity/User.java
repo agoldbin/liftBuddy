@@ -1,8 +1,12 @@
 package com.aarongoldbin.entity;
 
 import com.aarongoldbin.persistence.GenericDao;
+import com.aarongoldbin.entity.Role;
+
 import lombok.Getter;
 import lombok.Setter;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
@@ -23,6 +27,9 @@ import java.util.Set;
 @Getter
 @Setter
 public class User {
+    @Transient
+    private final Logger logger = LogManager.getLogger(this.getClass());
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
@@ -94,7 +101,7 @@ public class User {
         this.lastName = lastName;
         this.gym = gym;
         this.location = location;
-        addRole(new Role("buddy"));
+        defaultRole(userName);
     }
 
 
@@ -124,7 +131,7 @@ public class User {
         this.dob = dob;
         this.height = height;
         this.sex = sex;
-        addRole(new Role("buddy"));
+        defaultRole(userName);
     }
 
     /**
@@ -155,7 +162,7 @@ public class User {
         this.height = height;
         addWeight(weight);
         this.sex = sex;
-        addRole(new Role("buddy"));
+        defaultRole(userName);
     }
 
 
@@ -268,6 +275,19 @@ public class User {
     public void removeRole(Role role) {
         roles.remove(role);
         role.setUser(null);
+    }
+
+    public void defaultRole(String uName) {
+//        Role userRole;
+//        GenericDao roleDao = new GenericDao(Role.class);
+//        List<User> users = roleDao.getByPropertyEqual(userName, uName);
+//        if (users.isEmpty()) {
+//            Role role = new Role(this, "buddy");
+//            roles.add(role);
+//            logger.info(uName + "role added as 'buddy'");
+//        } else {
+//            logger.info(uName + " already has role");
+//        }
     }
 
     @Override

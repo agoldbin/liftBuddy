@@ -1552,3 +1552,66 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [INFO ] 2018-04-26 13:59:36.193 [main] GenericDao - Entity save/update success: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@4aedaf61, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11, role=[]}
 [INFO ] 2018-04-26 13:59:36.209 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
 [INFO ] 2018-04-26 13:59:36.209 [main] GenericDao - Found: User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@47fbc56, location='53704', password='supersecret3', firstName='Barney', lastName='Davis', height=6'2, sex='M', dob=1947-11-11, role=[]}
+[INFO ] 2018-04-26 15:20:32.792 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 4
+[INFO ] 2018-04-26 15:20:32.886 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@105b693d
+[INFO ] 2018-04-26 15:20:32.886 [main] GenericDao - Inserting entity: User{id=0, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@105b693d, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@58d63b16, com.aarongoldbin.entity.Role@7c4fc2bf]}
+[INFO ] 2018-04-26 15:20:32.933 [main] GenericDao - Insert success! ID = 239
+[INFO ] 2018-04-26 15:20:32.933 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 239
+[INFO ] 2018-04-26 15:20:32.949 [main] GenericDao - Found: User{id=239, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@345cf395, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@3c6aa04a, com.aarongoldbin.entity.Role@bc4d5e1]}
+[INFO ] 2018-04-26 15:21:28.079 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 4
+[INFO ] 2018-04-26 15:21:28.173 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@105b693d
+[INFO ] 2018-04-26 15:21:28.173 [main] GenericDao - Inserting entity: User{id=0, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@105b693d, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@58d63b16, com.aarongoldbin.entity.Role@7c4fc2bf]}
+[INFO ] 2018-04-26 15:21:28.220 [main] GenericDao - Insert success! ID = 240
+[INFO ] 2018-04-26 15:21:28.235 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 240
+[INFO ] 2018-04-26 15:21:28.251 [main] GenericDao - Found: User{id=240, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@345cf395, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@3c6aa04a, com.aarongoldbin.entity.Role@bc4d5e1]}
+[INFO ] 2018-04-26 15:22:00.250 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 4
+[INFO ] 2018-04-26 15:22:00.328 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@105b693d
+[INFO ] 2018-04-26 15:22:00.328 [main] GenericDao - Inserting entity: User{id=0, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@105b693d, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@58d63b16, com.aarongoldbin.entity.Role@7c4fc2bf]}
+[INFO ] 2018-04-26 15:22:00.375 [main] GenericDao - Insert success! ID = 241
+[INFO ] 2018-04-26 15:22:00.375 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 241
+[INFO ] 2018-04-26 15:22:00.391 [main] GenericDao - Found: User{id=241, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@345cf395, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@3c6aa04a, com.aarongoldbin.entity.Role@bc4d5e1]}
+[INFO ] 2018-04-26 15:22:31.917 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 4
+[INFO ] 2018-04-26 15:22:32.010 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@105b693d
+[INFO ] 2018-04-26 15:22:32.010 [main] GenericDao - Inserting entity: User{id=0, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@105b693d, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@58d63b16, com.aarongoldbin.entity.Role@7c4fc2bf]}
+[INFO ] 2018-04-26 15:22:32.057 [main] GenericDao - Insert success! ID = 242
+[INFO ] 2018-04-26 15:22:32.057 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 242
+[INFO ] 2018-04-26 15:22:32.073 [main] GenericDao - Found: User{id=242, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@345cf395, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@3c6aa04a, com.aarongoldbin.entity.Role@bc4d5e1]}
+[INFO ] 2018-04-26 15:25:38.910 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 4
+[INFO ] 2018-04-26 15:25:39.050 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@105b693d
+[INFO ] 2018-04-26 15:25:39.050 [main] GenericDao - Inserting entity: User{id=0, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@105b693d, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@58d63b16]}
+[INFO ] 2018-04-26 15:25:39.097 [main] GenericDao - Insert success! ID = 243
+[INFO ] 2018-04-26 15:25:39.097 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 243
+[INFO ] 2018-04-26 15:25:39.113 [main] GenericDao - Found: User{id=243, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@14bf57b2, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@46d9aec8]}
+[INFO ] 2018-04-26 15:27:21.699 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 4
+[INFO ] 2018-04-26 15:27:21.778 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@105b693d
+[INFO ] 2018-04-26 15:27:21.778 [main] GenericDao - Inserting entity: User{id=0, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@105b693d, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@58d63b16, com.aarongoldbin.entity.Role@7c4fc2bf]}
+[INFO ] 2018-04-26 15:27:21.824 [main] GenericDao - Insert success! ID = 244
+[INFO ] 2018-04-26 15:27:21.824 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 244
+[INFO ] 2018-04-26 15:27:21.856 [main] GenericDao - Found: User{id=244, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@345cf395, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@3c6aa04a, com.aarongoldbin.entity.Role@bc4d5e1]}
+[INFO ] 2018-04-26 15:39:14.955 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 4
+[INFO ] 2018-04-26 15:39:15.034 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@105b693d
+[DEBUG] 2018-04-26 15:39:15.034 [main] GenericDao - Searching class com.aarongoldbin.entity.Role for property fflintstone = fflintstone
+[INFO ] 2018-04-26 15:42:29.059 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 4
+[INFO ] 2018-04-26 15:42:29.262 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@577536e0
+[DEBUG] 2018-04-26 15:43:36.513 [main] GenericDao - Searching class com.aarongoldbin.entity.Role for property fflintstone = fflintstone
+[INFO ] 2018-04-26 15:44:23.211 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 4
+[INFO ] 2018-04-26 15:44:23.305 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@4a0df195
+[DEBUG] 2018-04-26 15:44:23.305 [main] GenericDao - Searching class com.aarongoldbin.entity.Role for property fflintstone = fflintstone
+[INFO ] 2018-04-26 15:44:51.168 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 4
+[INFO ] 2018-04-26 15:44:51.230 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@4a0df195
+[DEBUG] 2018-04-26 15:44:51.246 [main] GenericDao - Searching class com.aarongoldbin.entity.Role for property fflintstone = fflintstone
+[INFO ] 2018-04-26 15:48:49.175 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 4
+[INFO ] 2018-04-26 15:48:49.269 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@105b693d
+[INFO ] 2018-04-26 15:48:49.269 [main] GenericDao - Inserting entity: User{id=0, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@105b693d, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@7c4fc2bf]}
+[INFO ] 2018-04-26 15:48:49.316 [main] GenericDao - Insert success! ID = 245
+[INFO ] 2018-04-26 15:48:49.332 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 245
+[INFO ] 2018-04-26 15:48:49.347 [main] GenericDao - Found: User{id=245, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@46d9aec8, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@14379273]}
+[INFO ] 2018-04-26 16:01:04.131 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 4
+[INFO ] 2018-04-26 16:01:04.225 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@58a120b0
+[DEBUG] 2018-04-26 16:01:04.225 [main] GenericDao - Searching class com.aarongoldbin.entity.Role for property fflintstone = fflintstone
+[INFO ] 2018-04-26 16:01:56.412 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 4
+[INFO ] 2018-04-26 16:01:56.490 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@4a0df195
+[INFO ] 2018-04-26 16:01:56.490 [main] GenericDao - Inserting entity: User{id=0, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@4a0df195, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@2f61f937]}
+[INFO ] 2018-04-26 16:01:56.552 [main] GenericDao - Insert success! ID = 246
+[INFO ] 2018-04-26 16:01:56.552 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 246
+[INFO ] 2018-04-26 16:01:56.568 [main] GenericDao - Found: User{id=246, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@7918c7f8, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@17740dae]}
