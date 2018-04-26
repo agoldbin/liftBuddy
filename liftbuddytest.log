@@ -928,3 +928,9 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [INFO ] 2018-04-26 11:15:14.873 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 6
 [ERROR] 2018-04-26 11:16:21.220 [main] Database - java.sql.SQLException: Can not issue empty query.
 [INFO ] 2018-04-26 11:16:23.907 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 6
+[ERROR] 2018-04-26 11:17:58.556 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-04-26 11:18:01.494 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 6
+[ERROR] 2018-04-26 11:19:00.179 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-04-26 11:19:03.272 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 6
+[ERROR] 2018-04-26 11:20:39.063 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-04-26 11:20:42.188 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 6
