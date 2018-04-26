@@ -20,14 +20,17 @@ public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
-    @Column(name = "role_id")
     private int id;
 
     @Column(name = "role_name")
     private String roleName;
 
-    @OneToMany(mappedBy = "role", cascade = CascadeType.ALL, orphanRemoval = false, fetch = FetchType.EAGER)
-    private Set<User> users = new HashSet<>();
+    @ManyToOne
+    private User user;
+
+    @Column(name = "user_name")
+    private String userName;
+
 
     /**
      * Instantiates a new Role.
@@ -49,9 +52,14 @@ public class Role {
      *
      * @param roleName the role name
      */
-    public Role(int id, String roleName) {
-        this.id = id;
+    public Role(String roleName, User user) {
         this.roleName = roleName;
+        this.user = user;
+        this.userName = user.getUserName();
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 
     /**
@@ -95,37 +103,8 @@ public class Role {
      *
      * @returns the users
      */
-    public Set<User> getUsers(){
-        return users;
-    }
-
-    /**
-     * Sets users
-     *
-     * @param users the users
-     */
-    public void setUsers(Set<User> users){
-        this.users = users;
-    }
-
-    /**
-     * Add user.
-     *
-     * @param user the user
-     */
-    public void addUser(User user) {
-        users.add(user);
-        user.setRole(this);
-    }
-
-    /**
-     * Remove user.
-     *
-     * @param user the user
-     */
-    public void removeUser(User user) {
-        users.remove(user);
-        user.setRole(null);
+    public User getUser(){
+        return user;
     }
 }
 

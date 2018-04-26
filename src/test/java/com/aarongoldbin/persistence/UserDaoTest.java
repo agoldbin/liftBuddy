@@ -33,7 +33,7 @@ class UserDaoTest {
         genericDao = new GenericDao(User.class);
 
         Database database = Database.getInstance();
-        database.runSQL("Dump20180425-1.sql");
+        database.runSQL("cleanDB.sql");
     }
 
     /**
@@ -56,13 +56,9 @@ class UserDaoTest {
         GenericDao gymDao = new GenericDao(Gym.class);
         Gym gym = (Gym) gymDao.getById(6);
         GenericDao roleDao = new GenericDao(Role.class);
-        Role role = (Role) roleDao.getById(2);
-        Weight weight = new Weight(240);
-        User newUser = new User("teddymo@gmail.com","superdupersecret7","TMoney","Ted","Mosby", gym,"53219", LocalDate.parse("1978-04-25"),"5'10", weight, "M");
+//        Role role = (Role) roleDao.getById(2);
+        User newUser = new User("teddymo@gmail.com","superdupersecret7","TMoney","Ted","Mosby", gym,"53219", LocalDate.parse("1978-04-25"),"5'10", "M");
         gym.addUser(newUser);
-        role.addUser(newUser);
-//        Role role = new Role();
-//        role.addUser(newUser);
         int id = genericDao.insert(newUser);
         assertNotEquals(0,id);
         User insertedUser = (User) genericDao.getById(id);

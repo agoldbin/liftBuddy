@@ -1,6 +1,6 @@
--- MySQL dump 10.13  Distrib 5.7.17, for Win64 (x86_64)
+-- MySQL dump 10.13  Distrib 5.7.21, for Win64 (x86_64)
 --
--- Host: localhost    Database: liftbuddytest
+-- Host: 127.0.0.1    Database: liftbuddytest
 -- ------------------------------------------------------
 -- Server version	5.7.21-log
 
@@ -100,9 +100,13 @@ DROP TABLE IF EXISTS `role`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `role` (
-  `role_id` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
   `role_name` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`role_id`)
+  `user_name` varchar(255) DEFAULT NULL,
+  `user_id` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `role_user_id_fk` (`user_id`),
+  CONSTRAINT `role_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -112,6 +116,7 @@ CREATE TABLE `role` (
 
 LOCK TABLES `role` WRITE;
 /*!40000 ALTER TABLE `role` DISABLE KEYS */;
+INSERT INTO `role` VALUES (1,'admin',NULL,NULL),(2,'buddy',NULL,NULL);
 /*!40000 ALTER TABLE `role` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -134,14 +139,11 @@ CREATE TABLE `user` (
   `dob` date DEFAULT NULL,
   `height` varchar(255) DEFAULT NULL,
   `sex` varchar(1) DEFAULT NULL,
-  `role_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `user_user_name_uindex` (`user_name`),
   KEY `user_gym_id_fk` (`gym_id`),
-  KEY `user_role_role_id_fk` (`role_id`),
-  CONSTRAINT `user_gym_id_fk` FOREIGN KEY (`gym_id`) REFERENCES `gym` (`id`),
-  CONSTRAINT `user_role_role_id_fk` FOREIGN KEY (`role_id`) REFERENCES `role` (`role_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=208 DEFAULT CHARSET=utf8;
+  CONSTRAINT `user_gym_id_fk` FOREIGN KEY (`gym_id`) REFERENCES `gym` (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=215 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -150,7 +152,7 @@ CREATE TABLE `user` (
 
 LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user` DISABLE KEYS */;
-INSERT INTO `user` VALUES (1,'jc123@gmail.com','supersecret1','jcoyne','Joe','Coyne',1,53713,'1964-04-01','5\'2','M',NULL),(2,'nightmareonelm@hotmail.com','supersecret2','fhensen','Fred','Hensen',1,53706,'1988-05-08','5\'4','M',NULL),(3,'curryman@yahoo.com','supersecret3','bcurry','Barney','Curry',4,53704,'1947-11-11','6\'2','M',NULL),(4,'mackattack@aol.com','supersecret4','kmack','Karen','Mack',3,53594,'1986-07-08','6\'0','F',NULL),(5,'calvinklein@gmail.com','supersecret5','dklein','Dianne','Klein',2,53717,'1991-09-22','5\'8','F',NULL),(6,'uptildawn@yahoo.com','supersecret6','dtillman','Dawn','Tillman',5,53714,'1979-08-03','6\'4','F',NULL),(7,'goldbina16@gmail.com','supersecret','agoldbin','Aaron','Goldbin',1,53713,'1991-01-16','6\'2','M',NULL);
+INSERT INTO `user` VALUES (1,'jc123@gmail.com','supersecret1','jcoyne','Joe','Coyne',1,53713,'1964-04-01','5\'2','M'),(2,'nightmareonelm@hotmail.com','supersecret2','fhensen','Fred','Hensen',1,53706,'1988-05-08','5\'4','M'),(4,'mackattack@aol.com','supersecret4','kmack','Karen','Mack',3,53594,'1986-07-08','6\'0','F'),(5,'calvinklein@gmail.com','supersecret5','dklein','Dianne','Klein',2,53717,'1991-09-22','5\'8','F'),(6,'uptildawn@yahoo.com','supersecret6','dtillman','Dawn','Tillman',5,53714,'1979-08-03','6\'4','F'),(7,'goldbina16@gmail.com','supersecret','agoldbin','Aaron','Goldbin',1,53713,'1991-01-16','6\'2','M'),(208,'teddymo@gmail.com','superdupersecret7','TMoney','Ted','Mosby',6,53219,'1978-04-25','5\'10','M');
 /*!40000 ALTER TABLE `user` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -168,7 +170,7 @@ CREATE TABLE `weight` (
   PRIMARY KEY (`weight_id`),
   KEY `weight_user_id_fk` (`user_id`),
   CONSTRAINT `weight_user_id_fk` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=21728 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=21729 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -177,7 +179,6 @@ CREATE TABLE `weight` (
 
 LOCK TABLES `weight` WRITE;
 /*!40000 ALTER TABLE `weight` DISABLE KEYS */;
-INSERT INTO `weight` VALUES (1,140,1),(2,130,1),(3,225,6),(4,130,2),(5,125,3),(6,135,4),(7,145,5),(8,155,1),(9,170,1);
 /*!40000 ALTER TABLE `weight` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -216,4 +217,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-25  4:43:33
+-- Dump completed on 2018-04-26 12:55:44

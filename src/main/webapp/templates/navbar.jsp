@@ -50,21 +50,20 @@
                 <%-- TODO add functionality so login changes to logout depending on session status --%>
                 <li id="search"><a href="../search.jsp">Search</a></li>
                 <%--<li id="loginLink"><a class="modal-trigger" href="#loginModal" data-target="modal">Login</a></li>--%>
-                <li id="loginLink"><a class="" href="user.jsp" data-target="modal">Login</a></li>
-                <li id="signUp"><a href="../newUser.jsp">Sign Up</a></li>
+                <li id="loginLink"><a class="" href="user.jsp">Login</a></li>
+                <li id="signUp"><a href="../userNew.jsp">Sign Up</a></li>
             </ul>
         </div>
 
         <div id="nav-mobile" class="hide-on-large-only">
 
-            <%--TODO create dem servlets--%>
-            <%--TODO make sidenave close on first click, redundant code?--%>
             <ul id="nav-m" class="side-nav">
                 <li><a href="#search"><i class="material-icons">search</i>Search</a></li>
                 <%--<c:if test="${empty user}">--%>
-                <li><a class="modal-trigger" href="#loginModal">Login</a><li>
-                <li><a href="#newUser">Sign Up</a></li>
-                <%--</c:if>--%>
+                <li><a class="" href="user.jsp">Login</a></li>
+                <li><a href="../userNew.jsp">Sign Up</a></li>
+                <li><a href="../search.jsp">Search</a></li>
+            <%--</c:if>--%>
                 <%--<c:if test="${not empty user}">--%>
                 <%--<li class="divider"></li>--%>
                 <%--<li><a href="user.jsp#favorites">${user.userName}'s favorites</a></li>--%>
@@ -82,6 +81,5 @@
             </div>
 
         </div>
-    <%@include file="loginModal.jsp" %>
     </div>
 </nav>
