@@ -72,7 +72,7 @@ public class User {
      * Instantiates a new User.
      */
     public User() {
-        setDefaultRole();
+//        setDefaultRole();
     }
 
     /**
@@ -95,6 +95,7 @@ public class User {
         this.lastName = lastName;
         this.gym = gym;
         this.location = location;
+//        setRole(setDefaultRole());
         setDefaultRole();
     }
 
@@ -125,6 +126,7 @@ public class User {
         this.dob = dob;
         this.height = height;
         this.sex = sex;
+//        setRole(setDefaultRole());
         setDefaultRole();
     }
 
@@ -156,6 +158,7 @@ public class User {
         this.height = height;
         addWeight(weight);
         this.sex = sex;
+//        setRole(setDefaultRole());
         setDefaultRole();
     }
 
@@ -258,18 +261,15 @@ public class User {
         return period.getYears();
     }
 
-//    private void createContributorPrivilege() {
-//        PrivilegeEntity privilegeEntity = new PrivilegeEntity(2, "Contributor");
-//
-//        UserPrivilegeEntity userPrivilege = new UserPrivilegeEntity(userName, this, privilegeEntity);
-//
-//        userPrivileges.add(userPrivilege);
-//    }
-
+    /**
+     * Sets user role to buddy
+     */
     private void setDefaultRole() {
+//        role.setId(2);
 //        GenericDao roleDao = new GenericDao(Role.class);
-//        Role role = (Role) roleDao.getById(2);
+//        role = (Role) roleDao.getById(2);
 //        role.addUser(this);
+//        this.role = role;
     }
 
     @Override

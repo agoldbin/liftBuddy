@@ -899,3 +899,32 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [INFO ] 2018-04-25 11:19:40.390 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
 [ERROR] 2018-04-25 11:24:03.775 [main] Database - java.sql.SQLException: Can not issue empty query.
 [INFO ] 2018-04-25 11:24:07.306 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[ERROR] 2018-04-25 15:52:58.600 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 16:00:18.374 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 16:00:47.340 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Data source rejected establishment of connection,  message from server: "Too many connections"
+[ERROR] 2018-04-25 16:01:56.514 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 16:04:43.068 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 16:05:01.323 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: Data source rejected establishment of connection,  message from server: "Too many connections"
+[ERROR] 2018-04-25 16:06:21.656 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 16:08:23.057 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-04-25 16:08:26.026 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[ERROR] 2018-04-25 16:13:58.099 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-04-25 16:14:02.346 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[ERROR] 2018-04-25 16:20:36.557 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 16:21:25.328 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-25 16:22:48.431 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-04-25 16:22:53.134 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[ERROR] 2018-04-25 16:36:13.578 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-26 11:01:37.961 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-26 11:04:05.935 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-04-26 11:04:09.919 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[ERROR] 2018-04-26 11:06:42.454 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-26 11:08:29.088 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-04-26 11:09:49.771 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-04-26 11:09:52.271 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 3
+[ERROR] 2018-04-26 11:14:45.493 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-04-26 11:14:48.665 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 6
+[ERROR] 2018-04-26 11:15:11.576 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-04-26 11:15:14.873 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 6
+[ERROR] 2018-04-26 11:16:21.220 [main] Database - java.sql.SQLException: Can not issue empty query.
+[INFO ] 2018-04-26 11:16:23.907 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 6
