@@ -265,10 +265,10 @@ public class User {
      * Sets user role to buddy
      */
     private void setDefaultRole() {
-//        role.setId(2);
+        role.setId(2);
 //        GenericDao roleDao = new GenericDao(Role.class);
 //        role = (Role) roleDao.getById(2);
-//        role.addUser(this);
+        role.addUser(this);
 //        this.role = role;
     }
 

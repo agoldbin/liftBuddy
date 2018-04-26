@@ -13,13 +13,14 @@ import java.util.*;
  * @author agoldbin
  */
 @Entity(name = "Role")
-@Table(name = "role") // case senstitive
+@Table(name = "role")
 @Getter
 @Setter
 public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
+    @Column(name = "role_id")
     private int id;
 
     @Column(name = "role_name")
