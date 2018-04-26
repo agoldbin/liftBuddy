@@ -13,7 +13,7 @@ import java.util.*;
  * @author agoldbin
  */
 @Entity(name = "Role")
-@Table(name = "role") // case senstitive
+@Table(name = "role")
 @Getter
 @Setter
 public class Role {
@@ -21,7 +21,6 @@ public class Role {
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
     @GenericGenerator(name = "native", strategy = "native")
     @Column(name = "role_id")
-//    @JoinColumn(name = "role_id")
     private int id;
 
     @Column(name = "role_name")
