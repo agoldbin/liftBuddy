@@ -19,7 +19,7 @@ import java.util.Set;
  * @author agoldbin
  */
 @Entity(name = "User")
-@Table(name = "user") // case senstitive
+@Table(name = "user")
 @Getter
 @Setter
 public class User {
@@ -51,8 +51,8 @@ public class User {
 
     //    @Transient
     // TODO properly connect role and user tables
-    @ManyToOne
-    private Role role;
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Set<Role> roles = new HashSet<>();
 //    @ManyToOne
 //    private Set<Role> roles = new HashSet<>();
 
@@ -72,7 +72,6 @@ public class User {
      * Instantiates a new User.
      */
     public User() {
-//        setDefaultRole();
     }
 
     /**
@@ -95,8 +94,7 @@ public class User {
         this.lastName = lastName;
         this.gym = gym;
         this.location = location;
-//        setRole(setDefaultRole());
-        setDefaultRole();
+        addRole(new Role("buddy"));
     }
 
 
@@ -126,8 +124,7 @@ public class User {
         this.dob = dob;
         this.height = height;
         this.sex = sex;
-//        setRole(setDefaultRole());
-        setDefaultRole();
+        addRole(new Role("buddy"));
     }
 
     /**
@@ -158,8 +155,7 @@ public class User {
         this.height = height;
         addWeight(weight);
         this.sex = sex;
-//        setRole(setDefaultRole());
-        setDefaultRole();
+        addRole(new Role("buddy"));
     }
 
 
@@ -264,12 +260,14 @@ public class User {
     /**
      * Sets user role to buddy
      */
-    private void setDefaultRole() {
-        role.setId(2);
-//        GenericDao roleDao = new GenericDao(Role.class);
-//        role = (Role) roleDao.getById(2);
-        role.addUser(this);
-//        this.role = role;
+    public void addRole(Role role) {
+        roles.add(role);
+        role.setUser(this);
+    }
+
+    public void removeRole(Role role) {
+        roles.remove(role);
+        role.setUser(null);
     }
 
     @Override
@@ -286,7 +284,7 @@ public class User {
                 ", height=" + height +
                 ", sex='" + sex + '\'' +
                 ", dob=" + dob +
-                ", role=" + role +
+                ", role=" + roles +
                 '}';
     }
 

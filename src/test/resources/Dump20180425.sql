@@ -140,7 +140,7 @@ CREATE TABLE `user` (
   KEY `user_gym_id_fk` (`gym_id`),
   KEY `user_role_role_id_fk` (`role_id`),
   CONSTRAINT `user_gym_id_fk` FOREIGN KEY (`gym_id`) REFERENCES `gym` (`id`),
-  CONSTRAINT `user_role_role_id_fk` FOREIGN KEY (`role_id`) REFERENCES `role` (`role_id`)
+  CONSTRAINT `user_role_role_id_fk` FOREIGN KEY (`role_id`) REFERENCES `role` (id)
 ) ENGINE=InnoDB AUTO_INCREMENT=208 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
