@@ -2,8 +2,6 @@ package com.aarongoldbin.persistence;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-//import org.geonames.api.*;
-//import com.google.geocoder.*;
 import javax.ws.rs.client.*;
 import javax.ws.rs.core.MediaType;
 
@@ -24,13 +22,12 @@ public class PostalCodeTest {
         String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
 
         ObjectMapper mapper = new ObjectMapper();
-        Response zipResonse = mapper.readValue(response, Response.class);
-//        ResultsItem result = results.getResults().get(0);
+        Response zipResponse = mapper.readValue(response, Response.class);
 
         // test how many zips are returned
-        assertEquals(35, zipResonse.getPostalCodes().size());
-        // test first/closest zip returned
-        assertEquals("???", zipResonse.getPostalCodes().get(0));
+        assertEquals(38, zipResponse.getPostalCodes().size());
+        // test first/closest zip returned that isn't passed in zip
+        assertEquals("53774", zipResponse.getPostalCodes().get(1).getPostalCode());
     }
 }
 
