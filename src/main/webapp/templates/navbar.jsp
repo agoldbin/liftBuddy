@@ -55,15 +55,13 @@
                     <li id="signUp"><a href="../userNew.jsp">Sign Up</a></li>
                 </c:if>
                 <%-- check if user is admin --%>
-                <c:if test="${role.roleName = 'admin'}">
-                    <li>You're an Admin!</li>
-                </c:if>
+                <%--<c:if test="${role.roleName = 'admin'}">--%>
+                    <%--<li>You're an Admin!</li>--%>
+                <%--</c:if>--%>
                 <c:if test="${not empty user}">
-                    <li class="divider"></li>
-                    <li><a href="user.jsp#favorites">${user.userName}'s favorites</a></li>
-                    <li><a href="user.jsp#reviews">${user.userName}'s reviews</a></li>
-                    <li><a href="user.jsp#profile">${user.userName}'s profile</a></li>
-                    <li class="divider"></li>
+                    <%--<li><a href="user.jsp#favorites">${user.userName}'s favorites</a></li>--%>
+                    <%--<li><a href="user.jsp#reviews">${user.userName}'s reviews</a></li>--%>
+                    <%--<li><a href="user.jsp#profile">${user.userName}'s profile</a></li>--%>
                     <li><a href="logout">logout</a></li>
                 </c:if>
             </ul>
@@ -78,15 +76,13 @@
                     <li><a href="../search.jsp">Search</a></li>
                 </c:if>
                 <%-- check if user is admin --%>
-                <c:if test="${roleName = 'admin'}">
+                <%--<c:if test="${roleName = 'admin'}">--%>
 
-                </c:if>
+                <%--</c:if>--%>
                 <c:if test="${not empty user}">
-                    <li class="divider"></li>
-                    <li><a href="user.jsp#favorites">${user.userName}'s favorites</a></li>
-                    <li><a href="user.jsp#reviews">${user.userName}'s reviews</a></li>
-                    <li><a href="user.jsp#profile">${user.userName}'s profile</a></li>
-                    <li class="divider"></li>
+                    <%--<li><a href="user.jsp#favorites">${user.userName}'s favorites</a></li>--%>
+                    <%--<li><a href="user.jsp#reviews">${user.userName}'s reviews</a></li>--%>
+                    <%--<li><a href="user.jsp#profile">${user.userName}'s profile</a></li>--%>
                     <li><a href="logout">logout</a></li>
                 </c:if>
 
