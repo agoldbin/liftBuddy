@@ -35,10 +35,15 @@ public class Login extends HttpServlet {
         List<User> users = userDao.getByPropertyEqual("userName", req.getParameter("j_username"));
         User thisUser = users.get(0);
 
-        HttpSession session = req.getSession();
-        session.setAttribute("userName", thisUser.getUserName());
 
-//        session.setAttribute("role", thisUser.ge());
+//        HttpSession session = request.getSession();
+//        session.setAttribute("MySessionVariable", param);
+
+        HttpSession session = req.getSession();
+        session.setAttribute("user", thisUser);
+
+        session.setAttribute("role", thisUser.getRoles());
+        logger.info("Roles retrieved: " + thisUser.getRoles());
 
         resp.sendRedirect("user.jsp");
 

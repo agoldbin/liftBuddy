@@ -1,6 +1,7 @@
 package com.aarongoldbin.controller;
 
 import com.aarongoldbin.entity.Gym;
+import com.aarongoldbin.entity.Role;
 import com.aarongoldbin.entity.User;
 import com.aarongoldbin.persistence.GenericDao;
 
@@ -66,9 +67,15 @@ public class UserAdd extends HttpServlet {
         userDao.insert(newUser);
         tempGym.addUser(newUser);
 
-        logger.info("User created: " + newUser);
+        // default new user to role "buddy"
+        String roleName = "buddy";
+        Role role = new Role(newUser, roleName);
 
-        // TODO add user to session
+        newUser.addRole(role);
+
+        logger.info("User created: " + newUser);
+        logger.info("User user role set to: " + role.getRoleName());
+
         req.setAttribute("user", newUser);
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/user.jsp");

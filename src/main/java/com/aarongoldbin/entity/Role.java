@@ -41,8 +41,8 @@ public class Role {
     /**
      * Instantiates a new Role
      *
-     * @param user
-     * @param roleName
+     * @param user     the user
+     * @param roleName the role name
      */
     public Role(User user, String roleName) {
         this.user = user;
@@ -50,6 +50,11 @@ public class Role {
         this.userName = user.getUserName();
     }
 
+    /**
+     * Sets user.
+     *
+     * @param user the user
+     */
     public void setUser(User user) {
         this.user = user;
     }
@@ -93,9 +98,33 @@ public class Role {
     /**
      * Gets users
      *
+     * @return the user
      * @returns the users
      */
     public User getUser(){
         return user;
+    }
+
+    /**
+     * @param o
+     * @return
+     */
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Role role = (Role) o;
+        return id == role.id &&
+                Objects.equals(userName, role.userName) &&
+                Objects.equals(roleName, role.roleName);
+    }
+
+    /**
+     *
+     * @return
+     */
+    @Override
+    public int hashCode() {
+        return Objects.hash(id,  roleName, userName);
     }
 }
