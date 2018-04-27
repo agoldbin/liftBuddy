@@ -6,6 +6,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 //import com.google.geocoder.*;
 import javax.ws.rs.client.*;
 import javax.ws.rs.core.MediaType;
+
+import org.geonames.Response;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -22,10 +24,13 @@ public class PostalCodeTest {
         String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
 
         ObjectMapper mapper = new ObjectMapper();
-        Results results = mapper.readValue(response, Results.class);
-        ResultsItem result = results.getResults().get(0);
-//        assertEquals(Double.parseDouble("37.4224082"), result.getGeometry().getLocation().getLat(), 0);
-//        assertEquals(Double.parseDouble("-122.0856086"), result.getGeometry().getLocation().getLng(), 0);
+        Response zipResonse = mapper.readValue(response, Response.class);
+//        ResultsItem result = results.getResults().get(0);
+
+        // test how many zips are returned
+        assertEquals(35, zipResonse.getPostalCodes().size());
+        // test first/closest zip returned
+        assertEquals("???", zipResonse.getPostalCodes().get(0));
     }
 }
 
