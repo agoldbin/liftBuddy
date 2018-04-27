@@ -82,7 +82,7 @@ class UserDaoTest {
     @Test
     void getAllSuccess() {
         List<User> users = genericDao.getAll();
-        assertEquals(6, users.size());
+        assertEquals(7, users.size());
     }
 
     /**
@@ -123,7 +123,7 @@ class UserDaoTest {
     @Test
     void getUsersFromLocationSuccess() {
         List<User> users = genericDao.getByPropertyLike("location", "71");
-        assertEquals(3, users.size());
+        assertEquals(4, users.size());
         assertEquals(6, users.get(2).getId());
     }
 

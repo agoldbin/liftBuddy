@@ -48,30 +48,48 @@
             <a id="home" href="../index.jsp" class="brand-logo left orange-text">Lift Buddy</a>
             <ul class="right">
                 <%-- TODO add functionality so login changes to logout depending on session status --%>
-                <li id="search"><a href="../search.jsp">Search</a></li>
-                <%--<li id="loginLink"><a class="modal-trigger" href="#loginModal" data-target="modal">Login</a></li>--%>
-                <li id="loginLink"><a class="" href="user.jsp">Login</a></li>
-                <li id="signUp"><a href="../userNew.jsp">Sign Up</a></li>
+                <c:if test="${empty user}">
+                    <li id="search"><a href="../search.jsp">Search</a></li>
+                    <%--<li id="loginLink"><a class="modal-trigger" href="#loginModal" data-target="modal">Login</a></li>--%>
+                    <li id="loginLink"><a class="" href="user.jsp">Login</a></li>
+                    <li id="signUp"><a href="../userNew.jsp">Sign Up</a></li>
+                </c:if>
+                <%-- check if user is admin --%>
+                <c:if test="${role.roleName = 'admin'}">
+                    <li>You're an Admin!</li>
+                </c:if>
+                <c:if test="${not empty user}">
+                    <li class="divider"></li>
+                    <li><a href="user.jsp#favorites">${user.userName}'s favorites</a></li>
+                    <li><a href="user.jsp#reviews">${user.userName}'s reviews</a></li>
+                    <li><a href="user.jsp#profile">${user.userName}'s profile</a></li>
+                    <li class="divider"></li>
+                    <li><a href="logout">logout</a></li>
+                </c:if>
             </ul>
         </div>
 
         <div id="nav-mobile" class="hide-on-large-only">
-
             <ul id="nav-m" class="side-nav">
-                <li><a href="#search"><i class="material-icons">search</i>Search</a></li>
-                <%--<c:if test="${empty user}">--%>
-                <li><a class="" href="user.jsp">Login</a></li>
-                <li><a href="../userNew.jsp">Sign Up</a></li>
-                <li><a href="../search.jsp">Search</a></li>
-            <%--</c:if>--%>
-                <%--<c:if test="${not empty user}">--%>
-                <%--<li class="divider"></li>--%>
-                <%--<li><a href="user.jsp#favorites">${user.userName}'s favorites</a></li>--%>
-                <%--<li><a href="user.jsp#reviews">${user.userName}'s reviews</a></li>--%>
-                <%--<li><a href="user.jsp#profile">${user.userName}'s profile</a></li>--%>
-                <%--<li class="divider"></li>--%>
-                <%--<li><a href="logout">logout</a></li>--%>
-                <%--</c:if>--%>
+                <c:if test="${empty user}">
+                    <li><a href="../search.jsp"><i class="material-icons">search</i>Search</a></li>
+                    <li><a class="" href="user.jsp">Login</a></li>
+                    <li><a href="../userNew.jsp">Sign Up</a></li>
+                    <li><a href="../search.jsp">Search</a></li>
+                </c:if>
+                <%-- check if user is admin --%>
+                <c:if test="${roleName = 'admin'}">
+
+                </c:if>
+                <c:if test="${not empty user}">
+                    <li class="divider"></li>
+                    <li><a href="user.jsp#favorites">${user.userName}'s favorites</a></li>
+                    <li><a href="user.jsp#reviews">${user.userName}'s reviews</a></li>
+                    <li><a href="user.jsp#profile">${user.userName}'s profile</a></li>
+                    <li class="divider"></li>
+                    <li><a href="logout">logout</a></li>
+                </c:if>
+
             </ul>
             <a href="#" data-activates="nav-m" class="button-collapse iconLinks"><i class="material-icons gray">menu</i></a>
             <div class="hide-on-large-only valign-wrapper">

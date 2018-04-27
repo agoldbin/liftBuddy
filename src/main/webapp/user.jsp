@@ -5,8 +5,11 @@
 <%@include file="templates/head.jsp" %>
 <body>
 <%@include file="templates/navbar.jsp" %>
-    <h1>Welcome to liftbuddy!</h1>
-
+    <div class="center-align">
+        <img src="images/logo2.png" width="30%">
+        <br>
+        <h1>Welcome to LiftBuddy!</h1>
+    </div>
 <%@include file="templates/footer.jsp"%>
 </body>
 </html>

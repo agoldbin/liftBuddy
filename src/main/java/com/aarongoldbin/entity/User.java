@@ -101,7 +101,6 @@ public class User {
         this.lastName = lastName;
         this.gym = gym;
         this.location = location;
-        defaultRole(userName);
     }
 
 
@@ -131,7 +130,6 @@ public class User {
         this.dob = dob;
         this.height = height;
         this.sex = sex;
-        defaultRole(userName);
     }
 
     /**
@@ -162,7 +160,6 @@ public class User {
         this.height = height;
         addWeight(weight);
         this.sex = sex;
-        defaultRole(userName);
     }
 
 
@@ -275,19 +272,6 @@ public class User {
     public void removeRole(Role role) {
         roles.remove(role);
         role.setUser(null);
-    }
-
-    public void defaultRole(String uName) {
-//        Role userRole;
-//        GenericDao roleDao = new GenericDao(Role.class);
-//        List<User> users = roleDao.getByPropertyEqual(userName, uName);
-//        if (users.isEmpty()) {
-//            Role role = new Role(this, "buddy");
-//            roles.add(role);
-//            logger.info(uName + "role added as 'buddy'");
-//        } else {
-//            logger.info(uName + " already has role");
-//        }
     }
 
     @Override
