@@ -1,10 +1,28 @@
-<%-- New user sign up page --%>
+<%@ page import="java.beans.Statement" %>
+<%@ page import="java.sql.ResultSet" %><%-- New user sign up page --%>
 <!DOCTYPE html>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/sql" prefix="sql"%>
 
 <head>
     <%@include file="templates/head.jsp"%>
     <script src="js/init.js"></script>
+    <%java.sql.Connection Conn = DBconnector.SetDBConnection(); /* make connector as you make in your code */
+    Statement st = null;
+    ResultSet rs = null;
+    st = Conn.createStatement();
+    rs = st.executeQuery("select gym_name from gym"); %>
+        <tr>
+            <td>
+                Student Major  : <select name ="Major">
+                <%while(rs.next()){ %>
+                <option value="<%=rs.getString(1)%>"><%=rs.getString(1)%></option>
+                <%}%>
+            </select>
+            </td>
+        <%--<script>$("#first-choice").change(function() {--%>
+        <%--$("#second-choice").load("getter.php?choice=" + $("#first-choice").val());--%>
+    <%--});</script>--%>
 </head>
 
 <html>
@@ -45,6 +63,19 @@
                        title="Enter 5 digit Zip Code" required="">
                 <label for="location">Zip Code</label>
             </div>
+            <div class="valign-wrapper row">
+                <div class="input-field col s12 m6">
+                    <select name="gymName" id="gymName">
+                        <option value="" disabled selected>Select your gym</option>
+                    </select>
+                </div>
+                <p>Don't see your gym? Add it here!</p>
+                <div class="input-field col s12 m6">
+                    <input id="newGym" name="newGym" type="text" class="validate"
+                           title="Gym name">
+                    <label for="newGym">Gym</label>
+                </div>
+            </div>
             <div class="input-field col s12">
                 <input id="password" name="password" type="password" class="validate"
                        pattern="^[A-Za-z\d$@$!%*#?&amp;]{6,}$" title="Password must be at least 6 characters long"
@@ -71,7 +102,7 @@
                 </label>
             </div>
         </div>
-        <div id="weight" class="input-field col s12">
+        <div id="weight" class="input-field col s12" style="display: none">
             <input id="currentWeight" type="number" class="validate" pattern="^[0-9]{1-3}$"
                    title="Please enter a valid weight">
             <label for="currentWeight">Weight</label>
