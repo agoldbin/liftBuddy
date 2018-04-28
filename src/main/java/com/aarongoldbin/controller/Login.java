@@ -42,7 +42,7 @@ public class Login extends HttpServlet {
         HttpSession session = req.getSession();
         session.setAttribute("user", thisUser);
 
-        session.setAttribute("role", thisUser.getRoles());
+        session.setAttribute("authType", thisUser.getRoles());
         logger.info("Roles retrieved: " + thisUser.getRoles());
 
         resp.sendRedirect("user.jsp");
