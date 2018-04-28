@@ -68,6 +68,7 @@ public class User {
     //    TODO if time permits, store password as hash
     private String password;
     private String height;
+    @Transient
     private LocalDate dob;
     private String sex;
 
