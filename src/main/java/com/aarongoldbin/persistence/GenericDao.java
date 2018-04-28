@@ -167,4 +167,30 @@ public class GenericDao<T> {
         session.close();
         return types;
     }
+
+    /**
+     * Get com.aarongoldbin.entity by property (like)
+     * sample usage: getByPropertyLike(User, "lastname", "C")
+     *
+     * @param propertyName the property name
+     * @param values       the values from the list
+     * @return the by property like
+     */
+    public List<T> getByPropertyLikeList(String propertyName, List<T> values) {
+        Session session = getSession();
+        logger.debug("Searching {} with property {} LIKE {}", type, propertyName, values);
+
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> query = builder.createQuery(type);
+        Root<T> root = query.from(type);
+        Expression<String> propertyPath = root.get(propertyName);
+        query.where(builder.in((Expression<? extends T>) values));
+//                propertyPath, "%" + value + "%"));
+//        query.where(builder.in(propertyPath, "%" + value + "%"));
+        List<T> types = session.createQuery(query).getResultList();
+
+        logger.info("Matches found: " + types);
+        session.close();
+        return types;
+    }
 }

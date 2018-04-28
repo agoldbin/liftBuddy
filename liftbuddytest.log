@@ -1734,3 +1734,764 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [DEBUG] 2018-04-27 15:42:14.358 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE [PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.397066',distance = '0',countryCode = 'US',postalCode = '53713',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.037167'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.373974',distance = '2.16373',countryCode = 'US',postalCode = '53774',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.046855'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.400045',distance = '3.13601',countryCode = 'US',postalCode = '53715',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.065287'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.423861',distance = '4.20859',countryCode = 'US',postalCode = '53708',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.06956'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.423861',distance = '4.20859',countryCode = 'US',postalCode = '53792',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.06956'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.423861',distance = '4.20859',countryCode = 'US',postalCode = '53726',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.06956'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.423861',distance = '4.20859',countryCode = 'US',postalCode = '53744',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.06956'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.423861',distance = '4.20859',countryCode = 'US',postalCode = '53725',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.06956'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.423861',distance = '4.20859',countryCode = 'US',postalCode = '53701',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.06956'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.423861',distance = '4.20859',countryCode = 'US',postalCode = '53702',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.06956'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.423861',distance = '4.20859',countryCode = 'US',postalCode = '53707',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.06956'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.423861',distance = '4.20859',countryCode = 'US',postalCode = '53794',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.06956'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.423861',distance = '4.20859',countryCode = 'US',postalCode = '53790',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.06956'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.423861',distance = '4.20859',countryCode = 'US',postalCode = '53793',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.06956'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.423861',distance = '4.20859',countryCode = 'US',postalCode = '53789',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.06956'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.423861',distance = '4.20859',countryCode = 'US',postalCode = '53791',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.06956'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.423861',distance = '4.20859',countryCode = 'US',postalCode = '53777',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.06956'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.423861',distance = '4.20859',countryCode = 'US',postalCode = '53778',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.06956'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.423861',distance = '4.20859',countryCode = 'US',postalCode = '53782',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.06956'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.423861',distance = '4.20859',countryCode = 'US',postalCode = '53785',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.06956'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.423861',distance = '4.20859',countryCode = 'US',postalCode = '53786',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.06956'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.452558',distance = '4.51305',countryCode = 'US',postalCode = '53711',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.035644'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.409362',distance = '4.53258',countryCode = 'US',postalCode = '53706',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.076929'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.383068',distance = '4.63033',countryCode = 'US',postalCode = '53703',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.077535'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.37632',distance = '4.70679',countryCode = 'US',postalCode = '53788',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.076691'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.338447',distance = '4.93914',countryCode = 'US',postalCode = '53784',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.048908'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.452823',distance = '6.03279',countryCode = 'US',postalCode = '53705',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.072999'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.313327',distance = '7.38992',countryCode = 'US',postalCode = '53716',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.063103'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.499324',distance = '8.33012',countryCode = 'US',postalCode = '53719',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.03207'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.294773',distance = '8.82234',countryCode = 'US',postalCode = '53558',adminName1 = 'Wisconsin',placeName = 'Mc Farland',lat = '43.010651'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.324196',distance = '9.00514',countryCode = 'US',postalCode = '53779',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.098202'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.311758',distance = '9.66293',countryCode = 'US',postalCode = '53714',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.097735'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.507984',distance = '9.87965',countryCode = 'US',postalCode = '53717',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.073587'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.352295',distance = '9.95634',countryCode = 'US',postalCode = '53704',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.120526'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.507258',distance = '11.71852',countryCode = 'US',postalCode = '53562',adminName1 = 'Wisconsin',placeName = 'Middleton',lat = '43.105196'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.387002',distance = '12.00107',countryCode = 'US',postalCode = '53575',adminName1 = 'Wisconsin',placeName = 'Oregon',lat = '42.929485'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.2733555956892',distance = '12.13936',countryCode = 'US',postalCode = '53718',adminName1 = 'Wisconsin',placeName = 'Madison',lat = '43.09841885827133'}, PostalCodesItem{adminCode2 = '025',adminCode1 = 'WI',adminName2 = 'Dane',lng = '-89.552247',distance = '13.27799',countryCode = 'US',postalCode = '53593',adminName1 = 'Wisconsin',placeName = 'Verona',lat = '42.999913'}]
 [INFO ] 2018-04-27 15:42:14.731 [http-nio-8080-exec-7] GenericDao - Matches found: []
 [INFO ] 2018-04-27 15:42:14.920 [http-nio-8080-exec-7] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-27 17:42:48.337 [http-nio-8080-exec-3] GenericDao - GetAll for class com.aarongoldbin.entity.Gym
+[INFO ] 2018-04-27 17:42:53.726 [http-nio-8080-exec-3] GenericDao - Retrieved list: [com.aarongoldbin.entity.Gym@63e86e77, com.aarongoldbin.entity.Gym@705a12a5, com.aarongoldbin.entity.Gym@e3354f, com.aarongoldbin.entity.Gym@50811da8, com.aarongoldbin.entity.Gym@7a175f08, com.aarongoldbin.entity.Gym@5a78b5d5]
+[INFO ] 2018-04-28 10:55:10.192 [http-nio-8080-exec-1] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 10:55:15.768 [http-nio-8080-exec-1] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE  WHERE location LIKE 53714
+OR WHERE location LIKE 53779
+OR WHERE location LIKE 53718
+OR WHERE location LIKE 53716
+OR WHERE location LIKE 53704
+OR WHERE location LIKE 53788
+OR WHERE location LIKE 53784
+OR WHERE location LIKE 53703
+OR WHERE location LIKE 53783
+OR WHERE location LIKE 53774
+OR WHERE location LIKE 53715
+OR WHERE location LIKE 53706
+OR WHERE location LIKE 53527
+OR WHERE location LIKE 53708
+OR WHERE location LIKE 53707
+OR WHERE location LIKE 53702
+OR WHERE location LIKE 53792
+OR WHERE location LIKE 53701
+OR WHERE location LIKE 53725
+OR WHERE location LIKE 53726
+OR WHERE location LIKE 53744
+OR WHERE location LIKE 53791
+OR WHERE location LIKE 53793
+OR WHERE location LIKE 53789
+OR WHERE location LIKE 53794
+OR WHERE location LIKE 53777
+OR WHERE location LIKE 53778
+OR WHERE location LIKE 53782
+OR WHERE location LIKE 53785
+OR WHERE location LIKE 53786
+OR WHERE location LIKE 53790
+OR WHERE location LIKE 53713
+OR WHERE location LIKE 53558
+OR WHERE location LIKE 53596
+OR WHERE location LIKE 53705
+OR WHERE location LIKE 53590
+OR WHERE location LIKE 53598
+OR WHERE location LIKE 53711
+OR WHERE location LIKE 53597
+OR WHERE location LIKE 53562
+[INFO ] 2018-04-28 10:55:16.320 [http-nio-8080-exec-1] GenericDao - Matches found: []
+[INFO ] 2018-04-28 10:55:16.633 [http-nio-8080-exec-1] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:04:29.016 [http-nio-8080-exec-3] GenericDao - Searching class com.aarongoldbin.entity.User with property userName LIKE go
+[INFO ] 2018-04-28 11:04:31.360 [http-nio-8080-exec-3] GenericDao - Matches found: [User{id=7, userName='agoldbin', userEmail='agoldbin@madisoncollege.edu', gym=com.aarongoldbin.entity.Gym@3de1f750, location='53713', password='supersecret', firstName='Aaron', lastName='Goldbin', height=6'2, sex='M', dob=1991-01-16, role=[com.aarongoldbin.entity.Role@13b9965d]}, User{id=254, userName='leDoggo', userEmail='bark@moon.com', gym=com.aarongoldbin.entity.Gym@3de1f750, location='53713', password='woofwoof', firstName='Dixie', lastName='Doge', height=null, sex='null', dob=null, role=[]}]
+[DEBUG] 2018-04-28 11:05:35.442 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE go
+[INFO ] 2018-04-28 11:05:35.469 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:05:36.070 [http-nio-8080-exec-4] GenericDao - GetAll for class com.aarongoldbin.entity.Gym
+[INFO ] 2018-04-28 11:05:36.209 [http-nio-8080-exec-4] GenericDao - Retrieved list: [com.aarongoldbin.entity.Gym@6e55f263, com.aarongoldbin.entity.Gym@6bbee74e, com.aarongoldbin.entity.Gym@2a1d1ed6, com.aarongoldbin.entity.Gym@64030102, com.aarongoldbin.entity.Gym@2504310b, com.aarongoldbin.entity.Gym@391c2672]
+[DEBUG] 2018-04-28 11:06:25.290 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.Gym with property gymName LIKE y
+[INFO ] 2018-04-28 11:06:25.354 [http-nio-8080-exec-4] GenericDao - Matches found: [com.aarongoldbin.entity.Gym@5a9caad0, com.aarongoldbin.entity.Gym@7be8bee3]
+[INFO ] 2018-04-28 11:06:25.367 [http-nio-8080-exec-4] GenericDao - GetAll for class com.aarongoldbin.entity.Gym
+[INFO ] 2018-04-28 11:06:25.468 [http-nio-8080-exec-4] GenericDao - Retrieved list: [com.aarongoldbin.entity.Gym@3e831233, com.aarongoldbin.entity.Gym@1f78b53e, com.aarongoldbin.entity.Gym@1d2eac8c, com.aarongoldbin.entity.Gym@51a4b407, com.aarongoldbin.entity.Gym@7790368a, com.aarongoldbin.entity.Gym@3149bfcc]
+[INFO ] 2018-04-28 11:13:47.682 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:13:47.855 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:13:52.791 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53713
+[INFO ] 2018-04-28 11:13:53.514 [http-nio-8080-exec-10] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@55d63212, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@65c3f08b]}, User{id=7, userName='agoldbin', userEmail='agoldbin@madisoncollege.edu', gym=com.aarongoldbin.entity.Gym@55d63212, location='53713', password='supersecret', firstName='Aaron', lastName='Goldbin', height=6'2, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@13b9965d]}, User{id=254, userName='leDoggo', userEmail='bark@moon.com', gym=com.aarongoldbin.entity.Gym@55d63212, location='53713', password='woofwoof', firstName='Dixie', lastName='Doge', height=null, sex='null', dob=null, role=[]}]
+[INFO ] 2018-04-28 11:13:53.804 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:13:53.957 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:13:53.957 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53774
+[INFO ] 2018-04-28 11:13:53.961 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:13:54.110 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:13:54.259 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:13:54.259 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53715
+[INFO ] 2018-04-28 11:13:54.262 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:13:54.412 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:13:54.562 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:13:54.562 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53725
+[INFO ] 2018-04-28 11:13:54.564 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:13:54.712 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:13:54.861 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:13:54.861 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53702
+[INFO ] 2018-04-28 11:13:54.865 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:13:55.021 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:13:55.177 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:13:55.177 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53707
+[INFO ] 2018-04-28 11:13:55.180 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:13:55.336 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:13:55.484 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:13:55.484 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53708
+[INFO ] 2018-04-28 11:13:55.487 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:13:55.651 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:13:55.823 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:13:55.823 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53744
+[INFO ] 2018-04-28 11:13:55.829 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:13:55.981 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:13:56.167 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:13:56.168 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53726
+[INFO ] 2018-04-28 11:13:56.192 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:13:56.406 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:13:56.614 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:13:56.615 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53701
+[INFO ] 2018-04-28 11:13:56.636 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:13:56.835 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:13:57.020 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:13:57.020 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53792
+[INFO ] 2018-04-28 11:13:57.039 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:13:57.191 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:13:57.374 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:13:57.375 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53794
+[INFO ] 2018-04-28 11:13:57.379 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:13:57.527 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:13:57.675 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:13:57.675 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53786
+[INFO ] 2018-04-28 11:13:57.679 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:13:57.823 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:13:57.970 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:13:57.970 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53790
+[INFO ] 2018-04-28 11:13:57.974 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:13:58.116 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:13:58.261 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:13:58.261 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53793
+[INFO ] 2018-04-28 11:13:58.264 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:13:58.408 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:13:58.551 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:13:58.552 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53789
+[INFO ] 2018-04-28 11:13:58.557 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:13:58.702 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:13:58.847 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:13:58.847 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53782
+[INFO ] 2018-04-28 11:13:58.850 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:13:58.997 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:13:59.145 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:13:59.145 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53777
+[INFO ] 2018-04-28 11:13:59.147 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:13:59.291 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:13:59.440 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:13:59.440 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53778
+[INFO ] 2018-04-28 11:13:59.446 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:13:59.590 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:13:59.803 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:13:59.803 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53785
+[INFO ] 2018-04-28 11:13:59.818 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:13:59.963 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:14:00.105 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:14:00.106 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53791
+[INFO ] 2018-04-28 11:14:00.112 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:14:00.261 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:14:00.406 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:14:00.406 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53711
+[INFO ] 2018-04-28 11:14:00.412 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:14:00.554 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:14:00.696 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:14:00.696 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53706
+[INFO ] 2018-04-28 11:14:00.713 [http-nio-8080-exec-10] GenericDao - Matches found: [User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@44e994a, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@78d1c16c]}]
+[INFO ] 2018-04-28 11:14:00.857 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:14:00.999 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:14:00.999 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53703
+[INFO ] 2018-04-28 11:14:01.001 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:14:01.146 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:14:01.293 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:14:01.294 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53788
+[INFO ] 2018-04-28 11:14:01.298 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:14:01.449 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:14:01.606 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:14:01.607 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53784
+[INFO ] 2018-04-28 11:14:01.611 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:14:01.765 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:14:01.918 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:14:01.918 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53705
+[INFO ] 2018-04-28 11:14:01.924 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:14:02.073 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:14:02.221 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:14:02.221 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53716
+[INFO ] 2018-04-28 11:14:02.226 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:14:02.376 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:14:02.525 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:14:02.525 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53719
+[INFO ] 2018-04-28 11:14:02.529 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:14:02.680 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:14:02.831 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:14:02.831 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53558
+[INFO ] 2018-04-28 11:14:02.839 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:14:02.991 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:14:03.140 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:14:03.141 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53779
+[INFO ] 2018-04-28 11:14:03.146 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:14:03.296 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:14:03.443 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:14:03.443 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53714
+[INFO ] 2018-04-28 11:14:03.458 [http-nio-8080-exec-10] GenericDao - Matches found: [User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@37ce6fa8, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=null, role=[com.aarongoldbin.entity.Role@f3751280]}]
+[INFO ] 2018-04-28 11:14:03.606 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:14:03.755 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:14:03.755 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53717
+[INFO ] 2018-04-28 11:14:03.765 [http-nio-8080-exec-10] GenericDao - Matches found: [User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@7738e234, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=null, role=[com.aarongoldbin.entity.Role@5e963e83]}, User{id=252, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@4f5e3ff7, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@3423c04]}]
+[INFO ] 2018-04-28 11:14:03.908 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:14:04.047 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:14:04.048 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53704
+[INFO ] 2018-04-28 11:14:04.058 [http-nio-8080-exec-10] GenericDao - Matches found: [User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@6bac2850, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@5ac01301]}]
+[INFO ] 2018-04-28 11:14:04.198 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:14:04.339 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:14:04.339 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53562
+[INFO ] 2018-04-28 11:14:04.341 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:14:04.481 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:14:04.623 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:14:04.623 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53575
+[INFO ] 2018-04-28 11:14:04.625 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:14:04.765 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:14:04.907 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:14:04.908 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53718
+[INFO ] 2018-04-28 11:14:04.910 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:14:05.053 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:14:05.194 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:14:05.195 [http-nio-8080-exec-10] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53593
+[INFO ] 2018-04-28 11:14:05.197 [http-nio-8080-exec-10] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:14:05.338 [http-nio-8080-exec-10] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:14:05.911 [http-nio-8080-exec-10] GenericDao - GetAll for class com.aarongoldbin.entity.Gym
+[INFO ] 2018-04-28 11:14:05.997 [http-nio-8080-exec-10] GenericDao - Retrieved list: [com.aarongoldbin.entity.Gym@4d16ef56, com.aarongoldbin.entity.Gym@44d51787, com.aarongoldbin.entity.Gym@174aaf60, com.aarongoldbin.entity.Gym@6b5e0474, com.aarongoldbin.entity.Gym@11c82a16, com.aarongoldbin.entity.Gym@7d4d6e87]
+[INFO ] 2018-04-28 11:15:21.303 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:21.443 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:21.444 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53714
+[INFO ] 2018-04-28 11:15:21.453 [http-nio-8080-exec-5] GenericDao - Matches found: [User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@653f57a7, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=null, role=[com.aarongoldbin.entity.Role@f3751280]}]
+[INFO ] 2018-04-28 11:15:21.602 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:21.746 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:21.747 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53779
+[INFO ] 2018-04-28 11:15:21.751 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:21.897 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:22.039 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:22.040 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53718
+[INFO ] 2018-04-28 11:15:22.046 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:22.186 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:22.333 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:22.334 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53716
+[INFO ] 2018-04-28 11:15:22.338 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:22.490 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:22.636 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:22.636 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53704
+[INFO ] 2018-04-28 11:15:22.654 [http-nio-8080-exec-5] GenericDao - Matches found: [User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@43996fc5, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@5ac01301]}]
+[INFO ] 2018-04-28 11:15:22.797 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:22.941 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:22.942 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53788
+[INFO ] 2018-04-28 11:15:22.946 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:23.086 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:23.226 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:23.227 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53784
+[INFO ] 2018-04-28 11:15:23.229 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:23.367 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:23.508 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:23.508 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53703
+[INFO ] 2018-04-28 11:15:23.520 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:23.686 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:23.831 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:23.832 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53783
+[INFO ] 2018-04-28 11:15:23.837 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:23.982 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:24.126 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:24.127 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53774
+[INFO ] 2018-04-28 11:15:24.130 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:24.270 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:24.412 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:24.413 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53715
+[INFO ] 2018-04-28 11:15:24.416 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:24.561 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:24.699 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:24.699 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53706
+[INFO ] 2018-04-28 11:15:24.709 [http-nio-8080-exec-5] GenericDao - Matches found: [User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@61020781, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@78d1c16c]}]
+[INFO ] 2018-04-28 11:15:24.927 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:25.070 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:25.071 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53527
+[INFO ] 2018-04-28 11:15:25.074 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:25.212 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:25.352 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:25.352 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53726
+[INFO ] 2018-04-28 11:15:25.355 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:25.494 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:25.633 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:25.633 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53725
+[INFO ] 2018-04-28 11:15:25.635 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:25.774 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:25.910 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:25.910 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53701
+[INFO ] 2018-04-28 11:15:25.912 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:26.048 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:26.184 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:26.184 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53702
+[INFO ] 2018-04-28 11:15:26.186 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:26.323 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:26.458 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:26.458 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53707
+[INFO ] 2018-04-28 11:15:26.460 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:26.598 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:26.734 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:26.735 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53708
+[INFO ] 2018-04-28 11:15:26.737 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:26.874 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:27.010 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:27.010 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53744
+[INFO ] 2018-04-28 11:15:27.012 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:27.148 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:27.285 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:27.285 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53792
+[INFO ] 2018-04-28 11:15:27.287 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:27.427 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:27.576 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:27.577 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53782
+[INFO ] 2018-04-28 11:15:27.582 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:27.726 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:27.867 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:27.868 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53793
+[INFO ] 2018-04-28 11:15:27.878 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:28.025 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:28.166 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:28.167 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53794
+[INFO ] 2018-04-28 11:15:28.171 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:28.315 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:28.459 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:28.460 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53785
+[INFO ] 2018-04-28 11:15:28.464 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:28.621 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:28.764 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:28.765 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53791
+[INFO ] 2018-04-28 11:15:28.771 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:28.913 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:29.057 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:29.058 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53786
+[INFO ] 2018-04-28 11:15:29.062 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:29.204 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:29.348 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:29.348 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53790
+[INFO ] 2018-04-28 11:15:29.352 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:29.493 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:29.634 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:29.635 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53789
+[INFO ] 2018-04-28 11:15:29.641 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:29.783 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:29.927 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:29.927 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53778
+[INFO ] 2018-04-28 11:15:29.931 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:30.078 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:30.218 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:30.218 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53777
+[INFO ] 2018-04-28 11:15:30.224 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:30.367 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:30.511 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:30.512 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53713
+[INFO ] 2018-04-28 11:15:30.532 [http-nio-8080-exec-5] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@3a61d147, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@65c3f08b]}, User{id=7, userName='agoldbin', userEmail='agoldbin@madisoncollege.edu', gym=com.aarongoldbin.entity.Gym@3a61d147, location='53713', password='supersecret', firstName='Aaron', lastName='Goldbin', height=6'2, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@13b9965d]}, User{id=254, userName='leDoggo', userEmail='bark@moon.com', gym=com.aarongoldbin.entity.Gym@3a61d147, location='53713', password='woofwoof', firstName='Dixie', lastName='Doge', height=null, sex='null', dob=null, role=[]}]
+[INFO ] 2018-04-28 11:15:30.675 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:30.816 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:30.817 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53558
+[INFO ] 2018-04-28 11:15:30.823 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:30.964 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:31.106 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:31.107 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53596
+[INFO ] 2018-04-28 11:15:31.111 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:31.256 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:31.396 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:31.397 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53705
+[INFO ] 2018-04-28 11:15:31.400 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:31.543 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:31.683 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:31.683 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53590
+[INFO ] 2018-04-28 11:15:31.688 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:31.831 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:31.973 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:31.974 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53598
+[INFO ] 2018-04-28 11:15:31.976 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:32.112 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:32.250 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:32.250 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53711
+[INFO ] 2018-04-28 11:15:32.255 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:32.396 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:32.539 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:32.539 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53597
+[INFO ] 2018-04-28 11:15:32.544 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:32.749 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:32.891 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[DEBUG] 2018-04-28 11:15:32.892 [http-nio-8080-exec-5] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53562
+[INFO ] 2018-04-28 11:15:32.896 [http-nio-8080-exec-5] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:15:33.038 [http-nio-8080-exec-5] UserSearch - # zip codes returned: 40
+[INFO ] 2018-04-28 11:15:33.041 [http-nio-8080-exec-5] GenericDao - GetAll for class com.aarongoldbin.entity.Gym
+[INFO ] 2018-04-28 11:15:33.144 [http-nio-8080-exec-5] GenericDao - Retrieved list: [com.aarongoldbin.entity.Gym@edd6f46, com.aarongoldbin.entity.Gym@19c08d34, com.aarongoldbin.entity.Gym@172089b1, com.aarongoldbin.entity.Gym@4fa166cc, com.aarongoldbin.entity.Gym@2a638721, com.aarongoldbin.entity.Gym@37d71674]
+[INFO ] 2018-04-28 11:16:48.585 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:17:01.165 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:17:21.518 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53713
+[INFO ] 2018-04-28 11:17:23.366 [http-nio-8080-exec-4] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@35f6a0a0, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@65c3f08b]}, User{id=7, userName='agoldbin', userEmail='agoldbin@madisoncollege.edu', gym=com.aarongoldbin.entity.Gym@35f6a0a0, location='53713', password='supersecret', firstName='Aaron', lastName='Goldbin', height=6'2, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@13b9965d]}, User{id=254, userName='leDoggo', userEmail='bark@moon.com', gym=com.aarongoldbin.entity.Gym@35f6a0a0, location='53713', password='woofwoof', firstName='Dixie', lastName='Doge', height=null, sex='null', dob=null, role=[]}]
+[INFO ] 2018-04-28 11:17:38.496 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:17:47.604 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:17:47.607 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53774
+[INFO ] 2018-04-28 11:17:47.616 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:18:15.422 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:18:19.519 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:18:19.521 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53715
+[INFO ] 2018-04-28 11:18:19.531 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:06.942 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:07.100 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:07.100 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53725
+[INFO ] 2018-04-28 11:20:07.108 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:07.263 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:07.416 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:07.417 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53702
+[INFO ] 2018-04-28 11:20:07.419 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:07.577 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:07.774 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:07.775 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53707
+[INFO ] 2018-04-28 11:20:07.785 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:07.948 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:08.114 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:08.115 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53708
+[INFO ] 2018-04-28 11:20:08.122 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:08.339 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:08.512 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:08.513 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53744
+[INFO ] 2018-04-28 11:20:08.519 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:08.684 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:08.847 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:08.848 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53726
+[INFO ] 2018-04-28 11:20:08.851 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:09.006 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:09.166 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:09.167 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53701
+[INFO ] 2018-04-28 11:20:09.178 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:09.357 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:09.521 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:09.522 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53792
+[INFO ] 2018-04-28 11:20:09.525 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:09.671 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:09.816 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:09.817 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53794
+[INFO ] 2018-04-28 11:20:09.821 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:09.967 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:10.114 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:10.115 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53786
+[INFO ] 2018-04-28 11:20:10.118 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:10.263 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:10.409 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:10.409 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53790
+[INFO ] 2018-04-28 11:20:10.412 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:10.561 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:10.708 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:10.708 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53793
+[INFO ] 2018-04-28 11:20:10.711 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:10.858 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:11.016 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:11.016 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53789
+[INFO ] 2018-04-28 11:20:11.021 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:11.167 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:11.313 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:11.313 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53782
+[INFO ] 2018-04-28 11:20:11.320 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:11.465 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:11.612 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:11.612 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53777
+[INFO ] 2018-04-28 11:20:11.616 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:11.761 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:11.906 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:11.907 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53778
+[INFO ] 2018-04-28 11:20:11.910 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:12.054 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:12.209 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:12.210 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53785
+[INFO ] 2018-04-28 11:20:12.215 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:12.366 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:12.522 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:12.522 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53791
+[INFO ] 2018-04-28 11:20:12.530 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:12.684 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:12.848 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:12.848 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53711
+[INFO ] 2018-04-28 11:20:12.861 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:13.015 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:13.172 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:13.172 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53706
+[INFO ] 2018-04-28 11:20:13.214 [http-nio-8080-exec-4] GenericDao - Matches found: [User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@6e232e23, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@78d1c16c]}]
+[INFO ] 2018-04-28 11:20:13.367 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:13.523 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:13.523 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53703
+[INFO ] 2018-04-28 11:20:13.529 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:13.680 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:13.834 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:13.834 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53788
+[INFO ] 2018-04-28 11:20:13.841 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:13.992 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:14.145 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:14.146 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53784
+[INFO ] 2018-04-28 11:20:14.151 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:14.307 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:14.462 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:14.462 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53705
+[INFO ] 2018-04-28 11:20:14.468 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:14.617 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:14.775 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:14.776 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53716
+[INFO ] 2018-04-28 11:20:14.780 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:14.933 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:15.084 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:15.085 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53719
+[INFO ] 2018-04-28 11:20:15.091 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:15.247 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:15.399 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:15.399 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53558
+[INFO ] 2018-04-28 11:20:15.402 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:15.545 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:15.689 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:15.690 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53779
+[INFO ] 2018-04-28 11:20:15.695 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:15.849 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:16.001 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:16.002 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53714
+[INFO ] 2018-04-28 11:20:16.010 [http-nio-8080-exec-4] GenericDao - Matches found: [User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@9f6f1e0, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=null, role=[com.aarongoldbin.entity.Role@f3751280]}]
+[INFO ] 2018-04-28 11:20:16.153 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:16.298 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:16.298 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53717
+[INFO ] 2018-04-28 11:20:16.315 [http-nio-8080-exec-4] GenericDao - Matches found: [User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@3c55c193, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=null, role=[com.aarongoldbin.entity.Role@5e963e83]}, User{id=252, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@20dac094, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@3423c04]}]
+[INFO ] 2018-04-28 11:20:16.462 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:16.614 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:16.614 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53704
+[INFO ] 2018-04-28 11:20:16.629 [http-nio-8080-exec-4] GenericDao - Matches found: [User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@12ba3618, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@5ac01301]}]
+[INFO ] 2018-04-28 11:20:16.773 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:16.913 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:16.913 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53562
+[INFO ] 2018-04-28 11:20:16.915 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:17.056 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:17.202 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:17.203 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53575
+[INFO ] 2018-04-28 11:20:17.210 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:17.360 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:17.508 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:17.508 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53718
+[INFO ] 2018-04-28 11:20:17.513 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:17.665 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:17.813 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:20:17.814 [http-nio-8080-exec-4] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53593
+[INFO ] 2018-04-28 11:20:17.816 [http-nio-8080-exec-4] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:20:17.956 [http-nio-8080-exec-4] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:20:18.715 [http-nio-8080-exec-4] GenericDao - GetAll for class com.aarongoldbin.entity.Gym
+[INFO ] 2018-04-28 11:20:18.808 [http-nio-8080-exec-4] GenericDao - Retrieved list: [com.aarongoldbin.entity.Gym@4bd20a6d, com.aarongoldbin.entity.Gym@55cd51f3, com.aarongoldbin.entity.Gym@37b54df4, com.aarongoldbin.entity.Gym@5dab73e8, com.aarongoldbin.entity.Gym@6718b52, com.aarongoldbin.entity.Gym@390c10a6]
+[INFO ] 2018-04-28 11:20:54.250 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:21:15.674 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:21:15.678 [http-nio-8080-exec-8] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53713
+[INFO ] 2018-04-28 11:21:15.774 [http-nio-8080-exec-8] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@2cd24f0e, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@65c3f08b]}, User{id=7, userName='agoldbin', userEmail='agoldbin@madisoncollege.edu', gym=com.aarongoldbin.entity.Gym@2cd24f0e, location='53713', password='supersecret', firstName='Aaron', lastName='Goldbin', height=6'2, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@13b9965d]}, User{id=254, userName='leDoggo', userEmail='bark@moon.com', gym=com.aarongoldbin.entity.Gym@2cd24f0e, location='53713', password='woofwoof', firstName='Dixie', lastName='Doge', height=null, sex='null', dob=null, role=[]}]
+[INFO ] 2018-04-28 11:21:18.646 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:21:33.885 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:21:33.887 [http-nio-8080-exec-8] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53774
+[INFO ] 2018-04-28 11:21:33.895 [http-nio-8080-exec-8] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:21:39.548 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:22:04.047 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:22:04.047 [http-nio-8080-exec-8] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53715
+[INFO ] 2018-04-28 11:22:04.050 [http-nio-8080-exec-8] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:22:04.202 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:22:04.357 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:22:04.357 [http-nio-8080-exec-8] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53725
+[INFO ] 2018-04-28 11:22:04.359 [http-nio-8080-exec-8] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:22:04.510 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:22:04.661 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:22:04.661 [http-nio-8080-exec-8] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53702
+[INFO ] 2018-04-28 11:22:04.666 [http-nio-8080-exec-8] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:22:04.818 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:22:04.969 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:22:04.970 [http-nio-8080-exec-8] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53707
+[INFO ] 2018-04-28 11:22:04.973 [http-nio-8080-exec-8] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:22:05.123 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:22:05.273 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:22:05.274 [http-nio-8080-exec-8] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53708
+[INFO ] 2018-04-28 11:22:05.276 [http-nio-8080-exec-8] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:22:05.424 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:22:05.576 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:22:05.576 [http-nio-8080-exec-8] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53744
+[INFO ] 2018-04-28 11:22:05.578 [http-nio-8080-exec-8] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:22:05.729 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:22:05.884 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:22:05.884 [http-nio-8080-exec-8] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53726
+[INFO ] 2018-04-28 11:22:05.887 [http-nio-8080-exec-8] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:22:06.041 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:22:06.196 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:22:06.196 [http-nio-8080-exec-8] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53701
+[INFO ] 2018-04-28 11:22:06.199 [http-nio-8080-exec-8] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:22:06.348 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:22:06.498 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:22:06.498 [http-nio-8080-exec-8] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53792
+[INFO ] 2018-04-28 11:22:06.500 [http-nio-8080-exec-8] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:22:06.650 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:22:06.812 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:22:06.813 [http-nio-8080-exec-8] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53794
+[INFO ] 2018-04-28 11:22:06.817 [http-nio-8080-exec-8] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:22:06.976 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:22:07.131 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:22:07.131 [http-nio-8080-exec-8] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53786
+[INFO ] 2018-04-28 11:22:07.134 [http-nio-8080-exec-8] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:22:07.285 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:22:07.433 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:22:07.433 [http-nio-8080-exec-8] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53790
+[INFO ] 2018-04-28 11:22:07.436 [http-nio-8080-exec-8] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:22:07.585 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:22:07.741 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:22:07.742 [http-nio-8080-exec-8] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53793
+[INFO ] 2018-04-28 11:22:07.748 [http-nio-8080-exec-8] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:22:07.908 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:22:08.063 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:22:08.064 [http-nio-8080-exec-8] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53789
+[INFO ] 2018-04-28 11:22:08.068 [http-nio-8080-exec-8] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:22:08.223 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[INFO ] 2018-04-28 11:22:08.377 [http-nio-8080-exec-8] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:22:08.377 [http-nio-8080-exec-8] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53782
+[INFO ] 2018-04-28 11:22:08.381 [http-nio-8080-exec-8] GenericDao - Matches found: []
+[INFO ] 2018-04-28 11:26:29.170 [http-nio-8080-exec-4] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 1
+[INFO ] 2018-04-28 11:26:29.334 [http-nio-8080-exec-4] GenericDao - Found: com.aarongoldbin.entity.Gym@60bcdbda
+[INFO ] 2018-04-28 11:26:29.342 [http-nio-8080-exec-4] UserAdd - User{id=0, userName='npsteck', userEmail='blah@gmail.com', gym=com.aarongoldbin.entity.Gym@60bcdbda, location='53593', password='doggodoggo', firstName='Nicole', lastName='Steck', height=null, sex='null', dob=null, role=[]}
+[INFO ] 2018-04-28 11:26:29.342 [http-nio-8080-exec-4] GenericDao - Inserting entity: User{id=0, userName='npsteck', userEmail='blah@gmail.com', gym=com.aarongoldbin.entity.Gym@60bcdbda, location='53593', password='doggodoggo', firstName='Nicole', lastName='Steck', height=null, sex='null', dob=null, role=[]}
+[INFO ] 2018-04-28 11:26:29.429 [http-nio-8080-exec-4] GenericDao - Insert success! ID = 255
+[INFO ] 2018-04-28 11:26:29.430 [http-nio-8080-exec-4] UserAdd - User created: User{id=255, userName='npsteck', userEmail='blah@gmail.com', gym=com.aarongoldbin.entity.Gym@60bcdbda, location='53593', password='doggodoggo', firstName='Nicole', lastName='Steck', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@2e722763]}
+[INFO ] 2018-04-28 11:26:29.430 [http-nio-8080-exec-4] UserAdd - User user role set to: buddy
+[INFO ] 2018-04-28 11:26:45.879 [http-nio-8080-exec-7] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:26:45.879 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53713
+[INFO ] 2018-04-28 11:26:46.364 [http-nio-8080-exec-7] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@531ca33c, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@65c3f08b]}, User{id=7, userName='agoldbin', userEmail='agoldbin@madisoncollege.edu', gym=com.aarongoldbin.entity.Gym@531ca33c, location='53713', password='supersecret', firstName='Aaron', lastName='Goldbin', height=6'2, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@13b9965d]}, User{id=254, userName='leDoggo', userEmail='bark@moon.com', gym=com.aarongoldbin.entity.Gym@531ca33c, location='53713', password='woofwoof', firstName='Dixie', lastName='Doge', height=null, sex='null', dob=null, role=[]}]
+[DEBUG] 2018-04-28 11:26:46.364 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53774
+[INFO ] 2018-04-28 11:26:46.366 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.366 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53715
+[INFO ] 2018-04-28 11:26:46.368 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.368 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53708
+[INFO ] 2018-04-28 11:26:46.370 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.370 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53792
+[INFO ] 2018-04-28 11:26:46.374 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.374 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53726
+[INFO ] 2018-04-28 11:26:46.377 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.378 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53744
+[INFO ] 2018-04-28 11:26:46.381 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.382 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53725
+[INFO ] 2018-04-28 11:26:46.384 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.384 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53701
+[INFO ] 2018-04-28 11:26:46.386 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.388 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53702
+[INFO ] 2018-04-28 11:26:46.398 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.398 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53707
+[INFO ] 2018-04-28 11:26:46.400 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.400 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53794
+[INFO ] 2018-04-28 11:26:46.401 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.401 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53790
+[INFO ] 2018-04-28 11:26:46.403 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.403 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53793
+[INFO ] 2018-04-28 11:26:46.405 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.406 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53789
+[INFO ] 2018-04-28 11:26:46.407 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.408 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53791
+[INFO ] 2018-04-28 11:26:46.409 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.409 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53777
+[INFO ] 2018-04-28 11:26:46.411 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.411 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53778
+[INFO ] 2018-04-28 11:26:46.413 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.414 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53782
+[INFO ] 2018-04-28 11:26:46.415 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.415 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53785
+[INFO ] 2018-04-28 11:26:46.417 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.417 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53786
+[INFO ] 2018-04-28 11:26:46.418 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.419 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53711
+[INFO ] 2018-04-28 11:26:46.423 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.423 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53706
+[INFO ] 2018-04-28 11:26:46.435 [http-nio-8080-exec-7] GenericDao - Matches found: [User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@f41d572, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@78d1c16c]}]
+[DEBUG] 2018-04-28 11:26:46.435 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53703
+[INFO ] 2018-04-28 11:26:46.437 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.438 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53788
+[INFO ] 2018-04-28 11:26:46.441 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.441 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53784
+[INFO ] 2018-04-28 11:26:46.443 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.443 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53705
+[INFO ] 2018-04-28 11:26:46.445 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.446 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53716
+[INFO ] 2018-04-28 11:26:46.447 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.447 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53719
+[INFO ] 2018-04-28 11:26:46.448 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.448 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53558
+[INFO ] 2018-04-28 11:26:46.450 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.450 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53779
+[INFO ] 2018-04-28 11:26:46.451 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.452 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53714
+[INFO ] 2018-04-28 11:26:46.458 [http-nio-8080-exec-7] GenericDao - Matches found: [User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@30ed48ca, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=null, role=[com.aarongoldbin.entity.Role@f3751280]}]
+[DEBUG] 2018-04-28 11:26:46.458 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53717
+[INFO ] 2018-04-28 11:26:46.467 [http-nio-8080-exec-7] GenericDao - Matches found: [User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@69c5b74a, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=null, role=[com.aarongoldbin.entity.Role@5e963e83]}, User{id=252, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@d49405b, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@3423c04]}]
+[DEBUG] 2018-04-28 11:26:46.468 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53704
+[INFO ] 2018-04-28 11:26:46.478 [http-nio-8080-exec-7] GenericDao - Matches found: [User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@22d4978f, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@5ac01301]}]
+[DEBUG] 2018-04-28 11:26:46.478 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53562
+[INFO ] 2018-04-28 11:26:46.480 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.480 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53575
+[INFO ] 2018-04-28 11:26:46.482 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.482 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53718
+[INFO ] 2018-04-28 11:26:46.484 [http-nio-8080-exec-7] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:26:46.484 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53593
+[INFO ] 2018-04-28 11:26:46.497 [http-nio-8080-exec-7] GenericDao - Matches found: [User{id=255, userName='npsteck', userEmail='blah@gmail.com', gym=com.aarongoldbin.entity.Gym@3bd70dc5, location='53593', password='doggodoggo', firstName='Nicole', lastName='Steck', height=null, sex='null', dob=null, role=[]}]
+[INFO ] 2018-04-28 11:28:51.892 [http-nio-8080-exec-2] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 11:28:57.909 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53713
+[INFO ] 2018-04-28 11:28:58.583 [http-nio-8080-exec-2] GenericDao - Matches found: [User{id=1, userName='jcoyne', userEmail='jc123@gmail.com', gym=com.aarongoldbin.entity.Gym@2b112969, location='53713', password='supersecret1', firstName='Joe', lastName='Coyne', height=5'2, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@65c3f08b]}, User{id=7, userName='agoldbin', userEmail='agoldbin@madisoncollege.edu', gym=com.aarongoldbin.entity.Gym@2b112969, location='53713', password='supersecret', firstName='Aaron', lastName='Goldbin', height=6'2, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@13b9965d]}, User{id=254, userName='leDoggo', userEmail='bark@moon.com', gym=com.aarongoldbin.entity.Gym@2b112969, location='53713', password='woofwoof', firstName='Dixie', lastName='Doge', height=null, sex='null', dob=null, role=[]}]
+[DEBUG] 2018-04-28 11:28:58.594 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53774
+[INFO ] 2018-04-28 11:28:58.600 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.600 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53715
+[INFO ] 2018-04-28 11:28:58.603 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.603 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53708
+[INFO ] 2018-04-28 11:28:58.605 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.605 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53792
+[INFO ] 2018-04-28 11:28:58.615 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.615 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53726
+[INFO ] 2018-04-28 11:28:58.617 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.618 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53744
+[INFO ] 2018-04-28 11:28:58.620 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.621 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53725
+[INFO ] 2018-04-28 11:28:58.623 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.623 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53701
+[INFO ] 2018-04-28 11:28:58.625 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.626 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53702
+[INFO ] 2018-04-28 11:28:58.630 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.630 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53707
+[INFO ] 2018-04-28 11:28:58.634 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.634 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53794
+[INFO ] 2018-04-28 11:28:58.636 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.637 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53790
+[INFO ] 2018-04-28 11:28:58.642 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.642 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53793
+[INFO ] 2018-04-28 11:28:58.650 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.650 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53789
+[INFO ] 2018-04-28 11:28:58.652 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.653 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53791
+[INFO ] 2018-04-28 11:28:58.655 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.656 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53777
+[INFO ] 2018-04-28 11:28:58.658 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.658 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53778
+[INFO ] 2018-04-28 11:28:58.664 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.665 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53782
+[INFO ] 2018-04-28 11:28:58.669 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.669 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53785
+[INFO ] 2018-04-28 11:28:58.671 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.672 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53786
+[INFO ] 2018-04-28 11:28:58.674 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.674 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53711
+[INFO ] 2018-04-28 11:28:58.683 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.683 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53706
+[INFO ] 2018-04-28 11:28:58.701 [http-nio-8080-exec-2] GenericDao - Matches found: [User{id=2, userName='fhensen', userEmail='nightmareonelm@hotmail.com', gym=com.aarongoldbin.entity.Gym@31c4d821, location='53706', password='supersecret2', firstName='Fred', lastName='Hensen', height=5'4, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@78d1c16c]}]
+[DEBUG] 2018-04-28 11:28:58.701 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53703
+[INFO ] 2018-04-28 11:28:58.703 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.704 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53788
+[INFO ] 2018-04-28 11:28:58.706 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.706 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53784
+[INFO ] 2018-04-28 11:28:58.708 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.708 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53705
+[INFO ] 2018-04-28 11:28:58.711 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.712 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53716
+[INFO ] 2018-04-28 11:28:58.714 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.715 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53719
+[INFO ] 2018-04-28 11:28:58.718 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.718 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53558
+[INFO ] 2018-04-28 11:28:58.720 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.721 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53779
+[INFO ] 2018-04-28 11:28:58.722 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.723 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53714
+[INFO ] 2018-04-28 11:28:58.732 [http-nio-8080-exec-2] GenericDao - Matches found: [User{id=6, userName='dtillman', userEmail='uptildawn@yahoo.com', gym=com.aarongoldbin.entity.Gym@7c045412, location='53714', password='supersecret6', firstName='Dawn', lastName='Tillman', height=6'4, sex='F', dob=null, role=[com.aarongoldbin.entity.Role@f3751280]}]
+[DEBUG] 2018-04-28 11:28:58.732 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53717
+[INFO ] 2018-04-28 11:28:58.743 [http-nio-8080-exec-2] GenericDao - Matches found: [User{id=5, userName='dklein', userEmail='calvinklein@gmail.com', gym=com.aarongoldbin.entity.Gym@5c253244, location='53717', password='supersecret5', firstName='Dianne', lastName='Klein', height=5'8, sex='F', dob=null, role=[com.aarongoldbin.entity.Role@5e963e83]}, User{id=252, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@1b57cbe6, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@3423c04]}]
+[DEBUG] 2018-04-28 11:28:58.743 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53704
+[INFO ] 2018-04-28 11:28:58.752 [http-nio-8080-exec-2] GenericDao - Matches found: [User{id=3, userName='bcurry', userEmail='curryman@yahoo.com', gym=com.aarongoldbin.entity.Gym@91143bd, location='53704', password='supersecret3', firstName='Barney', lastName='Curry', height=6'2, sex='M', dob=null, role=[com.aarongoldbin.entity.Role@5ac01301]}]
+[DEBUG] 2018-04-28 11:28:58.753 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53562
+[INFO ] 2018-04-28 11:28:58.754 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.754 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53575
+[INFO ] 2018-04-28 11:28:58.756 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.756 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53718
+[INFO ] 2018-04-28 11:28:58.758 [http-nio-8080-exec-2] GenericDao - Matches found: []
+[DEBUG] 2018-04-28 11:28:58.758 [http-nio-8080-exec-2] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE 53593
+[INFO ] 2018-04-28 11:28:58.772 [http-nio-8080-exec-2] GenericDao - Matches found: [User{id=255, userName='npsteck', userEmail='blah@gmail.com', gym=com.aarongoldbin.entity.Gym@5af94a70, location='53593', password='doggodoggo', firstName='Nicole', lastName='Steck', height=null, sex='null', dob=null, role=[]}]
+[INFO ] 2018-04-28 11:28:59.330 [http-nio-8080-exec-2] GenericDao - GetAll for class com.aarongoldbin.entity.Gym
+[INFO ] 2018-04-28 11:28:59.403 [http-nio-8080-exec-2] GenericDao - Retrieved list: [com.aarongoldbin.entity.Gym@5d8bd3d6, com.aarongoldbin.entity.Gym@570fe2a3, com.aarongoldbin.entity.Gym@51cb6c7a, com.aarongoldbin.entity.Gym@31b4aad0, com.aarongoldbin.entity.Gym@32a2ca53, com.aarongoldbin.entity.Gym@1a903c5e]
+[INFO ] 2018-04-28 12:23:35.584 [http-nio-8080-exec-7] UserSearch - # zip codes returned: 38
+[DEBUG] 2018-04-28 12:23:40.088 [http-nio-8080-exec-7] GenericDao - Searching class com.aarongoldbin.entity.User with property location LIKE [53713, 53774, 53715, 53708, 53792, 53726, 53744, 53725, 53701, 53702, 53707, 53794, 53790, 53793, 53789, 53791, 53777, 53778, 53782, 53785, 53786, 53711, 53706, 53703, 53788, 53784, 53705, 53716, 53719, 53558, 53779, 53714, 53717, 53704, 53562, 53575, 53718, 53593]
