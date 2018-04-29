@@ -32,7 +32,7 @@ class GymDaoTest {
         genericDao = new GenericDao(Gym.class);
 
         Database database = Database.getInstance();
-        database.runSQL("indieSql.sql");
+        database.runSQL("cleanDB.sql");
     }
 
     /**

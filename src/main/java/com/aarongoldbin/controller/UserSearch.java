@@ -48,25 +48,14 @@ public class UserSearch extends HttpServlet {
                 searchTerm = req.getParameter("searchTerm");
                 switch (searchType) {
                     case "zip":
-                        // TODO for loop to search for each zip?
-//                        List<User> users = new ArrayList<User>(Arrays.asList((User) userDao.getById(Integer.parseInt(searchTerm))));
-//                        req.setAttribute("users", users);
-//                        directResults(req, resp, "/userResults.jsp");
                         List<String> returnedZips = zipSearch(searchTerm);
 
                         List<User> users = new ArrayList<User>();
-//                        req.setAttribute("users", userDao.getByPropertyLikeList("location"
-//                                , returnedZips));
                         for (int i = 0; i < returnedZips.size(); i++) {
                             users.addAll(userDao.getByPropertyLike("location" , returnedZips.get(i)));
                         }
                         req.setAttribute("users"
                                 , users);
-//                            req.setAttribute("users"
-//                                    , userDao.getByPropertyLike("location", zipSearch(searchTerm).get(i)));
-//                        }
-
-//                        req.setAttribute("users", zipSearch(searchTerm));
                         directResults(req, resp, "/userResults.jsp");
                         break;
                     case "userName":
@@ -100,7 +89,6 @@ public class UserSearch extends HttpServlet {
      * @return
      */
     private ArrayList<String> zipSearch(String zip) {
-//        String sql = "";
         ArrayList<String> userZips = new ArrayList<>();
 
         Client client = ClientBuilder.newClient();
@@ -118,45 +106,13 @@ public class UserSearch extends HttpServlet {
                     + zipResponse.getPostalCodes().size());
             for (int i = 0; i < zipResponse.getPostalCodes().size(); i ++) {
                 userZips.add(zipResponse.getPostalCodes().get(i).getPostalCode());
-//                sql += "\nOR WHERE location LIKE " + zipResponse.getPostalCodes().get(i).getPostalCode();
             }
             return userZips;
         } catch (IOException ioe) {
             logger.error("Err searching for zip in UserSearch: " + ioe);
             return userZips;
         }
-//        zipResponse.getPostalCodes().toArray();
     }
-//    private String zipSearch(String zip) {
-//        String sql = "";
-//        Client client = ClientBuilder.newClient();
-//        WebTarget target =
-//                client.target("http://api.geonames.org/findNearbyPostalCodesJSON?"
-//                        + "postalcode="
-//                        + zip
-//                        +"&country=US&radius=16.1&maxRows=50&username=agoldbin");
-//        String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
-//
-//        ObjectMapper mapper = new ObjectMapper();
-//        try {
-//            ArrayList<String> userZips = new ArrayList<>();
-//            Response zipResponse = mapper.readValue(response, Response.class);
-//            logger.info("# zip codes returned: "
-//                    + zipResponse.getPostalCodes().size());
-//            for (int i = 0; i < zipResponse.getPostalCodes().size(); i ++) {
-//                userZips.add(zipResponse.getPostalCodes().get(i).getPostalCode());
-//                sql += ", " + zipResponse.getPostalCodes().get(i).getPostalCode();
-//            }
-//            sql.substring(2);
-//            String sqlStmt = "(" + sql + ")";
-//            logger.info("Zip sql: " + sqlStmt);
-//            return sqlStmt;
-//        } catch (IOException ioe) {
-//            logger.error("Err searching for zip in UserSearch: " + ioe);
-//            return sql;
-//        }
-////        zipResponse.getPostalCodes().toArray();
-//    }
 
     /**
      * This method will determine which results page the user should end up on based on the type of search
