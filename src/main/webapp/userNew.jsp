@@ -7,19 +7,19 @@
 <head>
     <%@include file="templates/head.jsp"%>
     <script src="js/init.js"></script>
-    <%java.sql.Connection Conn = DBconnector.SetDBConnection(); /* make connector as you make in your code */
-    Statement st = null;
-    ResultSet rs = null;
-    st = Conn.createStatement();
-    rs = st.executeQuery("select gym_name from gym"); %>
-        <tr>
-            <td>
-                Student Major  : <select name ="Major">
-                <%while(rs.next()){ %>
-                <option value="<%=rs.getString(1)%>"><%=rs.getString(1)%></option>
-                <%}%>
-            </select>
-            </td>
+    <%--<%java.sql.Connection Conn = DBconnector.SetDBConnection(); /* make connector as you make in your code */--%>
+    <%--Statement st = null;--%>
+    <%--ResultSet rs = null;--%>
+    <%--st = Conn.createStatement();--%>
+    <%--rs = st.executeQuery("select gym_name from gym"); %>--%>
+        <%--<tr>--%>
+            <%--<td>--%>
+                <%--Student Major  : <select name ="Major">--%>
+                <%--<%while(rs.next()){ %>--%>
+                <%--<option value="<%=rs.getString(1)%>"><%=rs.getString(1)%></option>--%>
+                <%--<%}%>--%>
+            <%--</select>--%>
+            <%--</td>--%>
         <%--<script>$("#first-choice").change(function() {--%>
         <%--$("#second-choice").load("getter.php?choice=" + $("#first-choice").val());--%>
     <%--});</script>--%>
