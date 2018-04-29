@@ -45,14 +45,14 @@
     <div class="nav-wrapper blue darken-2">
         <div id="nav-large" class="hide-on-med-and-down">
             <img src="images/logo2.png" class="center-align" height="60px">
-            <a id="home" href="../index.jsp" class="brand-logo left orange-text">Lift Buddy</a>
+            <a id="home" href="../LiftBuddy/index.jsp" class="brand-logo left orange-text">Lift Buddy</a>
             <ul class="right">
                 <%-- TODO add functionality so login changes to logout depending on session status --%>
                 <c:if test="${empty user}">
-                    <li id="search"><a href="../search.jsp">Search</a></li>
+                    <li id="search"><a href="../LiftBuddy/search.jsp">Search</a></li>
                     <%--<li id="loginLink"><a class="modal-trigger" href="#loginModal" data-target="modal">Login</a></li>--%>
-                    <li id="loginLink"><a class="" href="user.jsp">Login</a></li>
-                    <li id="signUp"><a href="../userNew.jsp">Sign Up</a></li>
+                    <li id="loginLink"><a class="" href="../LiftBuddy/user.jsp">Login</a></li>
+                    <li id="signUp"><a href="../LiftBuddy/userNew.jsp">Sign Up</a></li>
                 </c:if>
                 <%-- check if user is admin --%>
                 <%--<c:if test="${role.roleName = 'admin'}">--%>
@@ -70,10 +70,10 @@
         <div id="nav-mobile" class="hide-on-large-only">
             <ul id="nav-m" class="side-nav">
                 <c:if test="${empty user}">
-                    <li><a href="../search.jsp"><i class="material-icons">search</i>Search</a></li>
-                    <li><a class="" href="user.jsp">Login</a></li>
-                    <li><a href="../userNew.jsp">Sign Up</a></li>
-                    <li><a href="../search.jsp">Search</a></li>
+                    <li><a href="../LiftBuddy/search.jsp"><i class="material-icons">search</i>Search</a></li>
+                    <li><a class="" href="../LiftBuddy/user.jsp">Login</a></li>
+                    <li><a href="../LiftBuddy/userNew.jsp">Sign Up</a></li>
+                    <li><a href="../LiftBuddy/search.jsp">Search</a></li>
                 </c:if>
                 <%-- check if user is admin --%>
                 <%--<c:if test="${roleName = 'admin'}">--%>
