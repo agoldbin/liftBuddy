@@ -6,7 +6,7 @@
 <body>
 <%@include file="templates/navbar.jsp" %>
     <div class="center-align">
-        <h1>Welcome to LiftBuddy <c:out value="${user.userName}" />!</h1>
+        <h1>Welcome to LiftBuddy <c:out value="${sessionScope.user.userName}" />!</h1>
         <br>
         <img src="images/logo2.png" width="30%">
     </div>

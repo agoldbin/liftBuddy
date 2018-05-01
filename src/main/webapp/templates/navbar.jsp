@@ -36,7 +36,7 @@
             //     $('#about').addClass("active");
             //     break;
             default:
-                // $('#home').addClass("green-text");
+                $('#home').addClass("green-text");
                 break;
         }
     });
@@ -48,7 +48,7 @@
             <a id="home" href="../LiftBuddy/index.jsp" class="brand-logo left orange-text">Lift Buddy</a>
 
             <%-- Check if user is signed in --%>
-            <c:if test="${not empty sessionScope.user}">
+            <c:if test="${not empty user}">
                 <ul class="right">
                     <%-- Dropdown menu if user is signed in --%>
                     <%--TODO user crud--%>
@@ -65,7 +65,7 @@
                     </li>
                     <%-- check if user is admin --%>
                         <%--TODO admin crud - including gyms--%>
-                    <c:if test="${sessionScope.role = 'admin'}">
+                    <c:if test="${role = 'admin'}">
                         <li><a href="#">You're an Admin!</a></li>
                     </c:if>
 
@@ -113,8 +113,8 @@
                 </c:if>
 
             </ul>
-            <a href="#" data-activates="nav-m" class="button-collapse iconLinks"><i class="material-icons gray">menu</i></a>
-            <div class="hide-on-large-only valign-wrapper">
+            <a href="#" data-activates="nav-m" class="button-collapse iconLinks"><i class="material-icons orange">menu</i></a>
+            <div class="valign-wrapper">
                 <a href="index.jsp" class="center">
                     <img src="images/logo2.png" class="center-block" height="50px">
                 </a>
