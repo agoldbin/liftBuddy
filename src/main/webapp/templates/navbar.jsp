@@ -92,7 +92,6 @@
                         <%--&lt;%&ndash;<li><a href="user.jsp#profile">${user.userName}'s profile</a></li>&ndash;%&gt;--%>
                     <%--</c:if>--%>
             </div>
-        </div>
 
         <div id="nav-mobile" class="hide-on-large-only">
             <ul id="nav-m" class="side-nav">
@@ -110,7 +109,7 @@
                     <%--<li><a href="user.jsp#favorites">${user.userName}'s favorites</a></li>--%>
                     <%--<li><a href="user.jsp#reviews">${user.userName}'s reviews</a></li>--%>
                     <%--<li><a href="user.jsp#profile">${user.userName}'s profile</a></li>--%>
-                    <li><a href="logout">logout</a></li>
+                    <li><a href="logout">Logout</a></li>
                 </c:if>
 
             </ul>

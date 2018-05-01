@@ -28,7 +28,6 @@ $(document).ready(function() {
 $(".dropdown-trigger").dropdown();
 
 
-
 // Initialize SIDENAV bar for headers
 // $(document).ready(function(){
 //     $('.sidenav').sidenav();

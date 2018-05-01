@@ -3819,6 +3819,7 @@ OR WHERE location LIKE 53562
 [INFO ] 2018-04-29 13:17:20.257 [main] GenericDao - Insert success! ID = 284
 [INFO ] 2018-04-29 13:17:20.258 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 284
 [INFO ] 2018-04-29 13:17:20.270 [main] GenericDao - Found: User{id=284, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@72bd2871, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@3427453]}
+<<<<<<< HEAD
 [INFO ] 2018-04-30 00:23:31.082 [main] GenericDao - Getting a class com.aarongoldbin.entity.Gym with ID 4
 [INFO ] 2018-04-30 00:23:31.153 [main] GenericDao - Found: com.aarongoldbin.entity.Gym@7bbbb6a8
 [INFO ] 2018-04-30 00:23:31.156 [main] GenericDao - Inserting entity: User{id=0, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@7bbbb6a8, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@341f872]}
@@ -5706,3 +5707,5 @@ OR WHERE location LIKE 53562
 [INFO ] 2018-05-01 04:14:46.449 [main] GenericDao - Insert success! ID = 347
 [INFO ] 2018-05-01 04:14:46.449 [main] GenericDao - Getting a class com.aarongoldbin.entity.User with ID 347
 [INFO ] 2018-05-01 04:14:46.462 [main] GenericDao - Found: User{id=347, userName='fflintstone', userEmail='yabadaba@yahoo.com', gym=com.aarongoldbin.entity.Gym@413bef78, location='53717', password='supersecret7', firstName='Fred', lastName='Flinstone', height=null, sex='null', dob=null, role=[com.aarongoldbin.entity.Role@342e4f1]}
+=======
+>>>>>>> b05700debb4949fa1afc0fa46eac51e274f5d445
