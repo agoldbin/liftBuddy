@@ -56,6 +56,7 @@ crashlytics-build.properties
 fabric.properties
 
 # Aaron's added stuff
+hibernate.log
 liftbuddytest.log
 LiftBuddy.pem
 LiftBuddy.ppk
