@@ -40,7 +40,9 @@ DISCLAIMER: All times are estimates as I am bad at actually tracking when I work
 | 4/19/18 | Finally can have users sign up. Servlet work stuff | 1.5 |
 | 4/20/18 | Created servlets, now just need to copypasta from other servlets... | 1 |
 | 4/22/18 | Refactoring DB a bit, | 1.5 |
----
 | 4/24/18 | Got stuck on week 13 exercise, shifting to working on Hibernate config for project | 4 |
-| 4/25/18 | Configuring hibernate, testing ability for "buddy" role to log in |  |
-####Running total: = 116.5 hrs
+| 4/25/18 | Configuring hibernate, testing ability for "buddy" role to log in | 2 |
+| 4/28-29/18 | Created new instance, set up sql, blah blah blah. Added reverse geocode API to search for users in 10 mile radius | 10 |
+---
+| 5/1/18 | JSTL for new user page to display gyms in DB, debugging links. | |
+####Running total: = 132.5 hrs

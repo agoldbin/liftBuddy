@@ -24,6 +24,11 @@ $(document).ready(function() {
     $('select').material_select();
 });
 
+// Initialize NAVBAR DROPDOWN
+$(".dropdown-trigger").dropdown();
+
+
+
 // Initialize SIDENAV bar for headers
 // $(document).ready(function(){
 //     $('.sidenav').sidenav();

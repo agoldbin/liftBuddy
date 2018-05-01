@@ -11,12 +11,12 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.util.List;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.hibernate.boot.model.relational.Database;
 
 /**
  * Servlet to add a new user. If user enters a gym that is not in the database it will be created
@@ -29,28 +29,24 @@ import org.hibernate.boot.model.relational.Database;
 )
 public class UserAdd extends HttpServlet {
     private final Logger logger = LogManager.getLogger(this.getClass());
-    Gym gym;
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        // check gym to see if it exists. If not, create it
-//        GenericDao gymDao = new GenericDao(Gym.class);
-//        String userGym = req.getParameter("userGym");
-//        List<Gym> gyms = gymDao.getByPropertyEqual("gymName", userGym);
-//        if (gyms.size() > 1) {
-//            // Gym exists
-//            gym = gyms.get(0);
-//        } else {
-//            // Create new gym in db
-//            gym = new Gym(userGym);
-//            int id = gymDao.insert(gym);
-//            logger.info("New Gym entered by user: " + gym);
-//        }
-
-        // TODO update site to take actual gym, not this debug stuff
+        String gymParam;
         GenericDao gymDao = new GenericDao(Gym.class);
-        Gym tempGym = (Gym) gymDao.getById(1);
+        Gym userGym;
+
+        // check if user selected existing gym
+        if (! req.getParameter("gymSelect").equalsIgnoreCase("")) {
+            gymParam = req.getParameter("gymSelect");
+            userGym = (Gym) gymDao.getByPropertyEqual("gymName", gymParam).get(0);
+        } else {
+        // insert new gym into DB;
+            gymParam = req.getParameter("newGym");
+            userGym = new Gym(gymParam);
+            gymDao.insert(userGym);
+        }
 
         // TODO check if username already taken?
 
@@ -62,10 +58,10 @@ public class UserAdd extends HttpServlet {
         GenericDao userDao = new GenericDao(User.class);
         User newUser = new User(req.getParameter("email"), req.getParameter("password")
                 , req.getParameter("user_name"), req.getParameter("first_name")
-                , req.getParameter("last_name"), tempGym, req.getParameter("location"));
+                , req.getParameter("last_name"), userGym, req.getParameter("location"));
         logger.info(newUser);
         userDao.insert(newUser);
-        tempGym.addUser(newUser);
+        userGym.addUser(newUser);
 
         // default new user to role "buddy"
         String roleName = "buddy";
@@ -76,7 +72,13 @@ public class UserAdd extends HttpServlet {
         logger.info("User created: " + newUser);
         logger.info("User user role set to: " + role.getRoleName());
 
-        req.setAttribute("user", newUser);
+        // TODO set user for session, not just request. Do on login also
+        HttpSession session = req.getSession();
+        session.setAttribute("user", newUser);
+        logger.info("New user: " + newUser.getUserName());
+
+        session.setAttribute("authType", newUser.getRoles());
+        logger.info("Roles retrieved: " + newUser.getRoles());
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/user.jsp");
         dispatcher.forward(req, resp);

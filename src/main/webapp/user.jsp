@@ -6,9 +6,9 @@
 <body>
 <%@include file="templates/navbar.jsp" %>
     <div class="center-align">
-        <img src="images/logo2.png" width="30%">
+        <h1>Welcome to LiftBuddy <c:out value="${user.userName}" />!</h1>
         <br>
-        <h1>Welcome to LiftBuddy!</h1>
+        <img src="images/logo2.png" width="30%">
     </div>
 <%@include file="templates/footer.jsp"%>
 </body>

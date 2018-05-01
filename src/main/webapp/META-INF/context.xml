@@ -1,4 +1,5 @@
 <Context docBase="liftBuddy" path="/LiftBuddy" reloadable="true">
+    <!-- TODO !!!!!!!!! CHANGE DB NAME BEFORE PACKAGING !!!!!!!!! -->
     <Realm className="org.apache.catalina.realm.JDBCRealm"
            driverName="com.mysql.jdbc.Driver"
            connectionURL="jdbc:mysql://localhost:3306/liftbuddytest?user=tomcat&amp;password=tomcat"

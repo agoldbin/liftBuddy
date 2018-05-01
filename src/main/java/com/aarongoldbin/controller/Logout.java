@@ -30,6 +30,6 @@ public class Logout extends HttpServlet {
 
         session.invalidate();
 
-        resp.sendRedirect("/index.jsp");
+        resp.sendRedirect(req.getContextPath() + "/index.jsp");
     }
 }
