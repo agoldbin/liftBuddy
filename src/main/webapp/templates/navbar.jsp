@@ -113,10 +113,10 @@
                 </c:if>
 
             </ul>
-            <a href="#" data-activates="nav-m" class="button-collapse iconLinks"><i class="material-icons orange">menu</i></a>
+            <a href="#" data-activates="nav-m" class="button-collapse iconLinks"><i class="material-icons orange-text">menu</i></a>
             <div class="valign-wrapper">
                 <a href="index.jsp" class="center">
-                    <img src="images/logo2.png" class="center-block" height="50px">
+                    <img src="images/logo2.png" class="center-block center-align" height="50px">
                 </a>
             </div>
 

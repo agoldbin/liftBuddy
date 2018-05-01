@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <head>
     <%@include file="templates/head.jsp"%>
-    <script src="../js/init.js"></script>
+    <script src="js/init.js"></script>
 <head>
 
 <html>
@@ -11,12 +11,12 @@
 <%@include file="templates/navbar.jsp"%>
 
 <%--<h2>Lift Buddy Display</h2>--%>
-    <div class="parallax-container show-on-large">
+    <div class="parallax-container hide-on-small-and-down show-on-medium-and-up">
         <div class="parallax">
             <img src="images/background_bar_m.jpg">
         </div>
     </div>
-    <div class="parallax-container hide-on-large-only">
+    <div class="parallax-container hide-on-med-and-up">
         <div class="parallax">
             <img src="images/background_bar_s.jpg">
         </div>

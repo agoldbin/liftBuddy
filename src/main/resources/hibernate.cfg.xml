@@ -4,12 +4,8 @@
         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
     <session-factory>
-<<<<<<< HEAD
         <!-- TODO !!!!!!!! CHANGE DB NAME !!!!!!!!!!!!!!-->
         <property name="connection.url">jdbc:mysql://localhost:3306/liftbuddytest</property>
-=======
-        <property name="connection.url">jdbc:mysql://localhost:3306/liftbuddy</property>
->>>>>>> b05700debb4949fa1afc0fa46eac51e274f5d445
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
 
         <property name="connection.username">root</property>

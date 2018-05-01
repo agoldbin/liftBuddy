@@ -6,10 +6,7 @@ import org.apache.logging.log4j.Logger;
 
 public class Hash {
  /*  private final Logger logger = Logger.getLogger(this.getClass());
-<<<<<<< HEAD
-=======
 
->>>>>>> origin/master
    @Test
     // Version: Apache Tomcat (TomEE)/8.5.3 (7.0.1)
     //See http://tomcat.apache.org/tomcat-8.0-doc/realm-howto.html#Digested_Passwords
