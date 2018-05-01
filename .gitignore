@@ -60,3 +60,6 @@ hibernate.log
 liftbuddytest.log
 LiftBuddy.pem
 LiftBuddy.ppk
+
+# Ignore Logs
+*.log
