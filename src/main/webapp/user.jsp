@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@include file="templates/taglib.jsp" %>
-<c:set var = "title" value = "LB User"/>
+<c:set var="title" value="LB User"/>
 <html>
 <%@include file="templates/head.jsp" %>
 <script src="js/init.js"></script>

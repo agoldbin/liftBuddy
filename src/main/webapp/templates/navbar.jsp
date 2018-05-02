@@ -47,8 +47,54 @@
             <img src="images/logo2.png" class="center-align" height="60px">
             <a id="home" href="../LiftBuddy/index.jsp" class="brand-logo left orange-text">Lift Buddy</a>
 
+            <%--<c:choose>--%>
+
+                <%--<c:when test="${empty pageContext.request.remoteUser}">--%>
+
+                <%--<li>--%>
+
+                    <%--<a href="login" class="nav-link">Log In</a>--%>
+
+                <%--</li>--%>
+
+            <%--</c:when>--%>
+
+            <%--<c:otherwise>--%>
+
+                <%--<li class="nav-item">--%>
+
+                    <%--<a href="search.jsp" class="nav-link">Search</a>--%>
+
+                <%--</li>--%>
+
+                <%--<li class="nav-item">--%>
+
+                    <%--<a href="#">Import Connections</a>--%>
+
+                <%--</li>--%>
+
+                <%--<c:if test="${role == 'admin'}">--%>
+
+                <%--<li class="nav-item">--%>
+
+                    <%--<a href="adminSearch.jsp">Admin</a>--%>
+
+                <%--</li>--%>
+
+            <%--</c:if>--%>
+
+            <%--<li>--%>
+
+                <%--<a href="logout">Log Out</a>--%>
+
+            <%--</li>--%>
+
+            <%--</c:otherwise>--%>
+
+        <%--</c:choose>--%>
+
             <%-- Check if user is signed in --%>
-            <c:if test="${not empty user}">
+            <c:if test="${not empty pageContext.request.remoteUser}">
                 <ul class="right">
                     <%-- Dropdown menu if user is signed in --%>
                     <%--TODO user crud--%>
@@ -78,7 +124,7 @@
 
                 <%-- TODO add functionality so login changes to logout depending on session status --%>
                 <%-- Links if user not signed in --%>
-                <c:if test="${empty sessionScope.user}">
+                <c:if test="${empty pageContext.request.remoteUser}">
                     <ul class="right">
                         <li id="search"><a href="../LiftBuddy/search.jsp">Search</a></li>
                         <%--<li id="loginLink"><a class="modal-trigger" href="#loginModal" data-target="modal">Login</a></li>--%>
@@ -95,7 +141,7 @@
 
         <div id="nav-mobile" class="hide-on-large-only">
             <ul id="nav-m" class="side-nav">
-                <c:if test="${empty user}">
+                <c:if test="${empty pageContext.request.remoteUser}">
                     <li><a href="../LiftBuddy/search.jsp"><i class="material-icons">search</i>Search</a></li>
                     <li><a class="" href="../LiftBuddy/user.jsp">Login</a></li>
                     <li><a href="getGyms">Sign Up</a></li>
@@ -105,7 +151,7 @@
                 <%--<c:if test="${roleName = 'admin'}">--%>
 
                 <%--</c:if>--%>
-                <c:if test="${not empty user}">
+                <c:if test="${not empty pageContext.request.remoteUser}">
                     <%--<li><a href="user.jsp#favorites">${user.userName}'s favorites</a></li>--%>
                     <%--<li><a href="user.jsp#reviews">${user.userName}'s reviews</a></li>--%>
                     <%--<li><a href="user.jsp#profile">${user.userName}'s profile</a></li>--%>

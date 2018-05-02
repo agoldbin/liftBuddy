@@ -18,17 +18,6 @@
     </form-login-config>
   </login-config>
 
-  <!--&lt;!&ndash; Protect everything within the "admin" directory. &ndash;&gt;-->
-  <!--<security-constraint>-->
-    <!--<web-resource-collection>-->
-      <!--<web-resource-name>admin</web-resource-name>-->
-      <!--<url-pattern>/admin/*</url-pattern>-->
-    <!--</web-resource-collection>-->
-    <!--<auth-constraint>-->
-      <!--<role-name>admin</role-name>-->
-    <!--</auth-constraint>-->
-  <!--</security-constraint>-->
-
   <!-- Protect everything within the "admin" directory. -->
   <security-constraint>
     <web-resource-collection>
@@ -43,8 +32,8 @@
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>user</web-resource-name>
-      <url-pattern>/user.jsp</url-pattern>
-      <url-pattern>/gymNew.jsp</url-pattern>
+      <url-pattern>/login</url-pattern>
+      <url-pattern>/gymAdd</url-pattern>
     </web-resource-collection>
     <auth-constraint>
       <role-name>admin</role-name>
