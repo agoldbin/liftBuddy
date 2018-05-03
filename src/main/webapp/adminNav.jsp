@@ -3,7 +3,7 @@
 <%-- adminSearch.jsp, loginError.jsp  --%>
 <!DOCTYPE html>
 
-<%@include file="../templates/taglib.jsp"%>
+<%@include file="templates/taglib.jsp"%>
 <script type="text/javascript">
 
     function getPageNameFromURL() {
@@ -51,55 +51,55 @@
 
             <%--<c:choose>--%>
 
-                <%--<c:when test="${empty pageContext.request.remoteUser}">--%>
+            <%--<c:when test="${empty pageContext.request.remoteUser}">--%>
 
-                <%--<li>--%>
+            <%--<li>--%>
 
-                    <%--<a href="login" class="nav-link">Log In</a>--%>
+            <%--<a href="login" class="nav-link">Log In</a>--%>
 
-                <%--</li>--%>
+            <%--</li>--%>
 
             <%--</c:when>--%>
 
             <%--<c:otherwise>--%>
 
-                <%--<li class="nav-item">--%>
+            <%--<li class="nav-item">--%>
 
-                    <%--<a href="search.jsp" class="nav-link">Search</a>--%>
+            <%--<a href="search.jsp" class="nav-link">Search</a>--%>
 
-                <%--</li>--%>
+            <%--</li>--%>
 
-                <%--<li class="nav-item">--%>
+            <%--<li class="nav-item">--%>
 
-                    <%--<a href="#">Import Connections</a>--%>
+            <%--<a href="#">Import Connections</a>--%>
 
-                <%--</li>--%>
+            <%--</li>--%>
 
-                <%--<c:if test="${role == 'admin'}">--%>
+            <%--<c:if test="${role == 'admin'}">--%>
 
-                <%--<li class="nav-item">--%>
+            <%--<li class="nav-item">--%>
 
-                    <%--<a href="adminSearch.jsp">Admin</a>--%>
+            <%--<a href="adminSearch.jsp">Admin</a>--%>
 
-                <%--</li>--%>
+            <%--</li>--%>
 
             <%--</c:if>--%>
 
             <%--<li>--%>
 
-                <%--<a href="logout">Log Out</a>--%>
+            <%--<a href="logout">Log Out</a>--%>
 
             <%--</li>--%>
 
             <%--</c:otherwise>--%>
 
-        <%--</c:choose>--%>
+            <%--</c:choose>--%>
 
             <%-- Check if user is signed in --%>
             <c:if test="${not empty pageContext.request.remoteUser}">
                 <ul class="right">
-                    <%-- Dropdown menu if user is signed in --%>
-                    <%--TODO user crud--%>
+                        <%-- Dropdown menu if user is signed in --%>
+                        <%--TODO user crud--%>
                     <ul id="userDropdown" class="dropdown-content">
                         <li><a href="#!">Update Info</a></li>
                         <li><a href="#!">Something</a></li>
@@ -111,38 +111,38 @@
                     </li>
                     <li>
                         <a class="dropdown-trigger" href="#" data-target="userDropdown">Edit Profile ${user.firstName}
-                        <i class="material-icons right">arrow_drop_down</i>
+                            <i class="material-icons right">arrow_drop_down</i>
                         </a>
                     </li>
-                    <%-- check if user is admin --%>
+                        <%-- check if user is admin --%>
                         <%--TODO admin crud - including gyms--%>
                     <c:if test="${role = 'admin'}">
                         <li><a href="#">You're an Admin!</a></li>
                     </c:if>
 
-                    <%-- Default user links --%>
+                        <%-- Default user links --%>
                     <li><a href="userSearch.jsp">User Search</a></li>
                     <li><a href="logout">Logout</a></li>
 
                 </ul>
-                </c:if>
+            </c:if>
 
-                <%-- TODO add functionality so login changes to logout depending on session status --%>
-                <%-- Links if user not signed in --%>
-                <c:if test="${empty pageContext.request.remoteUser}">
-                    <ul class="right">
-                        <li id="search"><a href="../LiftBuddy/search.jsp">Search</a></li>
+            <%-- TODO add functionality so login changes to logout depending on session status --%>
+            <%-- Links if user not signed in --%>
+            <c:if test="${empty pageContext.request.remoteUser}">
+                <ul class="right">
+                    <li id="search"><a href="../LiftBuddy/search.jsp">Search</a></li>
                         <%--<li id="loginLink"><a class="modal-trigger" href="#loginModal" data-target="modal">Login</a></li>--%>
-                        <li id="loginLink"><a class="" href="../LiftBuddy/user.jsp">Login</a></li>
-                        <li id="signUp"><a href="getGyms">Sign Up</a></li>
-                    </ul>
-                </c:if>
-                    <%--<c:if test="${not empty sessionScope.user}">--%>
-                        <%--&lt;%&ndash;<li><a href="user.jsp#favorites">${user.userName}'s favorites</a></li>&ndash;%&gt;--%>
-                        <%--&lt;%&ndash;<li><a href="user.jsp#reviews">${user.userName}'s reviews</a></li>&ndash;%&gt;--%>
-                        <%--&lt;%&ndash;<li><a href="user.jsp#profile">${user.userName}'s profile</a></li>&ndash;%&gt;--%>
-                    <%--</c:if>--%>
-            </div>
+                    <li id="loginLink"><a class="" href="../LiftBuddy/user.jsp">Login</a></li>
+                    <li id="signUp"><a href="getGyms">Sign Up</a></li>
+                </ul>
+            </c:if>
+            <%--<c:if test="${not empty sessionScope.user}">--%>
+            <%--&lt;%&ndash;<li><a href="user.jsp#favorites">${user.userName}'s favorites</a></li>&ndash;%&gt;--%>
+            <%--&lt;%&ndash;<li><a href="user.jsp#reviews">${user.userName}'s reviews</a></li>&ndash;%&gt;--%>
+            <%--&lt;%&ndash;<li><a href="user.jsp#profile">${user.userName}'s profile</a></li>&ndash;%&gt;--%>
+            <%--</c:if>--%>
+        </div>
 
         <div id="nav-mobile" class="hide-on-large-only">
             <ul id="nav-m" class="side-nav">

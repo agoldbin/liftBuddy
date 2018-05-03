@@ -1,5 +1,6 @@
 //********************* Materialize Variables *********************\\
 // Initialize PARALLAX (used for styling of pages)
+
 (function($){
     $(function(){
 
