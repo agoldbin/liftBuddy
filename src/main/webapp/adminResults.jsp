@@ -24,18 +24,16 @@
     <h2>Search Results: </h2>
     <table id="searchTable" class="display" cellspacing="0" width="100%">
         <thead>
-        <th>Name</th>
+        <th>Role</th>
         <th>User Name</th>
-        <th>Location</th>
         <th>Edit</th>
         <th>Remove</th>
         </thead>
         <tbody>
-        <c:forEach var="user" items="${users}">
+        <c:forEach var="role" items="${admins}">
             <tr>
-                <td>${user.firstName} ${user.lastName}</td>
+                <td>${role.roleName} </td>
                 <td>${user.userName}</td>
-                <td>${user.location}</td>
                 <td><button class="waves-effect waves-light btn" type="submit" name="submit">Edit</button></td>
                 <td><button class="waves-effect waves-light btn red" type="submit" name="submit">Remove</button></td>
             </tr>

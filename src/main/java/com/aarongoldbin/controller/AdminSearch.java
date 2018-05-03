@@ -75,15 +75,22 @@ public class AdminSearch extends HttpServlet {
                 directResults(req, resp, "/adminGymResults.jsp");
                 break;
             case "viewAllAdmins":
-                req.setAttribute("admins", userDao.getByPropertyLike("roles.roleName", "admin"));
-//                req.setAttribute("admins", roleDao.getByPropertyEqual("roleName", "admin"));
-                directResults(req, resp, "/adminUserResults.jsp");
+//                Role role = new Role;
+//                roleDao.getByPropertyLike("roleName", "admin");
+//                List<User> users = userDao.getAll();
+//                for (User user : users) {
+//                    user.getRoles();
+//                }
+//                req.setAttribute("users", userDao.getAll());
+                req.setAttribute("users", roleDao.getByPropertyLike("roleName", "admin"));
+                directResults(req, resp, "/adminResults.jsp");
                 break;
             case "addAdmin":
                 req.setAttribute("users", userDao.getAll());
                 directResults(req, resp, "/adminNew.jsp");
                 break;
             case "addUser":
+                directResults(req, resp, "/adminAddUser.jsp");
                 break;
             case "addGym":
                 directResults(req, resp, "/gymNew.jsp");

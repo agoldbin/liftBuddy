@@ -46,4 +46,6 @@ DISCLAIMER: All times are estimates as I am bad at actually tracking when I work
 ---
 | 5/1/18 | JSTL for new user page to display gyms in DB, debugging links. | 4 |
 | 5/1/18 | Removed hibernate.log from being tracked. File to big for github | 1 |
+| 5/2/18 | Working on changing navbar when user logs in. Still unable to set user in session to get their name | 3 |
+| 5/1/18 | Adding admin CRUD, or at least trying |  |
 ####Running total: = 132.5 hrs

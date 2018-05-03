@@ -25,7 +25,7 @@ import org.apache.logging.log4j.Logger;
  */
 
 @WebServlet(
-        urlPatterns = {"/newUser"}
+        urlPatterns = {"/adminAddUser"}
 )
 
 public class AdminAddUser extends HttpServlet {
