@@ -49,56 +49,13 @@
             <img src="images/logo2.png" class="center-align" height="60px">
             <a id="home" href="../LiftBuddy/index.jsp" class="brand-logo left orange-text">Lift Buddy</a>
 
-            <%--<c:choose>--%>
-
-            <%--<c:when test="${empty pageContext.request.remoteUser}">--%>
-
-            <%--<li>--%>
-
-            <%--<a href="login" class="nav-link">Log In</a>--%>
-
-            <%--</li>--%>
-
-            <%--</c:when>--%>
-
-            <%--<c:otherwise>--%>
-
-            <%--<li class="nav-item">--%>
-
-            <%--<a href="search.jsp" class="nav-link">Search</a>--%>
-
-            <%--</li>--%>
-
-            <%--<li class="nav-item">--%>
-
-            <%--<a href="#">Import Connections</a>--%>
-
-            <%--</li>--%>
-
-            <%--<c:if test="${role == 'admin'}">--%>
-
-            <%--<li class="nav-item">--%>
-
-            <%--<a href="adminSearch.jsp">Admin</a>--%>
-
-            <%--</li>--%>
-
-            <%--</c:if>--%>
-
-            <%--<li>--%>
-
-            <%--<a href="logout">Log Out</a>--%>
-
-            <%--</li>--%>
-
-            <%--</c:otherwise>--%>
-
-            <%--</c:choose>--%>
-
             <%-- Check if user is signed in --%>
             <c:if test="${not empty pageContext.request.remoteUser}">
                 <ul class="right">
-                        <%-- Dropdown menu if user is signed in --%>
+                    <li>
+                        <a href="adminSearch.jsp">Admin</a>
+                    </li>
+                <%-- Dropdown menu if user is signed in --%>
                         <%--TODO user crud--%>
                     <ul id="userDropdown" class="dropdown-content">
                         <li><a href="#!">Update Info</a></li>
@@ -114,12 +71,6 @@
                             <i class="material-icons right">arrow_drop_down</i>
                         </a>
                     </li>
-                        <%-- check if user is admin --%>
-                        <%--TODO admin crud - including gyms--%>
-                    <c:if test="${role = 'admin'}">
-                        <li><a href="#">You're an Admin!</a></li>
-                    </c:if>
-
                         <%-- Default user links --%>
                     <li><a href="userSearch.jsp">User Search</a></li>
                     <li><a href="logout">Logout</a></li>

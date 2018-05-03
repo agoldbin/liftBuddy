@@ -75,8 +75,18 @@ public class AdminSearch extends HttpServlet {
                 directResults(req, resp, "/adminGymResults.jsp");
                 break;
             case "viewAllAdmins":
-                req.setAttribute("admins", roleDao.getByPropertyEqual("roleName", "admin"));
+                req.setAttribute("admins", userDao.getByPropertyLike("roles.roleName", "admin"));
+//                req.setAttribute("admins", roleDao.getByPropertyEqual("roleName", "admin"));
                 directResults(req, resp, "/adminUserResults.jsp");
+                break;
+            case "addAdmin":
+                req.setAttribute("users", userDao.getAll());
+                directResults(req, resp, "/adminNew.jsp");
+                break;
+            case "addUser":
+                break;
+            case "addGym":
+                directResults(req, resp, "/gymNew.jsp");
                 break;
             default:
                 logger.info("Error in AdminSearch. Unexpected form action: " + formAction);
