@@ -23,7 +23,7 @@
                 in this case, is moved at a different speed than the foreground content while scrolling.</p>
 
             <h2>Search form</h2>
-            <form action="adminForm" class="form-inline">
+            <form action="adminSearch" class="form-inline">
                 <div class="valign-wrapper">
                     <div class="input-field col m6">
                         <input type="text" class="form-control" name="searchTerm" id="searchTerm" aria-describedby="searchTermHelp">
@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <div class="col s12">
-                    <h4 align="center-align">VIEW DATABASE</h4>
+                    <h4 align="center-align">VIEW ALL</h4>
                 </div>
                 <div class="center-align col s12">
                     <button class="btn btn-primary" type="submit" name="submit" value="viewAllAdmins">
@@ -72,21 +72,21 @@
                         Add Gym
                     </button>
                 </div>
-                <hr />
-                <div class="col s12">
-                    <h4 align="center-align">REMOVE</h4>
-                </div>
-                <div class="center-align col s12">
-                    <button class="btn btn-primary" type="submit" name="submit" value="removeAdmin">
-                        Remove Admin
-                    </button>
-                    <button class="btn btn-primary" type="submit" name="submit" value="removeUser">
-                        Remove User
-                    </button>
-                    <button class="btn btn-primary" type="submit" name="submit" value="removeGym">
-                        Remove Gym
-                    </button>
-                </div>
+                <%--<hr />--%>
+                <%--<div class="col s12">--%>
+                    <%--<h4 align="center-align">EDIT OR REMOVE</h4>--%>
+                <%--</div>--%>
+                <%--<div class="center-align col s12">--%>
+                    <%--<button class="btn btn-primary" type="submit" name="submit" value="removeAdmin">--%>
+                        <%--Remove Admin--%>
+                    <%--</button>--%>
+                    <%--<button class="btn btn-primary" type="submit" name="submit" value="removeUser">--%>
+                        <%--Remove User--%>
+                    <%--</button>--%>
+                    <%--<button class="btn btn-primary" type="submit" name="submit" value="removeGym">--%>
+                        <%--Remove Gym--%>
+                    <%--</button>--%>
+                <%--</div>--%>
 
             </form>
 

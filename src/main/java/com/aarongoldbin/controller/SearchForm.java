@@ -29,8 +29,8 @@ public class SearchForm extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        GenericDao userDao = new GenericDao(User.class);
-        GenericDao gymDao = new GenericDao(Gym.class);
+        GenericDao userDao = new GenericDao<>(User.class);
+        GenericDao gymDao = new GenericDao<>(Gym.class);
 
         String searchType;
         String searchTerm;
@@ -42,8 +42,8 @@ public class SearchForm extends HttpServlet {
                 searchTerm = req.getParameter("searchTerm");
                 switch (searchType) {
                     case "id":
-                        List<User> users = new ArrayList<User>(Arrays.asList((User) userDao.getById(Integer.parseInt(searchTerm))));
-                        req.setAttribute("users", users);
+                        User user = (User) userDao.getById(Integer.parseInt(searchTerm));
+                        req.setAttribute("user", user);
                         directResults(req, resp, "/userResults.jsp");
                         break;
                     case "userName":

@@ -1,5 +1,6 @@
 package com.aarongoldbin.controller;
 
+import com.aarongoldbin.entity.Role;
 import com.aarongoldbin.entity.User;
 import com.aarongoldbin.entity.Gym;
 import com.aarongoldbin.persistence.GenericDao;
@@ -30,7 +31,8 @@ public class AdminSearch extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         GenericDao userDao = new GenericDao<>(User.class);
-        GenericDao gymDao = new GenericDao<>(Gym.class);
+        GenericDao gymDao  = new GenericDao<>(Gym.class);
+        GenericDao roleDao = new GenericDao<>(Role.class);
 
         String searchType;
         String searchTerm;
@@ -42,34 +44,42 @@ public class AdminSearch extends HttpServlet {
                 searchTerm = req.getParameter("searchTerm");
                 switch (searchType) {
                     case "id":
-                        List<User> users = new ArrayList<User>(Arrays.asList((User) userDao.getById(Integer.parseInt(searchTerm))));
-                        req.setAttribute("users", users);
-                        directResults(req, resp, "/userResults.jsp");
+                        User user = (User) userDao.getById(Integer.parseInt(searchTerm));
+                        req.setAttribute("user", user);
+                        directResults(req, resp, "/adminUserResults.jsp");
                         break;
                     case "userName":
                         req.setAttribute("users", userDao.getByPropertyLike("userName", searchTerm));
-                        directResults(req, resp, "/userResults.jsp");
+                        directResults(req, resp, "/adminUserResults.jsp");
+                        break;
+                    case "lastName":
+                        req.setAttribute("users", userDao.getByPropertyLike("lastName", searchTerm));
+                        directResults(req, resp, "/adminUserResults.jsp");
                         break;
                     case "gymName":
                         req.setAttribute("gyms", gymDao.getByPropertyLike("gymName", searchTerm));
-                        directResults(req, resp, "/gymResults.jsp");
+                        directResults(req, resp, "/adminGymResults.jsp");
                         break;
                     default:
-                        logger.info("Error in SearchForm. Unexpected Search Term. "
+                        logger.info("Error in AdminSearch. Unexpected Search Term. "
                                 + "\nsearchType: " + searchType
                                 + "\nsearchTerm: " + searchTerm)
                         ;
                 }
             case "viewAllUsers":
                 req.setAttribute("users", userDao.getAll());
-                directResults(req, resp, "/userResults.jsp");
+                directResults(req, resp, "/adminUserResults.jsp");
                 break;
             case "viewAllGyms":
                 req.setAttribute("gyms", gymDao.getAll());
-                directResults(req, resp, "/gymResults.jsp");
+                directResults(req, resp, "/adminGymResults.jsp");
+                break;
+            case "viewAllAdmins":
+                req.setAttribute("admins", roleDao.getByPropertyEqual("roleName", "admin"));
+                directResults(req, resp, "/adminUserResults.jsp");
                 break;
             default:
-                logger.info("Error in SearchForm. Unexpected form action: " + formAction);
+                logger.info("Error in AdminSearch. Unexpected form action: " + formAction);
         }
     }
 
