@@ -84,7 +84,7 @@
                     <ul class="right">
                         <li id="search"><a href="../LiftBuddy/search.jsp">Search</a></li>
                         <%--<li id="loginLink"><a class="modal-trigger" href="#loginModal" data-target="modal">Login</a></li>--%>
-                        <li id="loginLink"><a class="" href="../LiftBuddy/user.jsp">Login</a></li>
+                        <li id="loginLink"><a href="login">Login</a></li>
                         <li id="signUp"><a href="getGyms">Sign Up</a></li>
                     </ul>
                 </c:if>
@@ -99,7 +99,7 @@
             <ul id="nav-m" class="side-nav">
                 <c:if test="${empty pageContext.request.remoteUser}">
                     <li><a href="../LiftBuddy/search.jsp"><i class="material-icons">search</i>Search</a></li>
-                    <li><a class="" href="../LiftBuddy/user.jsp">Login</a></li>
+                    <li><a class="" href="login">Login</a></li>
                     <li><a href="getGyms">Sign Up</a></li>
                     <li><a href="../LiftBuddy/search.jsp">Search</a></li>
                 </c:if>

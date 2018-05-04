@@ -37,6 +37,7 @@
     <web-resource-collection>
       <web-resource-name>user</web-resource-name>
       <url-pattern>/user.jsp</url-pattern>
+      <url-pattern>/login</url-pattern>
       <url-pattern>/gymAdd.jsp</url-pattern>
     </web-resource-collection>
     <auth-constraint>
