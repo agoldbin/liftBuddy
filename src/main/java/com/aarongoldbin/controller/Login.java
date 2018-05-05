@@ -78,13 +78,13 @@ public class Login extends HttpServlet {
 //        session.setAttribute("MySessionVariable", param);
 
 //        HttpSession session = req.getSession();
-        session.setAttribute("user", user);
-        logger.info("User signed in: " + user.getUserName());
-
-
-        session.setAttribute("role", user.getRoles());
-        logger.info("Roles retrieved: " + user.getRoles());
-
-        resp.sendRedirect("/user.jsp");
+//        session.setAttribute("user", user);
+//        logger.info("User signed in: " + user.getUserName());
+//
+//
+//        session.setAttribute("role", user.getRoles());
+//        logger.info("Roles retrieved: " + user.getRoles());
+//
+//        resp.sendRedirect("/user.jsp");
     }
 }

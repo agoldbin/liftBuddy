@@ -64,14 +64,15 @@ public class UserAdd extends HttpServlet {
 
         newUser.addRole(role);
 
-        ServletContext servletContext = req.getServletContext();
-        servletContext.setAttribute("user", newUser);
-        logger.info("New user: " + newUser.getUserName());
+//        ServletContext servletContext = req.getServletContext();
+//        servletContext.setAttribute("user", newUser);
+//        logger.info("New user: " + newUser.getUserName());
+//
+//        servletContext.setAttribute("authType", newUser.getRoles());
+//        logger.info("Roles retrieved: " + newUser.getRoles());
 
-        servletContext.setAttribute("authType", newUser.getRoles());
-        logger.info("Roles retrieved: " + newUser.getRoles());
 
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/user.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
         dispatcher.forward(req, resp);
     }
 
